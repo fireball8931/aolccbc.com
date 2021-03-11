@@ -1,0 +1,247 @@
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+.orange {
+    color: #e86404;
+}
+
+.orange-btn {
+    background: #e86404;
+    color: white;
+    box-sizing: unset;
+    max-width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.fas {
+    color: #e86404;
+}
+
+.far {
+    color: #e86404;
+}
+
+.fab {
+    color: #e86404;
+}
+
+.white-text {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-size: x-large;
+}
+
+.white-text-md {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.fiftypcthz {
+    display: inline;
+    max-width: 30%;
+}
+
+.sixtypcthz {
+    display: inline;
+    max-width: 60%;
+}
+
+.inline-block {
+    width: 100%;
+    display: inline-block;
+}
+
+.grey-bg {
+    background-color: rgb(85, 85, 85);
+}
+
+navbar-dark {
+    background-color: rgba(85, 85, 85, 1.00);
+}
+
+bg-light {
+    background-color: rgba(85, 85, 85, 1.00);
+}
+
+.afulliframe {
+    width: 100%;
+    height:525px;
+}
+
+iframe {
+    border: 0;
+}
+
+.mainpageheader {
+    background-image: url(/images/AOLCC_is56373070-scaled.jpg);
+    background-repeat: no-repeat;
+    height: 675px;
+    background-size: 100% auto;
+}
+
+.mainpageheaderform {
+    margin-left: 60%;
+    padding-right: 2%;
+    padding-left: 2%;
+    background-color: rgba(8, 68, 104, .7);
+    padding-bottom: 67px;
+}
+
+.white-text-large {
+    color: rgba(255, 255, 255, 1.00);
+}
+
+tippytop {
+    top: 0px;
+}
+
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.aboutusheader {
+    background-image: url("/images/parallax.jpg");
+    background-repeat: no-repeat;
+    height: 625px;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+.aboutusheader-text {
+    background-color: rgba(71, 154, 12, 0.60);
+    clear: left;
+    float: left;
+    margin-top: 200px;
+    margin-left: 25%;
+    color: rgba(255, 255, 255, 1.00);
+    text-align: center !important;
+    padding: 1cm;
+}
+
+@media (max-width: 575px) {
+    .inline-block {
+        width: 100%;
+        display: unset;
+    }
+    .fiftypcthz {
+        display: unset;
+        max-width: 100%;
+    }
+    .sixtypcthz {
+        display: inline;
+        max-width: 100%;
+    }
+}
+
+
+/* ============ desktop view ============ */
+
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+    .navbar .nav-item:hover .nav-link {
+        color: #fff;
+    }
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
+
+
+/* ============ desktop view .end// ============ */
+
+.orangehr {
+    border-top: 5px solid #e86404;
+}
+
+.stayinline {
+    display: inline-block;
+}
+
+.staticpos {
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+.orangebg {
+    background-color: #e86404;
+    color: white;
+}
+
+.banner {
+    min-width: 100% !important;
+    margin-left: unset;
+    margin-right: unset;
+    font-size: 2em;
+    padding: 15px;
+}
+
+center {
+    text-align: center !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    max-width: 30%;
+    border-top-color: black;
+}
+
+.row {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.dark-orange-btn {
+    background-color: rgba(0, 0, 0, 0.342);
+    border-radius: 5px;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.banner-small-text {
+    font-size: medium;
+}
+
+.blue-btn {
+    display: block;
+    float: none;
+    box-sizing: content-box;
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+    background-color: #29b3db;
+}
+
+
+
+p {
+    font-family: 'Hind', sans-serif !important;
+}
+
+.lefthr {
+    text-align: left;
+    margin-left: 0;
+}

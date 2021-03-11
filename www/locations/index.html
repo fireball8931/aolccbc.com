@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Locations</title>
+    <?php include('../css.html'); ?>
+    <style>
+        a {
+            color: black;
+        }
+        
+        a::before {
+            content: 🔗;
+        }
+    </style>
+</head>
+
+<body>
+    <?php include('../navbar.html'); ?>
+
+    <h1>Locations</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm">
+                <?php include('abbotsford.html'); ?>
+            </div>
+
+            <div class="col-sm">
+                <?php include('langley.html'); ?>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
