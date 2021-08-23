@@ -9,23 +9,49 @@
             margin-left: 1%;
             margin-right: 1%;
         }
-        
+
         table td {
             font-size: unset;
         }
-        
+
         table.center {
             margin-left: auto;
             margin-right: auto;
             font-size: medium;
         }
+
+        .blacktext {
+            color: black;
+
+
+        }
+
+        a {
+            text-decoration: underline;
+            color: black;
+        }
     </style>
 </head>
 
 <body>
-    <?php include('../../navbar.html'); ?>
+
+
+
+
     <div class="container-flex center">
+        <img style="max-height: 150px;" src="aolcclogo.png" />
         <h1>Full Program Listing</h1>
+
+        <p>
+            Dear sir/madam,
+            <br />
+            Please find following a copy of the programs currently offered at Academy of Learning Career College at our 
+            Langley and Abbotsford Campuses. <br />
+            <p>
+            Kindly contact Michael Henderson at our Langley Campus at 604-532-4040 or <a href="mailto:admin.langley@aolccbc.com">admin.langley@aolccbc.com</a><br/>
+            or Mary Ellen Olynuk at our Abbotsford Campus at 604-855-3315 or <a href="mailto:admin.abbotsford@aolccbc.com">admin.abbotsford@aolccbc.com</a>
+        </p>
+        </p>
 
         <?php
 
@@ -68,10 +94,13 @@ if (($handle = fopen("programs.csv", "r")) !== FALSE) {
     fclose($handle);
 }
 ?>
-            <p>&ast;Diploma and Certificate Programs can be customized, please contact your Admissions Advisor for more information.</p>
-            <p>Abbotsford &phone; <a href="tel:16048553315">604-855-3315</p>
-            <p>Langley &phone; <a href="tel:16045324040">604-532-4040</p>
-    </div>
+        <div class="blacktext">
+
+            <h3>&ast;Diploma and Certificate Programs can be customized, courses may also be taken individually, please
+                contact your Admissions Adviser for more information.</h3>
+            <p>Abbotsford &phone; <a href="tel:16048553315">604-855-3315</a></p>
+            <p>Langley &phone; <a href="tel:16045324040">604-532-4040</a></p>
+        </div>
 
 </body>
 

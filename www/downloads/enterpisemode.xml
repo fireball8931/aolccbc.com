@@ -1,0 +1,14 @@
+<site-list version="205">
+	<!-- File creation header -->
+	<created-by>
+		<tool>EnterpriseSiteListManager</tool>
+		<version>10586</version>
+		<date-created>20210511</date-created>
+	</created-by>
+  	<!-- Begin Site List --> 
+	<site url="https://www.privatetraininginstitutions.gov.bc.ca/sites/www.privatetraininginstitutions.gov.bc.ca/files/files/Institution_application.pdf">
+		<compat-mode>IE8Enterprise</compat-mode>
+		<open-in>IE11</open-in>
+	</site>
+	
+</site-list>

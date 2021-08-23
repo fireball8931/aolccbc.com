@@ -749,3 +749,6 @@ hr {
     margin-left: 1%;
     margin-top: 10px;
 }
+table td {
+    font-size:unset !important;
+}

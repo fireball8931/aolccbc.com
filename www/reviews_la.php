@@ -11,7 +11,7 @@
     $locality       = 'Langley'; // Example: Docklands (http://schema.org/addressLocality)
     $region         = 'BC';
     $post_code      = 'V3A 7R3';
-    $logo_path      = 'images/academy_of_learning_logo_refined.png';
+    $logo_path      = 'images/academy_of_learning_logo_refined.webp';
     $min_star       = '1'; // The minimum star rating (min = 1)
     $max_rows       = '5'; // The maximum number of results (max = 5)
     $api_key        = 'AIzaSyAXX1IuCioUfHUjDhEf30m1BAufnllolss';
