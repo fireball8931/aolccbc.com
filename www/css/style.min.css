@@ -736,8 +736,12 @@ hr {
 .programdata {
     border-style: groove;
     margin-right: 5%;
+    
+    max-height: fit-content;
 }
-
+.programdatacol {
+    min-width: 40%;
+}
 .textleft-ul-li li {
     padding-inline-start: 1px;
     margin-left: 1%;
@@ -751,4 +755,41 @@ hr {
 }
 table td {
     font-size:unset !important;
+}
+footer {
+    background:rgb(52, 58, 64);
+    font-family:lato, sans-serif;
+    color:white;
+    text-align:center;
+    margin-left:0px;
+    
+}
+footer table {
+    width:100%;
+  
+}
+footer td {
+    text-align:left;
+    
+    vertical-align:top;
+}
+.programdata .col,.programdata .col-2,.programdata .row {
+    
+    white-space: nowrap;
+}
+.programdata .colheader {
+
+    font-weight: bold;
+    flex-wrap:nowrap;
+    white-space: nowrap;
+
+}
+.tuition {
+    text-align: center;
+}
+.rowheader {
+    text-align: right;
+}
+.tudata {
+    text-align: left;
 }

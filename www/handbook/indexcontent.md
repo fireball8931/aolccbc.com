@@ -43,6 +43,7 @@ We will:
 
 - [Our Training Philosophy](#our-training-philosophy)
 - [Government Registration, Licencing, and Trademarks](#government-registration-licencing-and-trademarks)
+- [Student Statement of Rights](#student-statement-of-rights)
 - [Academic Policies](#academic-policies)
   - [Admissions Requirements](#admissions-requirements)
   - [Financial Aid](#financial-aid)
@@ -164,6 +165,33 @@ In addition to the qualities listed above, employers want employees with great a
 Each Academy of Learning&reg; Career College is registered and approved by the appropriate government body in the province in which it operates. In British Columbia, the [Private Training Institutions Branch (PTIB)](https://www.privatetraininginstitutions.gov.bc.ca/) of the Ministry of Advanced Education maintains the bylaw and regulations. Programs are not offered until appropriate approvals have been granted by PTIB and any governing body if required.
 
 Each college is independently owned and operated and is an authorized user of our trademarks. In order to offer programs and use our trademarks, each college must meet and maintain the _Academy of Learning&reg; Career College – Franchisor Office Standards of Operation_.
+
+# Student Statement of Rights
+Academy of Learning&reg; Career College is certified with the Private Training Institutions Branch (PTIB) of the British Columbia Ministry of Advanced Education and Skills Training. 
+
+Before you enrol at a certified private training institution, you should be aware of your rights and responsibilities. 
+
+You have the right to be treated fairly and respectfully by the institution. 
+
+You have the right to a student enrolment contract that includes the following information:
+
+- amount of tuition and any additional fee for your program 
+- refund policy
+- if your program includes a work experience, the requirements to participate in the work experience and the geographic area where it will be provided 
+- whether the program was approved by PTIB or does not require approval.
+
+Make sure you read the contract before signing.  The institution must provide you with a signed copy.  
+
+You have the right to access the institution’s dispute resolution process and to be protected against retaliation for making a complaint. 
+
+You have the right to make a claim to PTIB for a tuition refund if:
+
+-	your institution ceased to hold a certificate before you completed an approved program
+-	you were misled about a significant aspect of your approved program.
+You must file the claim within one year of completing, being dismissed or withdrawing from your program. 
+
+For more information about PTIB and how to be an informed student, go to: http://www.privatetraininginstitutions.gov.bc.ca/students/be-an-informed-student. 
+
 
 # Academic Policies
 
@@ -636,6 +664,10 @@ The person who wishes to disclose sexual misconduct or make a formal report agai
 
 
 ## Hours of Operation
+
+[comment]: <> (Update hours to 8-5 on Sept 3rd)
+
+
 | | |
 | --- | --- |
 | Monday to Friday | 9 a.m. to 5 p.m. |

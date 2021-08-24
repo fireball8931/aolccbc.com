@@ -1,4 +1,4 @@
-<?php include('../head.html'); ?>
+<?php include('./head.html'); ?>
 
 
 # Student Statement of Rights
