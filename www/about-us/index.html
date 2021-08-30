@@ -10,12 +10,12 @@
 
 
 
-    <?php include('../css.html'); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'].'/css.html'); ?>
 </head>
 
 <body>
     
-        <?php include( '../navbar.html'); ?>
+        <?php include( $_SERVER['DOCUMENT_ROOT'].'/navbar.html'); ?>
     
     <header>
         <div class="aboutusheader">
@@ -211,17 +211,9 @@
     <!--Modal: Name-->
 
     <!--Testemonials-->
-    <?php include( '../feedback.php'); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'].'/feedback.php'); ?>
     <!--Testemonials-->
-    <footer class="text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <p>Copyright 2020 © Academy of Learning Career College. All rights reserved.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php include($_SERVER['DOCUMENT_ROOT'].'/footer.php'); ?>
 
 
 

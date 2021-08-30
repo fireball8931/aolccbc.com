@@ -3,7 +3,7 @@
 
 <head>
     <title>Academy of Learning</title>
-    <?php include('../../css.html'); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'].'/css.html'); ?>
     <style>
         .col {
             margin-left: 1%;
@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <?php include('../../navbar.html'); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'].'/navbar.html'); ?>
     <div class="container-flex center">
         <h1>
             <?php include('progtitle.html'); ?>
@@ -32,37 +32,17 @@
         <div class="d-flex flex-row">
             <div class="p-2">
                 <div class="container">
-                    <h2>Overview</h2>
-                    <?php include('overview.html'); ?>
-                </div>
-                <div class="container">
-                    <h2>Benefits</h2>
-                    <?php include('benefits.html'); ?>
-                </div>
-                <div class="container">
-                    <h2>Requirements for MCSA Windows Server 2012 Certification</h2>
-                    <?php include('mscarequire.html'); ?>
-                </div>
-                <div class="container">
-                    <h2>Program Notes</h2>
-                    <?php include('prognotes.html'); ?>
-                </div>
-
-
-            </div>
-            <div class="p-2">
-                <div class="container">
                     <h2>Admission Requirements</h2>
                     <?php include('admitreq.html'); ?>
                 </div>
                 <div class="container">
-                    <h2>Program Prerequisites</h2>
+                    <h2>Program Highlights</h2>
                 </div>
                 <div class="container">
-                    <?php include('prerequisites.html'); ?>
+                    <?php include('programhighlights.html'); ?>
                 </div>
-
-
+            </div>
+            <div class="p-2">
                 <div class="textleft">
                     <div class="container">
                         <h2>Career Opportunities</h2>
@@ -85,49 +65,10 @@
 
                 </div>
             </div>
-            <div class="p-2 ">
-                <div class="programdata " style="border-style: groove; ">
-                    <div class="row ">
-                        <div class="col "><strong>Program Type:</strong></div>
-                        <div class="col ">
-                            <?php include('programtype.html'); ?>
-                        </div>
-                    </div>
-                    <div class="row " style="white-space: nowrap; ">
-                        <div class="col " style="white-space: nowrap; "><strong>
-        Anticipated salary:</strong></div>
-                        <div class="col " style="white-space: nowrap; ">C$
-                            <?php include('salarystart.html'); ?> – C$
-                            <?php include('salaryend.html'); ?>
-                        </div>
-                    </div>
-                    <div class="row ">(Information from PayScale Canada)</div>
-                    <div class="row ">
-                        <div class="col "><strong>
-            Program Duration:</strong></div>
-                        <div class="col ">
-                            <?php include('programduration.html'); ?> Weeks</div>
-                    </div>
-                    <div class="row ">
-                        <div class="col "><strong>
-            Program Notes:</strong></div>
-                        <div class="col ">
-                            Tuition fees include all materials and student manuals. Financial assistance may be available to qualified students.</div>
-                    </div>
-                    <div class="row ">
-                        <div class="col "><strong>
-            Program Category:</strong></div>
-                        <div class="col ">
-                            <?php include('category.html'); ?>
-                        </div>
-                    </div>
-                </div>
-                Program Syllabus:
-                <?php include('syllabuslink.html'); ?>
-            </div>
+            <?php include('programdata.html'); ?>
         </div>
     </div>
-
+    <?php include($_SERVER['DOCUMENT_ROOT'].'/footer.php'); ?>
 </body>
 
 </html>

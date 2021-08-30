@@ -22,3 +22,10 @@ b, strong {
   p {
     margin-bottom:10px;
   }
+  body {
+      padding-left: 0% !important;
+      padding-right: 0% !important;
+  }
+a {
+    text-decoration:underline;
+  }

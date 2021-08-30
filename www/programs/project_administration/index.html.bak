@@ -3,7 +3,7 @@
 
 <head>
     <title>Academy of Learning</title>
-    <?php include('../../css.html'); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'].'/../css.html'); ?>
     <style>
         .col {
             margin-left: 1%;
@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <?php include('../../navbar.html'); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'].'/../navbar.html'); ?>
     <div class="container-flex center">
         <h1>A+ NETWORK+ AND MICROSOFT CERTIFICATION PREPARATION</h1>
     </div>

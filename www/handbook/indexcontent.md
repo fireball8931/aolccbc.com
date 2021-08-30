@@ -1,9 +1,8 @@
-<link rel="stylesheet" href="style.css">
+
 
 # STUDENT HANDBOOK <!-- omit in toc -->
 
 ## Policies, Procedures and Helpful Tips <!-- omit in toc -->
-
 
 Congratulations and Welcome to the Academy of Learning&reg; Career College
 
@@ -21,7 +20,7 @@ Campus Director: Alda Messiah
 
 _\*These policies and procedures are subject to change without notice. Such changes will be brought to the attention of students as they may arise. You may check with the Admissions Office for the most current copy._
 
-_Date of last revision: August 19th, 2021_
+### _Date of last revision: August 24th, 2021_
 
 ## **Our Mission**
 
@@ -135,6 +134,7 @@ We will:
   - [Graduation Requirements for Diploma Level Programs](#graduation-requirements-for-diploma-level-programs)
   - [Graduation with Honors](#graduation-with-honors)
 - [Withdrawal and Refund Policy](#withdrawal-and-refund-policy)
+  - [Refund Policy Details](#refund-policy-details)
 - [Study and Exam Tips](#study-and-exam-tips)
   - [Time Management](#time-management)
   - [Study Environment](#study-environment)
@@ -162,7 +162,7 @@ In addition to the qualities listed above, employers want employees with great a
 
 # Government Registration, Licencing, and Trademarks
 
-Each Academy of Learning&reg; Career College is registered and approved by the appropriate government body in the province in which it operates. In British Columbia, the [Private Training Institutions Branch (PTIB)](https://www.privatetraininginstitutions.gov.bc.ca/) of the Ministry of Advanced Education maintains the bylaw and regulations. Programs are not offered until appropriate approvals have been granted by PTIB and any governing body if required.
+Each Academy of Learning&reg; Career College is registered and approved by the appropriate government body in the province in which it operates. In British Columbia, the [Private Training Institutions Branch (PTIB)](https://www.privatetraininginstitutions.gov.bc.ca/) of the Ministry of Advanced Education maintains the  regulations. Programs are not offered until appropriate approvals have been granted by PTIB and any governing body if required.
 
 Each college is independently owned and operated and is an authorized user of our trademarks. In order to offer programs and use our trademarks, each college must meet and maintain the _Academy of Learning&reg; Career College – Franchisor Office Standards of Operation_.
 
@@ -176,21 +176,21 @@ You have the right to be treated fairly and respectfully by the institution.
 You have the right to a student enrolment contract that includes the following information:
 
 - amount of tuition and any additional fee for your program 
-- refund policy
-- if your program includes a work experience, the requirements to participate in the work experience and the geographic area where it will be provided 
+- [refund policy](#withdrawal-and-refund-policy)
+- if your program includes a work experience, the requirements to participate in the work experience and the geographic area where it will be provided.
 - whether the program was approved by PTIB or does not require approval.
 
 Make sure you read the contract before signing.  The institution must provide you with a signed copy.  
 
-You have the right to access the institution’s dispute resolution process and to be protected against retaliation for making a complaint. 
+You have the right to access the institution’s dispute resolution process and to be protected against retaliation for making a complaint.
 
-You have the right to make a claim to PTIB for a tuition refund if:
+You have the right to make a claim to PTIB for a [tuition refund](#withdrawal-and-refund-policy) if:
 
--	your institution ceased to hold a certificate before you completed an approved program
--	you were misled about a significant aspect of your approved program.
+- your institution ceased to hold a certificate before you completed an approved program
+- you were misled about a significant aspect of your approved program.
 You must file the claim within one year of completing, being dismissed or withdrawing from your program. 
 
-For more information about PTIB and how to be an informed student, go to: http://www.privatetraininginstitutions.gov.bc.ca/students/be-an-informed-student. 
+For more information about PTIB and how to be an informed student, go to: [http://www.privatetraininginstitutions.gov.bc.ca/students/be-an-informed-student].
 
 
 # Academic Policies
@@ -600,7 +600,7 @@ Due to the COVID-19 Pandemic, the Provincial Health Officer and the BC Ministry 
 Provincial Health Officer and the BC Ministry of Advanced Education. All students will be notified of any changes.*
 ||||
 |---|---|---|
-| **Face Masks** | Face Masks are _Optional_. When worn, they must be worn properly, with your nose, mouth and chin covered. |<img src="image009.png" width="250px" /> |
+| **Face Masks** | Face Masks are _Mandatory_. They must be worn properly, with your nose, mouth and chin covered. |<img src="image009.png" width="250px" /> |
 |  **Handwashing** | Regular handwashing with either soap and water or hand sanitizer is required. |<img src="image011.jpg" width="250px" /> |
 | **Sanitize Surfaces** | Wipe your computer station and headphones with alcohol wipes at the start and end of your session. |<img src="image013.png" width="250px" /> |
 |  **Illness** | If you are experiencing any cold/flu symptoms or any other symptoms advised by the BC Centres for Disease Control (BC CDC), do not attend the campus. Please visit the COVID-19 self assessment tool located at: bc.thrive.health_Until further notice, the requirement to obtain a Doctor's note is suspended. |<img src="image015.png" width="250px" /> |
@@ -918,8 +918,8 @@ We encourage you to follow the steps as outlined in the following Complaint Reso
 
 | Implementation Date: | 2016-10-01 |
 | --- | --- |
-| Date of Last Revision: | 2017-02-08 |
-| Position Responsible: | Executive Director |
+| Date of Last Revision: | 2021-08-25 |
+| Position Responsible: | Executive Director <br>Alda Messiah - alda@aolccbc.com  -604-532-4040 |
 
 Dispute Resolution policies are in place for potential student and staff grievances at the college. For either situation, the Franchisor sometimes becomes a neutral mediator.
 
@@ -938,10 +938,10 @@ Richmond Hill, Ontario, L4B 1J8 <br />
 Phone: 1-855-996-9977 Extension: 2399 <br />
 Email: cstanford@academyoflearning.com <br />
 
-1. The Franchisor will investigate the student's grievance within ten (10) business days. If required, arrangements for further communication, i.e. conference calls or face-to-face meetings, will be made with the campus. All aspects of the dispute resolution will be completed within 45 days from the start of the student making a written complaint to completing the entire process including appeal/arbitration. A final written decision will be issued to the student, and the Executive Director will be notified of the outcome.
+1. The Franchisor will investigate the student's grievance within ten (10) business days. If required, arrangements for further communication, i.e. conference calls or face-to-face meetings, will be made with the campus. All aspects of the dispute resolution will be completed within 30 days from the start of the student making a written complaint to completing the entire process including appeal/arbitration. A final written decision will be issued to the student, and the Executive Director will be notified of the outcome.
 1. Students making a complaint may be represented by an agent or lawyer.
 2. Students will not be subject to any retaliation as a result of their complaint.
-3. If a mutually satisfying resolution cannot be reached, the student may file a claim with the Private Training Institutions Branch of the Ministry of Advanced Education on the basis that the institution misled the student regarding any significant aspect of an approved program.
+3. If a mutually satisfying resolution cannot be reached, the student may file a claim with the Private Training Institutions Branch of the Ministry of Advanced Education on the basis that the institution misled the student regarding any significant aspect of an approved program within 30 days of making the complaint.
 
 www.privatetraininginstitutions.gov.bc.ca
 
@@ -1080,6 +1080,45 @@ Please note that non-attendance does not constitute Notice of Withdrawal. A stud
 A refund calculation will be processed after receipt of the student's official notice of withdrawal or the college notifies the student regarding their nonattendance and completes the withdrawal process. All refunds are calculated in accordance with provincial regulations. This regulation provides both colleges and students with specific policies on the retention of fees and the payment of refunds. If you have any questions, please speak to the Director at your college.
 
 The student will receive a statement of charges in the mail.
+
+## Refund Policy Details
+
+1. If the institution receives tuition from the student, or a person on behalf of the student, the institution will refund the student, or the person who paid on behalf of the student, the tuition that was paid in relation to the program in which the student is enrolled if:
+   - (a) the institution receives a notice of withdrawal from the student no later than seven days after the effective contract date and before the contract start date;
+   - (b) the student, or the student’s parent or legal guardian, signs the student enrolment contract seven days or less before the contract start date and the institution receives a notice of withdrawal from the student between the date the student, or the student’s parent or legal guardian, signed the student enrolment contract and the contract start date; or
+   - (c) the student does not attend a work experience component and the institution does not provide all of the hours of instruction of the work experience component within 30 days of the contract end date.
+<br>
+<br>
+2.	The institution will refund the tuition for the program and all related fees paid by the student or a person on behalf of the student enrolled in the program if the student is enrolled in the program without having met the admission requirements and did not misrepresent his or her knowledge or skills when applying for admission.
+
+3.	If a student does not attend any of the first 30% of the hours of instruction to be provided during the contract term, the institution may retain up to 50% of the tuition paid under the student enrolment contract unless the program is provided solely through distance education.
+
+4.	Unless the program is provided solely through distance education, if the institution receives a notice of withdrawal from a student:
+
+  -	(a) more than seven days after the effective contract date and
+    -	i. at least 30 days before the contract start date, the institution may retain up to 10% of the tuition due under the student enrolment contract, to a maximum of $1,000.
+    -	ii. less than 30 days before the contract start date, the institution may retain up to 20% of the tuition due under the student enrolment contract, to a maximum of $1,300.
+  -	(b) after the contract start date
+    -	i. and up to and including 10% of the hours of instruction to be provided during the contract term have been provided, the institution may retain up to 30% of the tuition due under the student enrolment contract.
+    -	ii. and after more than 10% but before 30% of the hours of instruction to be provided during the contract term have been provided, the institution may retain up to 50% of the tuition due under the student enrolment contract.
+
+5.	Unless the program is provided solely through distance education, if the institution provides a notice of dismissal to a student and the date the institution delivers the notice to the student is:
+  -	(a) equal to or before 10% of the hours of instruction to be provided during the contract term have been provided, the institution may retain up to 30% of the tuition due under the student enrolment contract.
+  -	(b) after 10% but before 30% of the hours of instruction to be provided during the contract term have been provided, the institution may retain up to 50% of the tuition due under the student enrolment contract.
+6.	If the institution provides the program solely through distance education and the institution receives a student’s notice of withdrawal or the institution delivers a notice of dismissal to the student and:
+  -	(a) the student has completed and received an evaluation of his or her performance for up to 30% of the hours of instruction to be provided during the contract term, the institution may retain up to 30% of the tuition due under the student enrolment contract, or
+  -	(b) the student has completed and received an evaluation of his or her performance for more than 30% but less than 50% of the program, the institution may retain up to 50% of the tuition due under the student enrolment contract.
+7.	The institution will refund fees charged for course materials paid for but not received if the student provides a notice of withdrawal to the institution or the institution provides a notice of dismissal to the student.
+
+8.	Refunds required under this policy will be paid to the student, or a person who paid the tuition or fees on behalf of the student, within 30 days:
+  -	(a) of the date the institution receives a student’s notice of withdrawal,
+  -	(b) of the date the institution provides a notice of dismissal to the student,
+  -	(c) of the date that the registrar provides notice to the institution that the institution is not complying with section 1(c) or 2 of this policy, or
+  -	(d) after the first 30% of the hours of instruction if section 3 of this policy applies.
+9.	If an international student delivers a copy of a refusal of a study permit to the institution, sections 1(a), 1(b), 4, 7, and 8 of this policy apply as if the copy of the refusal were a notice of withdrawal, unless:
+  - (a)	the international student requests an additional letter of acceptance for the same program that was the subject of the refusal of a study permit, or
+  - (b)	the program is provided solely through distance education.
+
 
 # Study and Exam Tips
 

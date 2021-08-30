@@ -2,12 +2,14 @@
 <html>
 <head>
   <meta charset="utf-">
-  <title>Campus Policies</title><?php include('../css.html'); ?>
+  <title>Campus Policies</title><?php include($_SERVER['DOCUMENT_ROOT'].'/css.html'); ?>
+ 
 </head>
 <body>
-  <?php include('../navbar.html'); ?>
+  <?php include($_SERVER['DOCUMENT_ROOT'].'/navbar.html'); ?>
+  
   <div class='container'>
-    <?php include('./indexcontent.html'); ?>
+    <?php include('./indexcontent.html'); ?><link rel="stylesheet" href="style.css">
   </div>
 </body>
 </html>

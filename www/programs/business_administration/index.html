@@ -3,7 +3,7 @@
 
 <head>
     <title>Academy of Learning</title>
-    <?php include('../../css.html'); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'].'/css.html'); ?>
     <style>
         .col {
             margin-left: 1%;
@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <?php include('../../navbar.html'); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'].'/navbar.html'); ?>
     <div class="container-flex center">
         <h1>
             <?php include('progtitle.html'); ?>
@@ -65,49 +65,12 @@
 
                 </div>
             </div>
-            <div class="p-2 ">
-                <div class="programdata " style="border-style: groove; ">
-                    <div class="row ">
-                        <div class="col "><strong>Program Type:</strong></div>
-                        <div class="col ">
-                            <?php include('programtype.html'); ?>
-                        </div>
-                    </div>
-                    <div class="row " style="white-space: nowrap; ">
-                        <div class="col " style="white-space: nowrap; "><strong>
-        Anticipated salary:</strong></div>
-                        <div class="col " style="white-space: nowrap; ">C$
-                            <?php include('salarystart.html'); ?> – C$
-                            <?php include('salaryend.html'); ?>
-                        </div>
-                    </div>
-                    <div class="row ">(Information from PayScale Canada)</div>
-                    <div class="row ">
-                        <div class="col "><strong>
-            Program Duration:</strong></div>
-                        <div class="col ">
-                            <?php include('programduration.html'); ?> Weeks</div>
-                    </div>
-                    <div class="row ">
-                        <div class="col "><strong>
-            Program Notes:</strong></div>
-                        <div class="col ">
-                            Tuition fees include all materials and student manuals. Financial assistance may be available to qualified students.</div>
-                    </div>
-                    <div class="row ">
-                        <div class="col "><strong>
-            Program Category:</strong></div>
-                        <div class="col ">
-                            <?php include('category.html'); ?>
-                        </div>
-                    </div>
-                </div>
-                Program Syllabus:
-                <?php include('syllabuslink.html'); ?>
+            <?php include('programdata.html'); ?>
+             
             </div>
         </div>
     </div>
-
+    <?php include($_SERVER['DOCUMENT_ROOT'].'/footer.php'); ?>
 </body>
 
 </html>

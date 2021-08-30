@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Academy of Learning</title><?php include('../../css.html'); ?>
+  <title>Academy of Learning</title><?php include($_SERVER['DOCUMENT_ROOT'].'/css.html'); ?>
   <style>
         .col {
             margin-left: 1%;
@@ -10,7 +10,7 @@
   </style>
 </head>
 <body>
-  <?php include('../../navbar.html'); ?>
+  <?php include($_SERVER['DOCUMENT_ROOT'].'/navbar.html'); ?>
   <div class="container-flex center">
     <h1>ACCOUNTING & BUSINESS TECHNOLOGY - BRITISH COLUMBIA</h1>
   </div>
@@ -173,5 +173,5 @@
       </div>
     </div>
   </div>
-</body>
+  <?php include($_SERVER['DOCUMENT_ROOT'].'/footer.php'); ?></body>
 </html>

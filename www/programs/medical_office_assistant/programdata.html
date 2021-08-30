@@ -1,0 +1,127 @@
+<div class="p-2 programdatacol">
+    <div class="programdata">
+      <div class="row">
+        <div class="col">
+          <strong>Program Type:</strong>
+        </div>
+        <div class="col">
+          <?php include('programtype.html'); ?>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <strong>Anticipated Salary:</strong>
+        </div>
+        <div class="col">
+          C$<?php include('salarystart.html'); ?> &ndash; C$<?php include('salaryend.html'); ?>
+        </div>
+      </div>
+      <div class="row"></div>
+      <div class="row">
+        <div class="col">
+          <strong>Program Duration:</strong>
+        </div>
+        <div class="col">
+          Hours: <?php include('programhours.html'); ?> <br>
+          Weeks Full-Time: <?php include('programduration.html'); ?>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <strong>Work Experience:</strong>
+        </div>
+        <div class="col">
+         Practicum Hours: <?php include('workexphours.html'); ?>
+          
+        </div>
+      </div>
+      <div class="row"></div>
+      <div class="row">
+        <div class="col-2"
+             style="width:max-content;font-weight: bold;padding-right: 2%;">
+          Tuition&nbsp;Fees:
+        </div>
+      </div>
+      <div class="tuition">
+        <div class="row">
+          <div class="col">
+            <b>&nbsp;</b>
+          </div>
+          <div class="col colheader">
+            <b>Domestic</b>
+          </div>
+          <div class="col colheader">
+            <b>International</b>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col rowheader">
+            Tuition:
+          </div>
+          <div class="col tudata">
+            $<?php include('dtuition.html'); ?>
+          </div>
+          <div class="col tudata">
+            $<?php include('ituition.html'); ?>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col rowheader">
+            Application Fee:
+          </div>
+          <div class="col tudata">
+            $<?php include('dapp.html'); ?>
+          </div>
+          <div class="col tudata">
+            $<?php include('iapp.html'); ?>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col rowheader">
+            Assessment Fee:
+          </div>
+          <div class="col tudata">
+            $<?php include('dassess.html'); ?>
+          </div>
+          <div class="col tudata">
+            $<?php include('iassess.html'); ?>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col rowheader">
+            Text Books:
+          </div>
+          <div class="col tudata">
+            $<?php include('dtextbooks.html'); ?>
+          </div>
+          <div class="col tudata">
+            $<?php include('itextbooks.html'); ?>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col rowheader">
+            Course Materials:
+          </div>
+          <div class="col tudata">
+            $<?php include('dcoursematerials.html'); ?>
+          </div>
+          <div class="col tudata">
+            $<?php include('icoursematerials.html'); ?>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col rowheader">
+            Other Fees:
+          </div>
+          <div class="col tudata">
+            $<?php include('dother.html'); ?>
+          </div>
+          <div class="col tudata">
+            $<?php include('iother.html'); ?>
+          </div>
+        </div>
+      </div>
+    </div> <p>
+    Program Syllabus:
+    <?php include('syllabuslink.html'); ?></p>
+  </div>

@@ -21,7 +21,7 @@ Campus Director: Alda Messiah
 
 _\*These policies and procedures are subject to change without notice. Such changes will be brought to the attention of students as they may arise. You may check with the Admissions Office for the most current copy._
 
-_Date of last revision: August 19th, 2021_
+_Date of last revision: August 24th, 2021_
 
 ## **Our Mission**
 
@@ -572,7 +572,7 @@ Due to the COVID-19 Pandemic, the Provincial Health Officer and the BC Ministry 
 Provincial Health Officer and the BC Ministry of Advanced Education. All students will be notified of any changes.*
 ||||
 |---|---|---|
-| **Face Masks** | Face Masks are _Optional_. When worn, they must be worn properly, with your nose, mouth and chin covered. |<img src="image009.png" width="250px" /> |
+| **Face Masks** | Face Masks are Mandatory. They must be worn properly, with your nose, mouth and chin covered. |<img src="image009.png" width="250px" /> |
 |  **Handwashing** | Regular handwashing with either soap and water or hand sanitizer is required. |<img src="image011.jpg" width="250px" /> |
 | **Sanitize Surfaces** | Wipe your computer station and headphones with alcohol wipes at the start and end of your session. |<img src="image013.png" width="250px" /> |
 |  **Illness** | If you are experiencing any cold/flu symptoms or any other symptoms advised by the BC Centres for Disease Control (BC CDC), do not attend the campus. Please visit the COVID-19 self assessment tool located at: bc.thrive.health_Until further notice, the requirement to obtain a Doctor's note is suspended. |<img src="image015.png" width="250px" /> |

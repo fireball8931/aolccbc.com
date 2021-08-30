@@ -153,7 +153,7 @@
           <td>&nbsp;</td>
         </tr>
         <tr>
-          <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#11036; Masks - Optional</td>
+          <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#11036; Masks - Mandatory</td>
           <td>&nbsp;</td>
           <td>&#11036;Exams/Exam Dates/Exam Marks</td>
         </tr>

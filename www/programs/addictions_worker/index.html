@@ -3,7 +3,7 @@
 
 <head>
     <title>Academy of Learning</title>
-    <?php include('../../css.html'); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'].'/css.html'); ?>
     <style>
         .col {
             margin-left: 1%;
@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <?php include('../../navbar.html'); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'].'/navbar.html'); ?>
     <div class="container-flex center">
         <h1>ADDICTIONS WORKER</h1>
     </div>
@@ -100,41 +100,116 @@
 
                 </div>
             </div>
-            <div class="p-2 ">
-                <div class="programdata " style="border-style: groove; ">
-                    <div class="row ">
-                        <div class="col "><strong>Program Type:</strong></div>
-                        <div class="col ">Certificate</div>
+            <div class="p-2 programdatacol">
+                <div class="programdata">
+                  <div class="row">
+                    <div class="col">
+                      <strong>Program Type:</strong>
                     </div>
-                    <div class="row " style="white-space: nowrap; ">
-                        <div class="col " style="white-space: nowrap; "><strong>
-        Anticipated salary:</strong></div>
-                        <div class="col " style="white-space: nowrap; ">C$31,273 – C$71,899</div>
+                    <div class="col">
+                      <?php include('programtype.html'); ?>
                     </div>
-                    <div class="row ">(Information from PayScale Canada)</div>
-                    <div class="row ">
-                        <div class="col "><strong>
-            Program Duration:</strong></div>
-                        <div class="col ">12 Weeks</div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <strong>Anticipated Salary:</strong>
                     </div>
-                    <div class="row ">
-                        <div class="col "><strong>
-            Program Notes:</strong></div>
-                        <div class="col ">
-                            Tuition fees include all materials and student manuals. Financial assistance may be available to qualified students.</div>
+                    <div class="col">
+                      C$<?php include('salarystart.html'); ?> &ndash; C$<?php include('salaryend.html'); ?>
                     </div>
-                    <div class="row ">
-                        <div class="col "><strong>
-            Program Category:</strong></div>
-                        <div class="col ">
-                            Healthcare</div>
+                  </div>
+                  <div class="row"></div>
+                  <div class="row">
+                    <div class="col">
+                      <strong>Program Duration:</strong>
                     </div>
-                </div>
-                Program Syllabus: <a href="BC-Final-Addictions-Worker-Outline.pdf">Click to Download</a>
-            </div>
+                    <div class="col">
+                      Hours: <?php include('programhours.html'); ?> <br>
+                      Weeks Full-Time: <?php include('programduration.html'); ?>
+                    </div>
+                  </div>
+                  <div class="row"></div>
+                  <div class="row">
+                    <div class="col-2"
+                         style="width:max-content;font-weight: bold;padding-right: 2%;">
+                      Tuition&nbsp;Fees:
+                    </div>
+                  </div>
+                  <div class="tuition">
+                    <div class="row">
+                      <div class="col">
+                        <b>&nbsp;</b>
+                      </div>
+                      <div class="col colheader">
+                        <b>Domestic</b>
+                      </div>
+                      <div class="col colheader">
+                        <b>International</b>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col rowheader">
+                        Tuition:
+                      </div>
+                      <div class="col tudata">
+                        $<?php include('dtuition.html'); ?>
+                      </div>
+                      <div class="col tudata">
+                        $<?php include('ituition.html'); ?>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col rowheader">
+                        Application Fee:
+                      </div>
+                      <div class="col tudata">
+                        $<?php include('dapp.html'); ?>
+                      </div>
+                      <div class="col tudata">
+                        $<?php include('iapp.html'); ?>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col rowheader">
+                        Assessment Fee:
+                      </div>
+                      <div class="col tudata">
+                        $<?php include('dassess.html'); ?>
+                      </div>
+                      <div class="col tudata">
+                        $<?php include('iassess.html'); ?>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col rowheader">
+                        Text Books:
+                      </div>
+                      <div class="col tudata">
+                        $<?php include('dtextbooks.html'); ?>
+                      </div>
+                      <div class="col tudata">
+                        $<?php include('itextbooks.html'); ?>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col rowheader">
+                        Other Fees:
+                      </div>
+                      <div class="col tudata">
+                        $<?php include('dother.html'); ?>
+                      </div>
+                      <div class="col tudata">
+                        $<?php include('iother.html'); ?>
+                      </div>
+                    </div>
+                  </div>
+                </div> <p>
+                Program Syllabus:
+                <?php include('syllabuslink.html'); ?></p>
+              </div>
         </div>
     </div>
-
+    <?php include($_SERVER['DOCUMENT_ROOT'].'/footer.php'); ?>
 </body>
 
 </html>
