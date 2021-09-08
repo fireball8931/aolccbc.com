@@ -212,3 +212,39 @@ if ((Test-Path -LiteralPath "c:\Program Files (x86)\Google\Chrome\Application\ch
 
 #choco apps
 choco upgrade -y k-litecodecpackbasic jre8 googlechrome
+
+#Remotely
+
+if ((Test-Path -LiteralPath "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Remotely") -eq $false) {
+$RemotelyDLPath = "c:\scriptfiles\Remotely_Install.exe"
+if ((Test-Path -LiteralPath $RemotelyDLPath) -eq $false) {
+    wget -URI "https://aolccbc.com/downloads/Remotely_Install-[dd5d].exe" -OutFile $RemotelyDLPath
+    }
+Start-Process -FilePath $RemotelyDLPath -ArgumentList '-install -quiet -organizationid "9703dec1-5ba4-493f-baac-7e5dd92caf71" -serverurl "https://support.aolccbc.com" -supportshortcut -devicegroup "Students"' -Wait
+}
+#Install ACME
+$acmeversion = '214.5'
+$acmedisplayversion = '2011.' + $acmeversion
+$installfile = 'acmepro.2011.setup.v' + $acmeversion + '.exe'
+$url = 'https://aolccbc.com/downloads/' + $installfile
+$dllocation = 'c:\scriptfiles' + $installfile
+$uninstallstring = (Get-ItemProperty -Path 'HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\ACME*').UninstallString
+if ((Get-ItemProperty -Path 'HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\ACME*').DisplayVersion -ne $acmedisplayversion) {
+    if ([string]::IsNullOrEmpty($uninstallstring)) {
+    start -FilePath (Get-ItemProperty -Path 'HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\ACME*').UninstallString -ArgumentList '/QUIET'
+}
+    wget -uri $url -OutFile $installfile
+    start -FilePath $installfile -ArgumentList '/SP- /VERYSILENT /SUPPRESSMSGBOXES /ALLUSERS /FORCECLOSEAPPLICATIONS /NOICONS'
+}
+
+#Disable WSD
+Set-Service -Name WSDPrintDevice -StartupType Disabled
+#Install StudentLexmark
+if ($global:campus -eq 'Abbotsford') {
+    wget -uri 'https://aolccbc.com/downloads/StudentLexmarkPrinter.exe' -OutFile 'c:\scriptfiles\StudentLexmarkPrinter.exe'
+    start -Path 'c:\scriptfiles\StudentLexmarkPrinter.exe'
+    Get-Printer -Name "Abbotsford S*" | Remove-Printer
+Add-PrinterPort -Name 192.168.1.233_1 -PrinterHostAddress 192.168.1.233
+Get-Printer -Name StudentLex* | Set-Printer -PortName 192.168.1.233_1
+}
+Write-Host 'This file was updated on Sept 8 2021'
