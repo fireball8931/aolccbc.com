@@ -6,7 +6,7 @@
  
 </head>
 <body>
-  <?php include($_SERVER['DOCUMENT_ROOT'].'/navbar.html'); ?>
+  <?php include($_SERVER['DOCUMENT_ROOT'].'/navbar.php'); ?>
   
   <div class='container'>
     <?php include('./indexcontent.html'); ?><link rel="stylesheet" href="style.css">
