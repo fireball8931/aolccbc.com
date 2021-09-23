@@ -24,27 +24,25 @@ function Get-CampusByIP {
     $abbyip = '66.183.152.124'
     
     if ($externalip -eq $langleyip ) {
-    $global:campus = 'Langley'
+        $global:campus = 'Langley'
     }
     elseif ($externalip -eq $abbyip ) {
-    $global:campus = 'Abbotsford'
+        $global:campus = 'Abbotsford'
     }
     else {
-    $global:campus = 'OffSite'
+        $global:campus = 'OffSite'
     }
     
     }
 
-    function Update-ConnectToTypingTrainer {
-
-        New-Item -Path $global:scriptingdir -force -verbose
-        Set-location -LiteralPath $global:scriptingdir -verbose
-        Invoke-WebRequest -Uri $global:batchsource -OutFile $global:connectpath -Verbose
-        Remove-Item -Path $global:typingtrainerfolder\database.txt -Force
-        Invoke-WebRequest -Uri $global:databasesrc -OutFile $global:typingtrainerfolder\database.txt -Verbose
-        Invoke-WebRequest -Uri $global:typingbatsrc -OutFile $global:typingbatsrcloc -Verbose
-        
-        }
+function Update-ConnectToTypingTrainer {
+    New-Item -Path $global:scriptingdir -force -verbose
+    Set-location -LiteralPath $global:scriptingdir -verbose
+    Invoke-WebRequest -Uri $global:batchsource -OutFile $global:connectpath -Verbose
+    Remove-Item -Path $global:typingtrainerfolder\database.txt -Force
+    Invoke-WebRequest -Uri $global:databasesrc -OutFile $global:typingtrainerfolder\database.txt -Verbose
+    Invoke-WebRequest -Uri $global:typingbatsrc -OutFile $global:typingbatsrcloc -Verbose
+        };
 
 
 
@@ -60,30 +58,28 @@ New-ItemProperty -LiteralPath 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\OneDriv
 New-ItemProperty -LiteralPath 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\OneDrive' -Name 'DisableFileSyncNGSC' -Value 0 -PropertyType DWord -Force -ea SilentlyContinue;
 
 if((Test-Path -LiteralPath 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell') -ne $true) {  New-Item 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell' -force -ea SilentlyContinue };
-if((Test-Path -LiteralPath 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging') -ne $true) {  New-Item 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging' -force -ea SilentlyContinue };
+if((Test-Path -LiteralPath 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging') -ne $true) {  
+    New-Item 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging' -force -ea SilentlyContinue 
+};
 New-ItemProperty -LiteralPath 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell' -Name 'EnableScripts' -Value 1 -PropertyType DWord -Force -ea SilentlyContinue;
 New-ItemProperty -LiteralPath 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell' -Name 'ExecutionPolicy' -Value 'Unrestricted' -PropertyType String -Force -ea SilentlyContinue;
 New-ItemProperty -LiteralPath 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging' -Name 'EnableScriptBlockLogging' -Value 1 -PropertyType DWord -Force -ea SilentlyContinue;
 
-if((Test-Path -LiteralPath 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System') -ne $true) {  New-Item 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System' -force -ea SilentlyContinue };
+if((Test-Path -LiteralPath 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System') -ne $true) {  
+    New-Item 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System' -force -ea SilentlyContinue };
 New-ItemProperty -LiteralPath 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System' -Name 'ConsentPromptBehaviorUser' -Value 1 -PropertyType DWord -Force -ea SilentlyContinue;
 
-
-    
-    
-    Get-CampusByIP
-    
+Get-CampusByIP
     if ($global:campus -ne 'OffSite') {
-    Write-Host 'This computer is At one of the campuses'
-    $net = Get-NetConnectionProfile
-    try {
-    Set-NetConnectionProfile -Name $net.Name -NetworkCategory Private
-    }
-    catch {
-    exit 0
-        
-    }
-    }
+        Write-Host 'This computer is At one of the campuses'
+        $net = Get-NetConnectionProfile
+            try {
+                Set-NetConnectionProfile -Name $net.Name -NetworkCategory Private
+                }
+                catch {
+                    exit 0
+                       }
+                                    };
 
 
     Add-LocalGroupMember -Group "Remote Desktop Users" -Member "AzureAD\mike@aolccbc.com"
@@ -91,24 +87,19 @@ New-ItemProperty -LiteralPath 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\P
 
 $idlelogoffpath = "c:\scriptfiles\idlelogoff.exe"
 
-
-
 if((Test-Path -LiteralPath $idlelogoffpath) -eq $false) {
     wget -Uri https://www.aolccbc.com/downloads/idlelogoff.exe -Outfile $idlelogoffpath
 }
-
 
 $idleshortcutpath = "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\idlelogoff.lnk"
 if((Test-Path -LiteralPath $idleshortcutpath ) -eq $false) {
 
     Set-Shortcut -SourceExe $idlelogoffpath -ArgumentsToSourceExe "14400 restart" -DestinationPath $idleshortcutpath
 }
+
 powercfg -h off
 
-
 $action = New-ScheduledTaskAction -Execute 'shutdown.exe' -Argument '-f -r -t 30'
-
-
 
 $trigger = @(
     $(New-ScheduledTaskTrigger -At 5AM -Daily),
@@ -242,7 +233,9 @@ if ((Get-ItemProperty -Path 'HKLM:\Software\WOW6432Node\Microsoft\Windows\Curren
     if ([string]::IsNullOrEmpty($uninstallstring)) {
     start -FilePath (Get-ItemProperty -Path 'HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\ACME*').UninstallString -ArgumentList '/QUIET'
 }
-    wget -uri $url -OutFile $installfile
+    if((Test-Path -Path $installfile) -eq $false) {    
+        wget -uri $url -OutFile $installfile
+    }
     start -FilePath $installfile -ArgumentList '/SP- /VERYSILENT /SUPPRESSMSGBOXES /ALLUSERS /FORCECLOSEAPPLICATIONS /NOICONS'
 }
 
@@ -250,13 +243,15 @@ if ((Get-ItemProperty -Path 'HKLM:\Software\WOW6432Node\Microsoft\Windows\Curren
 Set-Service -Name WSDPrintDevice -StartupType Disabled
 #Install StudentLexmark
 if ($global:campus -eq 'Abbotsford') {
-    wget -uri 'https://aolccbc.com/downloads/StudentLexmarkPrinter.exe' -OutFile 'c:\scriptfiles\StudentLexmarkPrinter.exe'
+    $studentlexmarkdl = 'c:\scriptfiles\StudentLexmarkPrinter.exe'
+    $studentlexmarkuri = 'https://aolccbc.com/downloads/StudentLexmarkPrinter.exe'
+    if((Test-Path -Path $studentlexmarkdl) -eq $false) {
+            wget -uri  -OutFile 
+    }
     start -Path 'c:\scriptfiles\StudentLexmarkPrinter.exe'
     Get-Printer -Name "Abbotsford S*" | Remove-Printer
-Add-PrinterPort -Name 192.168.1.233_1 -PrinterHostAddress 192.168.1.233
-Get-Printer -Name StudentLex* | Set-Printer -PortName 192.168.1.233_1
+    Add-PrinterPort -Name 192.168.1.233_1 -PrinterHostAddress 192.168.1.233
+    Get-Printer -Name StudentLex* | Set-Printer -PortName 192.168.1.233_1
 }
-
-
 
 Write-Host 'This file was updated on Sept 23 2021'
