@@ -259,4 +259,4 @@ Get-Printer -Name StudentLex* | Set-Printer -PortName 192.168.1.233_1
 
 
 
-Write-Host 'This file was updated on Sept 8 2021'
+Write-Host 'This file was updated on Sept 23 2021'
