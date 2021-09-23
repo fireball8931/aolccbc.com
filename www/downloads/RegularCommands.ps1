@@ -212,7 +212,7 @@ if ((Test-Path -LiteralPath "c:\Program Files (x86)\Google\Chrome\Application\ch
 }
 
 #choco apps
-choco upgrade -y k-litecodecpackbasic jre8 googlechrome
+choco upgrade -y k-litecodecpack-standard jre8 googlechrome
 
 #chrome policies
 if((Test-Path -LiteralPath "HKLM:\SOFTWARE\Policies\Google\Chrome") -ne $true) {  New-Item "HKLM:\SOFTWARE\Policies\Google\Chrome" -force -ea SilentlyContinue };

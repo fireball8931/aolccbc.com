@@ -19,6 +19,6 @@ RUN chmod +x /opt/bin/start-apache.sh
 RUN ln -s /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled/
 RUN ln -s /etc/apache2/mods-available/remoteip.load /etc/apache2/mods-enabled/
 
-EXPOSE 80 443
+EXPOSE 80
 
 CMD ["/opt/bin/start-apache.sh"]
