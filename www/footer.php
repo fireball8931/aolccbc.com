@@ -10,6 +10,6 @@ Langley 604-532-4040 <a href="https://g.page/aolcclangley?share">#201-20621 Loga
    <a href="/privacy-policy/index.html">Privacy Policy</a> | 
     <a href="/handbook/#preventing-and-responding-to-sexual-violence-and-misconduct-policy">Sexual Harassment Policy</a> | 
           <a href="/handbook/#student-statement-of-rights">Student Statement of Rights</a> | 
-          <a href="/handbook/#withdrawal-and-refund-policy">Refund Policy</a>|<a href="/system_requirements/">System Requirements</a> </center>
+          <a href="/handbook/#withdrawal-and-refund-policy">Refund Policy</a>| <a href="/system_requirements/">System Requirements</a> </center>
           <p>Certified with the <a href="https://www.privatetraininginstitutions.gov.bc.ca">Private Training Institutions Branch (PTIB)</a> of the BC Ministry of Advanced Education and Skills Training</p>
   </footer>
