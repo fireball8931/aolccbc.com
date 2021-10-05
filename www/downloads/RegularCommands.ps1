@@ -268,4 +268,4 @@ if ((test-path C:\scriptfiles\thisisastaffcomputer) -eq $false) {
     Get-Printer | Select-Object Name, DriverName | Where-Object {$_.DriverName -clike "*Brother*"} | Remove-Printer
 }
 
-Write-Host 'This file was updated on Sept 24 2021'
+Write-Host 'This file was updated on October 5 2021'
