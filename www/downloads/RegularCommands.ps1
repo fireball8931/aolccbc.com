@@ -188,13 +188,17 @@ if ((Test-Path -Path 'c:\defaultassociations.xml') -eq $false) {
 reg add 'HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System' /v DefaultAssociationsConfiguration /t REG_SZ /d 'c:\defaultassociations.xml' /f
 
 
-
+# Typing Trainer
 if ($global:campus -eq 'Langley') {
 	$global:batchsource = $global:cloudloc + 'langley.bat'
 	$global:databasesrc = $global:cloudloc + 'database.txt'
 	Update-ConnectToTypingTrainer
 }
-
+if ($global:campus -eq 'Abbotsford') {
+	$global:batchsource = $global:cloudloc + 'abbotsford.bat'
+	$global:databasesrc = $global:cloudloc + 'databaseab.txt'
+	Update-ConnectToTypingTrainer
+}
 
 if ((Test-Path -LiteralPath "c:\Program Files (x86)\Google\Chrome\Application\chrome.exe") -eq $false) {
 	if ((Test-Path -LiteralPath "c:\Program Files (x86)\Google\Chrome\Application\chrome.exe") -eq $true) {
@@ -264,4 +268,4 @@ if ((test-path C:\scriptfiles\thisisastaffcomputer) -eq $false) {
     Get-Printer | Select-Object Name, DriverName | Where-Object {$_.DriverName -clike "*Brother*"} | Remove-Printer
 }
 
-Write-Host 'This file was updated on Sept 24 2021'
+Write-Host 'This file was updated on October 5 2021'
