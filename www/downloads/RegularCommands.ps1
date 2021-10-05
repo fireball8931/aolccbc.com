@@ -188,13 +188,17 @@ if ((Test-Path -Path 'c:\defaultassociations.xml') -eq $false) {
 reg add 'HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System' /v DefaultAssociationsConfiguration /t REG_SZ /d 'c:\defaultassociations.xml' /f
 
 
-
+# Typing Trainer
 if ($global:campus -eq 'Langley') {
 	$global:batchsource = $global:cloudloc + 'langley.bat'
 	$global:databasesrc = $global:cloudloc + 'database.txt'
 	Update-ConnectToTypingTrainer
 }
-
+if ($global:campus -eq 'Abbotsford') {
+	$global:batchsource = $global:cloudloc + 'abbotsford.bat'
+	$global:databasesrc = $global:cloudloc + 'databaseab.txt'
+	Update-ConnectToTypingTrainer
+}
 
 if ((Test-Path -LiteralPath "c:\Program Files (x86)\Google\Chrome\Application\chrome.exe") -eq $false) {
 	if ((Test-Path -LiteralPath "c:\Program Files (x86)\Google\Chrome\Application\chrome.exe") -eq $true) {
