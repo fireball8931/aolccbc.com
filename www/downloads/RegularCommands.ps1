@@ -215,6 +215,9 @@ if ((Test-Path -LiteralPath "c:\Program Files (x86)\Google\Chrome\Application\ch
 }
 
 #choco apps
+if ($null -eq $ENV:ChocolateyInstall) {
+	Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+}
 choco upgrade -y k-litecodecpack-standard jre8 googlechrome
 
 #chrome policies
