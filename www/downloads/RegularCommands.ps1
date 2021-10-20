@@ -2,18 +2,24 @@
 $global:scriptingdir = 'c:\scriptfiles'
 $global:cloudloc = 'https://aolccbc.blob.core.windows.net/aolcc/typingfiles/'
 $global:connectpath = $global:scriptingdir + '\connect.bat'
+$global:typingbatdest = $global:scriptingdir + '\typingtrainer.bat'
 $global:typingbatsrc = $global:cloudloc + 'typingtrainer.bat'
 $global:typingtrainerfolder = 'C:\Program Files (x86)\TypingTrainer'
+$global:tticonsrc = ${env:ProgramFiles(x86)} + '\ACMEPro2011\ACME.exe'
+$global:ttshortcutname = 'Connect to Typing Trainer.lnk'
+$global:ttshortcutdest = $env:ALLUSERSPROFILE + '\Microsoft\Windows\Start Menu\Programs\' + $global:ttshortcutname
 
 
 #functions
 
 function Set-Shortcut {
-	param([string]$SourceExe,[string]$ArgumentsToSourceExe,[string]$DestinationPath)
+	param([string]$SourceExe,[string]$ArgumentsToSourceExe,[string]$DestinationPath,[string]$IconSrc)
 	$WshShell = New-Object -ComObject WScript.Shell
 	$Shortcut = $WshShell.CreateShortcut($DestinationPath)
 	$Shortcut.TargetPath = $SourceExe
 	$Shortcut.Arguments = $ArgumentsToSourceExe
+    $Shortcut.IconLocation = $IconSrc
+    $Shortcut.WindowStyle = 7
 	$Shortcut.Save()
 }
 
@@ -36,12 +42,16 @@ function Get-CampusByIP {
 }
 
 function Update-ConnectToTypingTrainer {
-	New-Item -Path $global:scriptingdir -Force -Verbose
+	if ((Test-Path -Path $global:scriptingdir) -eq $false) {
+		New-Item -Path $global:scriptingdir -Type Directory
+	}
 	Set-Location -LiteralPath $global:scriptingdir -Verbose
-	Invoke-WebRequest -Uri $global:batchsource -OutFile $global:connectpath -Verbose
+	Invoke-WebRequest -Uri $global:batchsource -OutFile $global:connectpath -Verbose -UseBasicParsing
 	Remove-Item -Path $global:typingtrainerfolder\database.txt -Force
-	Invoke-WebRequest -Uri $global:databasesrc -OutFile $global:typingtrainerfolder\database.txt -Verbose
-	Invoke-WebRequest -Uri $global:typingbatsrc -OutFile $global:typingbatsrcloc -Verbose
+	Invoke-WebRequest -Uri $global:databasesrc -OutFile $global:typingtrainerfolder\database.txt -Verbose -UseBasicParsing
+	Invoke-WebRequest -Uri $global:typingbatsrc -OutFile $global:typingbatdest -Verbose -UseBasicParsing
+    Set-Shortcut -SourceExe $global:typingbatdest -DestinationPath $global:ttshortcutdest -IconSrc $global:tticonsrc
+
 };
 
 
@@ -68,18 +78,6 @@ New-ItemProperty -LiteralPath 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerSh
 if ((Test-Path -LiteralPath 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System') -ne $true) {
 	New-Item 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System' -Force -ea SilentlyContinue };
 New-ItemProperty -LiteralPath 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System' -Name 'ConsentPromptBehaviorUser' -Value 1 -PropertyType DWord -Force -ea SilentlyContinue;
-
-Get-CampusByIP
-if ($global:campus -ne 'OffSite') {
-	Write-Host 'This computer is At one of the campuses'
-	$net = Get-NetConnectionProfile
-	try {
-		Set-NetConnectionProfile -Name $net.Name -NetworkCategory Private
-	}
-	catch {
-		exit 0
-	}
-};
 
 
 Add-LocalGroupMember -Group "Remote Desktop Users" -Member "AzureAD\mike@aolccbc.com"
@@ -199,6 +197,16 @@ if ($global:campus -eq 'Abbotsford') {
 	$global:databasesrc = $global:cloudloc + 'databaseab.txt'
 	Update-ConnectToTypingTrainer
 }
+if ($global:campus -ne 'OffSite') {
+	Write-Host 'This computer is At one of the campuses'
+	$net = Get-NetConnectionProfile
+	try {
+		Set-NetConnectionProfile -Name $net.Name -NetworkCategory Private
+	}
+	catch {
+		exit 0
+	}
+};
 
 if ((Test-Path -LiteralPath "c:\Program Files (x86)\Google\Chrome\Application\chrome.exe") -eq $false) {
 	if ((Test-Path -LiteralPath "c:\Program Files (x86)\Google\Chrome\Application\chrome.exe") -eq $true) {
@@ -207,6 +215,9 @@ if ((Test-Path -LiteralPath "c:\Program Files (x86)\Google\Chrome\Application\ch
 }
 
 #choco apps
+if ($null -eq $ENV:ChocolateyInstall) {
+	Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+}
 choco upgrade -y k-litecodecpack-standard jre8 googlechrome
 
 #chrome policies
@@ -268,4 +279,4 @@ if ((test-path C:\scriptfiles\thisisastaffcomputer) -eq $false) {
     Get-Printer | Select-Object Name, DriverName | Where-Object {$_.DriverName -clike "*Brother*"} | Remove-Printer
 }
 
-Write-Host 'This file was updated on October 5 2021'
+Write-Host 'This file was updated on October 18 2021'
