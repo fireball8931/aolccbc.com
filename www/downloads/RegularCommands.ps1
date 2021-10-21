@@ -278,5 +278,11 @@ if ($global:campus -eq 'Abbotsford') {
 if ((test-path C:\scriptfiles\thisisastaffcomputer) -eq $false) {
     Get-Printer | Select-Object Name, DriverName | Where-Object {$_.DriverName -clike "*Brother*"} | Remove-Printer
 }
+    if (-not ($global:campus -eq 'Abbotsford')) {
+        Write-Host 'Not at Abbotsford'
+        exit
+    }
+Add-PrinterPort -Name 192.168.1.228_1 -PrinterHostAddress 192.168.1.228 -ErrorAction SilentlyContinue
+Add-Printer -Name 'Abbotsford Facilitator' -PortName 192.168.1.228_1 -DriverName 'Brother Laser Type2 Class Driver'
 
-Write-Host 'This file was updated on October 18 2021'
+Write-Host 'This file was updated on October 19 2021'
