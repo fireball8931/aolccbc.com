@@ -13,8 +13,8 @@ ENV APACHE_RUN_DIR /var/run/apache2
 ENV APACHE_LOCK_DIR /var/lock/apache2
 
 RUN mkdir -p /var/lock/apache2
-COPY opt /opt
-COPY etc /etc
+COPY opt/ /opt/
+COPY etc/ /etc/
 RUN chmod +x /opt/bin/start-apache.sh
 RUN ln -s /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled/
 RUN ln -s /etc/apache2/mods-available/remoteip.load /etc/apache2/mods-enabled/
