@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Communicable disease prevention Policy</title>
+    <?php include($_SERVER['DOCUMENT_ROOT'].'/css.html'); ?>
+    <style>
+       .container a {
+            color: black;
+            text-decoration: underline ;
+        }
+        
+        a::before {
+            content: 🔗;
+        }
+       table th {
+            font-size: unset;
+        }
+        .table-primary {
+            font-weight: bold;
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <?php include($_SERVER['DOCUMENT_ROOT'].'/navbar.php'); ?>
+
+    <div class="container">
+    <h1>Communicable Disease Prevention Policies and Procedures</h1>
+    <h3>(Formerly COVID-19 Policies and Procedures)</h3>
+    <h3>Updates and information</h3>
+    
+<p>
+    At Academy of Learning Career College, we are committed to supporting a safe, supportive, and equitable return to classes this September. We have implemented a four-stage plan, in line with the Ministry of Advanced Education and Skills Training’s COVID-19 Return-to-Campus Guidelines.
+</p>
+<p>
+    Below you will find a quick summary of the actions required in each stage, as well as which stage our campuses are currently in. Our goal is to limit the transmission of the virus while maintaining the best possible learning, teaching, and working environment for everyone.
+</p>
+
+<table class="table">
+    <thead>
+<th>Stage 1</th>
+<th>Stage 2</th>
+</thead>
+<tr>
+    <td>
+        <ul>
+            <li>Masks: Mandatory indoors</li>
+            <li>Classes: Remote Only</li>
+            <li>Physical distancing required</li>
+            <li>If sick, stay home & get tested</li>
+            </ul>
+    </td>
+    <td>
+        <ul>
+            <li>Masks: Mandatory indoors</li>
+            <li>Classes: Primarily Remote</li>
+            <li>Physical distancing required</li>
+            <li>If sick, stay home & get tested</li>
+            <li>Further increasing building/room occupancy limits</li>
+            </ul>
+    </td>
+</tr>
+<thead>
+    <th class="table-primary">Stage 3 (Current)</th>
+    <th>Stage 4</th>
+</thead>
+<tr>
+<td class="table-primary"><ul>
+    <li>Masks: Mandatory indoors</li>
+    <li>Classes: In Class and Remote</li> 
+    <li>Physical distancing</li>
+    <li>If sick, stay home & get tested</li>
+    <li>Further increasing building/room occupancy limits</li>
+</ul>  </td>
+
+<td>
+    <ul>
+        <li>Masks: Recommended</li>
+        <li>Classes: In Class and Remote</li> 
+        <li>Normal Social Contact</li>
+        <li>If sick, stay home.</li>
+        <li>Pre-Pandemic building/room occupancy limits</li>
+    </ul>  
+</td>
+</tr>
+</table>
+
+
+<i>Still have questions? For more details please visit the <a href="https://www2.gov.bc.ca/assets/gov/education/post-secondary-education/institution-resources-administration/covid19-return-to-campus-guidelines-web.pdf">Provincial COVID-19 Return-to-Campus Guidelines</a> and review our Frequently Asked Questions below to learn how we are actively responding to the COVID-19 situation at Academy of Learning Career College and what you can do to keep yourself safe below.</i>
+
+<hr>
+
+<h1>COVID-19 Frequently Asked Questions</h1>
+
+<h2>COVID-19 Protocols</h2>
+
+    
+
+
+    <div id="accordion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#campus-covid-procedures" aria-expanded="false" aria-controls="campus-covid-procedures">
+                Campus COVID-19 Procedures
+              </button>
+            </h5>
+          </div>
+      
+          <div id="campus-covid-procedures" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+                <ul>
+                <li><a href="#">Academy of Learning Career College Safety Plan</a></li>
+               <li> <a href="#">Academy of Learning Career College On-Campus COVID-19 Safety Protocols</a></li>
+               <li><a href="#">Campus Safety Poster</a></li>
+               <li><a href="#">Protocol for Temperature Screening in the Workplace</a></li>
+               <li><a href="#">Guidelines for Mask Care</a></li>
+               <li><a href="#">Health Screening Guidelines</a></li>
+               <li><a href="#">Healthcare Protocol for Potential Exposure</a></li>
+               <li><a href="#">Protocol for Health Screening In the Workplace</a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                International Students
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+                <ul>
+                <li>Fully Vaccinated Travellers Entering Canada During COVID-19</li>
+                    <li>Re-opening Canada’s Border</li>
+                    <li>Voluntary Compliance Portal</li>
+                    <li>International Students Information Package</li>
+                    <li>International Students Information Package (Effective August 9, 2021)</li>
+                    <li>International Student Entry Guide</li>
+                    <li>Self-Isolation Information</li>
+                    <li>Support for Travelers Self-Isolation Plan</li>
+                    <li>Self-Isolation on Return to BC Website Highlights</li>
+                    <li>Free Self-Isolation Package</li>
+                    <li>Transportation</li>
+                    <li>Pet-Friendly Hotels</li>
+                    <li>Hotels</li>
+                    <li>Delivery Services</li>
+                    <li>Cultural Centers</li>
+                    <li>Counselling Services</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Collapsible Group Item #3
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+      </div>
+</div>  
+
+
+    <?php include($_SERVER['DOCUMENT_ROOT'].'/footer.php'); ?>
+</body>
+
+</html>
