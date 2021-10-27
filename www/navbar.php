@@ -59,7 +59,12 @@
           <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown2" role="button">STUDENT RESOURCES</a>
           <div aria-labelledby="navbarDropdown2" class="dropdown-menu">
             <a class="dropdown-item" href="/downloads/GetHelpFromAOLCC.exe" target="_blank">Get Help from Learning Coach</a> <a class="dropdown-item" href="/handbook" target="_blank">Student handbook</a> <a class="dropdown-item" href="https://outlook.office.com/mail/inbox" target="_blank">Outlook Web Access</a> <a class="dropdown-item" href="https://here2talk.ca/" target="_blank">Here2Talk - Free Mental Health Resources</a> <a class="dropdown-item" href="https://acmeweb.academyoflearning.net/Forms/AttendanceLogin.aspx" target="_blank">Attendance Tracker</a> <a class="dropdown-item" href="https://mynew.aolcc.ca" target="_blank">myAOLCC</a> <a class="dropdown-item" href="https://www.youtube.com/watch?v=MowAXB-hPVs" target="_blank">***NEW Orientation***</a>
-            <div class="dropdown-divider"></div><a class="dropdown-item" href="https://download.respondus.com/lockdown/download.php?id=281950612">Lockdown Browser Installer</a> <a class="dropdown-item" href="/downloads/TypingTrainer.exe">TypingTrainer Installer</a> <a class="dropdown-item" href="https://anydesk.com/en/download">AnyDesk</a> <a class="dropdown-item" href="https://app.businessconnect.telus.com/download/TELUS%20Business%20Connect.exe">RingCentral</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="https://download.respondus.com/lockdown/download.php?id=281950612">Lockdown Browser Installer</a> 
+            <a class="dropdown-item" href="/downloads/TypingTrainer.exe">TypingTrainer Installer</a> 
+            <a class="dropdown-item" href="https://aolccbc-my.sharepoint.com/:f:/p/mike/ErNlKZVZ7_1ArZG7efu97I4BUU3-cUgTfbPH9uYlEHg80A">Upload your Typing Report</a> 
+              <a class="dropdown-item" href="https://anydesk.com/en/download">AnyDesk</a> 
+              <a class="dropdown-item" href="https://app.businessconnect.telus.com/download/TELUS%20Business%20Connect.exe">RingCentral</a>
           </div>
         </li>
       </ul>
