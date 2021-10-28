@@ -278,5 +278,9 @@ if ($global:campus -eq 'Abbotsford') {
 if ((test-path C:\scriptfiles\thisisastaffcomputer) -eq $false) {
     Get-Printer | Select-Object Name, DriverName | Where-Object {$_.DriverName -clike "*Brother*"} | Remove-Printer
 }
+#Fix Adobe Installs
+if((Test-Path -LiteralPath "HKLM:\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings") -ne $true) {  New-Item "HKLM:\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings" -force -ea SilentlyContinue };
+New-ItemProperty -LiteralPath 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings' -Name 'Security_HKLM_only' -Value 0 -PropertyType DWord -Force -ea SilentlyContinue;
 
-Write-Host 'This file was updated on October 18 2021'
+
+Write-Host 'This file was updated on October 28 2021'
