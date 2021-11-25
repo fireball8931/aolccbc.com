@@ -218,6 +218,17 @@ if ((Test-Path -LiteralPath "c:\Program Files (x86)\Google\Chrome\Application\ch
 if ($null -eq $ENV:ChocolateyInstall) {
 	Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 }
+$chocosources= choco source
+$source = Select-String -InputObject $chocosources -Pattern "aolcc_hosted2"
+if ([string]::IsNullOrEmpty($source)){
+Write-Host 'AOLCC Source not set, installing AOLCC source'
+choco source add -n='aolcc_hosted2'-s='https://choco.aolccbc.com/'
+}
+$source2 = Select-String -InputObject $chocosources -Pattern "choco-proxy"
+if ([string]::IsNullOrEmpty($source)){
+Write-Host 'AOLCC proxy Source not set, installing AOLCC source'
+choco source add -n='choco-proxy'-s='https://nexus.aolccbc.com/repository/choco-proxy/'
+}
 choco upgrade -y k-litecodecpack-standard jre8 googlechrome
 
 #chrome policies
@@ -230,13 +241,13 @@ New-ItemProperty -LiteralPath 'HKLM:\SOFTWARE\Policies\Google\Chrome' -Name 'Pro
 
 #Remotely
 
-if ((Test-Path -LiteralPath "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Remotely") -eq $false) {
-	$RemotelyDLPath = "c:\scriptfiles\Remotely_Install.exe"
-	if ((Test-Path -LiteralPath $RemotelyDLPath) -eq $false) {
-		Invoke-WebRequest -Uri "https://aolccbc.com/downloads/Remotely_Install-[dd5d].exe" -OutFile $RemotelyDLPath
-	}
-	Start-Process -FilePath $RemotelyDLPath -ArgumentList '-install -quiet -organizationid "9703dec1-5ba4-493f-baac-7e5dd92caf71" -serverurl "https://support.aolccbc.com" -supportshortcut -devicegroup "Students"' -Wait
-}
+#if ((Test-Path -LiteralPath "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Remotely") -eq $false) {
+#	$RemotelyDLPath = "c:\scriptfiles\Remotely_Install.exe"
+#	if ((Test-Path -LiteralPath $RemotelyDLPath) -eq $false) {
+#		Invoke-WebRequest -Uri "https://aolccbc.com/downloads/Remotely_Install-[dd5d].exe" -OutFile $RemotelyDLPath
+#	}
+#	Start-Process -FilePath $RemotelyDLPath -ArgumentList '-install -quiet -organizationid "9703dec1-5ba4-493f-baac-7e5dd92caf71" -serverurl "https://support.aolccbc.com" -supportshortcut -devicegroup "Students"' -Wait
+#}
 #Install ACME
 $acmeversion = '214.5'
 $acmedisplayversion = '2011.' + $acmeversion
@@ -258,31 +269,19 @@ if ((Get-ItemProperty -Path 'HKLM:\Software\WOW6432Node\Microsoft\Windows\Curren
 #Disable WSD
 Set-Service -Name WSDPrintDevice -StartupType Disabled
 #Install StudentLexmark
-if ($global:campus -eq 'Abbotsford') {
-	$studentlexmarkdl = 'c:\scriptfiles\StudentLexmarkPrinter.exe'
-	$studentlexmarkuri = 'https://aolccbc.com/downloads/StudentLexmarkPrinter.exe'
-	if ((Test-Path -Path $studentlexmarkdl) -eq $false) {
-		Invoke-WebRequest -Uri $studentlexmarkuri -OutFile $studentlexmarkdl
-	}
-	Start-Process 'c:\scriptfiles\StudentLexmarkPrinter.exe' -ArgumentList 'e -y' -Wait
-    Start-Process 'C:\scriptfiles\LexmarkPkgInstaller.exe' -Wait
-    
+#if ($global:campus -eq 'Abbotsford') {
+#	$studentlexmarkdl = 'c:\scriptfiles\StudentLexmarkPrinter.exe'
+#	$studentlexmarkuri = 'https://aolccbc.com/downloads/StudentLexmarkPrinter.exe'
+#	if ((Test-Path -Path $studentlexmarkdl) -eq $false) {
+#		Invoke-WebRequest -Uri $studentlexmarkuri -OutFile $studentlexmarkdl
+#	}
+#	Start-Process 'c:\scriptfiles\StudentLexmarkPrinter.exe' -ArgumentList 'e -y' -Wait
+ #   Start-Process 'C:\scriptfiles\LexmarkPkgInstaller.exe' -Wait
+  #  
 	#Get-Printer -Name "Abbotsford S*" | Remove-Printer
 	#Add-PrinterPort -Name 192.168.1.233_1 -PrinterHostAddress 192.168.1.233
 	#Get-Printer -Name "*Student*" | Set-Printer -PortName 192.168.1.233_1
-}
+#}
 
 #Removing Staff Printers from student computers
 #Check to see if *not* a staff computer
-
-if ((test-path C:\scriptfiles\thisisastaffcomputer) -eq $false) {
-    Get-Printer | Select-Object Name, DriverName | Where-Object {$_.DriverName -clike "*Brother*"} | Remove-Printer
-}
-    if (-not ($global:campus -eq 'Abbotsford')) {
-        Write-Host 'Not at Abbotsford'
-        exit
-    }
-Add-PrinterPort -Name 192.168.1.228_1 -PrinterHostAddress 192.168.1.228 -ErrorAction SilentlyContinue
-Add-Printer -Name 'Abbotsford Facilitator' -PortName 192.168.1.228_1 -DriverName 'Brother Laser Type2 Class Driver'
-
-Write-Host 'This file was updated on October 19 2021'
