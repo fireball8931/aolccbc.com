@@ -285,19 +285,3 @@ Set-Service -Name WSDPrintDevice -StartupType Disabled
 
 #Removing Staff Printers from student computers
 #Check to see if *not* a staff computer
-
-#if ((test-path C:\scriptfiles\thisisastaffcomputer) -eq $false) {
-#    Get-Printer | Select-Object Name, DriverName | Where-Object {$_.DriverName -clike "*Brother*"} | Remove-Printer
-#}
-#Fix Adobe Installs
-if((Test-Path -LiteralPath "HKLM:\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings") -ne $true) {  New-Item "HKLM:\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings" -force -ea SilentlyContinue };
-New-ItemProperty -LiteralPath 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings' -Name 'Security_HKLM_only' -Value 0 -PropertyType DWord -Force -ea SilentlyContinue;
-
-# Set File Associations for adobe reader
-$Base64 = "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxEZWZhdWx0QXNzb2NpYXRpb25zPg0KCTxBc3NvY2lhdGlvbiBJZGVudGlmaWVyPSIucGRmIiBQcm9nSUQ9IkFjcm9FeGNoLkRvY3VtZW50LkRDIiBBcHBsaWNhdGlvbk5hbWU9IkFkb2JlIEFjcm9iYXQgUmVhZGVyIERDIiAvPg0KCTxBc3NvY2lhdGlvbiBJZGVudGlmaWVyPSIucGRmeG1sIiBQcm9nSUQ9IkFjcm9FeGNoLnBkZnhtbCIgQXBwbGljYXRpb25OYW1lPSJBZG9iZSBBY3JvYmF0IFJlYWRlciBEQyIgLz4NCgk8QXNzb2NpYXRpb24gSWRlbnRpZmllcj0iLmFjcm9iYXRzZWN1cml0eXNldHRpbmdzIiBQcm9nSUQ9IkFjcm9FeGNoLmFjcm9iYXRzZWN1cml0eXNldHRpbmdzIiBBcHBsaWNhdGlvbk5hbWU9IkFkb2JlIEFjcm9iYXQgUmVhZGVyIERDIiAvPg0KCTxBc3NvY2lhdGlvbiBJZGVudGlmaWVyPSIuZmRmIiBQcm9nSUQ9IkFjcm9FeGNoLkZERkRvYyIgQXBwbGljYXRpb25OYW1lPSJBZG9iZSBBY3JvYmF0IFJlYWRlciBEQyIgLz4NCgk8QXNzb2NpYXRpb24gSWRlbnRpZmllcj0iLnhmZGYiIFByb2dJRD0iQWNyb0V4Y2guWEZERkRvYyIgQXBwbGljYXRpb25OYW1lPSJBZG9iZSBBY3JvYmF0IFJlYWRlciBEQyIgLz4NCgk8QXNzb2NpYXRpb24gSWRlbnRpZmllcj0iLnhkcCIgUHJvZ0lEPSJBY3JvRXhjaC5YRFBEb2MiIEFwcGxpY2F0aW9uTmFtZT0iQWRvYmUgQWNyb2JhdCBSZWFkZXIgREMiIC8+DQoJPEFzc29jaWF0aW9uIElkZW50aWZpZXI9Ii5wZHgiIFByb2dJRD0iUERYRmlsZVR5cGUiIEFwcGxpY2F0aW9uTmFtZT0iQWRvYmUgQWNyb2JhdCBSZWFkZXIgREMiIC8+DQoJPEFzc29jaWF0aW9uIElkZW50aWZpZXI9Ii5hcGkiIFByb2dJRD0iQWNyb0V4Y2guUGx1Z2luIiBBcHBsaWNhdGlvbk5hbWU9IkFkb2JlIEFjcm9iYXQgUmVhZGVyIERDIiAvPg0KCTxBc3NvY2lhdGlvbiBJZGVudGlmaWVyPSIuc2Vjc3RvcmUiIFByb2dJRD0iQWNyb0V4Y2guU2VjU3RvcmUiIEFwcGxpY2F0aW9uTmFtZT0iQWRvYmUgQWNyb2JhdCBSZWFkZXIgREMiIC8+DQo8L0RlZmF1bHRBc3NvY2lhdGlvbnM+DQoNCg0K"
-$Content = [System.Convert]::FromBase64String($Base64)
-Set-Content -Path C:\scriptfiles\AdobeReaderDCFileAssoc.xml -Value $Content -Encoding byte
-DISM /Online /Import-DefaultAppAssociations:c:\scriptfiles\AdobeReaderDCFileAssoc.xml
-
-
-Write-Host 'This file was updated on November 8 2021'
