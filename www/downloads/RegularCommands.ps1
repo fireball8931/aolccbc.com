@@ -216,7 +216,7 @@ if ((Test-Path -LiteralPath "c:\Program Files (x86)\Google\Chrome\Application\ch
 
 #choco apps
 if ($null -eq $ENV:ChocolateyInstall) {
-	Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+	Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://aolccbc.com/downloads/ChocolateyInstall.ps1'))
 }
 $chocosources= choco source
 $source = Select-String -InputObject $chocosources -Pattern "aolcc_hosted2"
@@ -229,7 +229,8 @@ if ([string]::IsNullOrEmpty($source)){
 Write-Host 'AOLCC proxy Source not set, installing AOLCC source'
 choco source add -n='choco-proxy'-s='https://nexus.aolccbc.com/repository/choco-proxy/'
 }
-choco upgrade -y k-litecodecpack-standard jre8 googlechrome
+#install K-LiteCodecPack-Standard, Java runtime 8, ACME, and latest version of respondus lockdown browser
+choco upgrade -y k-litecodecpack-standard jre8 acme respondusldb
 
 #chrome policies
 if ((Test-Path -LiteralPath "HKLM:\SOFTWARE\Policies\Google\Chrome") -ne $true) { New-Item "HKLM:\SOFTWARE\Policies\Google\Chrome" -Force -ea SilentlyContinue };
@@ -239,49 +240,10 @@ New-ItemProperty -LiteralPath 'HKLM:\SOFTWARE\Policies\Google\Chrome' -Name 'Man
 New-ItemProperty -LiteralPath 'HKLM:\SOFTWARE\Policies\Google\Chrome' -Name 'ShowHomeButton' -Value 1 -PropertyType DWord -Force -ea SilentlyContinue;
 New-ItemProperty -LiteralPath 'HKLM:\SOFTWARE\Policies\Google\Chrome' -Name 'ProfilePickerOnStartupAvailability' -Value 0 -PropertyType DWord -Force -ea SilentlyContinue;
 
-#Remotely
-
-#if ((Test-Path -LiteralPath "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Remotely") -eq $false) {
-#	$RemotelyDLPath = "c:\scriptfiles\Remotely_Install.exe"
-#	if ((Test-Path -LiteralPath $RemotelyDLPath) -eq $false) {
-#		Invoke-WebRequest -Uri "https://aolccbc.com/downloads/Remotely_Install-[dd5d].exe" -OutFile $RemotelyDLPath
-#	}
-#	Start-Process -FilePath $RemotelyDLPath -ArgumentList '-install -quiet -organizationid "9703dec1-5ba4-493f-baac-7e5dd92caf71" -serverurl "https://support.aolccbc.com" -supportshortcut -devicegroup "Students"' -Wait
-#}
-#Install ACME
-$acmeversion = '214.5'
-$acmedisplayversion = '2011.' + $acmeversion
-$installfile = 'acmepro.2011.setup.v' + $acmeversion + '.exe'
-$url = 'https://aolccbc.com/downloads/' + $installfile
-$dllocation = 'c:\scriptfiles' + $installfile
-$uninstallstring = (Get-ItemProperty -Path 'HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\ACME*').UninstallString
-if ((Get-ItemProperty -Path 'HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\ACME*').DisplayVersion -ne $acmedisplayversion) {
-	if ([string]::IsNullOrEmpty($uninstallstring)) {
-		Start-Process -FilePath (Get-ItemProperty -Path 'HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\ACME*').UninstallString -ArgumentList '/QUIET'
-	}
-	if ((Test-Path -Path $installfile) -eq $false) {
-		wget -Uri $url -OutFile $installfile
-	}
-	Start-Process -FilePath $dllocation -ArgumentList '/SP- /VERYSILENT /SUPPRESSMSGBOXES /ALLUSERS /FORCECLOSEAPPLICATIONS /NOICONS'
-}
-
-
 #Disable WSD
 Set-Service -Name WSDPrintDevice -StartupType Disabled
-#Install StudentLexmark
-#if ($global:campus -eq 'Abbotsford') {
-#	$studentlexmarkdl = 'c:\scriptfiles\StudentLexmarkPrinter.exe'
-#	$studentlexmarkuri = 'https://aolccbc.com/downloads/StudentLexmarkPrinter.exe'
-#	if ((Test-Path -Path $studentlexmarkdl) -eq $false) {
-#		Invoke-WebRequest -Uri $studentlexmarkuri -OutFile $studentlexmarkdl
-#	}
-#	Start-Process 'c:\scriptfiles\StudentLexmarkPrinter.exe' -ArgumentList 'e -y' -Wait
- #   Start-Process 'C:\scriptfiles\LexmarkPkgInstaller.exe' -Wait
-  #  
-	#Get-Printer -Name "Abbotsford S*" | Remove-Printer
-	#Add-PrinterPort -Name 192.168.1.233_1 -PrinterHostAddress 192.168.1.233
-	#Get-Printer -Name "*Student*" | Set-Printer -PortName 192.168.1.233_1
-#}
 
-#Removing Staff Printers from student computers
-#Check to see if *not* a staff computer
+#download the client installer to C:\fogtemp\fog.msi
+Invoke-WebRequest -URI "http://fogserver/fog/client/download.php?newclient" -UseBasicParsing -OutFile 'C:\fogtemp\fog.msi'
+#run the installer with msiexec and pass the command line args of /quiet /qn /norestart
+Start-Process -FilePath msiexec -ArgumentList @('/i','C:\fogtemp\fog.msi','/quiet','/qn','/norestart') -NoNewWindow -Wait;
