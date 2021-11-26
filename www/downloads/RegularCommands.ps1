@@ -230,7 +230,7 @@ Write-Host 'AOLCC proxy Source not set, installing AOLCC source'
 choco source add -n='choco-proxy'-s='https://nexus.aolccbc.com/repository/choco-proxy/'
 }
 #install K-LiteCodecPack-Standard, Java runtime 8, ACME, and latest version of respondus lockdown browser
-choco upgrade -y k-litecodecpack-standard jre8 acme respondusldb
+choco upgrade -y k-litecodecpack-standard jre8 acme respondusldb fog
 
 #chrome policies
 if ((Test-Path -LiteralPath "HKLM:\SOFTWARE\Policies\Google\Chrome") -ne $true) { New-Item "HKLM:\SOFTWARE\Policies\Google\Chrome" -Force -ea SilentlyContinue };
@@ -244,6 +244,6 @@ New-ItemProperty -LiteralPath 'HKLM:\SOFTWARE\Policies\Google\Chrome' -Name 'Pro
 Set-Service -Name WSDPrintDevice -StartupType Disabled
 
 #download the client installer to C:\fogtemp\fog.msi
-Invoke-WebRequest -URI "http://fogserver/fog/client/download.php?newclient" -UseBasicParsing -OutFile 'C:\scriptfiles\fog.msi'
+#Invoke-WebRequest -URI "http://fogserver/fog/client/download.php?newclient" -UseBasicParsing -OutFile 'C:\scriptfiles\fog.msi'
 #run the installer with msiexec and pass the command line args of /quiet /qn /norestart
-Start-Process -FilePath msiexec -ArgumentList @('/i','C:\fogtemp\fog.msi','/quiet','/qn','/norestart') -NoNewWindow -Wait;
+#Start-Process -FilePath msiexec -ArgumentList @('/i','C:\fogtemp\fog.msi','/quiet','/qn','/norestart') -NoNewWindow -Wait;
