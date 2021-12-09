@@ -1,1 +1,4 @@
 AddType application/x-httpd-php php php4 php3 html htm
+Options +Includes
+AddType text/html .shtml .html
+AddOutputFilter INCLUDES .shtml .html
