@@ -1,5 +1,0 @@
-*.exe filter=lfs diff=lfs merge=lfs -text
-AnyDesk.exe filter=lfs diff=lfs merge=lfs -text
-LockDownBrowser-2-0-6-08.exe filter=lfs diff=lfs merge=lfs -text
-acmepro.2011.setup.v213.4.exe filter=lfs diff=lfs merge=lfs -text
-Visual-C-Runtimes-All-in-One-May-2020.zip filter=lfs diff=lfs merge=lfs -text
