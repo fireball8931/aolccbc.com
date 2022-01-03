@@ -191,11 +191,56 @@ if ($global:campus -eq 'Langley') {
 	$global:batchsource = $global:cloudloc + 'langley.bat'
 	$global:databasesrc = $global:cloudloc + 'database.txt'
 	Update-ConnectToTypingTrainer
+		#Set Variables
+
+$printername = 'Student Printer'
+$drivername = 'HP DeskJet 3630 series'
+$printerIP = '192.168.2.234'
+$driverlocation = '\\192.168.2.230\ttdata\drivers'
+$driversearch = $driverlocation + '\hpygid20.inf'
+$smbuser = 'smbguest'
+$smbpassword = 'password'
+
+function Install-ThePrinter {
+
+if (!(Get-PrinterDriver -Name $drivername -ErrorAction SilentlyContinue)){ 
+    New-SmbMapping -RemotePath $driverlocation -UserName $smbuser -Password $smbpassword
+    pnputil.exe /add-driver $driversearch
+    Add-PrinterDriver -Name $drivername
+    }
+if(!(Get-PrinterPort -Name $printerIP -ErrorAction SilentlyContinue)) {
+    Add-PrinterPort -Name $printerIP -PrinterHostAddress $printerIP
+}  
+
+Add-Printer -Name $printername -PortName $printerIP -DriverName $drivername
+
+}
+
+
+
+
+$PrinterDetails = Get-Printer -Name $printername -ErrorAction SilentlyContinue
+if(!$PrinterDetails) {
+    Install-ThePrinter
+}
 }
 if ($global:campus -eq 'Abbotsford') {
 	$global:batchsource = $global:cloudloc + 'abbotsford.bat'
 	$global:databasesrc = $global:cloudloc + 'databaseab.txt'
 	Update-ConnectToTypingTrainer
+	$printername = 'Student Lexmark Printer'
+	$drivername = 'Lexmark Printer Software G4 HBP'
+	$printerIP = '192.168.1.228'
+	$driverlocation = '\\192.168.1.229\ttdata\drivers'
+	$driversearch = $driverlocation + '\LexmarkPkgInstaller.exe'
+	$smbuser = 'smbguest'
+	$smbpassword = 'password'
+
+	if (!(Get-PrinterDriver -Name $drivername -ErrorAction SilentlyContinue)){ 
+		New-SmbMapping -RemotePath $driverlocation -UserName $smbuser -Password $smbpassword
+		Start-Process $driversearch
+		
+		}
 }
 if ($global:campus -ne 'OffSite') {
 	Write-Host 'This computer is At one of the campuses'
