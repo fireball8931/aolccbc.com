@@ -58,6 +58,17 @@ function Update-ConnectToTypingTrainer {
 
 
 #Actual Commands File
+Write-Host Adjusting Volumes
+
+# Variable specifying the drive you want to extend
+$drive_letter = "C"
+
+# Script to get the partition sizes and then resize the volume
+$size = (Get-PartitionSupportedSize -DriveLetter $drive_letter)
+Resize-Partition -DriveLetter $drive_letter -Size $size.SizeMax
+
+
+
 Write-Host Setting Registry Values
 
 if ((Test-Path -LiteralPath 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU') -ne $true) { New-Item 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU' -Force -ea SilentlyContinue };
