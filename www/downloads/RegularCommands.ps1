@@ -196,7 +196,7 @@ if ((Test-Path -Path 'c:\defaultassociations.xml') -eq $false) {
 }
 reg add 'HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System' /v DefaultAssociationsConfiguration /t REG_SZ /d 'c:\defaultassociations.xml' /f
 
-
+Get-CampusByIP
 # Typing Trainer
 if ($global:campus -eq 'Langley') {
 	$global:batchsource = $global:cloudloc + 'langley.bat'
