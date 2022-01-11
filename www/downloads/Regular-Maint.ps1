@@ -47,5 +47,5 @@ if ( -not (Test-Path $FilePath) ) {
 }
 
 
-Download-File -uri https://www.aolccbc.com/downloads/RegularCommands.ps1 -FilePath C:\scriptfiles\RegularCommands.ps1
+Download-File -uri https://raw.githubusercontent.com/fireball8931/AOLCCApps/master/RegularCommands.ps1 -FilePath C:\scriptfiles\RegularCommands.ps1
 C:\scriptfiles\RegularCommands.ps1
