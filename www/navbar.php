@@ -23,7 +23,7 @@
     >
     <i class="fas fa-bars"></i>
 </button>
-</div>
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
