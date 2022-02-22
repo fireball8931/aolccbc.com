@@ -1,4 +1,4 @@
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="min-height: 50px;">
+  <nav class="navbar navbar-dark bg-dark" style="min-height: 50px;" id="navbarToggleExternalContent>
     <a class="navbar-brand" href="/"><img alt="AOLCC Logo" src="/images/logo-dark.webp" style="display: inline-block;"></a>
     <ul class="navbar-nav mr-auto">
       <li class="nav-item dropdown">
@@ -21,8 +21,7 @@
         <li class="nav-item active">
           <a class="nav-link" href="/locations">LOCATIONS</a>
         </li>
-        <!--<li class="nav-item active"> <a class="nav-link" href="https://my.charitableimpact.com/groups/academy-of-learning-abbotsford-and-langley?type=groupprofile&sourceid=undefined&profileid=19684">Pink Shirt Day</a> </li>-->
-        <li class="nav-item dropdown">
+         <li class="nav-item dropdown">
           <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="/about-us" id="navbarDropdownMenuLink">ABOUT US</a>
           <ul aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
             <li>
@@ -33,7 +32,7 @@
             </li>
             <!--<li> <a class="dropdown-item" href="/social-wall" target="_blank"><i class="fas fa-leaf navleaf"></i> SOCIAL WALL</a></li>-->
             <li>
-              <a class="dropdown-item" href="https://youtube.com/aolccbc" target="_blank">YOUTUBE</a>
+              <a class="dropdown-item" href="//youtube.com/aolccbc" target="_blank">YOUTUBE</a>
             </li>
             <!--<li> <a class="dropdown-item" href="/blog" target="_blank"><i class="fas fa-leaf navleaf"></i> BLOG</a></li>-->
             <!--<li><a class="dropdown-item" href="/testimonials" target="_blank"><i class="fas fa-leaf navleaf"></i> TESTIMONIALS - HEAR FROM OUR LEARNERS</a></li>-->
@@ -42,7 +41,7 @@
                             <li><a class="dropdown-item" href="/about-us/growth-mindset" target="_blank"><i class="fas fa-leaf navleaf"></i>GROWTH MINDSET</a></li>
                             <li><a class="dropdown-item" href="/about-us/ils" target="_blank"><i class="fas fa-leaf navleaf"></i>HOW DOES MEMORY WORK?</a></li>
                             <li><a class="dropdown-item" href="/social-wall" target="_blank"><i class="fas fa-leaf navleaf"></i> BONUS: INTERNATIONAL WOMEN'S DAY</a></li>
-                            <li><a class="dropdown-item" href="https://youtube.com/aolccbc" target="_blank"><i class="fas fa-leaf navleaf"></i>WATCH: MEMORY & EFFECTIVE LEARNING</a></li>
+                            <li><a class="dropdown-item" href="//youtube.com/aolccbc" target="_blank"><i class="fas fa-leaf navleaf"></i>WATCH: MEMORY & EFFECTIVE LEARNING</a></li>
 
                         </ul>
                     </li>-->
@@ -52,19 +51,19 @@
           <a class="nav-link" href="/disease-prevention">HEALTH & SAFETY</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="https://mynew.aolcc.ca">MYAOLCC</a>
+          <a class="nav-link" href="//my.aolcc.ca">myAOLCC</a>
         </li>
         <!--<li class="nav-item active"> <a class="nav-link" href="/contact.html">CONTACT</a> </li>-->
         <li class="nav-item dropdown">
           <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown2" role="button">STUDENT RESOURCES</a>
           <div aria-labelledby="navbarDropdown2" class="dropdown-menu">
-            <a class="dropdown-item" href="/downloads/GetHelpFromAOLCC.exe" target="_blank">Get Help from Learning Coach</a> <a class="dropdown-item" href="/handbook" target="_blank">Student handbook</a> <a class="dropdown-item" href="https://outlook.office.com/mail/inbox" target="_blank">Outlook Web Access</a> <a class="dropdown-item" href="https://here2talk.ca/" target="_blank">Here2Talk - Free Mental Health Resources</a> <a class="dropdown-item" href="https://acmeweb.academyoflearning.net/Forms/AttendanceLogin.aspx" target="_blank">Attendance Tracker</a> <a class="dropdown-item" href="https://mynew.aolcc.ca" target="_blank">myAOLCC</a> <a class="dropdown-item" href="https://www.youtube.com/watch?v=MowAXB-hPVs" target="_blank">***NEW Orientation***</a>
+            <a class="dropdown-item" href="/downloads/GetHelpFromAOLCC.exe" target="_blank">Get Help from Learning Coach</a> <a class="dropdown-item" href="/handbook" target="_blank">Student handbook</a> <a class="dropdown-item" href="//outlook.office.com/mail/inbox" target="_blank">Outlook Web Access</a> <a class="dropdown-item" href="//here2talk.ca/" target="_blank">Here2Talk - Free Mental Health Resources</a> <a class="dropdown-item" href="//acmeweb.academyoflearning.net/Forms/AttendanceLogin.aspx" target="_blank">Attendance Tracker</a> <a class="dropdown-item" href="//mynew.aolcc.ca" target="_blank">myAOLCC</a> <a class="dropdown-item" href="//www.youtube.com/watch?v=MowAXB-hPVs" target="_blank">***NEW Orientation***</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="https://download.respondus.com/lockdown/download.php?id=281950612">Lockdown Browser Installer</a> 
+            <a class="dropdown-item" href="//download.respondus.com/lockdown/download.php?id=281950612">Lockdown Browser Installer</a> 
             <a class="dropdown-item" href="/downloads/TypingTrainer.exe">TypingTrainer Installer</a> 
-            <a class="dropdown-item" href="https://aolccbc-my.sharepoint.com/:f:/p/mike/ErNlKZVZ7_1ArZG7efu97I4BUU3-cUgTfbPH9uYlEHg80A">Upload your Typing Report</a> 
-              <a class="dropdown-item" href="https://anydesk.com/en/download">AnyDesk</a> 
-              <a class="dropdown-item" href="https://app.businessconnect.telus.com/download/TELUS%20Business%20Connect.exe">RingCentral</a>
+           <!-- <a class="dropdown-item" href="//aolccbc-my.sharepoint.com/:f:/p/mike/ErNlKZVZ7_1ArZG7efu97I4BUU3-cUgTfbPH9uYlEHg80A">Upload your Typing Report</a> -->
+              <a class="dropdown-item" href="//anydesk.com/en/download">AnyDesk</a> 
+              <a class="dropdown-item" href="//app.businessconnect.telus.com/download/TELUS%20Business%20Connect.exe">RingCentral</a>
           </div>
         </li>
       </ul>
