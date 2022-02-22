@@ -1,4 +1,4 @@
-  <nav class="navbar navbar-dark bg-dark collapse" style="min-height: 50px;">
+  <nav class="navbar navbar-dark bg-dark navbar-collapse" style="min-height: 50px;">
     <a class="navbar-brand" href="/"><img alt="AOLCC Logo" src="/images/logo-dark.webp" style="display: inline-block;"></a>
     <ul class="navbar-nav mr-auto">
       <li class="nav-item dropdown">
