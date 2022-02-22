@@ -1,5 +1,16 @@
   <nav class="navbar navbar-dark bg-dark navbar-expand-lg" style="min-height: 50px;">
     <a class="navbar-brand" href="/"><img alt="AOLCC Logo" src="/images/logo-dark.webp" style="display: inline-block;"></a>
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
     <ul class="navbar-nav mr-auto">
       <li class="nav-item dropdown">
         <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown3" role="button">CALL US TODAY</a>
