@@ -1,4 +1,7 @@
-<script type="text/javascript" src="/js/mdb.min.js"></script>
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"
+></script>
   <footer>
     <center>
       Copyright &copy; <?php echo date ('Y'); ?> Academy of Learning&reg; Career College<br>&nbsp;<br>
