@@ -1,21 +1,5 @@
 version: "3.9"
 
-######### IMPORTANT #############
-# This is my main docker-compose file with most of the apps. I run docker on other systems with smaller stacks (web and synology).
-# You can copy-paste services from one docker-compose file in this repo to another to add other apps.
-
-########################### SYSTEM DESCRIPTION
-# DOCKER-COMPOSE FOR HOME/MEDIA SERVER
-# PROXMOX HOST: Dual Intel Xeon 5420, 16 GB RAM, 240 GB SSD, and 2 TB HDD
-# VM: 6 CORES, 12 GB RAM, Ubuntu 20.04, and Docker
-# 32 GB for /, 64 GB for /var/lib/docker and transcoding, and 1.5 TB for non-critical data and rclone cache.
-# Google Drive mounted using Rclone Docker for media and Proxmox backups
-
-########################### NETWORKS
-# There is no need to create any networks outside this docker-compose file.
-# You may customize the network subnets (192.168.90.0/24 and 91.0/24) below as you please.
-# Docker Compose version 3.5 or higher required to define networks this way.
-
 networks:
   t2_proxy:
     name: t2_proxy
@@ -46,24 +30,7 @@ secrets:
     file: $DOCKERDIR/secrets/traefik_forward_auth
   authelia_jwt_secret:
     file: $DOCKERDIR/secrets/authelia_jwt_secret
-  authelia_session_secret:
-    file: $DOCKERDIR/secrets/authelia_session_secret
-  authelia_storage_mysql_password:
-    file: $DOCKERDIR/secrets/authelia_storage_mysql_password
-  authelia_notifier_smtp_password:
-    file: $DOCKERDIR/secrets/authelia_notifier_smtp_password
-  authelia_duo_api_secret_key:
-    file: $DOCKERDIR/secrets/authelia_duo_api_secret_key
-  authelia_storage_encryption_key:
-    file: $DOCKERDIR/secrets/authelia_storage_encryption_key
-  guac_db_name:
-    file: $DOCKERDIR/secrets/guac_db_name
-  guac_mysql_user:
-    file: $DOCKERDIR/secrets/guac_mysql_user
-  guac_mysql_password:
-    file: $DOCKERDIR/secrets/guac_mysql_password
-  mysql_root_password:
-    file: $DOCKERDIR/secrets/mysql_root_password
+
 
 ########################### EXTENSION FIELDS
 # Helps eliminate repetition of sections
