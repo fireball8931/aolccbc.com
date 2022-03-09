@@ -1,4 +1,7 @@
 /* Test*/
+img {
+    max-width: 100%;
+}
 
 a {
     color: #fff;
