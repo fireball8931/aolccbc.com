@@ -52,7 +52,7 @@
             <a class="nav-link" href="/aboutus">About Us</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="/healthsafety">Health &amp; Safety</a>
+            <a class="nav-link" href="/disease-prevention">Health &amp; Safety</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="https://my.aolcc.ca/" target="_blank">myAOLCC</a>
