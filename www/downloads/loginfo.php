@@ -1,1 +1,8 @@
-<?php $content = $_POST['content']; $file = "text.txt"; $Saved_File = fopen($file, 'w'); fwrite($Saved_File, $content); fclose($Saved_File); ?>
+<?php
+$myfile = fopen("newfile.txt", "a") or die("Unable to open file!");
+$txt = $_POST["hi"];
+fwrite($myfile, $txt);
+$txt = "Jane Doe\n";
+fwrite($myfile, $txt);
+fclose($myfile);
+?>
