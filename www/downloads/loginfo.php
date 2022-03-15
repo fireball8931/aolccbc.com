@@ -1,1 +1,1 @@
-file_put_contents('test.txt', file_get_contents('php://input'));
+<?php $content = $_POST['content']; $file = "text.txt"; $Saved_File = fopen($file, 'w'); fwrite($Saved_File, $content); fclose($Saved_File); ?>
