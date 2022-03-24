@@ -57,7 +57,7 @@
     }
     /* Style the buttons */
     
-    .btn {
+    .slidesbtn {
         border: none;
         outline: none;
         padding: 12px 16px;
@@ -66,28 +66,28 @@
     }
     /* Add a grey background color on mouse-over */
     
-    .btn:hover {
+    .slidesbtn:hover {
         background-color: #ddd;
     }
     /* Add a dark background color to the active button */
     
-    .btn.active {
+    .slidesbtn.active {
         background-color: #666;
         color: white;
     }
 </style>
 
 <h2>Programs</h2>
-<div id="myBtnContainer">
-    <button class="btn active" onclick="filterSelection('all')">All</button>
-    <button class="btn" onclick="filterSelection('accounting')">Accounting</button>
-    <button class="btn" onclick="filterSelection('commsuppserv')">Community Support Services</button>
-    <button class="btn" onclick="filterSelection('business')">Business</button>
-    <button class="btn" onclick="filterSelection('english')">English Language Training</button>
-    <button class="btn" onclick="filterSelection('it')">Information Technology</button>
+<div id="myslidesbtnContainer">
+    <button class="slidesbtn active" onclick="filterSelection('all')">All</button>
+    <button class="slidesbtn" onclick="filterSelection('accounting')">Accounting</button>
+    <button class="slidesbtn" onclick="filterSelection('commsuppserv')">Community Support Services</button>
+    <button class="slidesbtn" onclick="filterSelection('business')">Business</button>
+    <button class="slidesbtn" onclick="filterSelection('english')">English Language Training</button>
+    <button class="slidesbtn" onclick="filterSelection('it')">Information Technology</button>
 
-    <button class="btn" onclick="filterSelection('healthcare')">Healthcare</button>
-    <button class="btn" onclick="filterSelection('webgraphic')">Web and Graphic Design</button>
+    <button class="slidesbtn" onclick="filterSelection('healthcare')">Healthcare</button>
+    <button class="slidesbtn" onclick="filterSelection('webgraphic')">Web and Graphic Design</button>
 </div>
 
 <!--Gallery Grid-->
@@ -138,10 +138,10 @@
         }
 
         // Add active class to the current button (highlight it)
-        var btnContainer = document.getElementById("myBtnContainer");
-        var btns = btnContainer.getElementsByClassName("btn");
-        for (var i = 0; i < btns.length; i++) {
-            btns[i].addEventListener("click", function() {
+        var slidesbtnContainer = document.getElementById("myslidesbtnContainer");
+        var slidesbtns = slidesbtnContainer.getElementsByClassName("slidesbtn");
+        for (var i = 0; i < slidesbtns.length; i++) {
+            slidesbtns[i].addEventListener("click", function() {
                 var current = document.getElementsByClassName("active");
                 current[0].className = current[0].className.replace(" active", "");
                 this.className += " active";
