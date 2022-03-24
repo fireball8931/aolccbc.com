@@ -68,7 +68,7 @@
               >Student Resources</a>
             <ul class="dropdown-menu" aria-labelledby="studentrescddl">
               <a class="dropdown-item" href="//meshcentral.aolccbc.com/agentinvite?c=vR38kiMr6bXihrgE7t5gWvkwTH2Y3ZZoUOL6rXpq6C@MTIcGFedEc1DRze1244MkFk797BYMczpuWilpNRXfyLf2udAetG4Sn@gfwH0Cs0coi32TP2oQCmqXzO0ldJpCiRh0b3lgDYlFgTZZ8XJJhjnGRTl7Igg0cTZAhr733ucRbsvkIBhkYWvIJUam3UCViBn@m6M=" target="_blank">Get Help from
-                Learning Coach</a> <a class="dropdown-item" href="/handbook" target="_blank">Student
+                Learning Coach</a> 
               <a class="dropdown-item" href="//aolccbc.tawk.help/" target="_blank">KnowledgeBase</a> <a class="dropdown-item" href="/handbook" target="_blank">Student
                 handbook</a> <a class="dropdown-item" href="//outlook.office.com/mail/inbox"
                 target="_blank">Outlook Web Access</a> <a class="dropdown-item" href="//here2talk.ca/"
