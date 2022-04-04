@@ -143,8 +143,8 @@ gray; border-top: 1px solid gray; font-size: 13px">
 <script>
 const yourname1 = document.getElementById("yourname");
 yourname1.textContent = yourname;
-const yourtitle = document.getElementById("yourtitle");
-yourtitle.textContent = yourtitle;
+const yourtitle1 = document.getElementById("yourtitle");
+yourtitle1.textContent = yourtitle;
 
 </script>
 
