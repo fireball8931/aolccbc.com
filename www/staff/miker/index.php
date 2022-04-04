@@ -3,7 +3,7 @@
 <head>
 
 <script src="data.js"></script>
-<script src="vCardFormatter"></script>
+<!-- <script src="vCardFormatter"></script> -->
 <link rel="stylesheet" href="style.css">
 </head>
 
