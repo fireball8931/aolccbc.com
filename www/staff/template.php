@@ -149,16 +149,16 @@ const campusname1 = document.getElementById("campusname");
 campusname1.textContent = campusname;
 const phone1 = document.getElementById("phone");
 phone1.textContent = phone;
-const phonehref = 'tel:1' + phone ;
+const phonehref = "tel:1" + phone ;
 phone1.href = phonehref
 const mobile1 = document.getElementById("mobile");
 mobile1.textContent = mobile;
-const mobilehref = 'tel:1' + mobile ;
+const mobilehref = "tel:1" + mobile ;
 mobile1.href = mobilehref
-if (mobile -eq "no") {
-  const mobile2 = document.getElementById("mobilerow");
-mobile2.innerHTML = "";  
-}
+// if (mobile -eq "no") {
+//   const mobile2 = document.getElementById("mobilerow");
+// mobile2.innerHTML = "";  
+// }
 
 
 
