@@ -43,7 +43,7 @@ $vcard->addPhoto(__DIR__ . '/assets/landscape.jpeg');
 return $vcard->download();
 
 // echo message
-echo 'A personal vCard is saved in this folder: ' . __DIR__;
+// echo 'A personal vCard is saved in this folder: ' . __DIR__;
 
 // or
 
