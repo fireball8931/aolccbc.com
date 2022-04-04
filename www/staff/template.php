@@ -16,6 +16,10 @@ var mobile = "604-532-4040";
 var email = "mike@aolccbc.com";
 //var mailingaddress = "#201-20621 Logan Ave, Langley, BC  V3A 7R3";
 var mailingaddress = "#204-2692 Clearbrook Rd, Abbotsford, BC  V2T 2Y8"
+// var facebook = "https://fb.me/aolccabbotsford"
+var facebook = "https://fb.me/aolcclangley"
+
+// var landak = "We acknowledge our Campus is located on the traditional and unceded territory of the Stó:lō people, the Semá:th First Nation and Mathxwí First Nation. With this, we respect the longstanding relationships that Indigenous Nations have to this land, as they are the original caretakers. "
 </script>
 
 
@@ -111,14 +115,14 @@ font-size:12px; font-family: arial, serif;" id="mailingaddress">100 York Bouleva
                         <tr>
                             <td colspan="2" style="padding-top:9px;
 text-align:initial;">
-                                <div><a href="http://www.facebook.com/academyoflearning/" target="_blank"><img
+                                <div><a href="http://www.facebook.com/academyoflearning/" target="_blank" id="facebook"><img
                                             moz-do-not-send="true" style="border-radius:4px;moz-border-radius:4px;khtml-border-radius:
 4px;o-border-radius:4px;webkit-border-radius:4px;ms-border-radius:4px
 ;border: 0;width:24px; height:24px;" width="24" height="24" src="https://s3.amazonaws.com/images.wisestamp.com/icons_32/facebook.
-png"></a>&nbsp;<a href="http://twitter.com/AcademyLearning" target="_blank"><img moz-do-not-send="true" style="border-radius:4px;moz-border-radius:4px;khtml-border-radius:
+png"></a>&nbsp;<a id="twitter" href="http://twitter.com/AcademyLearning" target="_blank"><img moz-do-not-send="true" style="border-radius:4px;moz-border-radius:4px;khtml-border-radius:
 4px;o-border-radius:4px;webkit-border-radius:4px;ms-border-radius:4px
 ;border: 0;width:24px; height:24px;" width="24" height="24" src="https://s3.amazonaws.com/images.wisestamp.com/icons_32/twitter.
-png"></a>&nbsp;<a href="http://www.youtube.com/user/AcademyofLearning09/" target="_blank"><img moz-do-not-send="true"
+png"></a>&nbsp;<a id="youtube" href="http://www.youtube.com/user/AcademyofLearning09/" target="_blank"><img moz-do-not-send="true"
                                             style="border-radius:4px;moz-border-radius:4px;khtml-border-radius:
 4px;o-border-radius:4px;webkit-border-radius:4px;ms-border-radius:4px
 ;border: 0;width:24px; height:24px;" width="24" height="24" src="https://s3.amazonaws.com/images.wisestamp.com/icons_32/youtube.
@@ -167,7 +171,12 @@ email1.textContent = email;
 email1.href="mailto:"+email;
 const mailingaddress1 = document.getElementById("mailingaddress");
 mailingaddress1.textContent = mailingaddress;
-
+const facebook1 = document.getElementById("facebook");
+facebook1.href = facebook;
+const twitter1 = document.getElementById("twitter");
+twitter1.href = twitter;
+const youtube1 = document.getElementById("youtube");
+youtube1.href = youtube;
 
 
 </script>
