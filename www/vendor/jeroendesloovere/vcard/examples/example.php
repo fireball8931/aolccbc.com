@@ -1,5 +1,6 @@
 <?php
 
+ini_set('display_errors', 1);
 /**
  * VCard generator test - can save to file or output as a download
  */
