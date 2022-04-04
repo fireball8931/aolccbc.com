@@ -160,32 +160,47 @@ const youtube1 = document.getElementById("youtube");
 youtube1.href = youtube;
 </script>
 
-<script>
-var vCardsJS = require('vcards-js');
+<php>
 
-//create a new vCard
-var vCard = vCardsJS();
+use JeroenDesloovere\VCard\VCard;
 
-//set properties
-vCard.firstName = 'Eric';
-vCard.middleName = 'J';
-vCard.lastName = 'Nesser';
-vCard.organization = 'ACME Corporation';
-vCard.photo.attachFromUrl('https://avatars2.githubusercontent.com/u/5659221?v=3&s=460', 'JPEG');
-vCard.workPhone = '312-555-1212';
-vCard.birthday = new Date(1985, 0, 1);
-vCard.title = 'Software Developer';
-vCard.url = 'https://github.com/enesser';
-vCard.note = 'Notes on Eric';
+// define vcard
+$vcard = new VCard();
 
-//save to file
-vCard.saveToFile('./eric-nesser.vcf');
+// define variables
+$lastname = 'Desloovere';
+$firstname = 'Jeroen';
+$additional = '';
+$prefix = '';
+$suffix = '';
 
-//get as formatted string
-console.log(vCard.getFormattedString());
+// add personal data
+$vcard->addName($lastname, $firstname, $additional, $prefix, $suffix);
+
+// add work data
+$vcard->addCompany('Siesqo');
+$vcard->addJobtitle('Web Developer');
+$vcard->addRole('Data Protection Officer');
+$vcard->addEmail('info@jeroendesloovere.be');
+$vcard->addPhoneNumber(1234121212, 'PREF;WORK');
+$vcard->addPhoneNumber(123456789, 'WORK');
+$vcard->addAddress(null, null, 'street', 'worktown', null, 'workpostcode', 'Belgium');
+$vcard->addLabel('street, worktown, workpostcode Belgium');
+$vcard->addURL('http://www.jeroendesloovere.be');
+
+$vcard->addPhoto(__DIR__ . '/landscape.jpeg');
+
+// return vcard as a string
+//return $vcard->getOutput();
+
+// return vcard as a download
+return $vcard->download();
+
+// save vcard on disk
+//$vcard->setSavePath('/path/to/directory');
+//$vcard->save();
 
 
-</script>
-
+</php>
 
 </html>
