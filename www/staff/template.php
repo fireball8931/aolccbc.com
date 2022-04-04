@@ -12,7 +12,7 @@ var website = "aolccbc.com" ;
 // var campusname = "Langley Campus" ;
 var campusname = "Abbotsford & Langley Campuses"
 var phone = "604-855-3315" ;
-var mobile = "604-532-4040";
+var mobile = "no";
 var email = "mike@aolccbc.com";
 //var mailingaddress = "#201-20621 Logan Ave, Langley, BC  V3A 7R3";
 var mailingaddress = "#204-2692 Clearbrook Rd, Abbotsford, BC  V2T 2Y8"
@@ -162,10 +162,10 @@ const mobile1 = document.getElementById("mobile");
 mobile1.textContent = mobile;
 const mobilehref = "tel:1" + mobile ;
 mobile1.href = mobilehref ;
-// if (mobile = "no") {
-//   const mobile2 = document.getElementById("mobilerow");
-//     mobile2.innerHTML = "";  
-// };
+if (mobile = "no") {
+  const mobile2 = document.getElementById("mobilerow");
+    mobile2.innerHTML = "";  
+};
 const email1 = document.getElementById("email");
 email1.textContent = email;
 email1.href="mailto:"+email;
