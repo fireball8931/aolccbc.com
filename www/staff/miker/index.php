@@ -126,6 +126,7 @@ gray; border-top: 1px solid gray; font-size: 13px">
             </div>
         </div>
     </div>
+    <a href="download.php">Download vCard</a>
 </body>
 <!-- Set Data -->
 <script>
