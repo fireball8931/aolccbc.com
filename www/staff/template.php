@@ -64,14 +64,14 @@ arial, serif;"> <a target="_blank" href="tel:1-855-996-9977 x 2160" style="color
 font-size:12px;">1-855-996-9977</a> </div>
                             </td>
                         </tr>
-                        <tr>
+                        <tr id="mobilerow">
                             <td> <span style="display:inline-block; width:
 17px;font-size:12px;color:#ed7500">m.</span> </td>
                             <td valign="bottom">
                                 <div style="line-height:
 15px;text-align:initial;color: #9b929f; font-size:11px; font-family:
 arial, serif;"><a target="_blank" href="tel:1-905-441-5190" style="color: #9b929f; text-decoration:none;
-font-size:12px;">Your Mobile #</a></div>
+font-size:12px;" id="mobile">Your Mobile #</a></div>
                             </td>
                         </tr>
                         <tr>
@@ -147,6 +147,19 @@ const yourtitle1 = document.getElementById("yourtitle");
 yourtitle1.textContent = yourtitle;
 const campusname1 = document.getElementById("campusname");
 campusname1.textContent = campusname;
+const phone1 = document.getElementById("phone");
+phone1.textContent = phone;
+const phonehref = 'tel:1' + phone ;
+phone1.href = phonehref
+const mobile1 = document.getElementById("mobile");
+mobile1.textContent = mobile;
+const mobilehref = 'tel:1' + mobile ;
+mobile1.href = mobilehref
+if (mobile -eq "no") {
+  const mobile2 = document.getElementById("mobilerow");
+mobile2.innerHTML = "";  
+}
+
 
 
 
