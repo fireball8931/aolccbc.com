@@ -142,9 +142,9 @@ gray; border-top: 1px solid gray; font-size: 13px">
 <!-- Set Data -->
 <script>
 const yourname1 = document.getElementById("yourname");
-header.textContent = yourname;
-const yourtitle1 = document.getElementById("yourtitle");
-header.textContent = yourtitle;
+yourname1.textContent = yourname;
+const yourtitle = document.getElementById("yourtitle");
+yourtitle.textContent = yourtitle;
 
 </script>
 
