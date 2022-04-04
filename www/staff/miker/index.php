@@ -160,7 +160,7 @@ const youtube1 = document.getElementById("youtube");
 youtube1.href = youtube;
 </script>
 
-<php>
+<?php
 
 use JeroenDesloovere\VCard\VCard;
 
@@ -200,7 +200,7 @@ return $vcard->download();
 //$vcard->setSavePath('/path/to/directory');
 //$vcard->save();
 
+?>
 
-</php>
 
 </html>
