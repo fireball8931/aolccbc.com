@@ -13,6 +13,7 @@ var website = "aolccbc.com" ;
 var campusname = "Abbotsford & Langley Campuses"
 var phone = "604-855-3315" ;
 var mobile = "604-532-4040";
+var email = "mike@aolccbc.com";
 </script>
 
 
@@ -81,7 +82,7 @@ font-size:12px;" id="mobile">Your Mobile #</a></div>
                                 <div style="line-height:
 15px;text-align:initial;color: #9b929f; font-size:12px; font-family:
 arial, serif;"><a target="_blank" href="mailto:" style="color: #9b929f;
-text-decoration:none;">your email</a></div>
+text-decoration:none;" id="email">your email</a></div>
                             </td>
                         </tr>
                         <tr>
@@ -159,7 +160,9 @@ mobile1.href = mobilehref ;
 //   const mobile2 = document.getElementById("mobilerow");
 //     mobile2.innerHTML = "";  
 // };
-
+const email1 = document.getElementById("email");
+email1.textContent = email;
+email1.href="mailto:"+email;
 
 
 
