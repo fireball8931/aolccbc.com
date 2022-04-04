@@ -14,6 +14,8 @@ var campusname = "Abbotsford & Langley Campuses"
 var phone = "604-855-3315" ;
 var mobile = "604-532-4040";
 var email = "mike@aolccbc.com";
+//var mailingaddress = "#201-20621 Logan Ave, Langley, BC  V3A 7R3";
+var mailingaddress = "#204-2692 Clearbrook Rd, Abbotsford, BC  V2T 2Y8"
 </script>
 
 
@@ -22,7 +24,7 @@ var email = "mike@aolccbc.com";
 
 <body>
     <div class="wisestamp_app banner" style="margin: 8px 8px 0 0; display: inline-block"> <a
-            href="http://www.academyoflearning.com" target="_blank"> 
+            href="http://www.aolccbc.com" target="_blank"> 
             <img moz-do-not-send="true" src="https://s3.amazonaws.com/ucwebapp.wisestamp.com/56cd8643-b36d-
 44ce-a409-7790b45559f9/academy_of_learning_logo.format_png.
 resize_470x.png" height="85" width="250"> </a> </div>
@@ -90,8 +92,8 @@ text-decoration:none;" id="email">your email</a></div>
 font-size:12px; color:#ed7500">w.</span> </td>
                             <td valign="bottom">
                                 <div style="line-height: 15px;text-align:initial;color: #9b929f;
-font-size:12px; font-family: arial, serif;"><a target="_blank" href="http://www.academyoflearning.com" style="color: #9b929f;
-text-decoration:none;">www.academyoflearning.com</a></div>
+font-size:12px; font-family: arial, serif;"><a target="_blank" href="http://www.aolccbc.com" style="color: #9b929f;
+text-decoration:none;">www.aolccbc.com</a></div>
                             </td>
                         </tr>
                         <tr>
@@ -99,7 +101,7 @@ text-decoration:none;">www.academyoflearning.com</a></div>
 font-size:12px; color:#ed7500">a.</span> </td>
                             <td valign="bottom">
                                 <div style="line-height: 15px;text-align:initial;color: #9b929f;
-font-size:12px; font-family: arial, serif;">100 York Boulevard, Suite 400,
+font-size:12px; font-family: arial, serif;" id="mailingaddress">100 York Boulevard, Suite 400,
                                     Richmond Hill, ON, L4B 1J8</div>
                             </td>
                         </tr>
@@ -163,7 +165,8 @@ mobile1.href = mobilehref ;
 const email1 = document.getElementById("email");
 email1.textContent = email;
 email1.href="mailto:"+email;
-
+const mailingaddress1 = document.getElementById("mailingaddress");
+mailingaddress1.textContent = mailingaddress;
 
 
 
