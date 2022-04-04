@@ -155,7 +155,7 @@ const mobile1 = document.getElementById("mobile");
 mobile1.textContent = mobile;
 const mobilehref = "tel:1" + mobile ;
 mobile1.href = mobilehref ;
-if (mobile -eq "no") {
+if (mobile = "no") {
   const mobile2 = document.getElementById("mobilerow");
 mobile2.innerHTML = "";  
 }
