@@ -61,7 +61,7 @@ arial, serif;">Academy of Learning Career College <span id="campusname"></span><
                                 <div style="line-height:
 15px;text-align:initial;color: #9b929f; font-size:11px; font-family:
 arial, serif;"> <a target="_blank" href="tel:1-855-996-9977 x 2160" style="color: #9b929f; text-decoration:none;
-font-size:12px;">1-855-996-9977</a> </div>
+font-size:12px;" id="phone">1-855-996-9977</a> </div>
                             </td>
                         </tr>
                         <tr id="mobilerow">
