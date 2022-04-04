@@ -5,8 +5,8 @@ ini_set('display_errors', 1);
  * VCard generator test - can save to file or output as a download
  */
 
-require_once __DIR__ . '/../vendor/autoload.php';
-require_once __DIR__ . '/../src/VCard.php';
+require_once $_SERVER['DOCUMENT_ROOT'].  '/vendor/autoload.php';
+require_once $_SERVER['DOCUMENT_ROOT']. '/vendor/jeroendesloovere/vcard/src/VCard.php';
 
 use JeroenDesloovere\VCard\VCard;
 
