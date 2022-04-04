@@ -44,7 +44,7 @@ Your Name</span></td>
                         <tr>
                             <td colspan="2"><span style="line-height:
 15px;text-align:left;color:#9b929f; font-size:12px; font-family:
-arial, serif;">Your Title</span></td>
+arial, serif;" id="yourtitle">Your Title</span></td>
                         </tr>
                         <tr>
                             <td colspan="2"><span style="line-height:
@@ -143,6 +143,8 @@ gray; border-top: 1px solid gray; font-size: 13px">
 <script>
 const header = document.getElementById("yourname");
 header.textContent = yourname;
+const header = document.getElementById("yourtitle");
+header.textContent = yourtitle;
 
 </script>
 
