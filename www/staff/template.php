@@ -12,7 +12,7 @@ var website = "aolccbc.com" ;
 // var campusname = "Langley Campus" ;
 var campusname = "Abbotsford & Langley Campuses"
 var phone = "604-855-3315" ;
-var mobile = "no";
+var mobile = "604-532-4040";
 </script>
 
 
