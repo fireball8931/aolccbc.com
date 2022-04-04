@@ -8,9 +8,9 @@ var yourname = "Michael Ross" ;
 var yourtitle = "IT Facilitator" ;
 var website = "aolccbc.com" ;
 // var phone = "604-532-4040" ;
-// var campus = "Abbotsford Campus" ;
-// var campus = "Langley Campus" ;
-var campus = "Abbotsford & Langley Campuses"
+// var campusname = "Abbotsford Campus" ;
+// var campusname = "Langley Campus" ;
+var campusname = "Abbotsford & Langley Campuses"
 var phone = "604-855-3315" ;
 
 </script>
@@ -49,7 +49,7 @@ arial, serif;" id="yourtitle">Your Title</span></td>
                         <tr>
                             <td colspan="2"><span style="line-height:
 15px;text-align:left;color:#ed7500; font-size:12px; font-family:
-arial, serif;">Academy of Learning Career College</span></td>
+arial, serif;">Academy of Learning Career College <span id="campusname"></span></span></td>
                         </tr>
                         <tr>
                             <td colspan="2">&nbsp;</td>
@@ -145,6 +145,11 @@ const yourname1 = document.getElementById("yourname");
 yourname1.textContent = yourname;
 const yourtitle1 = document.getElementById("yourtitle");
 yourtitle1.textContent = yourtitle;
+const campusname1 = document.getElementById("campusname");
+campusname1.textContent = campusname;
+
+
+
 
 </script>
 
