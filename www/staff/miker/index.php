@@ -3,6 +3,7 @@
 <head>
 
 <script src="data.js"></script>
+<script src="vCardFormatter"></script>
 <link rel="stylesheet" href="style.css">
 </head>
 
@@ -157,8 +158,34 @@ const twitter1 = document.getElementById("twitter");
 twitter1.href = twitter;
 const youtube1 = document.getElementById("youtube");
 youtube1.href = youtube;
+</script>
+
+<script>
+var vCardsJS = require('vcards-js');
+
+//create a new vCard
+var vCard = vCardsJS();
+
+//set properties
+vCard.firstName = 'Eric';
+vCard.middleName = 'J';
+vCard.lastName = 'Nesser';
+vCard.organization = 'ACME Corporation';
+vCard.photo.attachFromUrl('https://avatars2.githubusercontent.com/u/5659221?v=3&s=460', 'JPEG');
+vCard.workPhone = '312-555-1212';
+vCard.birthday = new Date(1985, 0, 1);
+vCard.title = 'Software Developer';
+vCard.url = 'https://github.com/enesser';
+vCard.note = 'Notes on Eric';
+
+//save to file
+vCard.saveToFile('./eric-nesser.vcf');
+
+//get as formatted string
+console.log(vCard.getFormattedString());
 
 
 </script>
+
 
 </html>
