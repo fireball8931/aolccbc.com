@@ -2,12 +2,27 @@
 
 <head>
 
+<!-- Data for Signature -->
+<script>
+var yourname = "Michael Ross" ;
+var yourtitle = "IT Facilitator" ;
+var website = "aolccbc.com" ;
+// var phone = "604-532-4040" ;
+// var campus = "Abbotsford Campus" ;
+// var campus = "Langley Campus" ;
+var campus = "Abbotsford & Langley Campuses"
+var phone = "604-855-3315" ;
+
+</script>
+
+
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="wisestamp_app banner" style="margin: 8px 8px 0 0; display: inline-block"> <a
-            href="http://www.academyoflearning.com" target="_blank"> <img moz-do-not-send="true" src="https://s3.amazonaws.com/ucwebapp.wisestamp.com/56cd8643-b36d-
+            href="http://www.academyoflearning.com" target="_blank"> 
+            <img moz-do-not-send="true" src="https://s3.amazonaws.com/ucwebapp.wisestamp.com/56cd8643-b36d-
 44ce-a409-7790b45559f9/academy_of_learning_logo.format_png.
 resize_470x.png" height="85" width="250"> </a> </div>
     <br><br>
@@ -23,7 +38,8 @@ table;margin: 8px 8px 8px 8px; text-align:initial;">
                         <tr>
                             <td colspan="2"><span style="line-height:
 15px;text-align:left;color: #9b929f; font-size:12px; font-family:
-arial, serif; font-weight:bold;">Your Name</span></td>
+arial, serif; font-weight:bold;" id="yourname">
+Your Name</span></td>
                         </tr>
                         <tr>
                             <td colspan="2"><span style="line-height:
@@ -123,5 +139,11 @@ gray; border-top: 1px solid gray; font-size: 13px">
         </div>
     </div>
 </body>
+<!-- Set Data -->
+<script>
+const header = document.getElementById("yourname");
+header.textContent = yourname;
+
+</script>
 
 </html>
