@@ -1,0 +1,29 @@
+{
+  "name": "brunch-with-pedro",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnmcosta/brunch-with-pedro.git"
+  },
+  "engines": {
+    "node": "~0.6.25 || 0.8 || 0.9"
+  },
+  "scripts": {
+    "start": "brunch watch --server",
+    "debug": "brunch build -d",
+    "build": "brunch build --production"
+  },
+  "dependencies": {
+    "jquery": "^3",
+    "bootstrap-sass": "latest",
+    "bootstrap-rtl": "latest"
+  },
+  "devDependencies": {
+    "assetsmanager-brunch": "latest",
+    "auto-reload-brunch": "latest",
+    "clean-css-brunch": "latest",
+    "sass-brunch": "latest",
+    "uglify-js-brunch": "latest",
+    "brunch-static": "latest",
+    "html-brunch-static": "latest"
+  }
+}
