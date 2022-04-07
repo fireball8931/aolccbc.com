@@ -6,7 +6,7 @@
  
 </head>
 <body>
-  <div w3-include-html="/navbar.php">
+  <div w3-include-html="/navbar.html">
   
   <div class='container'>
     <?php include('./indexcontent.html">
