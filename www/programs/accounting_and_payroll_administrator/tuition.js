@@ -12,12 +12,9 @@ var parameters = {
 }
 
 
-jQuery.get('dtuition.html', function(data) {
+jquery.get('dtuition.html', function(data) {
     document.getElementById('dtuition').innerHTML = OSREC.CurrencyFormatter.format(data, parameters);
     var internationaltuitionpreformatted = (data * 1.30); document.getElementById('ituition').innerHTML = OSREC.CurrencyFormatter.format(internationaltuitionpreformatted, parameters);
-
-
-
 });
 
 
