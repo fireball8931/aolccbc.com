@@ -1,5 +1,10 @@
 import("https://cdnjs.cloudflare.com/ajax/libs/currencyformatter.js/2.2.0/currencyFormatter.min.js")
-import("//code.jquery.com/jquery-3.5.1.min.js");
+var script = document.createElement('script');
+script.src = 'https://code.jquery.com/jquery-3.4.1.min.js';
+script.type = 'text/javascript';
+document.getElementsByTagName('head')[0].appendChild(script);
+
+
 var parameters = {
     currency: 'CAD', // If currency is not supplied, defaults to USD
     symbol: '$', // Overrides the currency's default symbol
