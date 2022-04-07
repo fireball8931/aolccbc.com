@@ -1,3 +1,5 @@
+del www/programs/images/compiled.html
+copy www/programs/images/*.html www/programs/images/compiled.html
 git add .
 git commit -m "Update"
 git push
