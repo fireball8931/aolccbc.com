@@ -8,7 +8,8 @@
     <title>Academy of Learning Career College - Abbotsford - Langley</title>
     <script src="/js/includes.js"></script>
     <div w3-include-html="/css.html"></div>
-
+    <link rel="stylesheet" href="custom.css">
+    <!-- <link rel="import" href="/css.html"> -->
 
 
 </head>
@@ -16,84 +17,6 @@
 <body>
     <div w3-include-html="/navbar.html"></div>
 
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-        
-        body {
-            background-color: #f1f1f1;
-            /* padding: 20px;*/
-            font-family: Arial;
-        }
-        /* Center website */
-        
-        .main {
-            max-width: 1000px;
-            margin: auto;
-        }
-        
-        h1 {
-            font-size: 50px;
-            word-break: break-all;
-        }
-        
-        .row {
-            margin: 8px -16px;
-        }
-        /* Add padding BETWEEN each column (if you want) */
-        
-        .row,
-        .row>.column {
-            padding: 8px;
-        }
-        /* Create three equal columns that floats next to each other */
-        
-        .column {
-            float: left;
-            width: 33.33%;
-            display: none;
-            /* Hide columns by default */
-        }
-        /* Clear floats after rows */
-        
-        .row:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-        /* Content */
-        
-        .content {
-            background-color: white;
-            padding: 10px;
-        }
-        /* The "show" class is added to the filtered elements */
-        
-        .show {
-            display: block;
-        }
-        /* Style the buttons */
-        
-        .slidesbtn {
-            border: none;
-            outline: none;
-            padding: 12px 16px;
-            background-color: white;
-            cursor: pointer;
-        }
-        /* Add a grey background color on mouse-over */
-        
-        .slidesbtn:hover {
-            background-color: #ddd;
-        }
-        /* Add a dark background color to the active button */
-        
-        .slidesbtn.active {
-            background-color: #666;
-            color: white;
-        }
-    </style>
 
     <h2>Programs</h2>
     <div id="myslidesbtnContainer">
@@ -176,9 +99,10 @@
 <script>
     includeHTML();
 
-    window.addEventListener('load', function () {
-        filterSelection("all"); // Execute the function and show all columns
-})
+   
+$(window).bind("load", function() {
+    filterSelection("all"); // Execute the function and show all columns
+});
 
 </script>
 
