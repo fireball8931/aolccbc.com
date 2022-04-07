@@ -1,44 +1,44 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html lang="en">
+
 <head>
-  <title>Academy of Learning</title><?php include($_SERVER['DOCUMENT_ROOT'].'/css.html'); ?>
-  <style>
+    <title>Academy of Learning</title>
+    <script src="/js/includes.js"></script>
+    <div w3-include-html="/css.html"></div>
+    <style>
         .col {
             margin-left: 1%;
             margin-right: 1%;
         }
-
+        
         table td {
             font-size: unset;
         }
-
+        
         table.center {
             margin-left: auto;
             margin-right: auto;
             font-size: medium;
         }
-
+        
         .blacktext {
             color: black;
-
-
         }
-
+        
         a {
             text-decoration: underline;
             color: black;
         }
-  </style>
+    </style>
 </head>
+
 <body>
-  <div class="container-flex center">
-    <img src="aolcclogo.png"
-         style="max-height: 150px;">
-    <h1>Full Program Listing</h1>
-    <p>Dear sir/madam,<br>
-    Please find following a copy of the programs currently offered at Academy of Learning Career College at our Langley and Abbotsford Campuses.<br></p>
-    <p>Kindly contact Michael Henderson at our Langley Campus at 604-532-4040 or <a href="mailto:admin.langley@aolccbc.com">admin.langley@aolccbc.com</a><br>
-    or Mary Ellen Olynuk at our Abbotsford Campus at 604-855-3315 or <a href="mailto:admin.abbotsford@aolccbc.com">admin.abbotsford@aolccbc.com</a></p>Click <a href="AOLCCBC_FullProgramListing.pdf">here</a> for a printable version. <?php
+    <div class="container-flex center">
+        <img src="aolcclogo.webp" style="max-height: 150px;">
+        <h1>Full Program Listing</h1>
+        <p>Dear sir/madam,<br> Please find following a copy of the programs currently offered at Academy of Learning Career College at our Langley and Abbotsford Campuses.<br></p>
+        <p>Kindly contact Michael Henderson at our Langley Campus at 604-532-4040 or <a href="mailto:admin.langley@aolccbc.com">admin.langley@aolccbc.com</a><br> or Mary Ellen Olynuk at our Abbotsford Campus at 604-855-3315 or <a href="mailto:admin.abbotsford@aolccbc.com">admin.abbotsford@aolccbc.com</a></p>Click
+        <a href="AOLCCBC_FullProgramListing.pdf">here</a> for a printable version.
+        <?php
 
     $row = 1;
     if (($handle = fopen("programs.csv", "r")) !== FALSE) {
@@ -79,11 +79,10 @@
         fclose($handle);
     }
     ?>
-    <div class="blacktext">
-      <h3>&ast;Diploma and Certificate Programs can be customized, courses may also be taken individually, please contact your Admissions Adviser for more information.</h3>
-      <p>Abbotsford &phone; <a href="tel:16048553315">604-855-3315</a></p>
-      <p>Langley &phone; <a href="tel:16045324040">604-532-4040</a></p>
+            <div class="blacktext">
+                <h3>&ast;Diploma and Certificate Programs can be customized, courses may also be taken individually, please contact your Admissions Adviser for more information.</h3>
+                <p>Abbotsford &phone; <a href="tel:16048553315">604-855-3315</a></p>
+                <p>Langley &phone; <a href="tel:16045324040">604-532-4040</a></p>
+            </div>
     </div>
-  </div>
-</body>
-</html>
+</body><script src="/js/endofbody.js"></script></html>

@@ -1,9 +1,9 @@
-<html>
+
     <head>
         <title>
             myAOLCC
         </title>
-        <?php include($_SERVER['DOCUMENT_ROOT'].'/css.html'); ?>
+        <script src="/js/includes.js"></script><div w3-include-html="/css.html"></div>
         <style>
             a {
                 color:black;

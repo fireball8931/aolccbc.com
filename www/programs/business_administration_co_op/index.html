@@ -1,9 +1,10 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html lang="en">
+
 
 <head>
     <title>Academy of Learning</title>
-    <?php include($_SERVER['DOCUMENT_ROOT'].'/css.html'); ?>
+    <script src="/js/includes.js"></script>
+    <div w3-include-html="/css.html"></div>
     <style>
         .col {
             margin-left: 1%;
@@ -13,14 +14,14 @@
 </head>
 
 <body>
-    <?php include($_SERVER['DOCUMENT_ROOT'].'/navbar.php'); ?>
-    <div class="container-flex center">
-        <h1>
-            <?php include('progtitle.html'); ?>
+    <div w3-include-html="/navbar.html">
+     </div>   <div class="container-flex center">
+            <h1>
+                <?php include('progtitle.html">
         </h1>
     </div>
     <div class="container-flex center">
-        <img src="program.jpg" />
+        <img src="program.webp" />
     </div>
 
 
@@ -33,7 +34,7 @@
             <div class="p-2">
                 <div class="container">
                     <h2>Admission Requirements</h2>
-                    <?php include('admitreq.html'); ?>
+                    <?php include('admitreq.html">
                 </div>
 
                
@@ -44,7 +45,7 @@
                     </div>
                     <div class="container">
 
-                        <?php include('careeropp.html'); ?>
+                        <?php include('careeropp.html">
                     </div>
                 </div>
             </div>
@@ -52,24 +53,22 @@
                 <div>
                     <div class="container">
 
-                        <?php include('programobjective.html'); ?>
+                        <?php include('programobjective.html">
                     </div>
                     <div class="container ">
                         <h2>CORE COURSES</h2>
                     </div>
                     <div class="container ">
                         <p>Upon completion of the program the participant must demonstrate the following core competencies:</p>
-                        <?php include('corecourses.html'); ?>
+                        <?php include('corecourses.html">
 
                     </div>
 
 
                 </div>
             </div>
-            <?php include('programdata.html'); ?>
+            <?php include('programdata.html">
         </div>
     </div>
-    <?php include($_SERVER['DOCUMENT_ROOT'].'/footer.php'); ?>
-</body>
-
-</html>
+    <div w3-include-html="/footer.html">
+</body><script src="/js/endofbody.js"></script></html>

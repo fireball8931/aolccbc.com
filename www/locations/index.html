@@ -1,10 +1,11 @@
-<!doctype html>
-<html>
+<!DOCTYPE html lang="en">
+
 
 <head>
     <meta charset="utf-8">
     <title>Locations</title>
-    <?php include($_SERVER['DOCUMENT_ROOT'].'/css.html'); ?>
+    <script src="/js/includes.js"></script>
+    <div w3-include-html="/css.html"></div>
     <style>
         a {
             color: black;
@@ -17,20 +18,19 @@
 </head>
 
 <body>
-    <?php include($_SERVER['DOCUMENT_ROOT'].'/navbar.php'); ?>
+    <div w3-include-html="/navbar.html"></div>
 
-    <h1>Locations</h1>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm">
-                <?php include('abbotsford.html'); ?>
+        <h1>Locations</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm">
+                    <div w3-include-html="abbotsford.html"></div>
+
             </div>
 
             <div class="col-sm">
-                <?php include('langley.html'); ?>
+                <div w3-include-html="langley.html"></div>
             </div>
         </div>
-    </div><?php include($_SERVER['DOCUMENT_ROOT'].'/footer.php'); ?>
-</body>
-
-</html>
+    </div><div w3-include-html="/footer.html"></div> 
+</body><script src="/js/endofbody.js"></script></html>

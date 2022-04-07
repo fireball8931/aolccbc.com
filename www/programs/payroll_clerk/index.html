@@ -1,180 +1,195 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html lang="en">
+
+
 <head>
-  <title>Academy of Learning</title><?php include($_SERVER['DOCUMENT_ROOT'].'/css.html'); ?>
-  <style>
+    <title>Academy of Learning</title>
+    <script src="/js/includes.js"></script>
+    <div w3-include-html="/css.html"></div>
+    <style>
         .col {
             margin-left: 1%;
             margin-right: 1%;
         }
-  </style>
+    </style>
 </head>
+
 <body>
-  <?php include($_SERVER['DOCUMENT_ROOT'].'/navbar.php'); ?>
-  <div class="container-flex center">
-    <h1><?php include('progtitle.html'); ?></h1>
-  </div>
-  <div class="container-flex center"><img src="program.jpg"></div>
-  <div class="container-flex program-info"
-       id="program-info"
-       style="margin-left:5%; margin-right: 5%;">
-    <div class="header lefthr">
-      <h1>Program Info:</h1>
-    </div>
-    <div class="d-flex flex-row">
-      <div class="p-2">
-        <div class="container">
-          <h2>Admission Requirements</h2><?php include('admitreq.html'); ?>
+    <div w3-include-html="/navbar.html">
+     </div>   <div class="container-flex center">
+            <h1>
+                <div w3-include-html="progtitle.html"></div>
+            </h1>
         </div>
-        <div class="container">
-          <h2>Program Highlights</h2>
+        <div class="container-flex center"><img src="program.webp"></div>
+        <div class="container-flex program-info" id="program-info" style="margin-left:5%; margin-right: 5%;">
+            <div class="header lefthr">
+                <h1>Program Info:</h1>
+            </div>
+            <div class="d-flex flex-row">
+                <div class="p-2">
+                    <div class="container">
+                        <h2>Admission Requirements</h2>
+                        <div w3-include-html="admitreq.html"></div>
+                    </div>
+                    <div class="container">
+                        <h2>Program Highlights</h2>
+                    </div>
+                    <div class="container">
+                        <div w3-include-html="programhighlights.html"></div>
+                    </div>
+                </div>
+                <div class="p-2">
+                    <div class="textleft">
+                        <div class="container">
+                            <h2>Career Opportunities</h2>
+                        </div>
+                        <div class="container">
+                            <div w3-include-html="careeropp.html"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="container">
+                            <h2>CORE COURSES</h2>
+                        </div>
+                        <div class="container">
+                            <p>Upon completion of the program the participant must demonstrate the following core competencies:</p>
+                            <div w3-include-html="corecourses.html"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 programdatacol">
+                    <div class="programdata">
+                        <div class="row">
+                            <div class="col">
+                                <strong>Program Type:</strong>
+                            </div>
+                            <div class="col">
+                                <div w3-include-html="programtype.html"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <strong>Anticipated Salary:</strong>
+                            </div>
+                            <div class="col">
+                                C$
+                                <div w3-include-html="salarystart.html"></div> &ndash; C$
+                                <div w3-include-html="salaryend.html"></div>
+                            </div>
+                        </div>
+                        <div class="row"></div>
+                        <div class="row">
+                            <div class="col">
+                                <strong>Program Duration:</strong>
+                            </div>
+                            <div class="col">
+                                Hours:
+                                <div w3-include-html="programhours.html"></div><br> Weeks Full-Time:
+                                <div w3-include-html="programduration.html"></div>
+                            </div>
+                        </div>
+                        <div class="row"></div>
+                        <div class="row">
+                            <div class="col-2" style="width:max-content;font-weight: bold;padding-right: 2%;">
+                                Tuition&nbsp;Fees:
+                            </div>
+                        </div>
+                        <div class="tuition">
+                            <div class="row">
+                                <div class="col">
+                                    <b>&nbsp;</b>
+                                </div>
+                                <div class="col colheader">
+                                    <b>Domestic</b>
+                                </div>
+                                <div class="col colheader">
+                                    <b>International</b>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col rowheader">
+                                    Tuition:
+                                </div>
+                                <div class="col tudata" id="dtuition"></div>
+                                <div class="col tudata" id="ituition"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col rowheader">
+                                    Application Fee:
+                                </div>
+                                <div class="col tudata">
+                                    $
+                                    <div w3-include-html="dapp.html">
+                                    </div>
+                                </div>
+                                <div class="col tudata">
+                                    $
+                                    <div w3-include-html="iapp.html">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col rowheader">
+                                    Assessment Fee:
+                                </div>
+                                <div class="col tudata">
+                                    $
+                                    <div w3-include-html="dassess.html">
+                                    </div>
+                                </div>
+                                <div class="col tudata">
+                                    $
+                                    <div w3-include-html="iassess.html">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col rowheader">
+                                    Other Fees:
+                                </div>
+                                <div class="col tudata">
+                                    $
+                                    <div w3-include-html="dother.html">
+                                    </div>
+                                </div>
+                                <div class="col tudata">
+                                    $
+                                    <div w3-include-html="iother.html">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Program Syllabus:
+                        <div w3-include-html="syllabuslink.html">
+                        </div>
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="container">
-          <?php include('programhighlights.html'); ?>
-        </div>
-      </div>
-      <div class="p-2">
-        <div class="textleft">
-          <div class="container">
-            <h2>Career Opportunities</h2>
-          </div>
-          <div class="container">
-            <?php include('careeropp.html'); ?>
-          </div>
-        </div>
-        <div>
-          <div class="container">
-            <h2>CORE COURSES</h2>
-          </div>
-          <div class="container">
-            <p>Upon completion of the program the participant must demonstrate the following core competencies:</p><?php include('corecourses.html'); ?>
-          </div>
-        </div>
-      </div>
-      <div class="p-2 programdatacol">
-        <div class="programdata">
-          <div class="row">
-            <div class="col">
-              <strong>Program Type:</strong>
-            </div>
-            <div class="col">
-              <?php include('programtype.html'); ?>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <strong>Anticipated Salary:</strong>
-            </div>
-            <div class="col">
-              C$<?php include('salarystart.html'); ?> &ndash; C$<?php include('salaryend.html'); ?>
-            </div>
-          </div>
-          <div class="row"></div>
-          <div class="row">
-            <div class="col">
-              <strong>Program Duration:</strong>
-            </div>
-            <div class="col">
-              Hours: <?php include('programhours.html'); ?><br>
-              Weeks Full-Time: <?php include('programduration.html'); ?>
-            </div>
-          </div>
-          <div class="row"></div>
-          <div class="row">
-            <div class="col-2"
-                 style="width:max-content;font-weight: bold;padding-right: 2%;">
-              Tuition&nbsp;Fees:
-            </div>
-          </div>
-          <div class="tuition">
-            <div class="row">
-              <div class="col">
-                <b>&nbsp;</b>
-              </div>
-              <div class="col colheader">
-                <b>Domestic</b>
-              </div>
-              <div class="col colheader">
-                <b>International</b>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col rowheader">
-                Tuition:
-              </div>
-              <div class="col tudata"
-                   id="dtuition"></div>
-              <div class="col tudata"
-                   id="ituition"></div>
-            </div>
-            <div class="row">
-              <div class="col rowheader">
-                Application Fee:
-              </div>
-              <div class="col tudata">
-                $<?php include('dapp.html'); ?>
-              </div>
-              <div class="col tudata">
-                $<?php include('iapp.html'); ?>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col rowheader">
-                Assessment Fee:
-              </div>
-              <div class="col tudata">
-                $<?php include('dassess.html'); ?>
-              </div>
-              <div class="col tudata">
-                $<?php include('iassess.html'); ?>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col rowheader">
-                Other Fees:
-              </div>
-              <div class="col tudata">
-                $<?php include('dother.html'); ?>
-              </div>
-              <div class="col tudata">
-                $<?php include('iother.html'); ?>
-              </div>
-            </div>
-          </div>
-        </div>
-        <p>Program Syllabus: <?php include('syllabuslink.html'); ?></p>
-      </div>
-    </div>
-  </div><?php include($_SERVER['DOCUMENT_ROOT'].'/footer.php'); ?>
-  <script crossorigin="anonymous"
-        integrity="sha512-zaNuym1dVrK6sRojJ/9JJlrMIB+8f9IdXGzsBQltqTElXpBHZOKI39OP+bjr8WnrHXZKbJFdOKLpd5RnPd4fdg=="
-        referrerpolicy="no-referrer"
-        src="https://cdnjs.cloudflare.com/ajax/libs/currencyformatter.js/2.2.0/currencyFormatter.min.js"></script> 
-  <script>
+        <div w3-include-html="/footer.html">
+            <script crossorigin="anonymous" integrity="sha512-zaNuym1dVrK6sRojJ/9JJlrMIB+8f9IdXGzsBQltqTElXpBHZOKI39OP+bjr8WnrHXZKbJFdOKLpd5RnPd4fdg==" referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/currencyformatter.js/2.2.0/currencyFormatter.min.js"></script>
+            <script>
+                var parameters = {
+                    currency: 'CAD', // If currency is not supplied, defaults to USD
+                    symbol: '$', // Overrides the currency's default symbol
+                    locale: 'en', // Overrides the currency's default locale (see supported locales)
+                    decimal: '.', // Overrides the locale's decimal character
+                    group: ',', // Overrides the locale's group character (thousand separator)
+                    pattern: '!#,##0' // Overrides the locale's default display pattern
+
+                    // The pattern follows standard unicode currency pattern notation.
+                    // comma = group separator, dot = decimal separator, exclamation = currency symbol
+                }
 
 
-
-    var parameters =
-  {
-        currency:       'CAD',                  // If currency is not supplied, defaults to USD
-        symbol:         '$',                    // Overrides the currency's default symbol
-        locale:         'en',                   // Overrides the currency's default locale (see supported locales)
-        decimal:        '.',                    // Overrides the locale's decimal character
-        group:          ',',                    // Overrides the locale's group character (thousand separator)
-        pattern:        '!#,##0'                // Overrides the locale's default display pattern
-
-        // The pattern follows standard unicode currency pattern notation.
-        // comma = group separator, dot = decimal separator, exclamation = currency symbol
-  }
-
-
-    data = <?php include('dtuition.html'); ?> ;
-    document.getElementById('dtuition').innerHTML = OSREC.CurrencyFormatter.format(data, parameters);
-    var internationaltuitionpreformatted = (data*1.30);
-    document.getElementById('ituition').innerHTML = OSREC.CurrencyFormatter.format(internationaltuitionpreformatted, parameters);
-
-
-
-  </script>
+                data = << ? php include('dtuition.html"> ;
+                        document.getElementById('dtuition').innerHTML = OSREC.CurrencyFormatter.format(data, parameters);
+                        var internationaltuitionpreformatted = (data * 1.30); document.getElementById('ituition').innerHTML = OSREC.CurrencyFormatter.format(internationaltuitionpreformatted, parameters);
+            </script>
 </body>
+<script>
+    includeHTML();
+</script>
+
 </html>

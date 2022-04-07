@@ -1,16 +1,16 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html lang="en">
+
 <head>
   <meta charset="utf-">
-  <title>System Requirements</title><?php include($_SERVER['DOCUMENT_ROOT'].'/css.html'); ?>
+  <title>System Requirements</title><script src="/js/includes.js"></script><div w3-include-html="/css.html"></div>
  
 </head>
 <body>
-  <?php include($_SERVER['DOCUMENT_ROOT'].'/navbar.php'); ?>
+  <div w3-include-html="/navbar.html">
   
   <div class='container'>
-    <?php include('./indexcontent.html'); ?>
+    <?php include('./indexcontent.html">
   </div>
-  <?php include($_SERVER['DOCUMENT_ROOT'].'/footer.php'); ?>
+  <div w3-include-html="/footer.html">
 </body>
 </html>

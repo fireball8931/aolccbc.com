@@ -1,4 +1,4 @@
-<html>
+
 
 <head>
 
@@ -12,7 +12,7 @@
             href="http://www.aolccbc.com" target="_blank"> 
             <img moz-do-not-send="true" src="https://s3.amazonaws.com/ucwebapp.wisestamp.com/56cd8643-b36d-
 44ce-a409-7790b45559f9/academy_of_learning_logo.format_png.
-resize_470x.png" height="85" width="250"> </a> </div>
+resize_470x.webp" height="85" width="250"> </a> </div>
     <br><br>
     <div style="max-width:600px;  direction: ltr; " class="main_html
 date__2016_04_15___16_39">
