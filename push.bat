@@ -1,5 +1,7 @@
-del www\programs\compiled.html
-type www\programs\images\*.html >> www\programs\compiled.html
+del www\programs\indexfiles\b.html
+type www\programs\images\*.html >> www\programs\indexfiles\b.html
+del www\programs\index.html
+type www\programs\indexfiles\*.html >> www\programs\index.html
 git add .
 git commit -m "Update"
 git push
