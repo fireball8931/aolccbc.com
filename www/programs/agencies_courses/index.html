@@ -1,38 +1,38 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html lang="en">
+
 
 <head>
     <title>Academy of Learning</title>
-    <?php include($_SERVER['DOCUMENT_ROOT'].'/css.html'); ?>
+    <script src="/js/includes.js"></script>
+    <div w3-include-html="/css.html"></div>
     <style>
         .col {
             margin-left: 1%;
             margin-right: 1%;
         }
-
+        
         table td {
             font-size: unset;
         }
-
+        
         table.center {
             margin-left: auto;
             margin-right: auto;
             font-size: medium;
         }
-
+        
         .blacktext {
             color: black;
-
-
         }
-
+        
         a {
             text-decoration: underline;
             color: black;
         }
+        
         tr:nth-child(even) {
             background-color: green;
-            color:white;
+            color: white;
         }
     </style>
 </head>
@@ -43,18 +43,14 @@
 
 
     <div class="container-flex center">
-        <img style="max-height: 150px;" src="aolcclogo.png" />
+        <img style="max-height: 150px;" src="aolcclogo.webp" />
         <h1>Individual course prices</h1>
 
         <p>
             Dear sir/madam,
-            <br />
-            Please find following a copy of the courses currently offered at Academy of Learning Career College at our 
-            Langley and Abbotsford Campuses. <br />
-            
-            Our Abbotsford and Langley campuses do not charge any administration and registration fees on individual courses.<br />  
-            Administration and Registration fees are included on Advanced Certificates and Diploma programs.<br />  
-            For more information on course customization and programs, please contact our Admissions Coordinators at 604-532-4040 in Langley and 604-855-3315 in Abbotsford
+            <br /> Please find following a copy of the courses currently offered at Academy of Learning Career College at our Langley and Abbotsford Campuses. <br /> Our Abbotsford and Langley campuses do not charge any administration and registration
+            fees on individual courses.<br /> Administration and Registration fees are included on Advanced Certificates and Diploma programs.<br /> For more information on course customization and programs, please contact our Admissions Coordinators
+            at 604-532-4040 in Langley and 604-855-3315 in Abbotsford
         </p>
         </p>
 
@@ -99,9 +95,12 @@ if (($handle = fopen("programs.csv", "r")) !== FALSE) {
     fclose($handle);
 }
 ?>
-        
-        </div>
+
+    </div>
 
 </body>
+<script>
+    includeHTML();
+</script>
 
 </html>

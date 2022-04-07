@@ -1,9 +1,10 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html lang="en">
+
 
 <head>
     <title>Academy of Learning</title>
-    <?php include($_SERVER['DOCUMENT_ROOT'].'/css.html'); ?>
+    <script src="/js/includes.js"></script>
+    <div w3-include-html="/css.html"></div>
     <style>
         .col {
             margin-left: 1%;
@@ -13,14 +14,14 @@
 </head>
 
 <body>
-    <?php include($_SERVER['DOCUMENT_ROOT'].'/navbar.php'); ?>
-    <div class="container-flex center">
-        <h1>
-            <?php include('progtitle.html'); ?>
+    <div w3-include-html="/navbar.php">
+     </div>   <div class="container-flex center">
+            <h1>
+                <?php include('progtitle.html">
         </h1>
     </div>
     <div class="container-flex center">
-        <img src="program.jpg" />
+        <img src="program.webp" />
     </div>
 
 
@@ -33,13 +34,13 @@
             <div class="p-2">
                 <div class="container">
                     <h2>Admission Requirements</h2>
-                    <?php include('admitreq.html'); ?>
+                    <?php include('admitreq.html">
                 </div>
                 <div class="container">
                     <h2>Program Highlights</h2>
                 </div>
                 <div class="container">
-                    <?php include('programhighlights.html'); ?>
+                    <?php include('programhighlights.html">
                 </div>
             </div>
             <div class="p-2">
@@ -49,7 +50,7 @@
                     </div>
                     <div class="container">
 
-                        <?php include('careeropp.html'); ?>
+                        <?php include('careeropp.html">
                     </div>
                 </div>
                 <div>
@@ -58,7 +59,7 @@
                     </div>
                     <div class="container ">
                         <p>Upon completion of the program the participant must demonstrate the following core competencies:</p>
-                        <?php include('corecourses.html'); ?>
+                        <?php include('corecourses.html">
 
                     </div>
 
@@ -70,15 +71,15 @@
                     <div class="row ">
                         <div class="col "><strong>Program Type:</strong></div>
                         <div class="col ">
-                            <?php include('programtype.html'); ?>
+                            <?php include('programtype.html">
                         </div>
                     </div>
                     <div class="row " style="white-space: nowrap; ">
                         <div class="col " style="white-space: nowrap; "><strong>
         Anticipated salary:</strong></div>
                         <div class="col " style="white-space: nowrap; ">C$
-                            <?php include('salarystart.html'); ?> – C$
-                            <?php include('salaryend.html'); ?>
+                            <?php include('salarystart.html"> – C$
+                            <?php include('salaryend.html">
                         </div>
                     </div>
                     <div class="row ">(Information from PayScale Canada)</div>
@@ -86,7 +87,7 @@
                         <div class="col "><strong>
             Program Duration:</strong></div>
                         <div class="col ">
-                            <?php include('programduration.html'); ?> Weeks</div>
+                            <?php include('programduration.html"> Weeks</div>
                     </div>
                     <div class="row ">
                         <div class="col "><strong>
@@ -98,16 +99,14 @@
                         <div class="col "><strong>
             Program Category:</strong></div>
                         <div class="col ">
-                            <?php include('category.html'); ?>
+                            <?php include('category.html">
                         </div>
                     </div>
                 </div>
                 Program Syllabus:
-                <?php include('syllabuslink.html'); ?>
+                <?php include('syllabuslink.html">
             </div>
         </div>
     </div>
 
-</body>
-
-</html>
+</body><script src="/js/endofbody.js"></script></html>

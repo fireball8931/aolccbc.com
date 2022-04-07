@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="//aolccbc.com/"><img src='/images/logo-dark.png'></a>
+        <a class="navbar-brand" href="/"><img src='/images/logo-dark.webp'></a>
 <div class="dropdown">
         <button 
           class="btn btn-primary dropdown-toggle"
@@ -40,7 +40,7 @@
         <div class="collapse navbar-collapse" id="navbarToggler">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/programs">Programs</a>

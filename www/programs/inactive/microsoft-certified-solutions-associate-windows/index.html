@@ -1,9 +1,10 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html lang="en">
+
 
 <head>
     <title>Academy of Learning</title>
-    <?php include($_SERVER['DOCUMENT_ROOT'].'/css.html'); ?>
+    <script src="/js/includes.js"></script>
+    <div w3-include-html="/css.html"></div>
     <style>
         .col {
             margin-left: 1%;
@@ -13,14 +14,14 @@
 </head>
 
 <body>
-    <?php include($_SERVER['DOCUMENT_ROOT'].'/navbar.php'); ?>
-    <div class="container-flex center">
-        <h1>
-            <?php include('progtitle.html'); ?>
+    <div w3-include-html="/navbar.php">
+     </div>   <div class="container-flex center">
+            <h1>
+                <?php include('progtitle.html">
         </h1>
     </div>
     <div class="container-flex center">
-        <img src="program.jpg" />
+        <img src="program.webp" />
     </div>
 
 
@@ -33,13 +34,13 @@
             <div class="p-2">
                 <div class="container">
                     <h2>Admission Requirements</h2>
-                    <?php include('admitreq.html'); ?>
+                    <?php include('admitreq.html">
                 </div>
                 <div class="container">
                     <h2>Program Highlights</h2>
                 </div>
                 <div class="container">
-                    <?php include('programhighlights.html'); ?>
+                    <?php include('programhighlights.html">
                 </div>
             </div>
             <div class="p-2">
@@ -49,7 +50,7 @@
                     </div>
                     <div class="container">
 
-                        <?php include('careeropp.html'); ?>
+                        <?php include('careeropp.html">
                     </div>
                 </div>
                 <div>
@@ -58,7 +59,7 @@
                     </div>
                     <div class="container ">
                         <p>Upon completion of the program the participant must demonstrate the following core competencies:</p>
-                        <?php include('corecourses.html'); ?>
+                        <?php include('corecourses.html">
 
                     </div>
 
@@ -72,7 +73,7 @@
                       <strong>Program Type:</strong>
                     </div>
                     <div class="col">
-                      <?php include('programtype.html'); ?>
+                      <?php include('programtype.html">
                     </div>
                   </div>
                   <div class="row">
@@ -80,7 +81,7 @@
                       <strong>Anticipated Salary:</strong>
                     </div>
                     <div class="col">
-                      C$<?php include('salarystart.html'); ?> &ndash; C$<?php include('salaryend.html'); ?>
+                      C$<?php include('salarystart.html"> &ndash; C$<?php include('salaryend.html">
                     </div>
                   </div>
                   <div class="row"></div>
@@ -89,8 +90,8 @@
                       <strong>Program Duration:</strong>
                     </div>
                     <div class="col">
-                      Hours: <?php include('programhours.html'); ?> <br>
-                      Weeks Full-Time: <?php include('programduration.html'); ?>
+                      Hours: <?php include('programhours.html"> <br>
+                      Weeks Full-Time: <?php include('programduration.html">
                     </div>
                   </div>
                   <div class="row"></div>
@@ -117,10 +118,10 @@
                         Tuition:
                       </div>
                       <div class="col tudata">
-                        $<?php include('dtuition.html'); ?>
+                        $<?php include('dtuition.html">
                       </div>
                       <div class="col tudata">
-                        $<?php include('ituition.html'); ?>
+                        $<?php include('ituition.html">
                       </div>
                     </div>
                     <div class="row">
@@ -128,10 +129,10 @@
                         Application Fee:
                       </div>
                       <div class="col tudata">
-                        $<?php include('dapp.html'); ?>
+                        $<?php include('dapp.html">
                       </div>
                       <div class="col tudata">
-                        $<?php include('iapp.html'); ?>
+                        $<?php include('iapp.html">
                       </div>
                     </div>
                     <div class="row">
@@ -139,10 +140,10 @@
                         Assessment Fee:
                       </div>
                       <div class="col tudata">
-                        $<?php include('dassess.html'); ?>
+                        $<?php include('dassess.html">
                       </div>
                       <div class="col tudata">
-                        $<?php include('iassess.html'); ?>
+                        $<?php include('iassess.html">
                       </div>
                     </div>
                     <div class="row">
@@ -150,22 +151,21 @@
                         Other Fees:
                       </div>
                       <div class="col tudata">
-                        $<?php include('dother.html'); ?>
+                        $<?php include('dother.html">
                       </div>
                       <div class="col tudata">
-                        $<?php include('iother.html'); ?>
+                        $<?php include('iother.html">
                       </div>
                     </div>
                   </div>
                 </div> <p>
                 Program Syllabus:
-                <?php include('syllabuslink.html'); ?></p>
+                <div w3-include-html="syllabuslink.html">
+              </div></p>
               </div>
              
             </div>
         </div>
     </div>
 
-</body>
-
-</html>
+</body><script src="/js/endofbody.js"></script></html>

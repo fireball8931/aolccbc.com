@@ -1,13 +1,13 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html lang="en">
+
 <head>
   <meta charset="utf-">
-  <title>Campus Policies</title><?php include($_SERVER['DOCUMENT_ROOT'].'/css.html'); ?>
+  <title>Campus Policies</title><script src="/js/includes.js"></script><div w3-include-html="/css.html"></div>
 </head>
 <body>
-  <?php include($_SERVER['DOCUMENT_ROOT'].'/navbar.php'); ?>
+  <div w3-include-html="/navbar.php">
   <div class='container'>
-    <?php include('./sexual-harassment.html'); ?>
+    <?php include('./sexual-harassment.html">
   </div>
 </body>
 </html>

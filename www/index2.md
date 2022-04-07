@@ -1,3 +1,0 @@
-% Academy of Learning
-
-# Hello
