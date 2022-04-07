@@ -1,5 +1,5 @@
 del www\programs\compiled.html
-copy www\programs\images\*.html www\programs\compiled.html
+type www\programs\images\*.html >> www\programs\compiled.html
 git add .
 git commit -m "Update"
 git push
