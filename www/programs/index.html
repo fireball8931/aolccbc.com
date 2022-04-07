@@ -111,11 +111,7 @@
     <!--Gallery Grid-->
     <div class="row">
 
-        <?php 
-        foreach (glob("images/*.html") as $filename)
-        {
-            include $filename;
-         } ?>
+        <div w3-include-html="compiled.html"></div>
 
         <script>
             filterSelection("all") // Execute the function and show all columns
