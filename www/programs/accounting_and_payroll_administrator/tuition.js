@@ -1,8 +1,5 @@
 import("https://cdnjs.cloudflare.com/ajax/libs/currencyformatter.js/2.2.0/currencyFormatter.min.js")
-var script = document.createElement('script');
-script.src = 'https://code.jquery.com/jquery-3.4.1.min.js';
-script.type = 'text/javascript';
-document.getElementsByTagName('head')[0].appendChild(script);
+import * from "https://code.jquery.com/jquery-3.4.1.min.js" as jQuery;
 
 
 var parameters = {
