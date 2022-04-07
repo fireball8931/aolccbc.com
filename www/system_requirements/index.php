@@ -11,6 +11,6 @@
   <div class='container'>
     <?php include('./indexcontent.html">
   </div>
-  <div w3-include-html="/footer.html">
+  <div w3-include-html="/footer.html"></div>
 </body>
 </html>
