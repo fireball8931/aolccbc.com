@@ -2,7 +2,7 @@
 
 <head>
   <meta charset="utf-">
-  <title>System Requirements</title><script src="/js/includes.js"></script><div w3-include-html="/css.html"></div>
+  <title>System Requirements</title><script src="/js/includes.js"></script><div w3-include-html="/js/js_includes.html"></div>
  
 </head>
 <body>
