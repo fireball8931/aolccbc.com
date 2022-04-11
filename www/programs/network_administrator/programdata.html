@@ -5,7 +5,7 @@
                 <strong>Program Type:</strong>
             </div>
             <div class="col">
-                <div w3-include-html="programtype.html"></div>
+                <?php include('programtype.html">
         </div>
       </div>
       <div class="row">
@@ -13,7 +13,7 @@
           <strong>Anticipated Salary:</strong>
         </div>
         <div class="col">
-          C$<div w3-include-html="salarystart.html"></div> &ndash; C$<div w3-include-html="salaryend.html"></div>
+          C$<?php include('salarystart.html"> &ndash; C$<?php include('salaryend.html">
         </div>
       </div>
       <div class="row"></div>
@@ -22,10 +22,11 @@
           <strong>Program Duration:</strong>
         </div>
         <div class="col">
-          Hours: <div w3-include-html="programhours.html"></div> <br>
-          Weeks Full-Time: <div w3-include-html="programduration.html"></div>
+          Hours: <?php include('programhours.html"> <br>
+          Weeks Full-Time: <?php include('programduration.html">
         </div>
       </div>
+      
       <div class="row"></div>
       <div class="row">
         <div class="col-2"
@@ -34,6 +35,11 @@
         </div>
       </div>
       <div class="tuition">
+        <div class="row">
+          <div class="col">
+            <h2>Year 1</h2>
+          </div>
+        </div>
         <div class="row">
           <div class="col">
             <b>&nbsp;</b>
@@ -50,10 +56,10 @@
             Tuition:
           </div>
           <div class="col tudata">
-            $<div w3-include-html="dtuition.html"></div>
+            $<?php include('dtuition.html">
           </div>
           <div class="col tudata">
-            $<div w3-include-html="ituition.html"></div>
+            $<?php include('ituition.html">
           </div>
         </div>
         <div class="row">
@@ -61,10 +67,10 @@
             Application Fee:
           </div>
           <div class="col tudata">
-            $<div w3-include-html="dapp.html"></div>
+            $<?php include('dapp.html">
           </div>
           <div class="col tudata">
-            $<div w3-include-html="iapp.html"></div>
+            $<?php include('iapp.html">
           </div>
         </div>
         <div class="row">
@@ -72,21 +78,85 @@
             Assessment Fee:
           </div>
           <div class="col tudata">
-            $<div w3-include-html="dassess.html"></div>
+            $<?php include('dassess.html">
           </div>
           <div class="col tudata">
-            $<div w3-include-html="iassess.html"></div>
+            $<?php include('iassess.html">
           </div>
         </div>
         <div class="row">
           <div class="col rowheader">
-            Other Fees:
+            Administration Fee:
           </div>
           <div class="col tudata">
-            $<div w3-include-html="dother.html"></div>
+            $<?php include('dother.html">
           </div>
           <div class="col tudata">
-            $<div w3-include-html="iother.html"></div>
+            $<?php include('iother.html">
+          </div>
+        </div>
+      </div>
+      <div class="tuition">
+        <div class="row">
+          <div class="col">
+            <h2>Year 2</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <b>&nbsp;</b>
+          </div>
+          <div class="col colheader">
+            <b>Domestic</b>
+          </div>
+          <div class="col colheader">
+            <b>International</b>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col rowheader">
+            Tuition:
+          </div>
+          <div class="col tudata">
+            $<?php include('dtuition2.html">
+          </div>
+          <div class="col tudata">
+            $<?php include('ituition2.html">
+          </div>
+        </div>
+        
+        
+        <div class="row">
+          <div class="col rowheader">
+            Application Fee:
+          </div>
+          <div class="col tudata">
+            $<?php include('dapp.html">
+          </div>
+          <div class="col tudata">
+            $<?php include('iapp.html">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col rowheader">
+            Assessment Fee:
+          </div>
+          <div class="col tudata">
+            $<?php include('dassess.html">
+          </div>
+          <div class="col tudata">
+            $<?php include('iassess.html">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col rowheader">
+            Administration Fee:
+          </div>
+          <div class="col tudata">
+            $<?php include('dother.html">
+          </div>
+          <div class="col tudata">
+            $<?php include('iother.html">
           </div>
         </div>
       </div>

@@ -1,11 +1,10 @@
-<!DOCTYPE html> <html lang="en">
+<!DOCTYPE html lang="en">
 
 
 <head>
     <title>Academy of Learning</title>
     <script src="/js/includes.js"></script>
-    <link href="/css/style.min.css" rel="stylesheet" type="text/css">
-    <div w3-include-html="/js/js_includes.html"></div>
+    <div w3-include-html="/css.html"></div>
     <style>
         .col {
             margin-left: 1%;
@@ -16,10 +15,9 @@
 
 <body>
     <div w3-include-html="/navbar.html">
-    </div>
-    <div class="container-flex center">
-        <h1>
-            <?php include('progtitle.html">
+     </div>   <div class="container-flex center">
+            <h1>
+                <?php include('progtitle.html">
         </h1>
     </div>
     <div class="container-flex center">
@@ -75,7 +73,7 @@
                       <strong>Program Type:</strong>
                     </div>
                     <div class="col">
-                      <div w3-include-html="programtype.html"></div>
+                      <?php include('programtype.html">
                     </div>
                   </div>
                   <div class="row">
@@ -83,7 +81,7 @@
                       <strong>Anticipated Salary:</strong>
                     </div>
                     <div class="col">
-                      C$<div w3-include-html="salarystart.html"></div> &ndash; C$<div w3-include-html="salaryend.html"></div>
+                      C$<?php include('salarystart.html"> &ndash; C$<?php include('salaryend.html">
                     </div>
                   </div>
                   <div class="row"></div>
@@ -92,8 +90,8 @@
                       <strong>Program Duration:</strong>
                     </div>
                     <div class="col">
-                      Hours: <div w3-include-html="programhours.html"></div> <br>
-                      Weeks Full-Time: <div w3-include-html="programduration.html"></div>
+                      Hours: <?php include('programhours.html"> <br>
+                      Weeks Full-Time: <?php include('programduration.html">
                     </div>
                   </div>
                   <div class="row"></div>
@@ -120,10 +118,10 @@
                         Tuition:
                       </div>
                       <div class="col tudata">
-                        $<div w3-include-html="dtuition.html"></div>
+                        $<?php include('dtuition.html">
                       </div>
                       <div class="col tudata">
-                        $<div w3-include-html="ituition.html"></div>
+                        $<?php include('ituition.html">
                       </div>
                     </div>
                     <div class="row">
@@ -131,10 +129,10 @@
                         Application Fee:
                       </div>
                       <div class="col tudata">
-                        $<div w3-include-html="dapp.html"></div>
+                        $<?php include('dapp.html">
                       </div>
                       <div class="col tudata">
-                        $<div w3-include-html="iapp.html"></div>
+                        $<?php include('iapp.html">
                       </div>
                     </div>
                     <div class="row">
@@ -142,10 +140,10 @@
                         Assessment Fee:
                       </div>
                       <div class="col tudata">
-                        $<div w3-include-html="dassess.html"></div>
+                        $<?php include('dassess.html">
                       </div>
                       <div class="col tudata">
-                        $<div w3-include-html="iassess.html"></div>
+                        $<?php include('iassess.html">
                       </div>
                     </div>
                     <div class="row">
@@ -153,10 +151,10 @@
                         Other Fees:
                       </div>
                       <div class="col tudata">
-                        $<div w3-include-html="dother.html"></div>
+                        $<?php include('dother.html">
                       </div>
                       <div class="col tudata">
-                        $<div w3-include-html="iother.html"></div>
+                        $<?php include('iother.html">
                       </div>
                     </div>
                   </div>

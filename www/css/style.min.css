@@ -1,10 +1,11 @@
 /* Imports*/
-
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css");
 @import url("//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
 @import url("//fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+
+
 img {
     max-width: 100%;
 }
@@ -36,7 +37,6 @@ a:hover {
     color: #fff;
     box-sizing: unset;
     max-width: fit-content;
-    max-width: -moz-fit-content;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 5px
@@ -244,7 +244,6 @@ hr {
     float: none;
     box-sizing: content-box;
     max-width: fit-content;
-    max-width: -moz-fit-content;
     margin: 0 auto;
     padding: 5px 10px;
     color: #fff;
@@ -747,14 +746,12 @@ hr {
 .programdata {
     border-style: groove;
     margin-right: 5%;
+    
     max-height: fit-content;
-    max-height: -moz-fit-content;
 }
-
 .programdatacol {
     min-width: 40%;
 }
-
 .textleft-ul-li li {
     padding-inline-start: 1px;
     margin-left: 1%;
@@ -766,53 +763,43 @@ hr {
     margin-left: 1%;
     margin-top: 10px;
 }
-
 table td {
-    font-size: unset !important;
+    font-size:unset !important;
 }
-
 footer {
-    background: rgb(52, 58, 64);
-    font-family: lato, sans-serif;
-    color: white;
-    text-align: center;
-    margin-left: 0px;
+    background:rgb(52, 58, 64);
+    font-family:lato, sans-serif;
+    color:white;
+    text-align:center;
+    margin-left:0px;
+    
 }
-
 footer table {
-    width: 100%;
+    width:100%;
+  
 }
-
 footer td {
-    text-align: left;
-    vertical-align: top;
+    text-align:left;
+    
+    vertical-align:top;
 }
-
-.programdata .col,
-.programdata .col-2,
-.programdata .row {
+.programdata .col,.programdata .col-2,.programdata .row {
+    
     white-space: nowrap;
-    /* float: left; */
-display: flex;flex-wrap: wrap;flex-direction: row;align-content: center;justify-content: flex-end;align-items: flex-end;}
-
+}
 .programdata .colheader {
-    font-weight: bold;
-    flex-wrap: nowrap;
-    white-space: nowrap;
-}
 
+    font-weight: bold;
+    flex-wrap:nowrap;
+    white-space: nowrap;
+
+}
 .tuition {
     text-align: center;
 }
-
 .rowheader {
     text-align: right;
 }
-
 .tudata {
     text-align: left;
-}
-
-.inline {
-    display: inline-block;
 }

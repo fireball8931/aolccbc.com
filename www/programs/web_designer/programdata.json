@@ -1,0 +1,19 @@
+{
+    "programname": "Web Designer",
+    "admitreq": "<p>Grade 12 or equivalent or Mature Student Status.<\/p> <p>Courses are open to any applicant who possesses a good command of the English language and is able to follow instructions.<\/p> <p>An admissions interview will be administered to determine if the applicant has the required interest, motivation, and entry level skills to take this program.<\/p> <p>Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them.<\/p> <p>Part-time students may set their own schedules to a minimum of two training sessions per week. These times may be scheduled during the day, evening, or on weekends<\/p>",
+    "programhighlights": "<p> This program provides students with the necessary skills and knowledge to build a web design foundation, learn industry-standard software programs, and produce a well-rounded and exciting portfolio. Students learn how to plan and design compelling and interactive websites and learn to use industry-related programs, such as Adobe Photoshop, Illustrator, Dreamweaver, and Animate, for website designs. Students will also explore HTML and CSS for web publishing alongside essential topics, such as accessibility standards, color, typography, and composition, as well as dig into PHP and WordPress development. Web Design graduates develop a professional design process for building a website from concept to launch. <\/p>",
+    "careeropp": "<p>Recent studies indicate that strong growth in web design jobs, particularly in the consulting sector, is expected over the next few years. Career opportunities that will allow students to communicate and captivate with the skills learned in this program include:<\/p> <ul> <li>Web Designer<\/li> <li>Internet Site Designer<\/li> <li>Website Developer<\/li> <li>Intranet Site Designer<\/li> <\/ul>",
+    "corecourses": "<p>Upon completion of the program the participant must demonstrate the following core competencies:<\/p> <ul class=\"textleft\"> <li class=\"textleft-ul-li\">Keyboarding<br /> Minimum 25 words per minute (WPM).<\/li> <li class=\"textleft-ul-li\">Operating Systems<br /> Basic level of proficiency in a Windows operating system<\/li> <li class=\"textleft-ul-li\">Word Processing<br /> Basic level of proficiency in Microsoft Word<\/li> <li class=\"textleft-ul-li\">Office Skills<br /> Internet Fundamentals, Personal Computer Fundamentals for Technical Users, and basis level of proficiency in Microsoft Outlook<\/li> <li class=\"textleft-ul-li\">Business Skills<br /> Workplace Success/Intrapreneurship, Marketing and Sales, and Customer Service<\/li> <li class=\"textleft-ul-li\">Web Design<br /> Introduction to Web Design, Web 101, HTML and CSS Essentials, Color Theory, Fundamentals of Typography, Dreamweaver 1 and 2, Information Design, Animate, JavaScript for Designers, Web Design 1, Dynamic Web Development with PHP, WordPress Development, Web Practical Simulation, and Web Portfolio Design<\/li> <li class=\"textleft-ul-li\">Graphics/Presentation<br /> Photoshop Basics and Illustrator Basics<\/li> <li class=\"textleft-ul-li\">Job Readiness/Employability Skills<br /> Job Search and Résumé Writing and Thought Patterns for a Successful Career<\/li> <\/ul>",
+    "programtype": "Diploma",
+    "salarystart": 33516,
+    "salaryend": 76895,
+    "programhours": 1084,
+    "programduration": 51,
+    "domestic_fees": [{
+        "tuition": 17114,
+        "application": 250,
+        "assessment": 100,
+        "other": 4
+    }],
+    "syllabuslink": "BC-Final-Web-Designer-Outline.pdf"
+}

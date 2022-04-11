@@ -1,11 +1,10 @@
-<!DOCTYPE html> <html lang="en">
+<!DOCTYPE html lang="en">
 
 
 <head>
     <title>Academy of Learning</title>
     <script src="/js/includes.js"></script>
-    <link href="/css/style.min.css" rel="stylesheet" type="text/css">
-    <div w3-include-html="/js/js_includes.html"></div>
+    <div w3-include-html="/css.html"></div>
     <style>
         .col {
             margin-left: 1%;
@@ -16,10 +15,9 @@
 
 <body>
     <div w3-include-html="/navbar.html">
-    </div>
-    <div class="container-flex center">
-        <h1>
-            <?php include('progtitle.html">
+     </div>   <div class="container-flex center">
+            <h1>
+                <?php include('progtitle.html">
         </h1>
     </div>
     <div class="container-flex center">
@@ -73,15 +71,15 @@
                     <div class="row ">
                         <div class="col "><strong>Program Type:</strong></div>
                         <div class="col ">
-                            <div w3-include-html="programtype.html"></div>
+                            <?php include('programtype.html">
                         </div>
                     </div>
                     <div class="row " style="white-space: nowrap; ">
                         <div class="col " style="white-space: nowrap; "><strong>
         Anticipated salary:</strong></div>
                         <div class="col " style="white-space: nowrap; ">C$
-                            <div w3-include-html="salarystart.html"></div> – C$
-                            <div w3-include-html="salaryend.html"></div>
+                            <?php include('salarystart.html"> – C$
+                            <?php include('salaryend.html">
                         </div>
                     </div>
                     <div class="row ">(Information from PayScale Canada)</div>
@@ -89,7 +87,7 @@
                         <div class="col "><strong>
             Program Duration:</strong></div>
                         <div class="col ">
-                            <div w3-include-html="programduration.html"></div> Weeks</div>
+                            <?php include('programduration.html"> Weeks</div>
                     </div>
                     <div class="row ">
                         <div class="col "><strong>

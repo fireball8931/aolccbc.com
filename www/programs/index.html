@@ -1,5 +1,5 @@
-<!DOCTYPE html> <html lang="en">
-
+<!DOCTYPE html lang="en">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -7,10 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Academy of Learning Career College - Abbotsford - Langley</title>
     <script src="/js/includes.js"></script>
-    <link href="/css/style.min.css" rel="stylesheet" type="text/css">
-    <div w3-include-html="/js/js_includes.html"></div>
-    <link rel="stylesheet" href="custom.css">
-    <!-- <link rel="import" href="/js/js_includes.html"> -->
+    <div w3-include-html="/css.html"></div>
+
 
 
 </head>
@@ -18,6 +16,84 @@
 <body>
     <div w3-include-html="/navbar.html"></div>
 
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #f1f1f1;
+            /* padding: 20px;*/
+            font-family: Arial;
+        }
+        /* Center website */
+        
+        .main {
+            max-width: 1000px;
+            margin: auto;
+        }
+        
+        h1 {
+            font-size: 50px;
+            word-break: break-all;
+        }
+        
+        .row {
+            margin: 8px -16px;
+        }
+        /* Add padding BETWEEN each column (if you want) */
+        
+        .row,
+        .row>.column {
+            padding: 8px;
+        }
+        /* Create three equal columns that floats next to each other */
+        
+        .column {
+            float: left;
+            width: 33.33%;
+            display: none;
+            /* Hide columns by default */
+        }
+        /* Clear floats after rows */
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /* Content */
+        
+        .content {
+            background-color: white;
+            padding: 10px;
+        }
+        /* The "show" class is added to the filtered elements */
+        
+        .show {
+            display: block;
+        }
+        /* Style the buttons */
+        
+        .slidesbtn {
+            border: none;
+            outline: none;
+            padding: 12px 16px;
+            background-color: white;
+            cursor: pointer;
+        }
+        /* Add a grey background color on mouse-over */
+        
+        .slidesbtn:hover {
+            background-color: #ddd;
+        }
+        /* Add a dark background color to the active button */
+        
+        .slidesbtn.active {
+            background-color: #666;
+            color: white;
+        }
+    </style>
 
     <h2>Programs</h2>
     <div id="myslidesbtnContainer">
@@ -33,900 +109,76 @@
     </div>
 
     <!--Gallery Grid-->
-    <div class="row"><div class="column accounting">
-    <div class="content">
-        <a href="/programs/accounting_administrator"> <img src="images/accounting_administrator-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Accounting Administrator with SAGE</h4>
-        </a>
-    </div>
-</div><div class="column accounting">
-    <div class="content">
-        <a href="/programs/accounting_and_business_technology"> <img src="images/accounting_and_business_technology-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Accounting and Business Technology</h4>
-        </a>
-    </div>
-</div><div class="column accounting">
-    <div class="content">
-        <a href="/programs/accounting_and_payroll_administrator"> <img src="images/payroll_supervisor-1.webp" alt="payroll_supervisor" style="width:100%" />
-            <h4>Accounting and Payroll Administrator</h4>
-        </a>
-    </div>
-</div><div class="column accounting">
-    <div class="content">
-        <a href="/programs/accounting-bookkeeper-certificate/"> <img src="images/accounting_bookkeeper-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Accounting Bookkeeper</h4>
-        </a>
-    </div>
-</div><div class="column accounting">
-    <div class="content">
-        <a href="/programs/accounting_clerk"> <img src="images/accounting_clerk-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Accounting Clerk</h4>
-        </a>
-    </div>
-</div><div class="column commsuppserv">
-    <div class="content">
-        <a href="/programs/addictions_worker"> <img src="images/addictions_worker-1-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Addictions Worker</h4>
-        </a>
-    </div>
-</div><div class="column it">
-    <div class="content">
-        <a href="/programs/a_network_and_microsoft_certification_preparation"> <img src="images/a_network_and_microsoft_certification_preparation-273x155.webp" alt="A+" style="width:100%" />
-            <h4>A+ Network+ and Microsoft Certification Preparation</h4>
-        </a>
-    </div>
-</div>
+    <div class="row">
 
-<!-- testcomment --><div class="column business">
-    <div class="content">
-        <a href="/programs/business_administration"> <img src="images/business_administration-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Business Administration</h4>
-        </a>
-    </div>
-</div><div class="column business">
-    <div class="content">
-        <a href="/programs/business_administration_co_op"> <img src="images/business_administration_large-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Business Administration Co-Op</h4>
-        </a>
-    </div>
-</div><div class="column business">
-    <div class="content">
-        <a href="/programs/business_management"> <img src="images/business_management-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Business Management</h4>
-        </a>
-    </div>
-</div><div class="column business">
-    <div class="content">
-        <a href="/programs/business_office_skills"> <img src="images/business_office_skills-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Business Office Skills</h4>
-        </a>
-    </div>
-</div><div class="column business">
-    <div class="content">
-        <a href="/programs/business_receptionist"> <img src="images/business_receptionist-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Business Receptionist</h4>
-        </a>
-    </div>
-</div><div class="column business">
-    <div class="content">
-        <a href="/programs/business_service_essentials_co_op"> <img src="images/business_service_large-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Business Service Essentials Co-Op</h4>
-        </a>
-    </div>
-</div><div class="column business">
-    <div class="content">
-        <a href="/programs/call_centre_customer_representative"> <img src="images/call_centre_customer_representative-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Call Centre Customer Representative</h4>
-        </a>
-    </div>
-</div><div class="column commsuppserv">
-    <div class="content">
-        <a href="/programs/community_service_worker"> <img src="images/community_service_worker-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Community Service Worker</h4>
-        </a>
-    </div>
-</div><div class="column commsuppserv">
-    <div class="content">
-        <a href="/programs/community_service_worker_with_addictions_specialty"> <img src="images/community_service_worker_with_addictions_specialty-9-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Community Service Worker with Addictions Specialty</h4>
-        </a>
-    </div>
-</div><div class="column business">
-    <div class="content">
-        <a href="/programs/computerized_office_procedures"> <img src="images/computerized_office_procedures-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Computerized Office Procedures</h4>
-        </a>
-    </div>
-</div><div class="column it">
-    <div class="content">
-        <a href="/programs/computer-service-technician-certificate/"> <img src="images/computer_service_technician-1-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Computer Service Technician (Certificate)</h4>
-        </a>
-    </div>
-</div><div class="column it">
-    <div class="content">
-        <a href="/programs/computer-service-technician-diploma/"> <img src="images/computer_service_technician-1-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Computer Service Technician (Diploma)</h4>
-        </a>
-    </div>
-</div><div class="column business">
-    <div class="content">
-        <a href="/programs/conference_and_event_planning"> <img src="images/conference_and_event_planning-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Conference and Event Planner</h4>
-        </a>
-    </div>
-</div><div class="column business">
-    <div class="content">
-        <a href="/programs/customer_service_representative"> <img src="images/customer_service_representative-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Customer Service Representative</h4>
-        </a>
-    </div>
-</div><div class="column business">
-    <div class="content">
-        <a href="/programs/entrepreneurial_business_applications"> <img src="images/entrepreneurial_business_applications-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Entrepreneurial Business Applications</h4>
-        </a>
-    </div>
-</div><div class="column business">
-    <div class="content">
-        <a href="/programs/executive_assistant"> <img src="images/executive_assistant-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Executive Assistant</h4>
-        </a>
-    </div>
-</div><div class="column webgraphic">
-    <div class="content">
-        <a href="/programs/graphic_designer"> <img src="images/graphic_designer_large-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Graphic Designer</h4>
-        </a>
-    </div>
-</div><div class="column business">
-    <div class="content">
-        <a href="/programs/human_resources_administration"> <img src="images/human_resources_administration-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Human Resources Administration</h4>
-        </a>
-    </div>
-</div><!DOCTYPE html>
-<html lang="en">
+        <?php 
+        foreach (glob("images/*.html") as $filename)
+        {
+            include $filename;
+         } ?>
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>Academy of Learning</title>
-    <script src="/js/includes.js"></script>
-    <link href="/css/style.min.css" rel="stylesheet" type="text/css">
-    <div w3-include-html="/js/js_includes.html"></div>
-    <style>
-        .col {
-            margin-left: 1%;
-            margin-right: 1%;
-        }
-    </style>
-</head>
+        <script>
+            filterSelection("all") // Execute the function and show all columns
+            function filterSelection(c) {
+                var x, i;
+                x = document.getElementsByClassName("column");
+                if (c == "all") c = "";
+                // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+                for (i = 0; i < x.length; i++) {
+                    w3RemoveClass(x[i], "show");
+                    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+                }
+            }
 
-<body>
-    <div w3-include-html="/navbar.html">
+            // Show filtered elements
+            function w3AddClass(element, name) {
+                var i, arr1, arr2;
+                arr1 = element.className.split(" ");
+                arr2 = name.split(" ");
+                for (i = 0; i < arr2.length; i++) {
+                    if (arr1.indexOf(arr2[i]) == -1) {
+                        element.className += " " + arr2[i];
+                    }
+                }
+            }
+
+            // Hide elements that are not selected
+            function w3RemoveClass(element, name) {
+                var i, arr1, arr2;
+                arr1 = element.className.split(" ");
+                arr2 = name.split(" ");
+                for (i = 0; i < arr2.length; i++) {
+                    while (arr1.indexOf(arr2[i]) > -1) {
+                        arr1.splice(arr1.indexOf(arr2[i]), 1);
+                    }
+                }
+                element.className = arr1.join(" ");
+            }
+
+            // Add active class to the current button (highlight it)
+            var slidesbtnContainer = document.getElementById("myslidesbtnContainer");
+            var slidesbtns = slidesbtnContainer.getElementsByClassName("slidesbtn");
+            for (var i = 0; i < slidesbtns.length; i++) {
+                slidesbtns[i].addEventListener("click", function() {
+                    var current = document.getElementsByClassName("active");
+                    current[0].className = current[0].className.replace(" active", "");
+                    this.className += " active";
+                });
+            }
+        </script>
     </div>
-    <div class="container-flex center">
-        <h1>
-            <div w3-include-html="progtitle.html"></div>
-        </h1>
+
+
+    <div w3-include-html="/promisebar.html"></div>
+
+    <div class="container-fluid"></div>
+    <div w3-include-html="/footer.html"></div>
     </div>
-    <div class="container-flex center"><img src="program.webp"></div>
-    <div class="container-flex program-info" id="program-info" style="margin-left:5%; margin-right: 5%;">
-        <div class="header lefthr">
-            <h1>Program Info:</h1>
-        </div>
-        <div class="d-flex flex-row">
-            <div class="p-2">
-                <div class="container">
-                    <h2>Admission Requirements</h2>
-                    <div w3-include-html="admitreq.html"></div>
-                </div>
-                <div class="container">
-                    <h2>Program Highlights</h2>
-                </div>
-                <div class="container">
-                    <div w3-include-html="programhighlights.html"></div>
-                </div>
-            </div>
-            <div class="p-2">
-                <div class="textleft">
-                    <div class="container">
-                        <h2>Career Opportunities</h2>
-                    </div>
-                    <div class="container">
-                        <div w3-include-html="careeropp.html"></div>
-                    </div>
-                </div>
-                <div>
-                    <div class="container">
-                        <h2>CORE COURSES</h2>
-                    </div>
-                    <div class="container">
-                        <p>Upon completion of the program the participant must demonstrate the following core competencies:</p>
-                        <div w3-include-html="corecourses.html"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="p-2 programdatacol">
-                <div class="programdata">
-                    <div class="row">
-                        <div class="col">
-                            <strong>Program Type:</strong>
-                        </div>
-                        <div class="col">
-                            <div w3-include-html="programtype.html"></div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <strong>Anticipated Salary:</strong>
-                        </div>
-                        <div class="col">
-                            C$
-                            <div w3-include-html="salarystart.html"></div> &ndash; C$
-                            <div w3-include-html="salaryend.html"></div>
-                        </div>
-                    </div>
-                    <div class="row"></div>
-                    <div class="row">
-                        <div class="col">
-                            <strong>Program Duration:</strong>
-                        </div>
-                        <div class="col">
-                            Hours:
-                            <div w3-include-html="programhours.html"></div><br> Weeks Full-Time:
-                            <div w3-include-html="programduration.html"></div>
-                        </div>
-                    </div>
-                    <div class="row"></div>
-                    <div w3-include-html="workexphours.html"></div>
-                    <div class="row">
-                        <div class="col-2" style="width:max-content;font-weight: bold;padding-right: 2%;">
-                            Tuition&nbsp;Fees:
-                        </div>
-                    </div>
-                    <div class="tuition">
-                        <div class="row">
-                            <div class="col">
-                                <b>&nbsp;</b>
-                            </div>
-                            <div class="col colheader">
-                                <b>Domestic</b>
-                            </div>
-                            <div class="col colheader">
-                                <b>International</b>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col rowheader">
-                                Tuition:
-                            </div>
-                            <div class="col tudata" id="dtuition"></div>
-                            <div class="col tudata" id="ituition"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col rowheader">
-                                Application Fee:
-                            </div>
-                            <div class="col tudata">
-                                $
-                                <div w3-include-html="dapp.html">
-                                </div>
-                            </div>
-                            <div class="col tudata">
-                                $
-                                <div w3-include-html="iapp.html">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col rowheader">
-                                Assessment Fee:
-                            </div>
-                            <div class="col tudata">
-                                $
-                                <div w3-include-html="dassess.html">
-                                </div>
-                            </div>
-                            <div class="col tudata">
-                                $
-                                <div w3-include-html="iassess.html">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col rowheader">
-                                Other Fees:
-                            </div>
-                            <div class="col tudata">
-                                $
-                                <div w3-include-html="dother.html">
-                                </div>
-                            </div>
-                            <div class="col tudata">
-                                $
-                                <div w3-include-html="iother.html">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <p>Program Syllabus:
-                    <div w3-include-html="syllabuslink.html">
-                    </div>
-                </p>
-            </div>
-        </div>
     </div>
-    <div w3-include-html="/footer.html">
-    </div>
+
 </body>
 <script>
     includeHTML();
 </script>
-<script src="/js/endofbody.js"></script>
 
-</html><div class="column business">
-    <div class="content">
-        <a href="/programs/marketing_administrative_assistant"> <img src="images/marketing_administration_assistant-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Marketing Administrative Assistant</h4>
-        </a>
-    </div>
-</div><div class="column business">
-    <div class="content">
-        <a href="/programs/marketing_coordinator"> <img src="images/marketing_coordinator-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Marketing Coordinator</h4>
-        </a>
-    </div>
-</div><div class="column healthcare">
-    <div class="content">
-        <a href="/programs/medical_administrative_assistant"> <img src="images/medical_administrative_assistant-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Medical Administrative Assistant</h4>
-        </a>
-    </div>
-</div><div class="column healthcare">
-    <div class="content">
-        <a href="/programs/medical_office_assistant"> <img src="images/medical_office_assistant-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Medical Office Assistant</h4>
-        </a>
-    </div>
-</div><div class="column healthcare">
-    <div class="content">
-        <a href="/programs/medical_office_assistant_with_health_unit-_coordinator_specialty"> <img src="images/medical_office_assistant_with_health_unit-_coordinator_specialty-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Medical Office Assistant with Unit Clerk</h4>
-        </a>
-    </div>
-</div><div class="column it">
-    <div class="content">
-        <a href="/programs/microsoft-certified-solutions-associate-server/"> <img src="images/mcsa_windows_associate-273x155.webp" alt="A+" style="width:100%" />
-            <h4>MICROSOFT CERTIFIED SOLUTIONS ASSOCIATE (MCSA) WINDOWS SERVER CERTIFICATION PREPARATION</h4>
-        </a>
-    </div>
-</div><div class="column it">
-    <div class="content">
-        <a href="/programs/network_administrator/"> <img src="images/network_administrator-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Network Administrator</h4>
-        </a>
-    </div>
-</div><div class="column business">
-    <div class="content">
-        <a href="/programs/office_administration"> <img src="images/office_administration-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Office Administration</h4>
-        </a>
-    </div>
-</div><div class="column business">
-    <div class="content">
-        <a href="/programs/office_administration_assistant"> <img src="images/office_administration_assistant-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Office Administration Assistant</h4>
-        </a>
-    </div>
-</div><div class="column business">
-    <div class="content">
-        <a href="/programs/office_clerk"> <img src="images/office_administration_assistant-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Office Clerk</h4>
-        </a>
-    </div>
-</div><div class="column accounting">
-    <div class="content">
-        <a href="/programs/payroll_administrator"> <img src="images/payroll_administrator-273x155.webp" alt="payroll_administrator" style="width:100%" />
-            <h4>Payroll Administrator</h4>
-        </a>
-    </div>
-</div><div class="column accounting">
-    <div class="content">
-        <a href="/programs/payroll_clerk/"> <img src="images/payroll_clerk-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Payroll Clerk</h4>
-        </a>
-    </div>
-</div><div class="column it">
-    <div class="content">
-        <a href="/programs/pc_support_specialist/"> <img src="images/pc_support_specialist-273x155.webp" alt="A+" style="width:100%" />
-            <h4>PC Support Specialist</h4>
-        </a>
-    </div>
-</div><div class="column english">
-    <div class="content">
-        <a href="/programs/pitman_english"> <img src="images//Pitman_English_Logo-273x155.webp" alt="Pitman" style="width:100%" />
-            <h4>Pitman English</h4>
-        </a>
-    </div>
-</div><div class="p-2 programdatacol">
-    <div class="programdata">
-        <div class="row">
-            <div class="col">
-                <strong>Program Type:</strong>
-            </div>
-            <div class="col">
-                <div w3-include-html="programtype.html"></div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <strong>Anticipated Salary:</strong>
-        </div>
-        <div class="col">
-          C$<div w3-include-html="salarystart.html"></div> &ndash; C$<div w3-include-html="salaryend.html"></div>
-        </div>
-      </div>
-      <div class="row"></div>
-      <div class="row">
-        <div class="col">
-          <strong>Program Duration:</strong>
-        </div>
-        <div class="col">
-          Hours: <div w3-include-html="programhours.html"></div> <br>
-          Weeks Full-Time: <div w3-include-html="programduration.html"></div>
-        </div>
-      </div>
-      <div class="row"></div>
-      <div class="row">
-        <div class="col-2"
-             style="width:max-content;font-weight: bold;padding-right: 2%;">
-          Tuition&nbsp;Fees:
-        </div>
-      </div>
-      <div class="tuition">
-        <div class="row">
-          <div class="col">
-            <b>&nbsp;</b>
-          </div>
-          <div class="col colheader">
-            <b>Domestic</b>
-          </div>
-          <div class="col colheader">
-            <b>International</b>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col rowheader">
-            Tuition:
-          </div>
-          <div class="col tudata">
-            $<div w3-include-html="dtuition.html"></div>
-          </div>
-          <div class="col tudata">
-            $<div w3-include-html="ituition.html"></div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col rowheader">
-            Application Fee:
-          </div>
-          <div class="col tudata">
-            $<div w3-include-html="dapp.html"></div>
-          </div>
-          <div class="col tudata">
-            $<div w3-include-html="iapp.html"></div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col rowheader">
-            Assessment Fee:
-          </div>
-          <div class="col tudata">
-            $<div w3-include-html="dassess.html"></div>
-          </div>
-          <div class="col tudata">
-            $<div w3-include-html="iassess.html"></div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col rowheader">
-            Other Fees:
-          </div>
-          <div class="col tudata">
-            $<div w3-include-html="dother.html"></div>
-          </div>
-          <div class="col tudata">
-            $<div w3-include-html="iother.html"></div>
-          </div>
-        </div>
-      </div>
-    </div> <p>
-    Program Syllabus:
-    <div w3-include-html="syllabuslink.html">
-              </div></p>
-  </div><div class="column business">
-    <div class="content">
-        <a href="/programs/project_administration"> <img src="images/project_administration-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Project Administration</h4>
-        </a>
-    </div>
-</div><div class="column business">
-    <div class="content">
-        <a href="/programs/sales_associate"> <img src="images/sales_associate-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Sales Associate</h4>
-        </a>
-    </div>
-</div><div class="column business">
-    <div class="content">
-        <a href="/programs/sales_professional"> <img src="images/sales_professional-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Sales Professional</h4>
-        </a>
-    </div>
-</div><div class="column it">
-    <div class="content">
-        <a href="/programs/software-and-web-developer/"> <img src="images/Software-Web-Developer-Diploma-273x155.webp" alt="Software and Web Developer Diploma" style="width:100%" />
-            <h4>Software and Web Developer</h4>
-        </a>
-    </div>
-</div><div class="column it">
-    <div class="content">
-        <a href="/programs/web-developer/"> <img src="images/Software-Web-Developer-Diploma-273x155.webp"
-                alt="Web Developer Diploma" style="width:100%" />
-            <h4>Web Developer</h4>
-        </a>
-    </div>
-</div><div class="column webgraphic">
-    <div class="content">
-        <a href="/programs/web_designer"> <img src="images/web_designer-273x155.webp" alt="A+" style="width:100%" />
-            <h4>Web Designer</h4>
-        </a>
-    </div>
-</div><script sync>
-    filterSelection("all") // Execute the function and show all columns
-    function filterSelection(c) {
-        var x, i;
-        x = document.getElementsByClassName("column");
-        if (c == "all") c = "";
-        // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
-        for (i = 0; i < x.length; i++) {
-            w3RemoveClass(x[i], "show");
-            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-        }
-    }
-
-    // Show filtered elements
-    function w3AddClass(element, name) {
-        var i, arr1, arr2;
-        arr1 = element.className.split(" ");
-        arr2 = name.split(" ");
-        for (i = 0; i < arr2.length; i++) {
-            if (arr1.indexOf(arr2[i]) == -1) {
-                element.className += " " + arr2[i];
-            }
-        }
-    }
-
-    // Hide elements that are not selected
-    function w3RemoveClass(element, name) {
-        var i, arr1, arr2;
-        arr1 = element.className.split(" ");
-        arr2 = name.split(" ");
-        for (i = 0; i < arr2.length; i++) {
-            while (arr1.indexOf(arr2[i]) > -1) {
-                arr1.splice(arr1.indexOf(arr2[i]), 1);
-            }
-        }
-        element.className = arr1.join(" ");
-    }
-
-    // Add active class to the current button (highlight it)
-    var slidesbtnContainer = document.getElementById("myslidesbtnContainer");
-    var slidesbtns = slidesbtnContainer.getElementsByClassName("slidesbtn");
-    for (var i = 0; i < slidesbtns.length; i++) {
-        slidesbtns[i].addEventListener("click", function() {
-            var current = document.getElementsByClassName("active");
-            current[0].className = current[0].className.replace(" active", "");
-            this.className += " active";
-        });
-    }
-
-
-    setTimeout(filterSelection("all"), 500);
-</script></div>
-
-
-<div w3-include-html="/promisebar.html"></div>
-
-<div class="container-fluid"></div>
-<div w3-include-html="/footer.html"></div>
-</div>
-</div>
-
-</body>
-<script>
-includeHTML();
-
-</script>
-
-
-
-</html><!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>Academy of Learning</title>
-    <script src="/js/includes.js"></script>
-    <link href="/css/style.min.css" rel="stylesheet" type="text/css">
-    <div w3-include-html="/js/js_includes.html"></div>
-    <style>
-        .col {
-            margin-left: 1%;
-            margin-right: 1%;
-        }
-    </style>
-</head>
-
-<body>
-    <div w3-include-html="/navbar.html">
-    </div>
-    <div class="container-flex center">
-        <h1>
-            <div w3-include-html="progtitle.html"></div>
-        </h1>
-    </div>
-    <div class="container-flex center"><img src="program.webp"></div>
-    <div class="container-flex program-info" id="program-info" style="margin-left:5%; margin-right: 5%;">
-        <div class="header lefthr">
-            <h1>Program Info:</h1>
-        </div>
-        <div class="d-flex flex-row">
-            <div class="p-2">
-                <div class="container">
-                    <h2>Admission Requirements</h2>
-                    <div w3-include-html="admitreq.html"></div>
-                </div>
-                <div class="container">
-                    <h2>Program Highlights</h2>
-                </div>
-                <div class="container">
-                    <div w3-include-html="programhighlights.html"></div>
-                </div>
-            </div>
-            <div class="p-2">
-                <div class="textleft">
-                    <div class="container">
-                        <h2>Career Opportunities</h2>
-                    </div>
-                    <div class="container">
-                        <div w3-include-html="careeropp.html"></div>
-                    </div>
-                </div>
-                <div>
-                    <div class="container">
-                        <h2>CORE COURSES</h2>
-                    </div>
-                    <div class="container">
-                        <p>Upon completion of the program the participant must demonstrate the following core competencies:</p>
-                        <div w3-include-html="corecourses.html"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="p-2 programdatacol">
-                <div class="programdata">
-                    <div class="row">
-                        <div class="col">
-                            <strong>Program Type:</strong>
-                        </div>
-                        <div class="col">
-                            <div w3-include-html="programtype.html"></div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <strong>Anticipated Salary:</strong>
-                        </div>
-                        <div class="col">
-                            C$
-                            <div w3-include-html="salarystart.html"></div> &ndash; C$
-                            <div w3-include-html="salaryend.html"></div>
-                        </div>
-                    </div>
-                    <div class="row"></div>
-                    <div class="row">
-                        <div class="col">
-                            <strong>Program Duration:</strong>
-                        </div>
-                        <div class="col">
-                            Hours:
-                            <div w3-include-html="programhours.html"></div><br> Weeks Full-Time:
-                            <div w3-include-html="programduration.html"></div>
-                        </div>
-                    </div>
-                    <div class="row"></div>
-                    <div w3-include-html="workexphours.html"></div>
-                    <div class="row">
-                        <div class="col-2" style="width:max-content;font-weight: bold;padding-right: 2%;">
-                            Tuition&nbsp;Fees:
-                        </div>
-                    </div>
-                    <div class="tuition">
-                        <div class="row">
-                            <div class="col">
-                                <b>&nbsp;</b>
-                            </div>
-                            <div class="col colheader">
-                                <b>Domestic</b>
-                            </div>
-                            <div class="col colheader">
-                                <b>International</b>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col rowheader">
-                                Tuition:
-                            </div>
-                            <div class="col tudata" id="dtuition"></div>
-                            <div class="col tudata" id="ituition"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col rowheader">
-                                Application Fee:
-                            </div>
-                            <div class="col tudata">
-                                $
-                                <div w3-include-html="dapp.html">
-                                </div>
-                            </div>
-                            <div class="col tudata">
-                                $
-                                <div w3-include-html="iapp.html">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col rowheader">
-                                Assessment Fee:
-                            </div>
-                            <div class="col tudata">
-                                $
-                                <div w3-include-html="dassess.html">
-                                </div>
-                            </div>
-                            <div class="col tudata">
-                                $
-                                <div w3-include-html="iassess.html">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col rowheader">
-                                Other Fees:
-                            </div>
-                            <div class="col tudata">
-                                $
-                                <div w3-include-html="dother.html">
-                                </div>
-                            </div>
-                            <div class="col tudata">
-                                $
-                                <div w3-include-html="iother.html">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <p>Program Syllabus:
-                    <div w3-include-html="syllabuslink.html">
-                    </div>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div w3-include-html="/footer.html">
-    </div>
-</body>
-<script>
-    includeHTML();
-</script>
-<script src="/js/endofbody.js"></script>
-
-</html><div class="p-2 programdatacol">
-    <div class="programdata">
-        <div class="row">
-            <div class="col">
-                <strong>Program Type:</strong>
-            </div>
-            <div class="col">
-                <div w3-include-html="programtype.html"></div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <strong>Anticipated Salary:</strong>
-        </div>
-        <div class="col">
-          C$<div w3-include-html="salarystart.html"></div> &ndash; C$<div w3-include-html="salaryend.html"></div>
-        </div>
-      </div>
-      <div class="row"></div>
-      <div class="row">
-        <div class="col">
-          <strong>Program Duration:</strong>
-        </div>
-        <div class="col">
-          Hours: <div w3-include-html="programhours.html"></div> <br>
-          Weeks Full-Time: <div w3-include-html="programduration.html"></div>
-        </div>
-      </div>
-      <div class="row"></div>
-      <div class="row">
-        <div class="col-2"
-             style="width:max-content;font-weight: bold;padding-right: 2%;">
-          Tuition&nbsp;Fees:
-        </div>
-      </div>
-      <div class="tuition">
-        <div class="row">
-          <div class="col">
-            <b>&nbsp;</b>
-          </div>
-          <div class="col colheader">
-            <b>Domestic</b>
-          </div>
-          <div class="col colheader">
-            <b>International</b>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col rowheader">
-            Tuition:
-          </div>
-          <div class="col tudata">
-            $<div w3-include-html="dtuition.html"></div>
-          </div>
-          <div class="col tudata">
-            $<div w3-include-html="ituition.html"></div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col rowheader">
-            Application Fee:
-          </div>
-          <div class="col tudata">
-            $<div w3-include-html="dapp.html"></div>
-          </div>
-          <div class="col tudata">
-            $<div w3-include-html="iapp.html"></div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col rowheader">
-            Assessment Fee:
-          </div>
-          <div class="col tudata">
-            $<div w3-include-html="dassess.html"></div>
-          </div>
-          <div class="col tudata">
-            $<div w3-include-html="iassess.html"></div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col rowheader">
-            Other Fees:
-          </div>
-          <div class="col tudata">
-            $<div w3-include-html="dother.html"></div>
-          </div>
-          <div class="col tudata">
-            $<div w3-include-html="iother.html"></div>
-          </div>
-        </div>
-      </div>
-    </div> <p>
-    Program Syllabus:
-    <div w3-include-html="syllabuslink.html">
-              </div></p>
-  </div>
+</html>

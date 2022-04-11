@@ -1,4 +1,4 @@
-<!DOCTYPE html> <html lang="en">
+<!DOCTYPE html lang="en">
 <html style="zoom: 89%;">
 <head>
   <link href="https://fonts.gstatic.com"
