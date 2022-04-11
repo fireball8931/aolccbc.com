@@ -1,7 +1,8 @@
-<!DOCTYPE html lang="en">
-
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>Academy of Learning</title>
     <script src="/js/includes.js"></script>
     <link href="/css/style.min.css" rel="stylesheet" type="text/css">
@@ -19,176 +20,163 @@
     </div>
     <div class="container-flex center">
         <h1>
-            <?php include('progtitle.html">
+            <div w3-include-html="progtitle.html"></div>
         </h1>
     </div>
-    <div class="container-flex center">
-        <img style="max-width: 55%;" src="program.webp" />
-    </div>
-
-
+    <div class="container-flex center"><img src="program.webp"></div>
     <div class="container-flex program-info" id="program-info" style="margin-left:5%; margin-right: 5%;">
-
         <div class="header lefthr">
-            <h1>Course Info:</h1>
+            <h1>Program Info:</h1>
         </div>
-        <div class="d-flex flex-row" style="justify-content: center;">
+        <div class="d-flex flex-row">
             <div class="p-2">
                 <div class="container">
-                    <div id='accordion'>
-                        <div class="card">
-                            <div class="card-header" id="PTENG01">
-
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-PTENG01 - Pitman English 1-Month Option
-
-</button>
-
-
-                                </h5>
-
-                            </div>
-
-                            <div id="collapseOne" class="collapse" aria-labelledby="PTENG01" data-parent="#accordion">
-                                <div class="card-body">
-                                    <h2>Admission Requirements</h2>
-                                    <p>Pitman English is designed specifically for those who wish to improve their English language fluency by developing their reading, writing, listening, and speaking abilities.</p>
-
-                                    <p> This course has been designed to accommodate learners’ unique needs by using technology to adapt the course to the specific English proficiency, interests, and goals of each student, and by using videos and games to
-                                        keep learners engaged.</p>
-
-                                    <h2> Course Prerequisites</h2>
-                                    <p>To be successful in this course, students should have a basic understanding of English.</p>
-
-                                    <h2> Of Interest to</h2>
-                                    <p> This course will be of interest to those who wish to develop their English proficiency for social, academic, or employment needs.</p>
-
-                                    <h2>Method of Delivery</h2>
-                                    <p>Integrated Learning&reg; System training facilitated by Academy of Learning Career College Learning Coaches and Online Instructors.</p>
-
-                                    <h2>Course Objectives</h2>
-                                    <p> The purpose of the Pitman English course is to improve students’ English reading, writing, listening, and speaking skills and to develop their vocabulary, grammar, pronunciation, and fluency.</p>
-
-                                    <h2>Study Plan</h2>
-                                    <p>For maximum benefit, students should reserve two or more hours each day for their Pitman English course –– with a minimum of 90 minutes spent working with the course materials and assessments and a minimum of 30 minutes
-                                        dedicated to participating in a group lesson.</p>
-
-                                    <h2>Course Breakdown</h2>
-                                    <strong>Needs Analysis</strong>
-                                    <p> Before beginning the course, learners are guided through a comprehensive questionnaire to determine their language learning goals, interests, and study habits. This information allows Pitman English to establish a clear
-                                        picture of each student and to refine the content of the course to make the learning relevant, engaging, and personalized.</p>
-
-                                    <strong>  Proficiency Assessment</strong>
-                                    <p> Following the needs analysis, students complete a proficiency assessment. The proficiency assess-ment typically takes 30-40 minutes to complete and assesses the student’s level of proficiency in grammatical knowledge,
-                                        listening comprehension, and reading comprehension. This assessment and the needs analysis, together, are used to person-alize the course to meet the needs of the student.</p>
-
-                                    <p> The proficiency assessment is repeated at the end of the course for learners to measure their improvement.</p>
-
-                                    <strong>Learning Activities</strong>
-                                    <p> Based on the results of the needs analysis and the proficiency assessment, students are enrolled in 3 personalized units. Each unit consists of lessons organized around a theme that centers on the goals and interests
-                                        of the student. Each lesson contains 3 fun and engaging activities to develop students’ language skills. Each unit is followed by an achievement test to provide students with feedback on their progress.</p>
-
-                                    <strong>Live Instruction</strong>
-                                    <p> To reinforce learning, students have access to an unlimited number of group classes offered every day at a variety of times. Classes are led by trained instructors and are available at every level.</p>
-
-
-                                </div>
-
-
-
-                            </div>
-
-
-
+                    <h2>Admission Requirements</h2>
+                    <div w3-include-html="admitreq.html"></div>
+                </div>
+                <div class="container">
+                    <h2>Program Highlights</h2>
+                </div>
+                <div class="container">
+                    <div w3-include-html="programhighlights.html"></div>
+                </div>
+            </div>
+            <div class="p-2">
+                <div class="textleft">
+                    <div class="container">
+                        <h2>Career Opportunities</h2>
+                    </div>
+                    <div class="container">
+                        <div w3-include-html="careeropp.html"></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="container">
+                        <h2>CORE COURSES</h2>
+                    </div>
+                    <div class="container">
+                        <p>Upon completion of the program the participant must demonstrate the following core competencies:</p>
+                        <div w3-include-html="corecourses.html"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-2 programdatacol">
+                <div class="programdata">
+                    <div class="row">
+                        <div class="col">
+                            <strong>Program Type:</strong>
+                        </div>
+                        <div class="col">
+                            <div w3-include-html="programtype.html"></div>
                         </div>
                     </div>
-
-
-                    <div id='accordion2'>
-                        <div class="card">
-                            <div class="card-header" id="PTENG03">
-
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-PTENG03 - Pitman English 3-Month Option
-
-</button>
-
-
-                                </h5>
-
+                    <div class="row">
+                        <div class="col">
+                            <strong>Anticipated Salary:</strong>
+                        </div>
+                        <div class="col">
+                            C$
+                            <div w3-include-html="salarystart.html"></div> &ndash; C$
+                            <div w3-include-html="salaryend.html"></div>
+                        </div>
+                    </div>
+                    <div class="row"></div>
+                    <div class="row">
+                        <div class="col">
+                            <strong>Program Duration:</strong>
+                        </div>
+                        <div class="col">
+                            Hours:
+                            <div w3-include-html="programhours.html"></div><br> Weeks Full-Time:
+                            <div w3-include-html="programduration.html"></div>
+                        </div>
+                    </div>
+                    <div class="row"></div>
+                    <div w3-include-html="workexphours.html"></div>
+                    <div class="row">
+                        <div class="col-2" style="width:max-content;font-weight: bold;padding-right: 2%;">
+                            Tuition&nbsp;Fees:
+                        </div>
+                    </div>
+                    <div class="tuition">
+                        <div class="row">
+                            <div class="col">
+                                <b>&nbsp;</b>
                             </div>
-
-                            <div id="collapseTwo" class="collapse" aria-labelledby="PTENG03" data-parent="#accordion2">
-                                <div class="card-body">
-                                    <h2>Admission Requirements</h2>
-                                    <p>Pitman English is designed specifically for those who wish to improve their English language fluency by developing their reading, writing, listening, and speaking abilities.</p>
-
-                                    <p> This course has been designed to accommodate learners’ unique needs by using technology to adapt the course to the specific English proficiency, interests, and goals of each student, and by using videos and games to
-                                        keep learners engaged.</p>
-
-                                    <h2> Course Prerequisites</h2>
-                                    <p>To be successful in this course, students should have a basic understanding of English.</p>
-
-                                    <h2> Of Interest to</h2>
-                                    <p> This course will be of interest to those who wish to develop their English proficiency for social, academic, or employment needs.</p>
-
-                                    <h2>Method of Delivery</h2>
-                                    <p>Integrated Learning&reg; System training facilitated by Academy of Learning Career College Learning Coaches and Online Instructors.</p>
-
-                                    <h2>Course Objectives</h2>
-                                    <p> The purpose of the Pitman English course is to improve students’ English reading, writing, listening, and speaking skills and to develop their vocabulary, grammar, pronunciation, and fluency.</p>
-
-                                    <h2>Study Plan</h2>
-                                    <p>For maximum benefit, students should reserve two or more hours each day for their Pitman English course –– with a minimum of 30 minutes spent working with the course materials and assessments and a minimum of 30 minutes
-                                        dedicated to participating in a group lesson.</p>
-
-                                    <h2>Course Breakdown</h2>
-                                    <strong>Needs Analysis</strong>
-                                    <p> Before beginning the course, learners are guided through a comprehensive questionnaire to determine their language learning goals, interests, and study habits. This information allows Pitman English to establish a clear
-                                        picture of each student and to refine the content of the course to make the learning relevant, engaging, and personalized.</p>
-
-                                    <strong>  Proficiency Assessment</strong>
-                                    <p> Following the needs analysis, students complete a proficiency assessment. The proficiency assess-ment typically takes 30-40 minutes to complete and assesses the student’s level of proficiency in grammatical knowledge,
-                                        listening comprehension, and reading comprehension. This assessment and the needs analysis, together, are used to person-alize the course to meet the needs of the student.</p>
-
-                                    <p> The proficiency assessment is repeated at the end of the course for learners to measure their improvement.</p>
-
-                                    <strong>Learning Activities</strong>
-                                    <p> Based on the results of the needs analysis and the proficiency assessment, students are enrolled in 3 personalized units. Each unit consists of lessons organized around a theme that centers on the goals and interests
-                                        of the student. Each lesson contains 3 fun and engaging activities to develop students’ language skills. Each unit is followed by an achievement test to provide students with feedback on their progress.</p>
-
-                                    <strong>Live Instruction</strong>
-                                    <p> To reinforce learning, students have access to an unlimited number of group classes offered every day at a variety of times. Classes are led by trained instructors and are available at every level.</p>
-
-
+                            <div class="col colheader">
+                                <b>Domestic</b>
+                            </div>
+                            <div class="col colheader">
+                                <b>International</b>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col rowheader">
+                                Tuition:
+                            </div>
+                            <div class="col tudata" id="dtuition"></div>
+                            <div class="col tudata" id="ituition"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col rowheader">
+                                Application Fee:
+                            </div>
+                            <div class="col tudata">
+                                $
+                                <div w3-include-html="dapp.html">
                                 </div>
-
-
-
                             </div>
-
-
-
+                            <div class="col tudata">
+                                $
+                                <div w3-include-html="iapp.html">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col rowheader">
+                                Assessment Fee:
+                            </div>
+                            <div class="col tudata">
+                                $
+                                <div w3-include-html="dassess.html">
+                                </div>
+                            </div>
+                            <div class="col tudata">
+                                $
+                                <div w3-include-html="iassess.html">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col rowheader">
+                                Other Fees:
+                            </div>
+                            <div class="col tudata">
+                                $
+                                <div w3-include-html="dother.html">
+                                </div>
+                            </div>
+                            <div class="col tudata">
+                                $
+                                <div w3-include-html="iother.html">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-
+                <p>Program Syllabus:
+                    <div w3-include-html="syllabuslink.html">
+                    </div>
+                </p>
             </div>
-
-
-
-
-            <div class="p-2 ">
-                <div class="programdata " style="border-style: groove; ">
-                    Program Syllabi: <br /> PTENG01: <a href="pteng01-course_outline2.pdf">Click to Download</a> <br /> PTENG03: <a href="pteng03-course_outline.pdf">Click to Download</a>
-                </div>
-            </div>
-
         </div>
     </div>
+    <div w3-include-html="/footer.html">
     </div>
+</body>
+<script>
+    includeHTML();
+</script>
+<script src="/js/endofbody.js"></script>
 
-</body><script src="/js/endofbody.js"></script></html>
+</html>

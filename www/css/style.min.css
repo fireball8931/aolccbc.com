@@ -792,7 +792,8 @@ footer td {
 .programdata .col-2,
 .programdata .row {
     white-space: nowrap;
-}
+    /* float: left; */
+display: flex;flex-wrap: wrap;flex-direction: row;align-content: center;justify-content: flex-end;align-items: flex-end;}
 
 .programdata .colheader {
     font-weight: bold;
@@ -810,4 +811,8 @@ footer td {
 
 .tudata {
     text-align: left;
+}
+
+.inline {
+    display: inline-block;
 }
