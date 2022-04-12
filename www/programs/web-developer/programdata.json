@@ -1,9 +1,43 @@
 {
     "programname": "Web Developer",
-    "admitreq": "<p>Grade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instructions. Applicants whose first language is not English must provide proof of English proficiency.<\/p><p>An admissions interview will be administered to determine if the applicant has the required interest, motivation, and entry-level skills to take this program.<\/p><p>Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them.<\/p>",
-    "programhighlights": "<p>In the Web Developer diploma program, students learn the coding languages required to be a front-end web developer and create dynamic websites. The program covers the primary and in-demand web development programming languages:HTML, CSS, and JavaScript.<\/p><p>Throughout the program, students gain hands-on experience with a range of web development projects that build in complexity as students add coding languages and technology skills to their toolkit.<\/p><p>Graduates of the program will be able to:<\/p><ul><li>Design the appearance and layout of websites<\/li><li>Develop cross-browser and cross-platform websites<\/li><li>Create and optimize content for websites using graphics, animations, and other software<\/li><li>Translate wire frames and storyboards into functional, responsive websites<\/li><\/ul>",
-    "careeropp": "<p>Graduates of the program may pursue a variety of positions in web development, including web developer, UI/UX developer, front end web developer, HTML / CSS developer, and Javascript / jQuery developer..<\/p> <h2>Program Notes<\/h2> <p>Tuition fees include all course materials. Financial assistance may be available for those who qualify.<\/p> <p>Graduation requirements: Students must maintain a 75% program average to obtain a diploma.<\/p> <h2>Method of Delivery<\/h2> <p>Integrated Learning&reg; System training facilitated by qualified learning coaches.<\/p>",
-    "corecourses": "<p> <b>Core Courses<\/b> <\/p> <ul class=\"textleft\"> <li class=\"textleft-ul-li\"><b>Keyboarding<\/b><br /> Minimum 25 words per minute (WPM).<\/li> <li class=\"textleft-ul-li\"><b> Operating Systems<\/b><br />Intermediate level of proficiency with Windows OS<\/li> <li class=\"textleft-ul-li\"><b>Software Development Industry <\/b><br />Computer and Technology Basics for Developers, Overview of Software Development <\/li> <li class=\"textleft-ul-li\"><b>Software and Web Development Skills <\/b><br />Version Control, HTML, CSS and Bootstrap, JavaScript <\/li> <li class=\"textleft-ul-li\"><b>Database Skills <\/b><br />Basic level of proficiency in Microsoft Access <\/li> <li class=\"textleft-ul-li\"><b>Word Processing and Spreadsheets <\/b><br /> Basic level of proficiency in Microsoft Word and Microsoft Excel<\/li> <li class=\"textleft-ul-li\"><b>Office Skills <\/b><br />Personal Computer Fundamentals, basic level of proficiency in Microsoft Outlook and Internet Fundamentals <\/li> <li class=\"textleft-ul-li\"><b>Business Skills <\/b><br /> Customer Service, Project Management<\/li> <\/ul>",
+    "program_image" : "",
+    "admitreq": {
+        "paragraphs" : [
+        { "style" : "p", "content" : "Grade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instructions. Applicants whose first language is not English must provide proof of English proficiency."},
+        { "style" :"p", "content" :"An admissions interview will be administered to determine if the applicant has the required interest, motivation, and entry-level skills to take this program."},
+        { "style" :"p", "content" :"Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them."}
+    ]},
+    "programhighlights": {
+        "paragraphs" : [
+        { "style" : "p", "content" : "In the Web Developer diploma program, students learn the coding languages required to be a front-end web developer and create dynamic websites. The program covers the primary and in-demand web development programming languages:HTML, CSS, and JavaScript."},
+        {"style" :"p","content" :  "Throughout the program, students gain hands-on experience with a range of web development projects that build in complexity as students add coding languages and technology skills to their toolkit."},
+        {"style":"p","content" : "Graduates of the program will be able to:"},
+        {"ul_start": "true"},
+        { "style": "li", "content" :"Design the appearance and layout of websites"},
+        { "style":"li", "content": "Develop cross-browser and cross-platform websites"},
+        { "style":"li", "content": "Create and optimize content for websites using graphics, animations, and other software"},
+        { "style":"li", "content":   "Translate wire frames and storyboards into functional, responsive websites"},
+        {"ul_end": "true"}
+        ]},
+    "careeropp": {
+        "paragraphs" : [
+            {"style": "p", "content" : "Graduates of the program may pursue a variety of positions in web development, including web developer, UI/UX developer, front end web developer, HTML / CSS developer, and Javascript / jQuery developer."}
+          ]},
+    "corecourses":  {
+        "paragraphs" : [
+        {"style": "p", "content": "Core Courses:"},
+        {"ul_start": "true"},
+        {"style" : "li", "li_title" : "Keyboarding", "content" : "Minimum 25 words per minute (WPM)."},
+        {"style" : "li", "li_title" : "Operating Systems", "content" : "Intermediate level of proficiency with Windows OS"},
+        {"style" : "li", "li_title" : "Software Development Industry", "content" : "Computer and Technology Basics for Developers, Overview of Software Development"},
+        {"style" : "li", "li_title" : "Software and Web Development Skills", "content" : "Version Control, HTML, CSS and Bootstrap, JavaScript, Visual Studio, C#, .NET Framework"},
+        {"style" : "li", "li_title" : "Database Skills", "content" : "Intermediate level of proficiency in Microsoft Access, Database and SQL"},
+        {"style" : "li", "li_title" : "Presentations", "content" : "Basic level of proficiency in Microsoft PowerPoint"},
+        {"style" : "li", "li_title" : "Word Processing and Spreadsheets", "content" : "Basic level of proficiency in Microsoft Word and Microsoft Excel"},
+        {"style" : "li", "li_title" : "Office Skills", "content" : "Personal Computer Fundamentals, basic level of proficiency in Microsoft Outlook and Internet Fundamentals"},
+        {"style" : "li", "li_title" : "Business Skills", "content" : "Customer Service, Project Management"},
+        {"ul_end": "true"}
+        ]},
     "programtype": "Diploma",
     "salarystart": 36400,
     "salaryend": 90000,
@@ -15,382 +49,6 @@
         "assessment": 100,
         "other": 104
     }],
-    "international_fees": [{
-        "tuition": 10774,
-        "application": 250,
-        "assessment": 100,
-        "other": 104
-    }],
     "syllabuslink": "aolcc_-_web_developer_diploma_-_program_outline_bc.pdf",
     "prog_video": "https://www.youtube.com/embed/4gNpKQt5mJY"
-}@{domestic_fees=; programduration=; admitreq=System.Object[]; salaryend=; prog_video=; careeropp=System.Object[]; programhighlights=System.Object[]; programhours=; syllabuslink=aolcc_-_web_developer_diploma_-_program_outline_bc.pdf; corecourses=System.Object[]; salarystart=; programtype=; programname=}
-{
-    "domestic_fees":  {
-                          "tuition":  {
-                                          "value":  "10774",
-                                          "PSPath":  "C:\\xampp\\htdocs\\programs\\web-developer\\dtuition.html",
-                                          "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web-developer",
-                                          "PSChildName":  "dtuition.html",
-                                          "PSDrive":  "C",
-                                          "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                          "ReadCount":  1
-                                      },
-                          "assessment":  {
-
-                                         },
-                          "other":  {
-                                        "value":  "104",
-                                        "PSPath":  "C:\\xampp\\htdocs\\programs\\web-developer\\dother.html",
-                                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web-developer",
-                                        "PSChildName":  "dother.html",
-                                        "PSDrive":  "C",
-                                        "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "ReadCount":  1
-                                    },
-                          "application":  {
-                                              "value":  "250",
-                                              "PSPath":  "C:\\xampp\\htdocs\\programs\\web-developer\\dapp.html",
-                                              "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web-developer",
-                                              "PSChildName":  "dapp.html",
-                                              "PSDrive":  "C",
-                                              "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                              "ReadCount":  1
-                                          }
-                      },
-    "programduration":  {
-                            "value":  "29",
-                            "PSPath":  "C:\\xampp\\htdocs\\programs\\web-developer\\programduration.html",
-                            "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web-developer",
-                            "PSChildName":  "programduration.html",
-                            "PSDrive":  {
-                                            "CurrentLocation":  "xampp\\htdocs\\programs\\web-developer",
-                                            "Name":  "C",
-                                            "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                            "Root":  "C:\\",
-                                            "Description":  "",
-                                            "MaximumSize":  null,
-                                            "Credential":  "System.Management.Automation.PSCredential",
-                                            "DisplayRoot":  null
-                                        },
-                            "PSProvider":  {
-                                               "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                               "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                               "Name":  "FileSystem",
-                                               "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                               "ModuleName":  "Microsoft.PowerShell.Core",
-                                               "Module":  null,
-                                               "Description":  "",
-                                               "Capabilities":  52,
-                                               "Home":  "C:\\Users\\mike",
-                                               "Drives":  "C D"
-                                           },
-                            "ReadCount":  1
-                        },
-    "admitreq":  [
-                     {
-                         "value":  "\u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\web-developer\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web-developer",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  1
-                     },
-                     {
-                         "value":  "    the English language and is able to follow instructions. Applicants whose first language is not English must provide",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\web-developer\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web-developer",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  2
-                     },
-                     {
-                         "value":  "    proof of English proficiency.\u003c/p\u003e",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\web-developer\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web-developer",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  3
-                     },
-                     {
-                         "value":  "",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\web-developer\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web-developer",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  4
-                     },
-                     {
-                         "value":  "\u003cp\u003eAn admissions interview will be administered to determine if the applicant has the required interest, motivation, and",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\web-developer\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web-developer",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  5
-                     },
-                     {
-                         "value":  "    entry-level skills to take this program.\u003c/p\u003e",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\web-developer\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web-developer",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  6
-                     },
-                     {
-                         "value":  "",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\web-developer\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web-developer",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  7
-                     },
-                     {
-                         "value":  "\u003cp\u003eFull-time students must attend the required hours per week as per the course schedule and may do so at times",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\web-developer\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web-developer",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  8
-                     },
-                     {
-                         "value":  "    convenient to them.\u003c/p\u003e",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\web-developer\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web-developer",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  9
-                     }
-                 ],
-    "salaryend":  {
-                      "value":  "90,000",
-                      "PSPath":  "C:\\xampp\\htdocs\\programs\\web-developer\\salaryend.html",
-                      "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web-developer",
-                      "PSChildName":  "salaryend.html",
-                      "PSDrive":  {
-                                      "CurrentLocation":  "xampp\\htdocs\\programs\\web-developer",
-                                      "Name":  "C",
-                                      "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                      "Root":  "C:\\",
-                                      "Description":  "",
-                                      "MaximumSize":  null,
-                                      "Credential":  "System.Management.Automation.PSCredential",
-                                      "DisplayRoot":  null
-                                  },
-                      "PSProvider":  {
-                                         "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                         "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                         "Name":  "FileSystem",
-                                         "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                         "ModuleName":  "Microsoft.PowerShell.Core",
-                                         "Module":  null,
-                                         "Description":  "",
-                                         "Capabilities":  52,
-                                         "Home":  "C:\\Users\\mike",
-                                         "Drives":  "C D"
-                                     },
-                      "ReadCount":  1
-                  },
-    "prog_video":  "",
-    "careeropp":  [
-                      "\u003cp\u003eGraduates of the program may pursue a variety of positions in web development, including web developer, UI/UX",
-                      "    developer, front end web developer, HTML / CSS developer, and Javascript / jQuery developer..\u003c\\/p\u003e",
-                      "",
-                      "\u003ch2\u003eProgram Notes\u003c\\/h2\u003e",
-                      "\u003cp\u003eTuition fees include all course materials. Financial assistance may be available for those who qualify.\u003c\\/p\u003e",
-                      "",
-                      "\u003cp\u003eGraduation requirements: Students must maintain a 75% program average to obtain a diploma.\u003c\\/p\u003e",
-                      "",
-                      "\u003ch2\u003eMethod of Delivery\u003c\\/h2\u003e",
-                      "",
-                      "\u003cp\u003eIntegrated Learning\u0026reg; System training facilitated by qualified learning coaches.\u003c\\/p\u003e"
-                  ],
-    "programhighlights":  [
-                              "\u003cp\u003eIn the Web Developer diploma program, students learn the coding languages required to be a front-end web developer",
-                              "    and create dynamic websites. The program covers the primary and in-demand web development programming languages:",
-                              "    HTML, CSS, and JavaScript.\u003c\\/p\u003e",
-                              "",
-                              "\u003cp\u003eThroughout the program, students gain hands-on experience with a range of web development projects that build in",
-                              "    complexity as students add coding languages and technology skills to their toolkit.\u003c\\/p\u003e",
-                              "",
-                              "\u003cp\u003eGraduates of the program will be able to:\u003c\\/p\u003e",
-                              "",
-                              "\u003cul\u003e",
-                              "    \u003cli\u003eDesign the appearance and layout of websites\u003c\\/li\u003e",
-                              "    \u003cli\u003eDevelop cross-browser and cross-platform websites\u003c\\/li\u003e",
-                              "    \u003cli\u003eCreate and optimize content for websites using graphics, animations, and other software\u003c\\/li\u003e",
-                              "    \u003cli\u003eTranslate wire frames and storyboards into functional, responsive websites\u003c\\/li\u003e",
-                              "\u003c\\/ul\u003e"
-                          ],
-    "programhours":  {
-                         "value":  "591",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\web-developer\\programhours.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web-developer",
-                         "PSChildName":  "programhours.html",
-                         "PSDrive":  {
-                                         "CurrentLocation":  "xampp\\htdocs\\programs\\web-developer",
-                                         "Name":  "C",
-                                         "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                         "Root":  "C:\\",
-                                         "Description":  "",
-                                         "MaximumSize":  null,
-                                         "Credential":  "System.Management.Automation.PSCredential",
-                                         "DisplayRoot":  null
-                                     },
-                         "PSProvider":  {
-                                            "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                            "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                            "Name":  "FileSystem",
-                                            "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                            "ModuleName":  "Microsoft.PowerShell.Core",
-                                            "Module":  null,
-                                            "Description":  "",
-                                            "Capabilities":  52,
-                                            "Home":  "C:\\Users\\mike",
-                                            "Drives":  "C D"
-                                        },
-                         "ReadCount":  1
-                     },
-    "syllabuslink":  "aolcc_-_web_developer_diploma_-_program_outline_bc.pdf",
-    "corecourses":  [
-                        "\u003cp\u003e",
-                        "    \u003cb\u003eCore Courses\u003c\\/b\u003e",
-                        "\u003c\\/p\u003e",
-                        "\u003cul class=\"textleft\"\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003e\u003cb\u003eKeyboarding\u003c\\/b\u003e\u003cbr /\u003e Minimum 25 words per minute (WPM).\u003c\\/li\u003e",
-                        "",
-                        "",
-                        "    \u003cli class=\"textleft-ul-li\"\u003e\u003cb\u003e Operating Systems\u003c\\/b\u003e\u003cbr /\u003eIntermediate level of proficiency with Windows OS\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003e\u003cb\u003eSoftware Development Industry \u003c\\/b\u003e\u003cbr /\u003eComputer and Technology Basics for Developers,",
-                        "        Overview of Software Development \u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003e\u003cb\u003eSoftware and Web Development Skills \u003c\\/b\u003e\u003cbr /\u003eVersion Control, HTML, CSS and",
-                        "        Bootstrap, JavaScript \u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003e\u003cb\u003eDatabase Skills \u003c\\/b\u003e\u003cbr /\u003eBasic level of proficiency in Microsoft Access \u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003e\u003cb\u003eWord Processing and Spreadsheets \u003c\\/b\u003e\u003cbr /\u003e Basic level of proficiency in Microsoft",
-                        "        Word and Microsoft Excel\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003e\u003cb\u003eOffice Skills \u003c\\/b\u003e\u003cbr /\u003ePersonal Computer Fundamentals, basic level of proficiency in",
-                        "        Microsoft Outlook and Internet Fundamentals \u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003e\u003cb\u003eBusiness Skills \u003c\\/b\u003e\u003cbr /\u003e Customer Service, Project Management\u003c\\/li\u003e",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "\u003c\\/ul\u003e"
-                    ],
-    "salarystart":  {
-                        "value":  "36,400",
-                        "PSPath":  "C:\\xampp\\htdocs\\programs\\web-developer\\salarystart.html",
-                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web-developer",
-                        "PSChildName":  "salarystart.html",
-                        "PSDrive":  {
-                                        "CurrentLocation":  "xampp\\htdocs\\programs\\web-developer",
-                                        "Name":  "C",
-                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "Root":  "C:\\",
-                                        "Description":  "",
-                                        "MaximumSize":  null,
-                                        "Credential":  "System.Management.Automation.PSCredential",
-                                        "DisplayRoot":  null
-                                    },
-                        "PSProvider":  {
-                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                           "Name":  "FileSystem",
-                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                           "ModuleName":  "Microsoft.PowerShell.Core",
-                                           "Module":  null,
-                                           "Description":  "",
-                                           "Capabilities":  52,
-                                           "Home":  "C:\\Users\\mike",
-                                           "Drives":  "C D"
-                                       },
-                        "ReadCount":  1
-                    },
-    "programtype":  {
-                        "value":  "Diploma",
-                        "PSPath":  "C:\\xampp\\htdocs\\programs\\web-developer\\programtype.html",
-                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web-developer",
-                        "PSChildName":  "programtype.html",
-                        "PSDrive":  {
-                                        "CurrentLocation":  "xampp\\htdocs\\programs\\web-developer",
-                                        "Name":  "C",
-                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "Root":  "C:\\",
-                                        "Description":  "",
-                                        "MaximumSize":  null,
-                                        "Credential":  "System.Management.Automation.PSCredential",
-                                        "DisplayRoot":  null
-                                    },
-                        "PSProvider":  {
-                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                           "Name":  "FileSystem",
-                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                           "ModuleName":  "Microsoft.PowerShell.Core",
-                                           "Module":  null,
-                                           "Description":  "",
-                                           "Capabilities":  52,
-                                           "Home":  "C:\\Users\\mike",
-                                           "Drives":  "C D"
-                                       },
-                        "ReadCount":  1
-                    },
-    "programname":  {
-                        "value":  "Web Developer",
-                        "PSPath":  "C:\\xampp\\htdocs\\programs\\web-developer\\progtitle.html",
-                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web-developer",
-                        "PSChildName":  "progtitle.html",
-                        "PSDrive":  {
-                                        "CurrentLocation":  "xampp\\htdocs\\programs\\web-developer",
-                                        "Name":  "C",
-                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "Root":  "C:\\",
-                                        "Description":  "",
-                                        "MaximumSize":  null,
-                                        "Credential":  "System.Management.Automation.PSCredential",
-                                        "DisplayRoot":  null
-                                    },
-                        "PSProvider":  {
-                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                           "Name":  "FileSystem",
-                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                           "ModuleName":  "Microsoft.PowerShell.Core",
-                                           "Module":  null,
-                                           "Description":  "",
-                                           "Capabilities":  52,
-                                           "Home":  "C:\\Users\\mike",
-                                           "Drives":  "C D"
-                                       },
-                        "ReadCount":  1
-                    }
 }
-{
-    "domestic_fees":  {
-                          "tuition":  null,
-                          "assessment":  null,
-                          "other":  null,
-                          "application":  null
-                      },
-    "programduration":  null,
-    "admitreq":  null,
-    "salaryend":  null,
-    "prog_video":  "",
-    "careeropp":  null,
-    "programhighlights":  null,
-    "programhours":  null,
-    "syllabuslink":  "aolcc_-_web_developer_diploma_-_program_outline_bc.pdf",
-    "corecourses":  null,
-    "salarystart":  null,
-    "programtype":  null,
-    "programname":  null
-}
-"{\r\n    \"programname\": \r\n    \"admitreq\": \u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of     the English language and is able to follow instructions. Applicants whose first language is not English must provide     proof of English proficiency.\u003c/p\u003e  \u003cp\u003eAn admissions interview will be administered to determine if the applicant has the required interest, motivation, and     entry-level skills to take this program.\u003c/p\u003e  \u003cp\u003eFull-time students must attend the required hours per week as per the course schedule and may do so at times     convenient to them.\u003c/p\u003e\r\n    \"programhighlights\": \u003cp\u003eIn the Web Developer diploma program, students learn the coding languages required to be a front-end web developer     and create dynamic websites. The program covers the primary and in-demand web development programming languages:     HTML, CSS, and JavaScript.\u003c\\/p\u003e  \u003cp\u003eThroughout the program, students gain hands-on experience with a range of web development projects that build in     complexity as students add coding languages and technology skills to their toolkit.\u003c\\/p\u003e  \u003cp\u003eGraduates of the program will be able to:\u003c\\/p\u003e  \u003cul\u003e     \u003cli\u003eDesign the appearance and layout of websites\u003c\\/li\u003e     \u003cli\u003eDevelop cross-browser and cross-platform websites\u003c\\/li\u003e     \u003cli\u003eCreate and optimize content for websites using graphics, animations, and other software\u003c\\/li\u003e     \u003cli\u003eTranslate wire frames and storyboards into functional, responsive websites\u003c\\/li\u003e \u003c\\/ul\u003e\r\n    \"careeropp\": \u003cp\u003eGraduates of the program may pursue a variety of positions in web development, including web developer, UI/UX     developer, front end web developer, HTML / CSS developer, and Javascript / jQuery developer..\u003c\\/p\u003e  \u003ch2\u003eProgram Notes\u003c\\/h2\u003e \u003cp\u003eTuition fees include all course materials. Financial assistance may be available for those who qualify.\u003c\\/p\u003e  \u003cp\u003eGraduation requirements: Students must maintain a 75% program average to obtain a diploma.\u003c\\/p\u003e  \u003ch2\u003eMethod of Delivery\u003c\\/h2\u003e  \u003cp\u003eIntegrated Learning\u0026reg; System training facilitated by qualified learning coaches.\u003c\\/p\u003e\r\n    \"corecourses\": \u003cp\u003e     \u003cb\u003eCore Courses\u003c\\/b\u003e \u003c\\/p\u003e \u003cul class=\"textleft\"\u003e     \u003cli class=\"textleft-ul-li\"\u003e\u003cb\u003eKeyboarding\u003c\\/b\u003e\u003cbr /\u003e Minimum 25 words per minute (WPM).\u003c\\/li\u003e       \u003cli class=\"textleft-ul-li\"\u003e\u003cb\u003e Operating Systems\u003c\\/b\u003e\u003cbr /\u003eIntermediate level of proficiency with Windows OS\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e\u003cb\u003eSoftware Development Industry \u003c\\/b\u003e\u003cbr /\u003eComputer and Technology Basics for Developers,         Overview of Software Development \u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e\u003cb\u003eSoftware and Web Development Skills \u003c\\/b\u003e\u003cbr /\u003eVersion Control, HTML, CSS and         Bootstrap, JavaScript \u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e\u003cb\u003eDatabase Skills \u003c\\/b\u003e\u003cbr /\u003eBasic level of proficiency in Microsoft Access \u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e\u003cb\u003eWord Processing and Spreadsheets \u003c\\/b\u003e\u003cbr /\u003e Basic level of proficiency in Microsoft         Word and Microsoft Excel\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e\u003cb\u003eOffice Skills \u003c\\/b\u003e\u003cbr /\u003ePersonal Computer Fundamentals, basic level of proficiency in         Microsoft Outlook and Internet Fundamentals \u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e\u003cb\u003eBusiness Skills \u003c\\/b\u003e\u003cbr /\u003e Customer Service, Project Management\u003c\\/li\u003e      \u003c\\/ul\u003e\r\n    \"programtype\": Diploma\r\n    \"salarystart\": 36,400\r\n    \"salaryend\": 90,000\r\n    \"programhours\": 591\r\n    \"programduration\": 29\r\n    \"domestic_fees\": @{\r\n        \"tuition\": 10774\r\n        \"application\": 250\r\n        \"assessment\": 100\r\n        \"other\": 104\r\n    }\r\n    \"syllabuslink\": aolcc_-_web_developer_diploma_-_program_outline_bc.pdf\r\n    \"prog_video\": \"\"\r\n}"
