@@ -1,0 +1,289 @@
+@{domestic_fees=; programduration=; admitreq=System.Object[]; salaryend=; prog_video=; careeropp=System.Object[]; programhighlights=System.Object[]; programhours=; syllabuslink=executive_assistant_outline.pdf; corecourses=System.Object[]; salarystart=; programtype=; programname=}
+{
+    "domestic_fees":  {
+                          "tuition":  {
+                                          "value":  "14334",
+                                          "PSPath":  "C:\\xampp\\htdocs\\programs\\executive_assistant\\dtuition.html",
+                                          "PSParentPath":  "C:\\xampp\\htdocs\\programs\\executive_assistant",
+                                          "PSChildName":  "dtuition.html",
+                                          "PSDrive":  "C",
+                                          "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                          "ReadCount":  1
+                                      },
+                          "assessment":  {
+
+                                         },
+                          "other":  {
+                                        "value":  "4",
+                                        "PSPath":  "C:\\xampp\\htdocs\\programs\\executive_assistant\\dother.html",
+                                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\executive_assistant",
+                                        "PSChildName":  "dother.html",
+                                        "PSDrive":  "C",
+                                        "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                        "ReadCount":  1
+                                    },
+                          "application":  {
+                                              "value":  "250",
+                                              "PSPath":  "C:\\xampp\\htdocs\\programs\\executive_assistant\\dapp.html",
+                                              "PSParentPath":  "C:\\xampp\\htdocs\\programs\\executive_assistant",
+                                              "PSChildName":  "dapp.html",
+                                              "PSDrive":  "C",
+                                              "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                              "ReadCount":  1
+                                          }
+                      },
+    "programduration":  {
+                            "value":  "48",
+                            "PSPath":  "C:\\xampp\\htdocs\\programs\\executive_assistant\\programduration.html",
+                            "PSParentPath":  "C:\\xampp\\htdocs\\programs\\executive_assistant",
+                            "PSChildName":  "programduration.html",
+                            "PSDrive":  {
+                                            "CurrentLocation":  "xampp\\htdocs\\programs\\executive_assistant",
+                                            "Name":  "C",
+                                            "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                            "Root":  "C:\\",
+                                            "Description":  "",
+                                            "MaximumSize":  null,
+                                            "Credential":  "System.Management.Automation.PSCredential",
+                                            "DisplayRoot":  null
+                                        },
+                            "PSProvider":  {
+                                               "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                               "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                               "Name":  "FileSystem",
+                                               "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                               "ModuleName":  "Microsoft.PowerShell.Core",
+                                               "Module":  null,
+                                               "Description":  "",
+                                               "Capabilities":  52,
+                                               "Home":  "C:\\Users\\mike",
+                                               "Drives":  "C D"
+                                           },
+                            "ReadCount":  1
+                        },
+    "admitreq":  [
+                     {
+                         "value":  "\u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instruction. An admissions interview will be administered to determine if the applicant has the",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\executive_assistant\\admitreq.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\executive_assistant",
+                         "PSChildName":  "admitreq.html",
+                         "PSDrive":  "C",
+                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                         "ReadCount":  1
+                     },
+                     {
+                         "value":  "    required interest, motivation, and entry-level skills to take this program. Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them. Part-time students may set their own schedules",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\executive_assistant\\admitreq.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\executive_assistant",
+                         "PSChildName":  "admitreq.html",
+                         "PSDrive":  "C",
+                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                         "ReadCount":  2
+                     },
+                     {
+                         "value":  "    to a minimum of two training sessions per week. These times may be scheduled during the day, evenings, or on weekends.\u003c/p\u003e",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\executive_assistant\\admitreq.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\executive_assistant",
+                         "PSChildName":  "admitreq.html",
+                         "PSDrive":  "C",
+                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                         "ReadCount":  3
+                     }
+                 ],
+    "salaryend":  {
+                      "value":  "69,234",
+                      "PSPath":  "C:\\xampp\\htdocs\\programs\\executive_assistant\\salaryend.html",
+                      "PSParentPath":  "C:\\xampp\\htdocs\\programs\\executive_assistant",
+                      "PSChildName":  "salaryend.html",
+                      "PSDrive":  {
+                                      "CurrentLocation":  "xampp\\htdocs\\programs\\executive_assistant",
+                                      "Name":  "C",
+                                      "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                      "Root":  "C:\\",
+                                      "Description":  "",
+                                      "MaximumSize":  null,
+                                      "Credential":  "System.Management.Automation.PSCredential",
+                                      "DisplayRoot":  null
+                                  },
+                      "PSProvider":  {
+                                         "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                         "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                         "Name":  "FileSystem",
+                                         "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                         "ModuleName":  "Microsoft.PowerShell.Core",
+                                         "Module":  null,
+                                         "Description":  "",
+                                         "Capabilities":  52,
+                                         "Home":  "C:\\Users\\mike",
+                                         "Drives":  "C D"
+                                     },
+                      "ReadCount":  1
+                  },
+    "prog_video":  "",
+    "careeropp":  [
+                      "\u003cp\u003eIn the corporate environment, a skilled Executive Assistant can be an invaluable member of the management team. Opportunities and compensation are better than ever in this area. This type of position may lead into the management stream for those who perform",
+                      "    well and possess the skills.\u003c\\/p\u003e"
+                  ],
+    "programhighlights":  [
+                              "\u003cp\u003eThis program prepares students to enter and progress in the secretarial field. Upon graduation, the new Executive Assistant is able to meet the challenges of the new millennium with the skills most currently required by employers. Each graduate will attain",
+                              "    a sense of achievement while ensuring a successful career.\u003c\\/p\u003e"
+                          ],
+    "programhours":  {
+                         "value":  "971",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\executive_assistant\\programhours.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\executive_assistant",
+                         "PSChildName":  "programhours.html",
+                         "PSDrive":  {
+                                         "CurrentLocation":  "xampp\\htdocs\\programs\\executive_assistant",
+                                         "Name":  "C",
+                                         "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                         "Root":  "C:\\",
+                                         "Description":  "",
+                                         "MaximumSize":  null,
+                                         "Credential":  "System.Management.Automation.PSCredential",
+                                         "DisplayRoot":  null
+                                     },
+                         "PSProvider":  {
+                                            "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                            "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                            "Name":  "FileSystem",
+                                            "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                            "ModuleName":  "Microsoft.PowerShell.Core",
+                                            "Module":  null,
+                                            "Description":  "",
+                                            "Capabilities":  52,
+                                            "Home":  "C:\\Users\\mike",
+                                            "Drives":  "C D"
+                                        },
+                         "ReadCount":  1
+                     },
+    "syllabuslink":  "executive_assistant_outline.pdf",
+    "corecourses":  [
+                        "\u003cp\u003e",
+                        "    Upon completion of the program the participant must demonstrate the following core competencies:\u003c\\/p\u003e",
+                        "\u003cul class=\"textleft\"\u003e",
+                        "",
+                        "    \u003cli class=\"textleft-ul-li\"\u003e Keyboarding\u003cbr /\u003e Minimum 55 words per minute (WPM).\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003e Operating Systems\u003cbr /\u003e Advanced level of proficiency in a Windows operating system\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eWord Processing\u003cbr /\u003e Advanced level of proficiency in Microsoft Word\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eSpreadsheets\u003cbr /\u003e Intermediate level of proficiency in Microsoft Excel\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eDatabase Management\u003cbr /\u003e Basic level of proficiency in Microsoft Access\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003e Simulations and Drills\u003cbr /\u003e Practical Applications – 3 Units\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003e Graphics/Presentation\u003cbr /\u003e Advanced level of proficiency in Microsoft PowerPoint, Photoshop Basics, and Microsoft Publisher\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003e Web Design\u003cbr /\u003e Dreamweaver 1\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003e Business Skills\u003cbr /\u003e Customer Service, Grammar Essentials for Business Writing, Business Correspondence Levels 1 and 2, and Management Fundamentals\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003e Office Skills\u003cbr /\u003e Personal Computer Fundamentals for End Users, Office Procedures Levels 1 and 2, Internet Fundamentals, and basic level of proficiency in Microsoft Outlook\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003e Job Readiness/Employability Skills\u003cbr /\u003e Job Search and Résumé Writing and Thought Patterns for a Successful Career\u003c\\/li\u003e",
+                        "",
+                        "",
+                        "\u003c\\/ul\u003e"
+                    ],
+    "salarystart":  {
+                        "value":  "36,238",
+                        "PSPath":  "C:\\xampp\\htdocs\\programs\\executive_assistant\\salarystart.html",
+                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\executive_assistant",
+                        "PSChildName":  "salarystart.html",
+                        "PSDrive":  {
+                                        "CurrentLocation":  "xampp\\htdocs\\programs\\executive_assistant",
+                                        "Name":  "C",
+                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                        "Root":  "C:\\",
+                                        "Description":  "",
+                                        "MaximumSize":  null,
+                                        "Credential":  "System.Management.Automation.PSCredential",
+                                        "DisplayRoot":  null
+                                    },
+                        "PSProvider":  {
+                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                           "Name":  "FileSystem",
+                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                           "ModuleName":  "Microsoft.PowerShell.Core",
+                                           "Module":  null,
+                                           "Description":  "",
+                                           "Capabilities":  52,
+                                           "Home":  "C:\\Users\\mike",
+                                           "Drives":  "C D"
+                                       },
+                        "ReadCount":  1
+                    },
+    "programtype":  {
+                        "value":  "Diploma",
+                        "PSPath":  "C:\\xampp\\htdocs\\programs\\executive_assistant\\programtype.html",
+                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\executive_assistant",
+                        "PSChildName":  "programtype.html",
+                        "PSDrive":  {
+                                        "CurrentLocation":  "xampp\\htdocs\\programs\\executive_assistant",
+                                        "Name":  "C",
+                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                        "Root":  "C:\\",
+                                        "Description":  "",
+                                        "MaximumSize":  null,
+                                        "Credential":  "System.Management.Automation.PSCredential",
+                                        "DisplayRoot":  null
+                                    },
+                        "PSProvider":  {
+                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                           "Name":  "FileSystem",
+                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                           "ModuleName":  "Microsoft.PowerShell.Core",
+                                           "Module":  null,
+                                           "Description":  "",
+                                           "Capabilities":  52,
+                                           "Home":  "C:\\Users\\mike",
+                                           "Drives":  "C D"
+                                       },
+                        "ReadCount":  1
+                    },
+    "programname":  {
+                        "value":  "EXECUTIVE ASSISTANT",
+                        "PSPath":  "C:\\xampp\\htdocs\\programs\\executive_assistant\\progtitle.html",
+                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\executive_assistant",
+                        "PSChildName":  "progtitle.html",
+                        "PSDrive":  {
+                                        "CurrentLocation":  "xampp\\htdocs\\programs\\executive_assistant",
+                                        "Name":  "C",
+                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                        "Root":  "C:\\",
+                                        "Description":  "",
+                                        "MaximumSize":  null,
+                                        "Credential":  "System.Management.Automation.PSCredential",
+                                        "DisplayRoot":  null
+                                    },
+                        "PSProvider":  {
+                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                           "Name":  "FileSystem",
+                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                           "ModuleName":  "Microsoft.PowerShell.Core",
+                                           "Module":  null,
+                                           "Description":  "",
+                                           "Capabilities":  52,
+                                           "Home":  "C:\\Users\\mike",
+                                           "Drives":  "C D"
+                                       },
+                        "ReadCount":  1
+                    }
+}
+{
+    "domestic_fees":  {
+                          "tuition":  null,
+                          "assessment":  null,
+                          "other":  null,
+                          "application":  null
+                      },
+    "programduration":  null,
+    "admitreq":  null,
+    "salaryend":  null,
+    "prog_video":  "",
+    "careeropp":  null,
+    "programhighlights":  null,
+    "programhours":  null,
+    "syllabuslink":  "executive_assistant_outline.pdf",
+    "corecourses":  null,
+    "salarystart":  null,
+    "programtype":  null,
+    "programname":  null
+}
+"{\r\n    \"programname\": \r\n    \"admitreq\": \u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instruction. An admissions interview will be administered to determine if the applicant has the     required interest, motivation, and entry-level skills to take this program. Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them. Part-time students may set their own schedules     to a minimum of two training sessions per week. These times may be scheduled during the day, evenings, or on weekends.\u003c/p\u003e\r\n    \"programhighlights\": \u003cp\u003eThis program prepares students to enter and progress in the secretarial field. Upon graduation, the new Executive Assistant is able to meet the challenges of the new millennium with the skills most currently required by employers. Each graduate will attain     a sense of achievement while ensuring a successful career.\u003c\\/p\u003e\r\n    \"careeropp\": \u003cp\u003eIn the corporate environment, a skilled Executive Assistant can be an invaluable member of the management team. Opportunities and compensation are better than ever in this area. This type of position may lead into the management stream for those who perform     well and possess the skills.\u003c\\/p\u003e\r\n    \"corecourses\": \u003cp\u003e     Upon completion of the program the participant must demonstrate the following core competencies:\u003c\\/p\u003e \u003cul class=\"textleft\"\u003e      \u003cli class=\"textleft-ul-li\"\u003e Keyboarding\u003cbr /\u003e Minimum 55 words per minute (WPM).\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e Operating Systems\u003cbr /\u003e Advanced level of proficiency in a Windows operating system\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eWord Processing\u003cbr /\u003e Advanced level of proficiency in Microsoft Word\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eSpreadsheets\u003cbr /\u003e Intermediate level of proficiency in Microsoft Excel\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eDatabase Management\u003cbr /\u003e Basic level of proficiency in Microsoft Access\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e Simulations and Drills\u003cbr /\u003e Practical Applications – 3 Units\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e Graphics/Presentation\u003cbr /\u003e Advanced level of proficiency in Microsoft PowerPoint, Photoshop Basics, and Microsoft Publisher\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e Web Design\u003cbr /\u003e Dreamweaver 1\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e Business Skills\u003cbr /\u003e Customer Service, Grammar Essentials for Business Writing, Business Correspondence Levels 1 and 2, and Management Fundamentals\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e Office Skills\u003cbr /\u003e Personal Computer Fundamentals for End Users, Office Procedures Levels 1 and 2, Internet Fundamentals, and basic level of proficiency in Microsoft Outlook\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e Job Readiness/Employability Skills\u003cbr /\u003e Job Search and Résumé Writing and Thought Patterns for a Successful Career\u003c\\/li\u003e   \u003c\\/ul\u003e\r\n    \"programtype\": Diploma\r\n    \"salarystart\": 36,238\r\n    \"salaryend\": 69,234\r\n    \"programhours\": 971\r\n    \"programduration\": 48\r\n    \"domestic_fees\": @{\r\n        \"tuition\": 14334\r\n        \"application\": 250\r\n        \"assessment\": 100\r\n        \"other\": 4\r\n    }\r\n    \"syllabuslink\": executive_assistant_outline.pdf\r\n    \"prog_video\": \"\"\r\n}"

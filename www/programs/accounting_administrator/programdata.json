@@ -1,0 +1,310 @@
+@{domestic_fees=; programduration=; admitreq=System.Object[]; salaryend=; prog_video=; careeropp=System.Object[]; programhighlights=System.Object[]; programhours=; syllabuslink=Accounting-Administrator-with-SAGE-Diploma-Outline-BC.pdf; corecourses=System.Object[]; salarystart=; programtype=; programname=}
+{
+    "domestic_fees":  {
+                          "tuition":  {
+                                          "value":  "11,559",
+                                          "PSPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator\\dtuition.html",
+                                          "PSParentPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator",
+                                          "PSChildName":  "dtuition.html",
+                                          "PSDrive":  "C",
+                                          "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                          "ReadCount":  1
+                                      },
+                          "assessment":  {
+
+                                         },
+                          "other":  {
+                                        "value":  "104",
+                                        "PSPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator\\dother.html",
+                                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator",
+                                        "PSChildName":  "dother.html",
+                                        "PSDrive":  "C",
+                                        "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                        "ReadCount":  1
+                                    },
+                          "application":  {
+                                              "value":  "250",
+                                              "PSPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator\\dapp.html",
+                                              "PSParentPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator",
+                                              "PSChildName":  "dapp.html",
+                                              "PSDrive":  "C",
+                                              "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                              "ReadCount":  1
+                                          }
+                      },
+    "programduration":  {
+                            "value":  "36",
+                            "PSPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator\\programduration.html",
+                            "PSParentPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator",
+                            "PSChildName":  "programduration.html",
+                            "PSDrive":  {
+                                            "CurrentLocation":  "xampp\\htdocs\\programs\\accounting_administrator",
+                                            "Name":  "C",
+                                            "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                            "Root":  "C:\\",
+                                            "Description":  "",
+                                            "MaximumSize":  null,
+                                            "Credential":  "System.Management.Automation.PSCredential",
+                                            "DisplayRoot":  null
+                                        },
+                            "PSProvider":  {
+                                               "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                               "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                               "Name":  "FileSystem",
+                                               "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                               "ModuleName":  "Microsoft.PowerShell.Core",
+                                               "Module":  null,
+                                               "Description":  "",
+                                               "Capabilities":  52,
+                                               "Home":  "C:\\Users\\mike",
+                                               "Drives":  "C D"
+                                           },
+                            "ReadCount":  1
+                        },
+    "admitreq":  [
+                     {
+                         "value":  "\u003cp\u003eA British Columbia Secondary School Diploma or equivalent with prior education in English at grade 10 level or higher.\u003c/p\u003e",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator\\admitreq.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator",
+                         "PSChildName":  "admitreq.html",
+                         "PSDrive":  "C",
+                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                         "ReadCount":  1
+                     },
+                     {
+                         "value":  "\u003ccenter\u003e",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator\\admitreq.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator",
+                         "PSChildName":  "admitreq.html",
+                         "PSDrive":  "C",
+                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                         "ReadCount":  2
+                     },
+                     {
+                         "value":  "    \u003cstrong\u003eOR\u003c/strong\u003e",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator\\admitreq.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator",
+                         "PSChildName":  "admitreq.html",
+                         "PSDrive":  "C",
+                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                         "ReadCount":  3
+                     },
+                     {
+                         "value":  "\u003c/center\u003e",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator\\admitreq.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator",
+                         "PSChildName":  "admitreq.html",
+                         "PSDrive":  "C",
+                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                         "ReadCount":  4
+                     },
+                     {
+                         "value":  "\u003cp\u003eMature students who pass an entrance evaluation demonstrating sufficient ability (i.e., English comprehension and math skills) to undertake the program.\u003c/p\u003e",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator\\admitreq.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator",
+                         "PSChildName":  "admitreq.html",
+                         "PSDrive":  "C",
+                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                         "ReadCount":  5
+                     },
+                     {
+                         "value":  "\u003cp\u003eAll applicants must demonstrate English proficiency through one of the above requirements or through an English language assessment (IELTS 5.5 or equivalent).\u003c/p\u003e",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator\\admitreq.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator",
+                         "PSChildName":  "admitreq.html",
+                         "PSDrive":  "C",
+                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                         "ReadCount":  6
+                     }
+                 ],
+    "salaryend":  {
+                      "value":  "57,650",
+                      "PSPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator\\salaryend.html",
+                      "PSParentPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator",
+                      "PSChildName":  "salaryend.html",
+                      "PSDrive":  {
+                                      "CurrentLocation":  "xampp\\htdocs\\programs\\accounting_administrator",
+                                      "Name":  "C",
+                                      "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                      "Root":  "C:\\",
+                                      "Description":  "",
+                                      "MaximumSize":  null,
+                                      "Credential":  "System.Management.Automation.PSCredential",
+                                      "DisplayRoot":  null
+                                  },
+                      "PSProvider":  {
+                                         "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                         "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                         "Name":  "FileSystem",
+                                         "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                         "ModuleName":  "Microsoft.PowerShell.Core",
+                                         "Module":  null,
+                                         "Description":  "",
+                                         "Capabilities":  52,
+                                         "Home":  "C:\\Users\\mike",
+                                         "Drives":  "C D"
+                                     },
+                      "ReadCount":  1
+                  },
+    "prog_video":  "",
+    "careeropp":  [
+                      "\u003cp\u003eComputerized accounting is a growing area. Excellent opportunities exist for skilled people. Graduates can become employed in the accounting department of a large company as an assistant or be in charge of the accounts in a smaller enterprise.",
+                      "\u003c\\/p\u003e"
+                  ],
+    "programhighlights":  [
+                              "\u003cp\u003eThe objective of this program is to provide the student with opportunities to acquire and apply the knowledge of bookkeeping, office skills, and accounting to meet the demands of today’s business. * Not all programs are offered at each location.",
+                              "\u003c\\/p\u003e"
+                          ],
+    "programhours":  {
+                         "value":  "725",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator\\programhours.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator",
+                         "PSChildName":  "programhours.html",
+                         "PSDrive":  {
+                                         "CurrentLocation":  "xampp\\htdocs\\programs\\accounting_administrator",
+                                         "Name":  "C",
+                                         "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                         "Root":  "C:\\",
+                                         "Description":  "",
+                                         "MaximumSize":  null,
+                                         "Credential":  "System.Management.Automation.PSCredential",
+                                         "DisplayRoot":  null
+                                     },
+                         "PSProvider":  {
+                                            "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                            "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                            "Name":  "FileSystem",
+                                            "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                            "ModuleName":  "Microsoft.PowerShell.Core",
+                                            "Module":  null,
+                                            "Description":  "",
+                                            "Capabilities":  52,
+                                            "Home":  "C:\\Users\\mike",
+                                            "Drives":  "C D"
+                                        },
+                         "ReadCount":  1
+                     },
+    "syllabuslink":  "Accounting-Administrator-with-SAGE-Diploma-Outline-BC.pdf",
+    "corecourses":  [
+                        "\u003cul class=\"textleft\"\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eKeyboarding\u003cbr\u003e Minimum 25 words per minute (WPM)\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eOperating Systems\u003cbr\u003e Basic level of proficiency in a Windows operating system\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eWord Processing\u003cbr\u003e Basic level of proficiency in Microsoft Word\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eSpreadsheets\u003cbr\u003e Intermediate level of proficiency in Microsoft Excel\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eSimulations and Drills\u003cbr\u003e Practical Applications – 2 Units\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eAccounting\u003cbr\u003e Sage 50 Premium Accounting, QuickBooks, Sage 300 General Ledger, Sage 300 Accounts Receivable, and Sage 300 Accounts Payable\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eOffice Skills\u003cbr\u003e Basic Bookkeeping Levels 1 and 2, Internet Fundamentals, Office Procedures Level 1, and basic level of proficiency in Microsoft Outlook\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eDatabase Management\u003cbr\u003e Basic level of proficiency in Microsoft Access\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eBusiness Skills\u003cbr\u003e Business Math, Customer Service, Grammar Essentials for Business Writing, and Workplace Success/Intrapreneurship\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eEmployability Skills\u003cbr\u003e Job Search and Résumé Writing and Thought Patterns for a Successful Career\u003c\\/li\u003e",
+                        "\u003c\\/ul\u003e"
+                    ],
+    "salarystart":  {
+                        "value":  "34,348",
+                        "PSPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator\\salarystart.html",
+                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator",
+                        "PSChildName":  "salarystart.html",
+                        "PSDrive":  {
+                                        "CurrentLocation":  "xampp\\htdocs\\programs\\accounting_administrator",
+                                        "Name":  "C",
+                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                        "Root":  "C:\\",
+                                        "Description":  "",
+                                        "MaximumSize":  null,
+                                        "Credential":  "System.Management.Automation.PSCredential",
+                                        "DisplayRoot":  null
+                                    },
+                        "PSProvider":  {
+                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                           "Name":  "FileSystem",
+                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                           "ModuleName":  "Microsoft.PowerShell.Core",
+                                           "Module":  null,
+                                           "Description":  "",
+                                           "Capabilities":  52,
+                                           "Home":  "C:\\Users\\mike",
+                                           "Drives":  "C D"
+                                       },
+                        "ReadCount":  1
+                    },
+    "programtype":  {
+                        "value":  "Diploma",
+                        "PSPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator\\programtype.html",
+                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator",
+                        "PSChildName":  "programtype.html",
+                        "PSDrive":  {
+                                        "CurrentLocation":  "xampp\\htdocs\\programs\\accounting_administrator",
+                                        "Name":  "C",
+                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                        "Root":  "C:\\",
+                                        "Description":  "",
+                                        "MaximumSize":  null,
+                                        "Credential":  "System.Management.Automation.PSCredential",
+                                        "DisplayRoot":  null
+                                    },
+                        "PSProvider":  {
+                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                           "Name":  "FileSystem",
+                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                           "ModuleName":  "Microsoft.PowerShell.Core",
+                                           "Module":  null,
+                                           "Description":  "",
+                                           "Capabilities":  52,
+                                           "Home":  "C:\\Users\\mike",
+                                           "Drives":  "C D"
+                                       },
+                        "ReadCount":  1
+                    },
+    "programname":  {
+                        "value":  "ACCOUNTING ADMINISTRATOR DIPLOMA WITH SAGE",
+                        "PSPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator\\progtitle.html",
+                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\accounting_administrator",
+                        "PSChildName":  "progtitle.html",
+                        "PSDrive":  {
+                                        "CurrentLocation":  "xampp\\htdocs\\programs\\accounting_administrator",
+                                        "Name":  "C",
+                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                        "Root":  "C:\\",
+                                        "Description":  "",
+                                        "MaximumSize":  null,
+                                        "Credential":  "System.Management.Automation.PSCredential",
+                                        "DisplayRoot":  null
+                                    },
+                        "PSProvider":  {
+                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                           "Name":  "FileSystem",
+                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                           "ModuleName":  "Microsoft.PowerShell.Core",
+                                           "Module":  null,
+                                           "Description":  "",
+                                           "Capabilities":  52,
+                                           "Home":  "C:\\Users\\mike",
+                                           "Drives":  "C D"
+                                       },
+                        "ReadCount":  1
+                    }
+}
+{
+    "domestic_fees":  {
+                          "tuition":  null,
+                          "assessment":  null,
+                          "other":  null,
+                          "application":  null
+                      },
+    "programduration":  null,
+    "admitreq":  null,
+    "salaryend":  null,
+    "prog_video":  "",
+    "careeropp":  null,
+    "programhighlights":  null,
+    "programhours":  null,
+    "syllabuslink":  "Accounting-Administrator-with-SAGE-Diploma-Outline-BC.pdf",
+    "corecourses":  null,
+    "salarystart":  null,
+    "programtype":  null,
+    "programname":  null
+}
+"{\r\n    \"programname\": \r\n    \"admitreq\": \u003cp\u003eA British Columbia Secondary School Diploma or equivalent with prior education in English at grade 10 level or higher.\u003c/p\u003e \u003ccenter\u003e     \u003cstrong\u003eOR\u003c/strong\u003e \u003c/center\u003e \u003cp\u003eMature students who pass an entrance evaluation demonstrating sufficient ability (i.e., English comprehension and math skills) to undertake the program.\u003c/p\u003e \u003cp\u003eAll applicants must demonstrate English proficiency through one of the above requirements or through an English language assessment (IELTS 5.5 or equivalent).\u003c/p\u003e\r\n    \"programhighlights\": \u003cp\u003eThe objective of this program is to provide the student with opportunities to acquire and apply the knowledge of bookkeeping, office skills, and accounting to meet the demands of today’s business. * Not all programs are offered at each location. \u003c\\/p\u003e\r\n    \"careeropp\": \u003cp\u003eComputerized accounting is a growing area. Excellent opportunities exist for skilled people. Graduates can become employed in the accounting department of a large company as an assistant or be in charge of the accounts in a smaller enterprise. \u003c\\/p\u003e\r\n    \"corecourses\": \u003cul class=\"textleft\"\u003e     \u003cli class=\"textleft-ul-li\"\u003eKeyboarding\u003cbr\u003e Minimum 25 words per minute (WPM)\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eOperating Systems\u003cbr\u003e Basic level of proficiency in a Windows operating system\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eWord Processing\u003cbr\u003e Basic level of proficiency in Microsoft Word\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eSpreadsheets\u003cbr\u003e Intermediate level of proficiency in Microsoft Excel\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eSimulations and Drills\u003cbr\u003e Practical Applications – 2 Units\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eAccounting\u003cbr\u003e Sage 50 Premium Accounting, QuickBooks, Sage 300 General Ledger, Sage 300 Accounts Receivable, and Sage 300 Accounts Payable\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eOffice Skills\u003cbr\u003e Basic Bookkeeping Levels 1 and 2, Internet Fundamentals, Office Procedures Level 1, and basic level of proficiency in Microsoft Outlook\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eDatabase Management\u003cbr\u003e Basic level of proficiency in Microsoft Access\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eBusiness Skills\u003cbr\u003e Business Math, Customer Service, Grammar Essentials for Business Writing, and Workplace Success/Intrapreneurship\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eEmployability Skills\u003cbr\u003e Job Search and Résumé Writing and Thought Patterns for a Successful Career\u003c\\/li\u003e \u003c\\/ul\u003e\r\n    \"programtype\": Diploma\r\n    \"salarystart\": 34,348\r\n    \"salaryend\": 57,650\r\n    \"programhours\": 725\r\n    \"programduration\": 36\r\n    \"domestic_fees\": @{\r\n        \"tuition\": 11,559\r\n        \"application\": 250\r\n        \"assessment\": 100\r\n        \"other\": 104\r\n    }\r\n    \"syllabuslink\": Accounting-Administrator-with-SAGE-Diploma-Outline-BC.pdf\r\n    \"prog_video\": \"\"\r\n}"

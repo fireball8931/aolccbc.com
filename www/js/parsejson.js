@@ -23,11 +23,10 @@ fetch('./programdata.json')
         document.getElementById('iassess').innerHTML = data.domestic_fees[0].assessment.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
         document.getElementById('dother').innerHTML = data.domestic_fees[0].other.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
         document.getElementById('iother').innerHTML = data.domestic_fees[0].other.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
-        document.getElementById('syllabuslink').innerHTML = "<a href=" + data.syllabuslink + " target=\"_blank\">Click Here<\/a>";
         if (!(data.prog_video)) {
-            console.log("No Video")
+            document.getElementById('syllabuslink').innerHTML = "<a href=" + data.syllabuslink + " target=\"_blank\">Click Here<\/a>";
         } else {
-            document.getElementById('prog_video').innerHTML = "<iframe width=\"345\" height=\"194\" src=" + data.prog_video + " frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>";
+            document.getElementById('syllabuslink').innerHTML = "<a href=" + data.syllabuslink + " target=\"_blank\">Click Here<\/a> <iframe width=\"345\" height=\"194\" src=" + data.prog_video + " frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>";
         }
 
     })

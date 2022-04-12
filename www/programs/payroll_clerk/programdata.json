@@ -1,0 +1,271 @@
+@{domestic_fees=; programduration=; admitreq=System.Object[]; salaryend=; prog_video=; careeropp=<p>Successful candidates can pursue careers in the financial sector, specially payroll, benefits, insurance, claims, and mortgage. Upward mobility in these vocations is possible with experience, motivation, dedication, and a positive attitude.<\/p>; programhighlights=System.Object[]; programhours=; syllabuslink=payroll_clerk_certificate.pdf; corecourses=System.Object[]; salarystart=; programtype=; programname=}
+{
+    "domestic_fees":  {
+                          "tuition":  {
+                                          "value":  "7656",
+                                          "PSPath":  "C:\\xampp\\htdocs\\programs\\payroll_clerk\\dtuition.html",
+                                          "PSParentPath":  "C:\\xampp\\htdocs\\programs\\payroll_clerk",
+                                          "PSChildName":  "dtuition.html",
+                                          "PSDrive":  "C",
+                                          "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                          "ReadCount":  1
+                                      },
+                          "assessment":  {
+
+                                         },
+                          "other":  {
+                                        "value":  "4",
+                                        "PSPath":  "C:\\xampp\\htdocs\\programs\\payroll_clerk\\dother.html",
+                                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\payroll_clerk",
+                                        "PSChildName":  "dother.html",
+                                        "PSDrive":  "C",
+                                        "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                        "ReadCount":  1
+                                    },
+                          "application":  {
+                                              "value":  "250",
+                                              "PSPath":  "C:\\xampp\\htdocs\\programs\\payroll_clerk\\dapp.html",
+                                              "PSParentPath":  "C:\\xampp\\htdocs\\programs\\payroll_clerk",
+                                              "PSChildName":  "dapp.html",
+                                              "PSDrive":  "C",
+                                              "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                              "ReadCount":  1
+                                          }
+                      },
+    "programduration":  {
+                            "value":  "24",
+                            "PSPath":  "C:\\xampp\\htdocs\\programs\\payroll_clerk\\programduration.html",
+                            "PSParentPath":  "C:\\xampp\\htdocs\\programs\\payroll_clerk",
+                            "PSChildName":  "programduration.html",
+                            "PSDrive":  {
+                                            "CurrentLocation":  "xampp\\htdocs\\programs\\payroll_clerk",
+                                            "Name":  "C",
+                                            "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                            "Root":  "C:\\",
+                                            "Description":  "",
+                                            "MaximumSize":  null,
+                                            "Credential":  "System.Management.Automation.PSCredential",
+                                            "DisplayRoot":  null
+                                        },
+                            "PSProvider":  {
+                                               "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                               "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                               "Name":  "FileSystem",
+                                               "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                               "ModuleName":  "Microsoft.PowerShell.Core",
+                                               "Module":  null,
+                                               "Description":  "",
+                                               "Capabilities":  52,
+                                               "Home":  "C:\\Users\\mike",
+                                               "Drives":  "C D"
+                                           },
+                            "ReadCount":  1
+                        },
+    "admitreq":  [
+                     {
+                         "value":  "\u003cp\u003eGrade 12 or equivalent graduate or Mature Student status (19 years of age or over with at least one year out of high school). Mature Students must successfully complete an admissions test to properly assess their personal strengths and weaknesses. Good",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\payroll_clerk\\admitreq.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\payroll_clerk",
+                         "PSChildName":  "admitreq.html",
+                         "PSDrive":  "C",
+                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                         "ReadCount":  1
+                     },
+                     {
+                         "value":  "    command of the English language, and be able to work with an individualized learning system, particularly the Integrated Learning™ System, or online learning as applicable, and to follow instructions.\u003c/p\u003e",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\payroll_clerk\\admitreq.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\payroll_clerk",
+                         "PSChildName":  "admitreq.html",
+                         "PSDrive":  "C",
+                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                         "ReadCount":  2
+                     }
+                 ],
+    "salaryend":  {
+                      "value":  "55,177",
+                      "PSPath":  "C:\\xampp\\htdocs\\programs\\payroll_clerk\\salaryend.html",
+                      "PSParentPath":  "C:\\xampp\\htdocs\\programs\\payroll_clerk",
+                      "PSChildName":  "salaryend.html",
+                      "PSDrive":  {
+                                      "CurrentLocation":  "xampp\\htdocs\\programs\\payroll_clerk",
+                                      "Name":  "C",
+                                      "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                      "Root":  "C:\\",
+                                      "Description":  "",
+                                      "MaximumSize":  null,
+                                      "Credential":  "System.Management.Automation.PSCredential",
+                                      "DisplayRoot":  null
+                                  },
+                      "PSProvider":  {
+                                         "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                         "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                         "Name":  "FileSystem",
+                                         "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                         "ModuleName":  "Microsoft.PowerShell.Core",
+                                         "Module":  null,
+                                         "Description":  "",
+                                         "Capabilities":  52,
+                                         "Home":  "C:\\Users\\mike",
+                                         "Drives":  "C D"
+                                     },
+                      "ReadCount":  1
+                  },
+    "prog_video":  "",
+    "careeropp":  "\u003cp\u003eSuccessful candidates can pursue careers in the financial sector, specially payroll, benefits, insurance, claims, and mortgage. Upward mobility in these vocations is possible with experience, motivation, dedication, and a positive attitude.\u003c\\/p\u003e",
+    "programhighlights":  [
+                              "\u003cp\u003e",
+                              "",
+                              "",
+                              "    The Payroll Clerk program provides students with the skills necessary to perform basic payroll administrative responsibilities with some understanding of payroll regulations and legislation. The Canadian Payroll Association’s (CPA) courses covered in",
+                              "    this program apply towards the CPA’s Payroll Compliance Practitioner (PCP) certification.\u003c\\/p\u003e"
+                          ],
+    "programhours":  {
+                         "value":  "493",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\payroll_clerk\\programhours.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\payroll_clerk",
+                         "PSChildName":  "programhours.html",
+                         "PSDrive":  {
+                                         "CurrentLocation":  "xampp\\htdocs\\programs\\payroll_clerk",
+                                         "Name":  "C",
+                                         "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                         "Root":  "C:\\",
+                                         "Description":  "",
+                                         "MaximumSize":  null,
+                                         "Credential":  "System.Management.Automation.PSCredential",
+                                         "DisplayRoot":  null
+                                     },
+                         "PSProvider":  {
+                                            "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                            "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                            "Name":  "FileSystem",
+                                            "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                            "ModuleName":  "Microsoft.PowerShell.Core",
+                                            "Module":  null,
+                                            "Description":  "",
+                                            "Capabilities":  52,
+                                            "Home":  "C:\\Users\\mike",
+                                            "Drives":  "C D"
+                                        },
+                         "ReadCount":  1
+                     },
+    "syllabuslink":  "payroll_clerk_certificate.pdf",
+    "corecourses":  [
+                        "\u003cp\u003eUpon completion of the program the participant must demonstrate the following core competencies:\u003c\\/p\u003e",
+                        "\u003cul\u003e",
+                        "    \u003cli\u003eOperating Systems\u003cbr /\u003e Basic level of proficiency in a Windows operating system\u003c\\/li\u003e",
+                        "    \u003cli\u003e Word Processing\u003cbr /\u003e Basic level of proficiency in Microsoft Word\u003c\\/li\u003e",
+                        "    \u003cli\u003e Spreadsheets\u003cbr /\u003e Basic level of proficiency in Microsoft Excel\u003c\\/li\u003e",
+                        "    \u003cli\u003e Office Skills\u003cbr /\u003e Basic Bookkeeping Level 1 and a basic level of proficiency in Microsoft Outlook\u003c\\/li\u003e",
+                        "    \u003cli\u003e Accounting\u003cbr /\u003e Sage 50 Premium Accounting, Payroll Compliance Legislation, and Payroll Fundamentals 1 and 2\u003c\\/li\u003e",
+                        "    \u003cli\u003e Employability Skills\u003cbr /\u003e Job Search and Résumé Writing\u003c\\/li\u003e",
+                        "\u003c\\/ul\u003e"
+                    ],
+    "salarystart":  {
+                        "value":  "31,077",
+                        "PSPath":  "C:\\xampp\\htdocs\\programs\\payroll_clerk\\salarystart.html",
+                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\payroll_clerk",
+                        "PSChildName":  "salarystart.html",
+                        "PSDrive":  {
+                                        "CurrentLocation":  "xampp\\htdocs\\programs\\payroll_clerk",
+                                        "Name":  "C",
+                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                        "Root":  "C:\\",
+                                        "Description":  "",
+                                        "MaximumSize":  null,
+                                        "Credential":  "System.Management.Automation.PSCredential",
+                                        "DisplayRoot":  null
+                                    },
+                        "PSProvider":  {
+                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                           "Name":  "FileSystem",
+                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                           "ModuleName":  "Microsoft.PowerShell.Core",
+                                           "Module":  null,
+                                           "Description":  "",
+                                           "Capabilities":  52,
+                                           "Home":  "C:\\Users\\mike",
+                                           "Drives":  "C D"
+                                       },
+                        "ReadCount":  1
+                    },
+    "programtype":  {
+                        "value":  "Certificate",
+                        "PSPath":  "C:\\xampp\\htdocs\\programs\\payroll_clerk\\programtype.html",
+                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\payroll_clerk",
+                        "PSChildName":  "programtype.html",
+                        "PSDrive":  {
+                                        "CurrentLocation":  "xampp\\htdocs\\programs\\payroll_clerk",
+                                        "Name":  "C",
+                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                        "Root":  "C:\\",
+                                        "Description":  "",
+                                        "MaximumSize":  null,
+                                        "Credential":  "System.Management.Automation.PSCredential",
+                                        "DisplayRoot":  null
+                                    },
+                        "PSProvider":  {
+                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                           "Name":  "FileSystem",
+                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                           "ModuleName":  "Microsoft.PowerShell.Core",
+                                           "Module":  null,
+                                           "Description":  "",
+                                           "Capabilities":  52,
+                                           "Home":  "C:\\Users\\mike",
+                                           "Drives":  "C D"
+                                       },
+                        "ReadCount":  1
+                    },
+    "programname":  {
+                        "value":  "PAYROLL CLERK",
+                        "PSPath":  "C:\\xampp\\htdocs\\programs\\payroll_clerk\\progtitle.html",
+                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\payroll_clerk",
+                        "PSChildName":  "progtitle.html",
+                        "PSDrive":  {
+                                        "CurrentLocation":  "xampp\\htdocs\\programs\\payroll_clerk",
+                                        "Name":  "C",
+                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                        "Root":  "C:\\",
+                                        "Description":  "",
+                                        "MaximumSize":  null,
+                                        "Credential":  "System.Management.Automation.PSCredential",
+                                        "DisplayRoot":  null
+                                    },
+                        "PSProvider":  {
+                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                           "Name":  "FileSystem",
+                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                           "ModuleName":  "Microsoft.PowerShell.Core",
+                                           "Module":  null,
+                                           "Description":  "",
+                                           "Capabilities":  52,
+                                           "Home":  "C:\\Users\\mike",
+                                           "Drives":  "C D"
+                                       },
+                        "ReadCount":  1
+                    }
+}
+{
+    "domestic_fees":  {
+                          "tuition":  null,
+                          "assessment":  null,
+                          "other":  null,
+                          "application":  null
+                      },
+    "programduration":  null,
+    "admitreq":  null,
+    "salaryend":  null,
+    "prog_video":  "",
+    "careeropp":  null,
+    "programhighlights":  null,
+    "programhours":  null,
+    "syllabuslink":  "payroll_clerk_certificate.pdf",
+    "corecourses":  null,
+    "salarystart":  null,
+    "programtype":  null,
+    "programname":  null
+}
+"{\r\n    \"programname\": \r\n    \"admitreq\": \u003cp\u003eGrade 12 or equivalent graduate or Mature Student status (19 years of age or over with at least one year out of high school). Mature Students must successfully complete an admissions test to properly assess their personal strengths and weaknesses. Good     command of the English language, and be able to work with an individualized learning system, particularly the Integrated Learning™ System, or online learning as applicable, and to follow instructions.\u003c/p\u003e\r\n    \"programhighlights\": \u003cp\u003e       The Payroll Clerk program provides students with the skills necessary to perform basic payroll administrative responsibilities with some understanding of payroll regulations and legislation. The Canadian Payroll Association’s (CPA) courses covered in     this program apply towards the CPA’s Payroll Compliance Practitioner (PCP) certification.\u003c\\/p\u003e\r\n    \"careeropp\": \u003cp\u003eSuccessful candidates can pursue careers in the financial sector, specially payroll, benefits, insurance, claims, and mortgage. Upward mobility in these vocations is possible with experience, motivation, dedication, and a positive attitude.\u003c\\/p\u003e\r\n    \"corecourses\": \u003cp\u003eUpon completion of the program the participant must demonstrate the following core competencies:\u003c\\/p\u003e \u003cul\u003e     \u003cli\u003eOperating Systems\u003cbr /\u003e Basic level of proficiency in a Windows operating system\u003c\\/li\u003e     \u003cli\u003e Word Processing\u003cbr /\u003e Basic level of proficiency in Microsoft Word\u003c\\/li\u003e     \u003cli\u003e Spreadsheets\u003cbr /\u003e Basic level of proficiency in Microsoft Excel\u003c\\/li\u003e     \u003cli\u003e Office Skills\u003cbr /\u003e Basic Bookkeeping Level 1 and a basic level of proficiency in Microsoft Outlook\u003c\\/li\u003e     \u003cli\u003e Accounting\u003cbr /\u003e Sage 50 Premium Accounting, Payroll Compliance Legislation, and Payroll Fundamentals 1 and 2\u003c\\/li\u003e     \u003cli\u003e Employability Skills\u003cbr /\u003e Job Search and Résumé Writing\u003c\\/li\u003e \u003c\\/ul\u003e\r\n    \"programtype\": Certificate\r\n    \"salarystart\": 31,077\r\n    \"salaryend\": 55,177\r\n    \"programhours\": 493\r\n    \"programduration\": 24\r\n    \"domestic_fees\": @{\r\n        \"tuition\": 7656\r\n        \"application\": 250\r\n        \"assessment\": 100\r\n        \"other\": 4\r\n    }\r\n    \"syllabuslink\": payroll_clerk_certificate.pdf\r\n    \"prog_video\": \"\"\r\n}"

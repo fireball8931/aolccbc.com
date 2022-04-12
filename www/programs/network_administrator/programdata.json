@@ -1,0 +1,292 @@
+@{domestic_fees=; programduration=; admitreq=System.Object[]; salaryend=; prog_video=; careeropp=System.Object[]; programhighlights=System.Object[]; programhours=; syllabuslink=BC_Final_Network_Administrator_Outline.pdf; corecourses=System.Object[]; salarystart=; programtype=System.Object[]; programname=}
+{
+    "domestic_fees":  {
+                          "tuition":  {
+                                          "value":  "13,309",
+                                          "PSPath":  "C:\\xampp\\htdocs\\programs\\network_administrator\\dtuition.html",
+                                          "PSParentPath":  "C:\\xampp\\htdocs\\programs\\network_administrator",
+                                          "PSChildName":  "dtuition.html",
+                                          "PSDrive":  "C",
+                                          "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                          "ReadCount":  1
+                                      },
+                          "assessment":  {
+
+                                         },
+                          "other":  {
+                                        "value":  "4",
+                                        "PSPath":  "C:\\xampp\\htdocs\\programs\\network_administrator\\dother.html",
+                                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\network_administrator",
+                                        "PSChildName":  "dother.html",
+                                        "PSDrive":  "C",
+                                        "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                        "ReadCount":  1
+                                    },
+                          "application":  {
+                                              "value":  "250",
+                                              "PSPath":  "C:\\xampp\\htdocs\\programs\\network_administrator\\dapp.html",
+                                              "PSParentPath":  "C:\\xampp\\htdocs\\programs\\network_administrator",
+                                              "PSChildName":  "dapp.html",
+                                              "PSDrive":  "C",
+                                              "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                              "ReadCount":  1
+                                          }
+                      },
+    "programduration":  {
+                            "value":  "Y1:46, Y2:27",
+                            "PSPath":  "C:\\xampp\\htdocs\\programs\\network_administrator\\programduration.html",
+                            "PSParentPath":  "C:\\xampp\\htdocs\\programs\\network_administrator",
+                            "PSChildName":  "programduration.html",
+                            "PSDrive":  {
+                                            "CurrentLocation":  "xampp\\htdocs\\programs\\network_administrator",
+                                            "Name":  "C",
+                                            "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                            "Root":  "C:\\",
+                                            "Description":  "",
+                                            "MaximumSize":  null,
+                                            "Credential":  "System.Management.Automation.PSCredential",
+                                            "DisplayRoot":  null
+                                        },
+                            "PSProvider":  {
+                                               "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                               "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                               "Name":  "FileSystem",
+                                               "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                               "ModuleName":  "Microsoft.PowerShell.Core",
+                                               "Module":  null,
+                                               "Description":  "",
+                                               "Capabilities":  52,
+                                               "Home":  "C:\\Users\\mike",
+                                               "Drives":  "C D"
+                                           },
+                            "ReadCount":  1
+                        },
+    "admitreq":  [
+                     {
+                         "value":  "\u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instructions. An admissions interview will be administered to determine if the applicant has",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\network_administrator\\admitreq.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\network_administrator",
+                         "PSChildName":  "admitreq.html",
+                         "PSDrive":  "C",
+                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                         "ReadCount":  1
+                     },
+                     {
+                         "value":  "    the required interest, motivation, and entry-level skills to take this program. Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them.\u003c/p\u003e",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\network_administrator\\admitreq.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\network_administrator",
+                         "PSChildName":  "admitreq.html",
+                         "PSDrive":  "C",
+                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                         "ReadCount":  2
+                     }
+                 ],
+    "salaryend":  {
+                      "value":  "79,129",
+                      "PSPath":  "C:\\xampp\\htdocs\\programs\\network_administrator\\salaryend.html",
+                      "PSParentPath":  "C:\\xampp\\htdocs\\programs\\network_administrator",
+                      "PSChildName":  "salaryend.html",
+                      "PSDrive":  {
+                                      "CurrentLocation":  "xampp\\htdocs\\programs\\network_administrator",
+                                      "Name":  "C",
+                                      "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                      "Root":  "C:\\",
+                                      "Description":  "",
+                                      "MaximumSize":  null,
+                                      "Credential":  "System.Management.Automation.PSCredential",
+                                      "DisplayRoot":  null
+                                  },
+                      "PSProvider":  {
+                                         "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                         "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                         "Name":  "FileSystem",
+                                         "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                         "ModuleName":  "Microsoft.PowerShell.Core",
+                                         "Module":  null,
+                                         "Description":  "",
+                                         "Capabilities":  52,
+                                         "Home":  "C:\\Users\\mike",
+                                         "Drives":  "C D"
+                                     },
+                      "ReadCount":  1
+                  },
+    "prog_video":  "",
+    "careeropp":  [
+                      "\u003cp\u003eRecent studies indicate that strong growth in IT jobs, especially for skilled Computer and Network Operators, are expected over the next few years. Careers that correspond with the skills learned in this program include:\u003c\\/p\u003e",
+                      "\u003cul\u003e",
+                      "",
+                      "    \u003cli\u003eHardware Installation Coordinator\u003c\\/li\u003e",
+                      "    \u003cli\u003eNetwork Administrator\u003c\\/li\u003e",
+                      "    \u003cli\u003eNetwork Support Technician\u003c\\/li\u003e",
+                      "    \u003cli\u003eNetwork Operator\u003c\\/li\u003e",
+                      "    \u003cli\u003eLocal Area Network (LAN) Administrator\u003c\\/li\u003e",
+                      "    \u003cli\u003eLocal Area Network (LAN) Technician\u003c\\/li\u003e",
+                      "\u003c\\/ul\u003e"
+                  ],
+    "programhighlights":  [
+                              "\u003cp\u003e",
+                              "    This program provides students with the necessary skill and knowledge to plan, install, and provide routine control over and manage exceptional situations in relation to quality communications network services in an information system. It provides in-depth",
+                              "    knowledge of evaluating communications hardware, software, and transmission service alternatives against changing business requirements, maintaining links with network suppliers, monitoring network performance, providing support for systems, localizing",
+                              "    and rectifying faults in networks and handling non-routine user/customer problems, and providing expertise and practical assistance in delivering service that complies with statutory and other standards, as well as strategic and tactical plans.\u003c\\/p\u003e"
+                          ],
+    "programhours":  {
+                         "value":  "Y1: 928, Y2: 550",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\network_administrator\\programhours.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\network_administrator",
+                         "PSChildName":  "programhours.html",
+                         "PSDrive":  {
+                                         "CurrentLocation":  "xampp\\htdocs\\programs\\network_administrator",
+                                         "Name":  "C",
+                                         "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                         "Root":  "C:\\",
+                                         "Description":  "",
+                                         "MaximumSize":  null,
+                                         "Credential":  "System.Management.Automation.PSCredential",
+                                         "DisplayRoot":  null
+                                     },
+                         "PSProvider":  {
+                                            "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                            "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                            "Name":  "FileSystem",
+                                            "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                            "ModuleName":  "Microsoft.PowerShell.Core",
+                                            "Module":  null,
+                                            "Description":  "",
+                                            "Capabilities":  52,
+                                            "Home":  "C:\\Users\\mike",
+                                            "Drives":  "C D"
+                                        },
+                         "ReadCount":  1
+                     },
+    "syllabuslink":  "BC_Final_Network_Administrator_Outline.pdf",
+    "corecourses":  [
+                        "\u003cul class=\"textleft\"\u003e",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "    \u003cstrong\u003e\u003cp\u003e    YEAR 1\u003c\\/p\u003e\u003c\\/strong\u003e",
+                        "",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eKeyboarding\u003cbr /\u003e Minimum 25 words per minute (WPM)\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eOffice Skills\u003cbr /\u003e Personal Computer Fundamentals for Technical Users, Internet Fundamentals, and basic level of proficiency in Microsoft Outlook\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eOperating Systems\u003cbr /\u003e Advanced level of proficiency in a Windows operating system\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eWord Processing\u003cbr /\u003e Basic level of proficiency in Microsoft Word\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eSpreadsheets\u003cbr /\u003e Basic level of proficiency in Microsoft Excel\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eDatabase Management\u003cbr /\u003e Basic level of proficiency in Microsoft Access\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eBusiness Skills\u003cbr /\u003e Business Correspondence Level 1, Customer Service, Workplace Success/Intrapreneurship, and Project Management Fundamentals Level 1\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eSimulations and Drills\u003cbr /\u003e Practical Applications – 1 Unit\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eJob Readiness/Employability Skills\u003cbr /\u003e Thought Patterns for a Successful Career\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003ePC Troubleshooting\u003cbr /\u003e CompTIA A+ 220-1001 and CompTIA A+ 220-1002\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eComputer Networking\u003cbr /\u003e CompTIA Network +\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eMicrosoft Certification\u003cbr /\u003e Microsoft 365 Certified: Modern Desktop Administrator Associate\u003c\\/li\u003e",
+                        "    \u003cbr /\u003e",
+                        "    \u003cstrong\u003e\u003cp\u003e  YEAR 2\u003c\\/p\u003e\u003c\\/strong\u003e",
+                        "",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eComputer Networking\u003cbr /\u003e CompTIA Security +\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eMicrosoft Certification\u003cbr /\u003e Microsoft Windows Server 2012 Installing and Configuring, Microsoft Windows Server 2012 Administering, and Microsoft Windows Server 2012 Configuring Advanced Services\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eJob Readiness/Employability Skills\u003cbr /\u003e Job Search and Resume Writing\u003c\\/li\u003e",
+                        "",
+                        "",
+                        "",
+                        "\u003c\\/ul\u003e"
+                    ],
+    "salarystart":  {
+                        "value":  "39,897",
+                        "PSPath":  "C:\\xampp\\htdocs\\programs\\network_administrator\\salarystart.html",
+                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\network_administrator",
+                        "PSChildName":  "salarystart.html",
+                        "PSDrive":  {
+                                        "CurrentLocation":  "xampp\\htdocs\\programs\\network_administrator",
+                                        "Name":  "C",
+                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                        "Root":  "C:\\",
+                                        "Description":  "",
+                                        "MaximumSize":  null,
+                                        "Credential":  "System.Management.Automation.PSCredential",
+                                        "DisplayRoot":  null
+                                    },
+                        "PSProvider":  {
+                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                           "Name":  "FileSystem",
+                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                           "ModuleName":  "Microsoft.PowerShell.Core",
+                                           "Module":  null,
+                                           "Description":  "",
+                                           "Capabilities":  52,
+                                           "Home":  "C:\\Users\\mike",
+                                           "Drives":  "C D"
+                                       },
+                        "ReadCount":  1
+                    },
+    "programtype":  [
+                        {
+                            "value":  "\u003c!--Certificate--\u003e",
+                            "PSPath":  "C:\\xampp\\htdocs\\programs\\network_administrator\\programtype.html",
+                            "PSParentPath":  "C:\\xampp\\htdocs\\programs\\network_administrator",
+                            "PSChildName":  "programtype.html",
+                            "PSDrive":  "C",
+                            "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                            "ReadCount":  1
+                        },
+                        {
+                            "value":  "Diploma",
+                            "PSPath":  "C:\\xampp\\htdocs\\programs\\network_administrator\\programtype.html",
+                            "PSParentPath":  "C:\\xampp\\htdocs\\programs\\network_administrator",
+                            "PSChildName":  "programtype.html",
+                            "PSDrive":  "C",
+                            "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                            "ReadCount":  2
+                        }
+                    ],
+    "programname":  {
+                        "value":  "NETWORK ADMINISTRATOR",
+                        "PSPath":  "C:\\xampp\\htdocs\\programs\\network_administrator\\progtitle.html",
+                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\network_administrator",
+                        "PSChildName":  "progtitle.html",
+                        "PSDrive":  {
+                                        "CurrentLocation":  "xampp\\htdocs\\programs\\network_administrator",
+                                        "Name":  "C",
+                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                        "Root":  "C:\\",
+                                        "Description":  "",
+                                        "MaximumSize":  null,
+                                        "Credential":  "System.Management.Automation.PSCredential",
+                                        "DisplayRoot":  null
+                                    },
+                        "PSProvider":  {
+                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                           "Name":  "FileSystem",
+                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                           "ModuleName":  "Microsoft.PowerShell.Core",
+                                           "Module":  null,
+                                           "Description":  "",
+                                           "Capabilities":  52,
+                                           "Home":  "C:\\Users\\mike",
+                                           "Drives":  "C D"
+                                       },
+                        "ReadCount":  1
+                    }
+}
+{
+    "domestic_fees":  {
+                          "tuition":  null,
+                          "assessment":  null,
+                          "other":  null,
+                          "application":  null
+                      },
+    "programduration":  null,
+    "admitreq":  null,
+    "salaryend":  null,
+    "prog_video":  "",
+    "careeropp":  null,
+    "programhighlights":  null,
+    "programhours":  null,
+    "syllabuslink":  "BC_Final_Network_Administrator_Outline.pdf",
+    "corecourses":  null,
+    "salarystart":  null,
+    "programtype":  null,
+    "programname":  null
+}
+"{\r\n    \"programname\": \r\n    \"admitreq\": \u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instructions. An admissions interview will be administered to determine if the applicant has     the required interest, motivation, and entry-level skills to take this program. Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them.\u003c/p\u003e\r\n    \"programhighlights\": \u003cp\u003e     This program provides students with the necessary skill and knowledge to plan, install, and provide routine control over and manage exceptional situations in relation to quality communications network services in an information system. It provides in-depth     knowledge of evaluating communications hardware, software, and transmission service alternatives against changing business requirements, maintaining links with network suppliers, monitoring network performance, providing support for systems, localizing     and rectifying faults in networks and handling non-routine user/customer problems, and providing expertise and practical assistance in delivering service that complies with statutory and other standards, as well as strategic and tactical plans.\u003c\\/p\u003e\r\n    \"careeropp\": \u003cp\u003eRecent studies indicate that strong growth in IT jobs, especially for skilled Computer and Network Operators, are expected over the next few years. Careers that correspond with the skills learned in this program include:\u003c\\/p\u003e \u003cul\u003e      \u003cli\u003eHardware Installation Coordinator\u003c\\/li\u003e     \u003cli\u003eNetwork Administrator\u003c\\/li\u003e     \u003cli\u003eNetwork Support Technician\u003c\\/li\u003e     \u003cli\u003eNetwork Operator\u003c\\/li\u003e     \u003cli\u003eLocal Area Network (LAN) Administrator\u003c\\/li\u003e     \u003cli\u003eLocal Area Network (LAN) Technician\u003c\\/li\u003e \u003c\\/ul\u003e\r\n    \"corecourses\": \u003cul class=\"textleft\"\u003e         \u003cstrong\u003e\u003cp\u003e    YEAR 1\u003c\\/p\u003e\u003c\\/strong\u003e      \u003cli class=\"textleft-ul-li\"\u003eKeyboarding\u003cbr /\u003e Minimum 25 words per minute (WPM)\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eOffice Skills\u003cbr /\u003e Personal Computer Fundamentals for Technical Users, Internet Fundamentals, and basic level of proficiency in Microsoft Outlook\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eOperating Systems\u003cbr /\u003e Advanced level of proficiency in a Windows operating system\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eWord Processing\u003cbr /\u003e Basic level of proficiency in Microsoft Word\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eSpreadsheets\u003cbr /\u003e Basic level of proficiency in Microsoft Excel\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eDatabase Management\u003cbr /\u003e Basic level of proficiency in Microsoft Access\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eBusiness Skills\u003cbr /\u003e Business Correspondence Level 1, Customer Service, Workplace Success/Intrapreneurship, and Project Management Fundamentals Level 1\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eSimulations and Drills\u003cbr /\u003e Practical Applications – 1 Unit\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eJob Readiness/Employability Skills\u003cbr /\u003e Thought Patterns for a Successful Career\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003ePC Troubleshooting\u003cbr /\u003e CompTIA A+ 220-1001 and CompTIA A+ 220-1002\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eComputer Networking\u003cbr /\u003e CompTIA Network +\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eMicrosoft Certification\u003cbr /\u003e Microsoft 365 Certified: Modern Desktop Administrator Associate\u003c\\/li\u003e     \u003cbr /\u003e     \u003cstrong\u003e\u003cp\u003e  YEAR 2\u003c\\/p\u003e\u003c\\/strong\u003e      \u003cli class=\"textleft-ul-li\"\u003eComputer Networking\u003cbr /\u003e CompTIA Security +\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eMicrosoft Certification\u003cbr /\u003e Microsoft Windows Server 2012 Installing and Configuring, Microsoft Windows Server 2012 Administering, and Microsoft Windows Server 2012 Configuring Advanced Services\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eJob Readiness/Employability Skills\u003cbr /\u003e Job Search and Resume Writing\u003c\\/li\u003e    \u003c\\/ul\u003e\r\n    \"programtype\": \u003c!--Certificate--\u003e Diploma\r\n    \"salarystart\": 39,897\r\n    \"salaryend\": 79,129\r\n    \"programhours\": Y1: 928, Y2: 550\r\n    \"programduration\": Y1:46, Y2:27\r\n    \"domestic_fees\": @{\r\n        \"tuition\": 13,309\r\n        \"application\": 250\r\n        \"assessment\": 100\r\n        \"other\": 4\r\n    }\r\n    \"syllabuslink\": BC_Final_Network_Administrator_Outline.pdf\r\n    \"prog_video\": \"\"\r\n}"

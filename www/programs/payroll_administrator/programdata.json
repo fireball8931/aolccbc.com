@@ -1,0 +1,285 @@
+@{domestic_fees=; programduration=; admitreq=System.Object[]; salaryend=; prog_video=; careeropp=System.Object[]; programhighlights=System.Object[]; programhours=; syllabuslink=payroll_administrator_outline-1.pdf; corecourses=System.Object[]; salarystart=; programtype=; programname=}
+{
+    "domestic_fees":  {
+                          "tuition":  {
+                                          "value":  "10882",
+                                          "PSPath":  "C:\\xampp\\htdocs\\programs\\payroll_administrator\\dtuition.html",
+                                          "PSParentPath":  "C:\\xampp\\htdocs\\programs\\payroll_administrator",
+                                          "PSChildName":  "dtuition.html",
+                                          "PSDrive":  "C",
+                                          "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                          "ReadCount":  1
+                                      },
+                          "assessment":  {
+
+                                         },
+                          "other":  {
+                                        "value":  "4",
+                                        "PSPath":  "C:\\xampp\\htdocs\\programs\\payroll_administrator\\dother.html",
+                                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\payroll_administrator",
+                                        "PSChildName":  "dother.html",
+                                        "PSDrive":  "C",
+                                        "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                        "ReadCount":  1
+                                    },
+                          "application":  {
+                                              "value":  "250",
+                                              "PSPath":  "C:\\xampp\\htdocs\\programs\\payroll_administrator\\dapp.html",
+                                              "PSParentPath":  "C:\\xampp\\htdocs\\programs\\payroll_administrator",
+                                              "PSChildName":  "dapp.html",
+                                              "PSDrive":  "C",
+                                              "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                              "ReadCount":  1
+                                          }
+                      },
+    "programduration":  {
+                            "value":  "34",
+                            "PSPath":  "C:\\xampp\\htdocs\\programs\\payroll_administrator\\programduration.html",
+                            "PSParentPath":  "C:\\xampp\\htdocs\\programs\\payroll_administrator",
+                            "PSChildName":  "programduration.html",
+                            "PSDrive":  {
+                                            "CurrentLocation":  "xampp\\htdocs\\programs\\payroll_administrator",
+                                            "Name":  "C",
+                                            "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                            "Root":  "C:\\",
+                                            "Description":  "",
+                                            "MaximumSize":  null,
+                                            "Credential":  "System.Management.Automation.PSCredential",
+                                            "DisplayRoot":  null
+                                        },
+                            "PSProvider":  {
+                                               "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                               "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                               "Name":  "FileSystem",
+                                               "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                               "ModuleName":  "Microsoft.PowerShell.Core",
+                                               "Module":  null,
+                                               "Description":  "",
+                                               "Capabilities":  52,
+                                               "Home":  "C:\\Users\\mike",
+                                               "Drives":  "C D"
+                                           },
+                            "ReadCount":  1
+                        },
+    "admitreq":  [
+                     {
+                         "value":  "\u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instructions. An admissions interview will be administered to determine if the applicant has",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\payroll_administrator\\admitreq.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\payroll_administrator",
+                         "PSChildName":  "admitreq.html",
+                         "PSDrive":  "C",
+                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                         "ReadCount":  1
+                     },
+                     {
+                         "value":  "    the required interest, motivation, and entry-level skills to take this program. Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them.\u003c/p\u003e",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\payroll_administrator\\admitreq.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\payroll_administrator",
+                         "PSChildName":  "admitreq.html",
+                         "PSDrive":  "C",
+                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                         "ReadCount":  2
+                     }
+                 ],
+    "salaryend":  {
+                      "value":  "59,936",
+                      "PSPath":  "C:\\xampp\\htdocs\\programs\\payroll_administrator\\salaryend.html",
+                      "PSParentPath":  "C:\\xampp\\htdocs\\programs\\payroll_administrator",
+                      "PSChildName":  "salaryend.html",
+                      "PSDrive":  {
+                                      "CurrentLocation":  "xampp\\htdocs\\programs\\payroll_administrator",
+                                      "Name":  "C",
+                                      "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                      "Root":  "C:\\",
+                                      "Description":  "",
+                                      "MaximumSize":  null,
+                                      "Credential":  "System.Management.Automation.PSCredential",
+                                      "DisplayRoot":  null
+                                  },
+                      "PSProvider":  {
+                                         "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                         "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                         "Name":  "FileSystem",
+                                         "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                         "ModuleName":  "Microsoft.PowerShell.Core",
+                                         "Module":  null,
+                                         "Description":  "",
+                                         "Capabilities":  52,
+                                         "Home":  "C:\\Users\\mike",
+                                         "Drives":  "C D"
+                                     },
+                      "ReadCount":  1
+                  },
+    "prog_video":  "",
+    "careeropp":  [
+                      "\u003cp\u003ePayroll administrators are employed by payroll administration companies and by other establishments throughout the private and public sectors. Careers that correspond\u003c\\/p\u003e",
+                      "\u003cul\u003e",
+                      "    \u003cli\u003eBenefits Officer\u003c\\/li\u003e",
+                      "    \u003cli\u003ePay and Benefits Administrator/Clerk\u003c\\/li\u003e",
+                      "    \u003cli\u003eSalary Administration Officer\u003c\\/li\u003e",
+                      "    \u003cli\u003ePay Advisor/Clerk\u003c\\/li\u003e",
+                      "    \u003cli\u003ePayroll Officer/Clerk\u003c\\/li\u003e",
+                      "\u003c\\/ul\u003e"
+                  ],
+    "programhighlights":  [
+                              "\u003cp\u003e",
+                              "",
+                              "",
+                              "    This program provides students with the necessary skills and knowledge required to perform payroll administrative responsibilities in the payroll department and to apply payroll legislation. Students become familiar with basic payroll practices and procedures",
+                              "    and are eligible to apply to the Canadian Payroll Association (CPA) for Payroll Compliance Practitioner (PCP) certification after having acquired one year of payroll experience. In addition to accounting and payroll expertise, students gain skills",
+                              "    and experience in word processing, spreadsheet applications, telephone communication skills, and performing a job search.",
+                              "\u003c\\/p\u003e"
+                          ],
+    "programhours":  {
+                         "value":  "690",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\payroll_administrator\\programhours.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\payroll_administrator",
+                         "PSChildName":  "programhours.html",
+                         "PSDrive":  {
+                                         "CurrentLocation":  "xampp\\htdocs\\programs\\payroll_administrator",
+                                         "Name":  "C",
+                                         "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                         "Root":  "C:\\",
+                                         "Description":  "",
+                                         "MaximumSize":  null,
+                                         "Credential":  "System.Management.Automation.PSCredential",
+                                         "DisplayRoot":  null
+                                     },
+                         "PSProvider":  {
+                                            "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                            "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                            "Name":  "FileSystem",
+                                            "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                            "ModuleName":  "Microsoft.PowerShell.Core",
+                                            "Module":  null,
+                                            "Description":  "",
+                                            "Capabilities":  52,
+                                            "Home":  "C:\\Users\\mike",
+                                            "Drives":  "C D"
+                                        },
+                         "ReadCount":  1
+                     },
+    "syllabuslink":  "payroll_administrator_outline-1.pdf",
+    "corecourses":  [
+                        "\u003cp\u003eUpon completion of the program the participant must demonstrate the following core competencies:\u003c\\/p\u003e",
+                        "\u003cul\u003e",
+                        "    \u003cli\u003e Keyboarding \u003cbr /\u003e Minimum 25 words per minute (WPM).\u003c\\/li\u003e",
+                        "    \u003cli\u003e Operating Systems\u003cbr /\u003e Basic level of proficiency in a Windows operating system\u003c\\/li\u003e",
+                        "    \u003cli\u003e Word Processing\u003cbr /\u003e Basic level of proficiency in Microsoft Word\u003c\\/li\u003e",
+                        "    \u003cli\u003e Spreadsheets\u003cbr /\u003e Basic level of proficiency in Microsoft Excel\u003c\\/li\u003e",
+                        "    \u003cli\u003e Office Skills\u003cbr /\u003e Personal Computer Fundamentals for End Users, Basic Bookkeeping Level 1, and basic level of proficiency in Microsoft Outlook\u003c\\/li\u003e",
+                        "    \u003cli\u003e Accounting\u003cbr /\u003e Payroll Compliance Legislation, Payroll Fundamentals Levels 1 and 2, and QuickBooks Premier\u003c\\/li\u003e",
+                        "    \u003cli\u003e Simulations and Drills\u003cbr /\u003e Practical Applications – 1 Unit\u003c\\/li\u003e",
+                        "    \u003cli\u003e Business Skills\u003cbr /\u003e Business Math, Business Correspondence Level 1, and Customer Service\u003c\\/li\u003e",
+                        "    \u003cli\u003e Job Readiness/Employability Skills\u003cbr /\u003e Job Search and Résumé Writing and Thought Patterns for a Successful Career\u003c\\/li\u003e",
+                        "\u003c\\/ul\u003e"
+                    ],
+    "salarystart":  {
+                        "value":  "35,226",
+                        "PSPath":  "C:\\xampp\\htdocs\\programs\\payroll_administrator\\salarystart.html",
+                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\payroll_administrator",
+                        "PSChildName":  "salarystart.html",
+                        "PSDrive":  {
+                                        "CurrentLocation":  "xampp\\htdocs\\programs\\payroll_administrator",
+                                        "Name":  "C",
+                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                        "Root":  "C:\\",
+                                        "Description":  "",
+                                        "MaximumSize":  null,
+                                        "Credential":  "System.Management.Automation.PSCredential",
+                                        "DisplayRoot":  null
+                                    },
+                        "PSProvider":  {
+                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                           "Name":  "FileSystem",
+                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                           "ModuleName":  "Microsoft.PowerShell.Core",
+                                           "Module":  null,
+                                           "Description":  "",
+                                           "Capabilities":  52,
+                                           "Home":  "C:\\Users\\mike",
+                                           "Drives":  "C D"
+                                       },
+                        "ReadCount":  1
+                    },
+    "programtype":  {
+                        "value":  "Certificate",
+                        "PSPath":  "C:\\xampp\\htdocs\\programs\\payroll_administrator\\programtype.html",
+                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\payroll_administrator",
+                        "PSChildName":  "programtype.html",
+                        "PSDrive":  {
+                                        "CurrentLocation":  "xampp\\htdocs\\programs\\payroll_administrator",
+                                        "Name":  "C",
+                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                        "Root":  "C:\\",
+                                        "Description":  "",
+                                        "MaximumSize":  null,
+                                        "Credential":  "System.Management.Automation.PSCredential",
+                                        "DisplayRoot":  null
+                                    },
+                        "PSProvider":  {
+                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                           "Name":  "FileSystem",
+                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                           "ModuleName":  "Microsoft.PowerShell.Core",
+                                           "Module":  null,
+                                           "Description":  "",
+                                           "Capabilities":  52,
+                                           "Home":  "C:\\Users\\mike",
+                                           "Drives":  "C D"
+                                       },
+                        "ReadCount":  1
+                    },
+    "programname":  {
+                        "value":  "PAYROLL ADMINISTRATOR",
+                        "PSPath":  "C:\\xampp\\htdocs\\programs\\payroll_administrator\\progtitle.html",
+                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\payroll_administrator",
+                        "PSChildName":  "progtitle.html",
+                        "PSDrive":  {
+                                        "CurrentLocation":  "xampp\\htdocs\\programs\\payroll_administrator",
+                                        "Name":  "C",
+                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                        "Root":  "C:\\",
+                                        "Description":  "",
+                                        "MaximumSize":  null,
+                                        "Credential":  "System.Management.Automation.PSCredential",
+                                        "DisplayRoot":  null
+                                    },
+                        "PSProvider":  {
+                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                           "Name":  "FileSystem",
+                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                           "ModuleName":  "Microsoft.PowerShell.Core",
+                                           "Module":  null,
+                                           "Description":  "",
+                                           "Capabilities":  52,
+                                           "Home":  "C:\\Users\\mike",
+                                           "Drives":  "C D"
+                                       },
+                        "ReadCount":  1
+                    }
+}
+{
+    "domestic_fees":  {
+                          "tuition":  null,
+                          "assessment":  null,
+                          "other":  null,
+                          "application":  null
+                      },
+    "programduration":  null,
+    "admitreq":  null,
+    "salaryend":  null,
+    "prog_video":  "",
+    "careeropp":  null,
+    "programhighlights":  null,
+    "programhours":  null,
+    "syllabuslink":  "payroll_administrator_outline-1.pdf",
+    "corecourses":  null,
+    "salarystart":  null,
+    "programtype":  null,
+    "programname":  null
+}
+"{\r\n    \"programname\": \r\n    \"admitreq\": \u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instructions. An admissions interview will be administered to determine if the applicant has     the required interest, motivation, and entry-level skills to take this program. Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them.\u003c/p\u003e\r\n    \"programhighlights\": \u003cp\u003e       This program provides students with the necessary skills and knowledge required to perform payroll administrative responsibilities in the payroll department and to apply payroll legislation. Students become familiar with basic payroll practices and procedures     and are eligible to apply to the Canadian Payroll Association (CPA) for Payroll Compliance Practitioner (PCP) certification after having acquired one year of payroll experience. In addition to accounting and payroll expertise, students gain skills     and experience in word processing, spreadsheet applications, telephone communication skills, and performing a job search. \u003c\\/p\u003e\r\n    \"careeropp\": \u003cp\u003ePayroll administrators are employed by payroll administration companies and by other establishments throughout the private and public sectors. Careers that correspond\u003c\\/p\u003e \u003cul\u003e     \u003cli\u003eBenefits Officer\u003c\\/li\u003e     \u003cli\u003ePay and Benefits Administrator/Clerk\u003c\\/li\u003e     \u003cli\u003eSalary Administration Officer\u003c\\/li\u003e     \u003cli\u003ePay Advisor/Clerk\u003c\\/li\u003e     \u003cli\u003ePayroll Officer/Clerk\u003c\\/li\u003e \u003c\\/ul\u003e\r\n    \"corecourses\": \u003cp\u003eUpon completion of the program the participant must demonstrate the following core competencies:\u003c\\/p\u003e \u003cul\u003e     \u003cli\u003e Keyboarding \u003cbr /\u003e Minimum 25 words per minute (WPM).\u003c\\/li\u003e     \u003cli\u003e Operating Systems\u003cbr /\u003e Basic level of proficiency in a Windows operating system\u003c\\/li\u003e     \u003cli\u003e Word Processing\u003cbr /\u003e Basic level of proficiency in Microsoft Word\u003c\\/li\u003e     \u003cli\u003e Spreadsheets\u003cbr /\u003e Basic level of proficiency in Microsoft Excel\u003c\\/li\u003e     \u003cli\u003e Office Skills\u003cbr /\u003e Personal Computer Fundamentals for End Users, Basic Bookkeeping Level 1, and basic level of proficiency in Microsoft Outlook\u003c\\/li\u003e     \u003cli\u003e Accounting\u003cbr /\u003e Payroll Compliance Legislation, Payroll Fundamentals Levels 1 and 2, and QuickBooks Premier\u003c\\/li\u003e     \u003cli\u003e Simulations and Drills\u003cbr /\u003e Practical Applications – 1 Unit\u003c\\/li\u003e     \u003cli\u003e Business Skills\u003cbr /\u003e Business Math, Business Correspondence Level 1, and Customer Service\u003c\\/li\u003e     \u003cli\u003e Job Readiness/Employability Skills\u003cbr /\u003e Job Search and Résumé Writing and Thought Patterns for a Successful Career\u003c\\/li\u003e \u003c\\/ul\u003e\r\n    \"programtype\": Certificate\r\n    \"salarystart\": 35,226\r\n    \"salaryend\": 59,936\r\n    \"programhours\": 690\r\n    \"programduration\": 34\r\n    \"domestic_fees\": @{\r\n        \"tuition\": 10882\r\n        \"application\": 250\r\n        \"assessment\": 100\r\n        \"other\": 4\r\n    }\r\n    \"syllabuslink\": payroll_administrator_outline-1.pdf\r\n    \"prog_video\": \"\"\r\n}"

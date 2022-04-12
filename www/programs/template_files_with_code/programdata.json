@@ -1,29 +1,4 @@
-{
-    "programname": "Web Developer",
-    "admitreq": "<p>Grade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instructions. Applicants whose first language is not English must provide proof of English proficiency.<\/p><p>An admissions interview will be administered to determine if the applicant has the required interest, motivation, and entry-level skills to take this program.<\/p><p>Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them.<\/p>",
-    "programhighlights": "<p>In the Web Developer diploma program, students learn the coding languages required to be a front-end web developer and create dynamic websites. The program covers the primary and in-demand web development programming languages:HTML, CSS, and JavaScript.<\/p><p>Throughout the program, students gain hands-on experience with a range of web development projects that build in complexity as students add coding languages and technology skills to their toolkit.<\/p><p>Graduates of the program will be able to:<\/p><ul><li>Design the appearance and layout of websites<\/li><li>Develop cross-browser and cross-platform websites<\/li><li>Create and optimize content for websites using graphics, animations, and other software<\/li><li>Translate wire frames and storyboards into functional, responsive websites<\/li><\/ul>",
-    "careeropp": "<p>Graduates of the program may pursue a variety of positions in web development, including web developer, UI/UX developer, front end web developer, HTML / CSS developer, and Javascript / jQuery developer..<\/p> <h2>Program Notes<\/h2> <p>Tuition fees include all course materials. Financial assistance may be available for those who qualify.<\/p> <p>Graduation requirements: Students must maintain a 75% program average to obtain a diploma.<\/p> <h2>Method of Delivery<\/h2> <p>Integrated Learning&reg; System training facilitated by qualified learning coaches.<\/p>",
-    "corecourses": "<p> <b>Core Courses<\/b> <\/p> <ul class=\"textleft\"> <li class=\"textleft-ul-li\"><b>Keyboarding<\/b><br /> Minimum 25 words per minute (WPM).<\/li> <li class=\"textleft-ul-li\"><b> Operating Systems<\/b><br />Intermediate level of proficiency with Windows OS<\/li> <li class=\"textleft-ul-li\"><b>Software Development Industry <\/b><br />Computer and Technology Basics for Developers, Overview of Software Development <\/li> <li class=\"textleft-ul-li\"><b>Software and Web Development Skills <\/b><br />Version Control, HTML, CSS and Bootstrap, JavaScript <\/li> <li class=\"textleft-ul-li\"><b>Database Skills <\/b><br />Basic level of proficiency in Microsoft Access <\/li> <li class=\"textleft-ul-li\"><b>Word Processing and Spreadsheets <\/b><br /> Basic level of proficiency in Microsoft Word and Microsoft Excel<\/li> <li class=\"textleft-ul-li\"><b>Office Skills <\/b><br />Personal Computer Fundamentals, basic level of proficiency in Microsoft Outlook and Internet Fundamentals <\/li> <li class=\"textleft-ul-li\"><b>Business Skills <\/b><br /> Customer Service, Project Management<\/li> <\/ul>",
-    "programtype": "Diploma",
-    "salarystart": 36400,
-    "salaryend": 90000,
-    "programhours": 591,
-    "programduration": 29,
-    "domestic_fees": [{
-        "tuition": 10774,
-        "application": 250,
-        "assessment": 100,
-        "other": 104
-    }],
-    "international_fees": [{
-        "tuition": 10774,
-        "application": 250,
-        "assessment": 100,
-        "other": 104
-    }],
-    "syllabuslink": "aolcc_-_web_developer_diploma_-_program_outline_bc.pdf",
-    "prog_video": "https://www.youtube.com/embed/4gNpKQt5mJY"
-}@{domestic_fees=; programduration=; admitreq=; salaryend=; prog_video=; careeropp=System.Object[]; programhighlights=System.Object[]; programhours=; syllabuslink=; corecourses=System.Object[]; salarystart=; programtype=; programname=}
+@{domestic_fees=; programduration=; admitreq=; salaryend=; prog_video=; careeropp=System.Object[]; programhighlights=System.Object[]; programhours=; syllabuslink=; corecourses=System.Object[]; salarystart=; programtype=; programname=}
 {
     "domestic_fees":  {
                           "tuition":  {

@@ -16,4 +16,347 @@
         "other": 4
     }],
     "syllabuslink": "BC-Final-Web-Designer-Outline.pdf"
+}@{domestic_fees=; programduration=; admitreq=System.Object[]; salaryend=; prog_video=; careeropp=System.Object[]; programhighlights=System.Object[]; programhours=; syllabuslink=BC-Final-Web-Designer-Outline.pdf; corecourses=System.Object[]; salarystart=; programtype=System.Object[]; programname=}
+{
+    "domestic_fees":  {
+                          "tuition":  {
+                                          "value":  "17114",
+                                          "PSPath":  "C:\\xampp\\htdocs\\programs\\web_designer\\dtuition.html",
+                                          "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web_designer",
+                                          "PSChildName":  "dtuition.html",
+                                          "PSDrive":  "C",
+                                          "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                          "ReadCount":  1
+                                      },
+                          "assessment":  {
+
+                                         },
+                          "other":  {
+                                        "value":  "4",
+                                        "PSPath":  "C:\\xampp\\htdocs\\programs\\web_designer\\dother.html",
+                                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web_designer",
+                                        "PSChildName":  "dother.html",
+                                        "PSDrive":  "C",
+                                        "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                        "ReadCount":  1
+                                    },
+                          "application":  {
+                                              "value":  "250",
+                                              "PSPath":  "C:\\xampp\\htdocs\\programs\\web_designer\\dapp.html",
+                                              "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web_designer",
+                                              "PSChildName":  "dapp.html",
+                                              "PSDrive":  "C",
+                                              "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                              "ReadCount":  1
+                                          }
+                      },
+    "programduration":  {
+                            "value":  "51",
+                            "PSPath":  "C:\\xampp\\htdocs\\programs\\web_designer\\programduration.html",
+                            "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web_designer",
+                            "PSChildName":  "programduration.html",
+                            "PSDrive":  {
+                                            "CurrentLocation":  "xampp\\htdocs\\programs\\web_designer",
+                                            "Name":  "C",
+                                            "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                            "Root":  "C:\\",
+                                            "Description":  "",
+                                            "MaximumSize":  null,
+                                            "Credential":  "System.Management.Automation.PSCredential",
+                                            "DisplayRoot":  null
+                                        },
+                            "PSProvider":  {
+                                               "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                               "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                               "Name":  "FileSystem",
+                                               "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                               "ModuleName":  "Microsoft.PowerShell.Core",
+                                               "Module":  null,
+                                               "Description":  "",
+                                               "Capabilities":  52,
+                                               "Home":  "C:\\Users\\mike",
+                                               "Drives":  "C D"
+                                           },
+                            "ReadCount":  1
+                        },
+    "admitreq":  [
+                     {
+                         "value":  "\u003cp\u003eGrade 12 or equivalent or Mature Student Status.\u003c/p\u003e",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\web_designer\\admitreq.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web_designer",
+                         "PSChildName":  "admitreq.html",
+                         "PSDrive":  "C",
+                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                         "ReadCount":  1
+                     },
+                     {
+                         "value":  "",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\web_designer\\admitreq.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web_designer",
+                         "PSChildName":  "admitreq.html",
+                         "PSDrive":  "C",
+                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                         "ReadCount":  2
+                     },
+                     {
+                         "value":  "\u003cp\u003eCourses are open to any applicant who possesses a good command of the English language and is able to follow instructions.\u003c/p\u003e",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\web_designer\\admitreq.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web_designer",
+                         "PSChildName":  "admitreq.html",
+                         "PSDrive":  "C",
+                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                         "ReadCount":  3
+                     },
+                     {
+                         "value":  "",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\web_designer\\admitreq.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web_designer",
+                         "PSChildName":  "admitreq.html",
+                         "PSDrive":  "C",
+                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                         "ReadCount":  4
+                     },
+                     {
+                         "value":  "\u003cp\u003eAn admissions interview will be administered to determine if the applicant has the required interest, motivation, and entry level skills to take this program.\u003c/p\u003e",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\web_designer\\admitreq.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web_designer",
+                         "PSChildName":  "admitreq.html",
+                         "PSDrive":  "C",
+                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                         "ReadCount":  5
+                     },
+                     {
+                         "value":  "",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\web_designer\\admitreq.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web_designer",
+                         "PSChildName":  "admitreq.html",
+                         "PSDrive":  "C",
+                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                         "ReadCount":  6
+                     },
+                     {
+                         "value":  "\u003cp\u003eFull-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them.\u003c/p\u003e",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\web_designer\\admitreq.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web_designer",
+                         "PSChildName":  "admitreq.html",
+                         "PSDrive":  "C",
+                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                         "ReadCount":  7
+                     },
+                     {
+                         "value":  "",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\web_designer\\admitreq.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web_designer",
+                         "PSChildName":  "admitreq.html",
+                         "PSDrive":  "C",
+                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                         "ReadCount":  8
+                     },
+                     {
+                         "value":  "\u003cp\u003ePart-time students may set their own schedules to a minimum of two training sessions per week. These times may be scheduled during the day, evening, or on weekends\u003c/p\u003e",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\web_designer\\admitreq.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web_designer",
+                         "PSChildName":  "admitreq.html",
+                         "PSDrive":  "C",
+                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                         "ReadCount":  9
+                     }
+                 ],
+    "salaryend":  {
+                      "value":  "76,895",
+                      "PSPath":  "C:\\xampp\\htdocs\\programs\\web_designer\\salaryend.html",
+                      "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web_designer",
+                      "PSChildName":  "salaryend.html",
+                      "PSDrive":  {
+                                      "CurrentLocation":  "xampp\\htdocs\\programs\\web_designer",
+                                      "Name":  "C",
+                                      "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                      "Root":  "C:\\",
+                                      "Description":  "",
+                                      "MaximumSize":  null,
+                                      "Credential":  "System.Management.Automation.PSCredential",
+                                      "DisplayRoot":  null
+                                  },
+                      "PSProvider":  {
+                                         "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                         "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                         "Name":  "FileSystem",
+                                         "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                         "ModuleName":  "Microsoft.PowerShell.Core",
+                                         "Module":  null,
+                                         "Description":  "",
+                                         "Capabilities":  52,
+                                         "Home":  "C:\\Users\\mike",
+                                         "Drives":  "C D"
+                                     },
+                      "ReadCount":  1
+                  },
+    "prog_video":  "",
+    "careeropp":  [
+                      "\u003cp\u003eRecent studies indicate that strong growth in web design jobs, particularly in the consulting sector, is expected over the next few years. Career opportunities that will allow students to communicate and captivate with the skills learned in this program",
+                      "    include:\u003c\\/p\u003e",
+                      "",
+                      "\u003cul\u003e",
+                      "",
+                      "    \u003cli\u003eWeb Designer\u003c\\/li\u003e",
+                      "    \u003cli\u003eInternet Site Designer\u003c\\/li\u003e",
+                      "    \u003cli\u003eWebsite Developer\u003c\\/li\u003e",
+                      "    \u003cli\u003eIntranet Site Designer\u003c\\/li\u003e",
+                      "\u003c\\/ul\u003e"
+                  ],
+    "programhighlights":  [
+                              "\u003cp\u003e",
+                              "    This program provides students with the necessary skills and knowledge to build a web design foundation, learn industry-standard software programs, and produce a well-rounded and exciting portfolio. Students learn how to plan and design compelling and",
+                              "    interactive websites and learn to use industry-related programs, such as Adobe Photoshop, Illustrator, Dreamweaver, and Animate, for website designs. Students will also explore HTML and CSS for web publishing alongside essential topics, such as accessibility",
+                              "    standards, color, typography, and composition, as well as dig into PHP and WordPress development. Web Design graduates develop a professional design process for building a website from concept to launch.\u003c\\/p\u003e"
+                          ],
+    "programhours":  {
+                         "value":  "1084",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\web_designer\\programhours.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web_designer",
+                         "PSChildName":  "programhours.html",
+                         "PSDrive":  {
+                                         "CurrentLocation":  "xampp\\htdocs\\programs\\web_designer",
+                                         "Name":  "C",
+                                         "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                         "Root":  "C:\\",
+                                         "Description":  "",
+                                         "MaximumSize":  null,
+                                         "Credential":  "System.Management.Automation.PSCredential",
+                                         "DisplayRoot":  null
+                                     },
+                         "PSProvider":  {
+                                            "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                            "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                            "Name":  "FileSystem",
+                                            "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                            "ModuleName":  "Microsoft.PowerShell.Core",
+                                            "Module":  null,
+                                            "Description":  "",
+                                            "Capabilities":  52,
+                                            "Home":  "C:\\Users\\mike",
+                                            "Drives":  "C D"
+                                        },
+                         "ReadCount":  1
+                     },
+    "syllabuslink":  "BC-Final-Web-Designer-Outline.pdf",
+    "corecourses":  [
+                        "\u003cp\u003eUpon completion of the program the participant must demonstrate the following core competencies:\u003c\\/p\u003e",
+                        "\u003cul class=\"textleft\"\u003e",
+                        "",
+                        "",
+                        "",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eKeyboarding\u003cbr /\u003e Minimum 25 words per minute (WPM).\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eOperating Systems\u003cbr /\u003e Basic level of proficiency in a Windows operating system\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eWord Processing\u003cbr /\u003e Basic level of proficiency in Microsoft Word\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eOffice Skills\u003cbr /\u003e Internet Fundamentals, Personal Computer Fundamentals for Technical Users, and basis level of proficiency in Microsoft Outlook\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eBusiness Skills\u003cbr /\u003e Workplace Success/Intrapreneurship, Marketing and Sales, and Customer Service\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eWeb Design\u003cbr /\u003e Introduction to Web Design, Web 101, HTML and CSS Essentials, Color Theory, Fundamentals of Typography, Dreamweaver 1 and 2, Information Design, Animate, JavaScript for Designers, Web Design 1, Dynamic Web Development with PHP, WordPress",
+                        "        Development, Web Practical Simulation, and Web Portfolio Design\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eGraphics/Presentation\u003cbr /\u003e Photoshop Basics and Illustrator Basics\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eJob Readiness/Employability Skills\u003cbr /\u003e Job Search and Résumé Writing and Thought Patterns for a Successful Career\u003c\\/li\u003e",
+                        "",
+                        "",
+                        "",
+                        "\u003c\\/ul\u003e"
+                    ],
+    "salarystart":  {
+                        "value":  "33,516",
+                        "PSPath":  "C:\\xampp\\htdocs\\programs\\web_designer\\salarystart.html",
+                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web_designer",
+                        "PSChildName":  "salarystart.html",
+                        "PSDrive":  {
+                                        "CurrentLocation":  "xampp\\htdocs\\programs\\web_designer",
+                                        "Name":  "C",
+                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                        "Root":  "C:\\",
+                                        "Description":  "",
+                                        "MaximumSize":  null,
+                                        "Credential":  "System.Management.Automation.PSCredential",
+                                        "DisplayRoot":  null
+                                    },
+                        "PSProvider":  {
+                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                           "Name":  "FileSystem",
+                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                           "ModuleName":  "Microsoft.PowerShell.Core",
+                                           "Module":  null,
+                                           "Description":  "",
+                                           "Capabilities":  52,
+                                           "Home":  "C:\\Users\\mike",
+                                           "Drives":  "C D"
+                                       },
+                        "ReadCount":  1
+                    },
+    "programtype":  [
+                        {
+                            "value":  "\u003c!--Certificate--\u003e",
+                            "PSPath":  "C:\\xampp\\htdocs\\programs\\web_designer\\programtype.html",
+                            "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web_designer",
+                            "PSChildName":  "programtype.html",
+                            "PSDrive":  "C",
+                            "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                            "ReadCount":  1
+                        },
+                        {
+                            "value":  "Diploma",
+                            "PSPath":  "C:\\xampp\\htdocs\\programs\\web_designer\\programtype.html",
+                            "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web_designer",
+                            "PSChildName":  "programtype.html",
+                            "PSDrive":  "C",
+                            "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                            "ReadCount":  2
+                        }
+                    ],
+    "programname":  {
+                        "value":  "WEB DESIGNER",
+                        "PSPath":  "C:\\xampp\\htdocs\\programs\\web_designer\\progtitle.html",
+                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\web_designer",
+                        "PSChildName":  "progtitle.html",
+                        "PSDrive":  {
+                                        "CurrentLocation":  "xampp\\htdocs\\programs\\web_designer",
+                                        "Name":  "C",
+                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                        "Root":  "C:\\",
+                                        "Description":  "",
+                                        "MaximumSize":  null,
+                                        "Credential":  "System.Management.Automation.PSCredential",
+                                        "DisplayRoot":  null
+                                    },
+                        "PSProvider":  {
+                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                           "Name":  "FileSystem",
+                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                           "ModuleName":  "Microsoft.PowerShell.Core",
+                                           "Module":  null,
+                                           "Description":  "",
+                                           "Capabilities":  52,
+                                           "Home":  "C:\\Users\\mike",
+                                           "Drives":  "C D"
+                                       },
+                        "ReadCount":  1
+                    }
 }
+{
+    "domestic_fees":  {
+                          "tuition":  null,
+                          "assessment":  null,
+                          "other":  null,
+                          "application":  null
+                      },
+    "programduration":  null,
+    "admitreq":  null,
+    "salaryend":  null,
+    "prog_video":  "",
+    "careeropp":  null,
+    "programhighlights":  null,
+    "programhours":  null,
+    "syllabuslink":  "BC-Final-Web-Designer-Outline.pdf",
+    "corecourses":  null,
+    "salarystart":  null,
+    "programtype":  null,
+    "programname":  null
+}
+"{\r\n    \"programname\": \r\n    \"admitreq\": \u003cp\u003eGrade 12 or equivalent or Mature Student Status.\u003c/p\u003e  \u003cp\u003eCourses are open to any applicant who possesses a good command of the English language and is able to follow instructions.\u003c/p\u003e  \u003cp\u003eAn admissions interview will be administered to determine if the applicant has the required interest, motivation, and entry level skills to take this program.\u003c/p\u003e  \u003cp\u003eFull-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them.\u003c/p\u003e  \u003cp\u003ePart-time students may set their own schedules to a minimum of two training sessions per week. These times may be scheduled during the day, evening, or on weekends\u003c/p\u003e\r\n    \"programhighlights\": \u003cp\u003e     This program provides students with the necessary skills and knowledge to build a web design foundation, learn industry-standard software programs, and produce a well-rounded and exciting portfolio. Students learn how to plan and design compelling and     interactive websites and learn to use industry-related programs, such as Adobe Photoshop, Illustrator, Dreamweaver, and Animate, for website designs. Students will also explore HTML and CSS for web publishing alongside essential topics, such as accessibility     standards, color, typography, and composition, as well as dig into PHP and WordPress development. Web Design graduates develop a professional design process for building a website from concept to launch.\u003c\\/p\u003e\r\n    \"careeropp\": \u003cp\u003eRecent studies indicate that strong growth in web design jobs, particularly in the consulting sector, is expected over the next few years. Career opportunities that will allow students to communicate and captivate with the skills learned in this program     include:\u003c\\/p\u003e  \u003cul\u003e      \u003cli\u003eWeb Designer\u003c\\/li\u003e     \u003cli\u003eInternet Site Designer\u003c\\/li\u003e     \u003cli\u003eWebsite Developer\u003c\\/li\u003e     \u003cli\u003eIntranet Site Designer\u003c\\/li\u003e \u003c\\/ul\u003e\r\n    \"corecourses\": \u003cp\u003eUpon completion of the program the participant must demonstrate the following core competencies:\u003c\\/p\u003e \u003cul class=\"textleft\"\u003e        \u003cli class=\"textleft-ul-li\"\u003eKeyboarding\u003cbr /\u003e Minimum 25 words per minute (WPM).\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eOperating Systems\u003cbr /\u003e Basic level of proficiency in a Windows operating system\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eWord Processing\u003cbr /\u003e Basic level of proficiency in Microsoft Word\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eOffice Skills\u003cbr /\u003e Internet Fundamentals, Personal Computer Fundamentals for Technical Users, and basis level of proficiency in Microsoft Outlook\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eBusiness Skills\u003cbr /\u003e Workplace Success/Intrapreneurship, Marketing and Sales, and Customer Service\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eWeb Design\u003cbr /\u003e Introduction to Web Design, Web 101, HTML and CSS Essentials, Color Theory, Fundamentals of Typography, Dreamweaver 1 and 2, Information Design, Animate, JavaScript for Designers, Web Design 1, Dynamic Web Development with PHP, WordPress         Development, Web Practical Simulation, and Web Portfolio Design\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eGraphics/Presentation\u003cbr /\u003e Photoshop Basics and Illustrator Basics\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eJob Readiness/Employability Skills\u003cbr /\u003e Job Search and Résumé Writing and Thought Patterns for a Successful Career\u003c\\/li\u003e    \u003c\\/ul\u003e\r\n    \"programtype\": \u003c!--Certificate--\u003e Diploma\r\n    \"salarystart\": 33,516\r\n    \"salaryend\": 76,895\r\n    \"programhours\": 1084\r\n    \"programduration\": 51\r\n    \"domestic_fees\": @{\r\n        \"tuition\": 17114\r\n        \"application\": 250\r\n        \"assessment\": 100\r\n        \"other\": 4\r\n    }\r\n    \"syllabuslink\": BC-Final-Web-Designer-Outline.pdf\r\n    \"prog_video\": \"\"\r\n}"

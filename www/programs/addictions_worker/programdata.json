@@ -1,0 +1,227 @@
+@{domestic_fees=; programduration=; admitreq=; salaryend=; prog_video=; careeropp=<p>Successful candidates can pursue careers throughout the private and public sectors; typical positions are those of accounting clerk, audit clerk, billing clerk, budget clerk, costing clerk, deposit clerk, finance clerk, freight-rate clerk, invoice clerk, ledger clerk. Upward mobility in these vocations is possible with experience, motivation, dedication, and a positive attitude.<\/p>; programhighlights=<p>The Accounting Clerk program provides students with the skills necessary to apply the knowledge of elementary accounting processes, business concepts and office procedures to meet present day business demands. The objective of this program is to prepare students for an entry position into accounting in a short duration of time.<\/p>; programhours=; syllabuslink=BC-Final-Addictions-Worker-Outline.pdf; corecourses=System.Object[]; salarystart=; programtype=System.Object[]; programname=}
+{
+    "domestic_fees":  {
+                          "tuition":  {
+                                          "value":  "2,964",
+                                          "PSPath":  "C:\\xampp\\htdocs\\programs\\addictions_worker\\dtuition.html",
+                                          "PSParentPath":  "C:\\xampp\\htdocs\\programs\\addictions_worker",
+                                          "PSChildName":  "dtuition.html",
+                                          "PSDrive":  "C",
+                                          "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                          "ReadCount":  1
+                                      },
+                          "assessment":  {
+
+                                         },
+                          "other":  {
+                                        "value":  "4",
+                                        "PSPath":  "C:\\xampp\\htdocs\\programs\\addictions_worker\\dother.html",
+                                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\addictions_worker",
+                                        "PSChildName":  "dother.html",
+                                        "PSDrive":  "C",
+                                        "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                        "ReadCount":  1
+                                    },
+                          "application":  {
+                                              "value":  "250",
+                                              "PSPath":  "C:\\xampp\\htdocs\\programs\\addictions_worker\\dapp.html",
+                                              "PSParentPath":  "C:\\xampp\\htdocs\\programs\\addictions_worker",
+                                              "PSChildName":  "dapp.html",
+                                              "PSDrive":  "C",
+                                              "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                              "ReadCount":  1
+                                          }
+                      },
+    "programduration":  {
+                            "value":  "12",
+                            "PSPath":  "C:\\xampp\\htdocs\\programs\\addictions_worker\\programduration.html",
+                            "PSParentPath":  "C:\\xampp\\htdocs\\programs\\addictions_worker",
+                            "PSChildName":  "programduration.html",
+                            "PSDrive":  {
+                                            "CurrentLocation":  "xampp\\htdocs\\programs\\addictions_worker",
+                                            "Name":  "C",
+                                            "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                            "Root":  "C:\\",
+                                            "Description":  "",
+                                            "MaximumSize":  null,
+                                            "Credential":  "System.Management.Automation.PSCredential",
+                                            "DisplayRoot":  null
+                                        },
+                            "PSProvider":  {
+                                               "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                               "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                               "Name":  "FileSystem",
+                                               "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                               "ModuleName":  "Microsoft.PowerShell.Core",
+                                               "Module":  null,
+                                               "Description":  "",
+                                               "Capabilities":  52,
+                                               "Home":  "C:\\Users\\mike",
+                                               "Drives":  "C D"
+                                           },
+                            "ReadCount":  1
+                        },
+    "admitreq":  {
+
+                 },
+    "salaryend":  {
+                      "value":  "48,307",
+                      "PSPath":  "C:\\xampp\\htdocs\\programs\\addictions_worker\\salaryend.html",
+                      "PSParentPath":  "C:\\xampp\\htdocs\\programs\\addictions_worker",
+                      "PSChildName":  "salaryend.html",
+                      "PSDrive":  {
+                                      "CurrentLocation":  "xampp\\htdocs\\programs\\addictions_worker",
+                                      "Name":  "C",
+                                      "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                      "Root":  "C:\\",
+                                      "Description":  "",
+                                      "MaximumSize":  null,
+                                      "Credential":  "System.Management.Automation.PSCredential",
+                                      "DisplayRoot":  null
+                                  },
+                      "PSProvider":  {
+                                         "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                         "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                         "Name":  "FileSystem",
+                                         "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                         "ModuleName":  "Microsoft.PowerShell.Core",
+                                         "Module":  null,
+                                         "Description":  "",
+                                         "Capabilities":  52,
+                                         "Home":  "C:\\Users\\mike",
+                                         "Drives":  "C D"
+                                     },
+                      "ReadCount":  1
+                  },
+    "prog_video":  "",
+    "careeropp":  "\u003cp\u003eSuccessful candidates can pursue careers throughout the private and public sectors; typical positions are those of accounting clerk, audit clerk, billing clerk, budget clerk, costing clerk, deposit clerk, finance clerk, freight-rate clerk, invoice clerk, ledger clerk. Upward mobility in these vocations is possible with experience, motivation, dedication, and a positive attitude.\u003c\\/p\u003e",
+    "programhighlights":  "\u003cp\u003eThe Accounting Clerk program provides students with the skills necessary to apply the knowledge of elementary accounting processes, business concepts and office procedures to meet present day business demands. The objective of this program is to prepare students for an entry position into accounting in a short duration of time.\u003c\\/p\u003e",
+    "programhours":  {
+                         "value":  "300",
+                         "PSPath":  "C:\\xampp\\htdocs\\programs\\addictions_worker\\programhours.html",
+                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\addictions_worker",
+                         "PSChildName":  "programhours.html",
+                         "PSDrive":  {
+                                         "CurrentLocation":  "xampp\\htdocs\\programs\\addictions_worker",
+                                         "Name":  "C",
+                                         "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                         "Root":  "C:\\",
+                                         "Description":  "",
+                                         "MaximumSize":  null,
+                                         "Credential":  "System.Management.Automation.PSCredential",
+                                         "DisplayRoot":  null
+                                     },
+                         "PSProvider":  {
+                                            "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                            "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                            "Name":  "FileSystem",
+                                            "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                            "ModuleName":  "Microsoft.PowerShell.Core",
+                                            "Module":  null,
+                                            "Description":  "",
+                                            "Capabilities":  52,
+                                            "Home":  "C:\\Users\\mike",
+                                            "Drives":  "C D"
+                                        },
+                         "ReadCount":  1
+                     },
+    "syllabuslink":  "BC-Final-Addictions-Worker-Outline.pdf",
+    "corecourses":  [
+                        "\u003cul class=\"textleft\"\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eKeyboarding Minimum 25 words per minute (WPM).\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003e",
+                        "        Operating Systems\u003cbr /\u003e Basic level of proficiency in a Windows operating system\u003c\\/li\u003e",
+                        "     \u003cli class=\"textleft-ul-li\"\u003e",
+                        "        Word Processing\u003cbr /\u003e Intermediate level of proficiency in Microsoft Word\u003c\\/li\u003e   ",
+                        "    \u003cli class=\"textleft-ul-li\"\u003e",
+                        "        Spreadsheets\u003cbr /\u003e Intermediate level of proficiency in Microsoft Excel\u003c\\/li\u003e        ",
+                        "    \u003cli class=\"textleft-ul-li\"\u003eOffice Skills\u003cbr /\u003eBasic level of proficiency in Microsoft Outlook and Basic Bookkeeping Levels 1 and 2\u003c\\/li\u003e",
+                        "    ",
+                        "    ",
+                        "",
+                        "    \u003cli class=\"textleft-ul-li\"\u003e",
+                        "        Accounting\u003cbr /\u003e Sage 50 Premium Accounting\u003c\\/li\u003e",
+                        "",
+                        "    \u003cli class=\"textleft-ul-li\"\u003e",
+                        "        Business Skills\u003cbr /\u003e Customer Service and Business Math\u003c\\/li\u003e",
+                        "    \u003cli class=\"textleft-ul-li\"\u003e",
+                        "        Job Readiness/Employability Skills\u003cbr /\u003e Job Search and Resume Writing\u003c\\/li\u003e",
+                        "   ",
+                        "",
+                        "",
+                        "\u003c\\/ul\u003e"
+                    ],
+    "salarystart":  {
+                        "value":  "28,502",
+                        "PSPath":  "C:\\xampp\\htdocs\\programs\\addictions_worker\\salarystart.html",
+                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\addictions_worker",
+                        "PSChildName":  "salarystart.html",
+                        "PSDrive":  {
+                                        "CurrentLocation":  "xampp\\htdocs\\programs\\addictions_worker",
+                                        "Name":  "C",
+                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                        "Root":  "C:\\",
+                                        "Description":  "",
+                                        "MaximumSize":  null,
+                                        "Credential":  "System.Management.Automation.PSCredential",
+                                        "DisplayRoot":  null
+                                    },
+                        "PSProvider":  {
+                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                           "Name":  "FileSystem",
+                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                           "ModuleName":  "Microsoft.PowerShell.Core",
+                                           "Module":  null,
+                                           "Description":  "",
+                                           "Capabilities":  52,
+                                           "Home":  "C:\\Users\\mike",
+                                           "Drives":  "C D"
+                                       },
+                        "ReadCount":  1
+                    },
+    "programtype":  [
+                        {
+                            "value":  "Certificate",
+                            "PSPath":  "C:\\xampp\\htdocs\\programs\\addictions_worker\\programtype.html",
+                            "PSParentPath":  "C:\\xampp\\htdocs\\programs\\addictions_worker",
+                            "PSChildName":  "programtype.html",
+                            "PSDrive":  "C",
+                            "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                            "ReadCount":  1
+                        },
+                        {
+                            "value":  "\u003c!--Diploma--\u003e",
+                            "PSPath":  "C:\\xampp\\htdocs\\programs\\addictions_worker\\programtype.html",
+                            "PSParentPath":  "C:\\xampp\\htdocs\\programs\\addictions_worker",
+                            "PSChildName":  "programtype.html",
+                            "PSDrive":  "C",
+                            "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
+                            "ReadCount":  2
+                        }
+                    ],
+    "programname":  {
+
+                    }
+}
+{
+    "domestic_fees":  {
+                          "tuition":  null,
+                          "assessment":  null,
+                          "other":  null,
+                          "application":  null
+                      },
+    "programduration":  null,
+    "admitreq":  null,
+    "salaryend":  null,
+    "prog_video":  "",
+    "careeropp":  null,
+    "programhighlights":  null,
+    "programhours":  null,
+    "syllabuslink":  "BC-Final-Addictions-Worker-Outline.pdf",
+    "corecourses":  null,
+    "salarystart":  null,
+    "programtype":  null,
+    "programname":  null
+}
+"{\r\n    \"programname\": \r\n    \"admitreq\": \r\n    \"programhighlights\": \u003cp\u003eThe Accounting Clerk program provides students with the skills necessary to apply the knowledge of elementary accounting processes, business concepts and office procedures to meet present day business demands. The objective of this program is to prepare students for an entry position into accounting in a short duration of time.\u003c\\/p\u003e\r\n    \"careeropp\": \u003cp\u003eSuccessful candidates can pursue careers throughout the private and public sectors; typical positions are those of accounting clerk, audit clerk, billing clerk, budget clerk, costing clerk, deposit clerk, finance clerk, freight-rate clerk, invoice clerk, ledger clerk. Upward mobility in these vocations is possible with experience, motivation, dedication, and a positive attitude.\u003c\\/p\u003e\r\n    \"corecourses\": \u003cul class=\"textleft\"\u003e     \u003cli class=\"textleft-ul-li\"\u003eKeyboarding Minimum 25 words per minute (WPM).\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e         Operating Systems\u003cbr /\u003e Basic level of proficiency in a Windows operating system\u003c\\/li\u003e      \u003cli class=\"textleft-ul-li\"\u003e         Word Processing\u003cbr /\u003e Intermediate level of proficiency in Microsoft Word\u003c\\/li\u003e        \u003cli class=\"textleft-ul-li\"\u003e         Spreadsheets\u003cbr /\u003e Intermediate level of proficiency in Microsoft Excel\u003c\\/li\u003e             \u003cli class=\"textleft-ul-li\"\u003eOffice Skills\u003cbr /\u003eBasic level of proficiency in Microsoft Outlook and Basic Bookkeeping Levels 1 and 2\u003c\\/li\u003e                \u003cli class=\"textleft-ul-li\"\u003e         Accounting\u003cbr /\u003e Sage 50 Premium Accounting\u003c\\/li\u003e      \u003cli class=\"textleft-ul-li\"\u003e         Business Skills\u003cbr /\u003e Customer Service and Business Math\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e         Job Readiness/Employability Skills\u003cbr /\u003e Job Search and Resume Writing\u003c\\/li\u003e       \u003c\\/ul\u003e\r\n    \"programtype\": Certificate \u003c!--Diploma--\u003e\r\n    \"salarystart\": 28,502\r\n    \"salaryend\": 48,307\r\n    \"programhours\": 300\r\n    \"programduration\": 12\r\n    \"domestic_fees\": @{\r\n        \"tuition\": 2,964\r\n        \"application\": 250\r\n        \"assessment\": 100\r\n        \"other\": 4\r\n    }\r\n    \"syllabuslink\": BC-Final-Addictions-Worker-Outline.pdf\r\n    \"prog_video\": \"\"\r\n}"
