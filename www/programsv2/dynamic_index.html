@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Academy of Learning Career College - Abbotsford - Langley</title>
+    <script src="/js/includes.js"></script>
+    <script src="/js/buildSlideShow.js"></script>
+    <div w3-include-html="/css.html"></div>
+
+
+
+</head>
+
+<body>
+
+<div id="slides"></div>
+
+<div w3-include-html="/promisebar.html"></div>
+<div w3-include-html="/footer.html"></div>
+
+<script>
+    includeHTML();
+    document.getElementById('slides').innerHTML = buildSlideShow();
+</script>
+

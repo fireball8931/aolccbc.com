@@ -1,0 +1,267 @@
+{"programs" : [ 
+    {
+        "name" : "A+ Network+ And MCSA Desktop Certification Preparation", 
+        "status" : "approved", 
+        "credential" : "Certificate", 
+        "noc-code" : "2281 - Computer network technicians",        
+        "cip-code" : "11.0203 - Computer programming, vendor/product certification", 
+        "duration" : [{
+            "hours" : 605,
+            "weeks" : 30
+        }],
+        "schedule" : "full-time_or_part-time",
+        "delivery" : "blended",
+        "language" : "English",
+        "tuition" : [{ 
+            "domestic_tuition" : 8196,
+            "international_tuition":10655,
+            "domestic_application_fee" : 250,
+            "international_application_fee" : 500,
+            "assessment_fee":100,
+            "other": 4}],
+        "aolcc_category" : "IT"
+    },
+    {
+        "name" : "Accounting Administrator with SAGE", 
+        "status" : "approved", 
+        "credential" : "Diploma", 
+        "noc-code" : "1431 - Accounting and related clerks", 
+        "cip-code" : "52.0304 - Accounting technology/technician and bookkeeping", 
+        "duration" : [{
+            "hours" : 725,
+            "weeks" : 36
+        }],
+        "schedule" : "full-time_or_part-time",
+        "delivery" : "blended",
+        "language" : "English",
+        "tuition" : [{ 
+            "domestic_tuition" : 11559,
+            "international_tuition":15027,
+            "domestic_application_fee" : 250,
+            "international_application_fee" : 500,
+            "assessment_fee":100,
+            "other": 4
+            }],
+        "aolcc_category" : "accounting"
+    },
+    {
+        "name" : "Accounting And Business Technology", 
+        "status" : "approved", 
+        "credential" : "Diploma", 
+        "noc-code" : "1431 - Accounting and related clerks", 
+        "cip-code" : "52.0304 - Accounting technology/technician and bookkeeping", 
+        "duration" : [{
+            "hours" : 824,
+            "weeks" : 41
+        }],
+        "schedule" : "full-time_or_part-time",
+        "delivery" : "blended",
+        "language" : "English",
+        "tuition" : [{ 
+            "domestic_tuition" : 12729,
+            "international_tuition":16548,
+            "domestic_application_fee" : 250,
+            "international_application_fee" : 500,
+            "assessment_fee":100,
+            "other": 4
+            }],
+        "aolcc_category" : "accounting"
+    },
+    {"name" : "Accounting And Payroll Administrator", "status" : "approved", "credential" : "Diploma", "noc-code" : "1212 - Supervisors, finance and insurance office workers", "cip-code" : "1212 - Supervisors, finance and insurance office workers", "duration" : [{
+            "hours" : 996,
+            "weeks" : 49
+        }],
+        "schedule" : "full-time_or_part-time",
+        "delivery" : "blended",
+        "language" : "English",
+        "tuition" : [{ 
+            "domestic_tuition" : 15180,
+            "international_tuition":19734,
+            "domestic_application_fee" : 250,
+            "international_application_fee" : 500,
+            "assessment_fee":100,
+            "other": 4
+            }],
+        "aolcc_category" : "accounting"
+    },
+    {
+        "name" : "Accounting Bookkeeper", 
+        "status" : "approved", 
+        "credential" : "Certificate", 
+        "noc-code" : "1431 - Accounting and related clerks", 
+        "cip-code" : "52.0304 - Accounting technology/technician and bookkeeping", 
+        "duration" : [{
+            "hours" : 589,
+            "weeks" : 29
+        }],
+        "schedule" : "full-time_or_part-time",
+        "delivery" : "blended",
+        "language" : "English",
+        "tuition" : [{ 
+            "domestic_tuition" : 8707,
+            "international_tuition":11319,
+            "domestic_application_fee" : 250,
+            "international_application_fee" : 500,
+            "assessment_fee":100,
+            "other": 
+            4}],
+        "aolcc_category" : "accounting"
+    },
+    {
+            "name" : "Accounting Clerk", 
+            "status" : "approved", 
+            "credential" : "Certificate", 
+            "noc-code" : "1431 - Accounting and related clerks", 
+            "cip-code" : "52.0304 - Accounting technology/technician and bookkeeping", 
+            "duration" : [{
+                "hours" : 424,
+                "weeks" : 21
+            }],
+        "schedule" : "full-time_or_part-time",
+        "delivery" : "blended",
+        "language" : "English",
+        "tuition" : [{ 
+            "domestic_tuition" : 6452,
+            "international_tuition":8388,
+            "domestic_application_fee" : 250,
+            "international_application_fee" : 500,
+            "assessment_fee":100,
+            "other": 4
+            }],
+        "aolcc_category" : "accounting"
+    },
+    {
+        "name" : "Addictions Worker", 
+        "status" : "approved", 
+        "credential" : "Certificate", 
+        "noc-code" : "4212 - Social and community service workers", 
+        "cip-code" : "51.1501 - Substance abuse/addiction counselling", 
+        "duration" : [{
+            "hours" : 300,
+            "weeks" : 12
+        }],
+        "schedule" : "full-time_or_part-time",
+        "delivery" : "blended",
+        "language" : "English",
+        "tuition" : [{ 
+            "domestic_tuition" : 2964,
+            "international_tuition":3853,
+            "domestic_application_fee" : 250,
+            "international_application_fee" : 500,
+            "text_books": 115,
+            "assessment_fee":100,
+            "other": 4
+            }],
+        "aolcc_category" : "community_services"
+    },
+    {
+            "name" : "Business Administration", 
+            "status" : "approved", 
+            "credential" : "Diploma", 
+            "noc-code" : "1221 - Supervisors, general office and administrative support workers", 
+            "cip-code" : "52.0101 - Business administration and management, general", 
+            "duration" : [{
+                "hours" : 1161,
+                "weeks" : 57
+                         }],
+            "schedule" : "full-time_or_part-time",
+            "delivery" : "blended",
+            "language" : "English",
+            "tuition" : [{ 
+                "domestic_tuition" : 17893,
+                "international_tuition":23261,
+                "domestic_application_fee" : 250,
+                "international_application_fee" : 500,
+                "assessment_fee":100,
+                "other": 4}],
+            "aolcc_category" : "business"
+        },
+    {
+            "name" : "Business Administration Co-Op", 
+            "status" : "approved", 
+            "credential" : "Diploma", 
+            "noc-code" : "1221 - Supervisors, general office and administrative support workers", 
+            "cip-code" : "52.0101 - Business administration and management, general", 
+            "duration" : [{
+                "hours" : 2035,
+                "weeks" : 102
+                         }],
+            "schedule" : "full-time_or_part-time",
+            "delivery" : "blended",
+            "language" : "English",
+            "tuition" : [{ 
+                "domestic_tuition" : 21935,
+                "international_tuition":28541,
+                "domestic_application_fee" : 250,
+                "international_application_fee" : 500,
+                "assessment_fee":100,
+                "other": 4}],
+            "aolcc_category" : "business"
+        },
+    {
+            "name" : "Business Management", 
+            "status" : "approved", 
+            "credential" : "Certificate", 
+            "noc-code" : "1221 - Supervisors, general office and administrative support workers", 
+            "cip-code" : "52.0101 - Business administration and management, general", 
+            "duration" : [{
+                "hours" : 566,
+                "weeks" : 28
+                         }],
+            "schedule" : "full-time_or_part-time",
+            "delivery" : "blended",
+            "language" : "English",
+            "tuition" : [{ 
+                "domestic_tuition" : 9329,
+                "international_tuition":12128,
+                "domestic_application_fee" : 250,
+                "international_application_fee" : 500,
+                "assessment_fee":100,
+                "other": 4}],
+            "aolcc_category" : "business"
+        },
+    {
+            "name" : "Business Office Skills", 
+            "status" : "approved", 
+            "credential" : "Diploma", 
+            "noc-code" : "1221 - Administrative officers", 
+            "cip-code" : "52.1401 - General office occupations and clerical services", 
+            "duration" : [{
+                "hours" : 772,
+                "weeks" : 38
+                         }],
+            "schedule" : "full-time_or_part-time",
+            "delivery" : "blended",
+            "language" : "English",
+            "tuition" : [{ 
+                "domestic_tuition" : 11409,
+                "international_tuition":14832,
+                "domestic_application_fee" : 250,
+                "international_application_fee" : 500,
+                "assessment_fee":100,
+                "other": 4}],
+            "aolcc_category" : "business"
+        },
+    {
+            "name" : "Business Receptionist", 
+            "status" : "approved", 
+            "credential" : "Certificate", 
+            "noc-code" : "1411 - General office support workers", 
+            "cip-code" : "52.1401 - General office occupations and clerical services", 
+            "duration" : [{
+                "hours" : 496,
+                "weeks" : 24
+                         }],
+            "schedule" : "full-time_or_part-time",
+            "delivery" : "blended",
+            "language" : "English",
+            "tuition" : [{ 
+                "domestic_tuition" : 7135,
+                "international_tuition":9276,
+                "domestic_application_fee" : 250,
+                "international_application_fee" : 500,
+                "assessment_fee":100,
+                "other": 4}],
+            "aolcc_category" : "business"
+        }
+]}

@@ -1,10 +1,11 @@
-//Construct Tags
-const paragraphleft = "<p>";
-const paragraphright = "</p>";
+console.log(window.location.search);
 
+function buildProgramPage(programname) {
 
+let JSONFile = "data/" + programname + "_programdata.json";
+let fullImage = "images/full/" + programname + "_full_size.webp"
 
-fetch('./programdata.json')
+    fetch(JSONFile)
     .then(function(response) {
         return response.json()
     })
@@ -14,7 +15,7 @@ fetch('./programdata.json')
         // Set Admit Requirements Paragraphs
         //call function called create div loop
         
-
+        document.getElementById('fullimage').innerHTML = `<img src=${fullImage} alt='Program Image'>`;
         document.getElementById('admitreq').innerHTML = createDivfromJSON(data.admitreq);
 //        console.log(createDivfromJSON(data.admitreq));
         document.getElementById('programhighlights').innerHTML = createDivfromJSON(data.programhighlights);
@@ -34,11 +35,11 @@ fetch('./programdata.json')
         document.getElementById('iassess').innerHTML = data.domestic_fees[0].assessment.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
         document.getElementById('dother').innerHTML = data.domestic_fees[0].other.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
         document.getElementById('iother').innerHTML = data.domestic_fees[0].other.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
-        // if (!(data.prog_video)) {
-        //     document.getElementById('syllabuslink').innerHTML = "<a href=" + data.syllabuslink + " target=\"_blank\">Click Here<\/a>";
-        // } else {
-        //     document.getElementById('syllabuslink').innerHTML = "<a href=" + data.syllabuslink + " target=\"_blank\">Click Here<\/a> <iframe width=\"345\" height=\"194\" src=" + data.prog_video + " frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>";
-        // }
+        if (!(data.prog_video)) {
+            document.getElementById('syllabuslink').innerHTML = "<a href=smorgs/" + data.syllabuslink + " target=\"_blank\">Click Here<\/a>";
+        } else {
+            document.getElementById('syllabuslink').innerHTML = "<a href=smorgs/" + data.syllabuslink + " target=\"_blank\">Click Here<\/a> <iframe width=\"345\" height=\"194\" src=" + data.prog_video + " frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>";
+        }
 
         function createDivfromJSON(part) {
             //console.log(partname);
@@ -61,5 +62,12 @@ fetch('./programdata.json')
             
         }
      })
+}
 
-    
+
+
+function buildSlideShow() {
+    fetch("./program_listing.json")
+
+    console.log(data)
+}
