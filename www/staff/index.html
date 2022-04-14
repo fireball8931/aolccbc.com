@@ -96,7 +96,7 @@ body{
     console.log(window.location.search);
 let staff = window.location.search.replace("?","")
 let cellphone = "";
-fetch("https://github.com/fireball8931/aolccbc.com/raw/main/www/staff/" + staff + ".json")
+fetch(staff + ".json")
         .then(function(response) {
             return response.json()
         })
@@ -117,7 +117,7 @@ fetch("https://github.com/fireball8931/aolccbc.com/raw/main/www/staff/" + staff 
             
             
             let thecampus = data.campus;
-            fetch("https://github.com/fireball8931/aolccbc.com/raw/main/www/staff/campusinfo.json")
+            fetch("campusinfo.json")
             .then(function(response) {
                 return response.json()
             }) 
