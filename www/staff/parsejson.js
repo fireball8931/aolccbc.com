@@ -1,7 +1,7 @@
 console.log(window.location.search);
 let staff = window.location.search.replace("?","")
 let cellphone = "";
-fetch(staff + ".json")
+fetch("https://github.com/fireball8931/aolccbc.com/raw/main/www/staff/" + staff + ".json")
         .then(function(response) {
             return response.json()
         })
@@ -22,7 +22,7 @@ fetch(staff + ".json")
             
             
             let thecampus = data.campus;
-            fetch("campusinfo.json")
+            fetch("https://github.com/fireball8931/aolccbc.com/raw/main/www/staff/campusinfo.json")
             .then(function(response) {
                 return response.json()
             }) 
