@@ -1,28 +1,12 @@
-
-
 console.log(window.location.search);
 let staff = window.location.search.replace("?","")
 let cellphone = "";
-
-// function importImagebase64(imagefile) {
-//     fetch(imagefile)
-//         .then(response => response.text())
-//         .then((data) => {
-//            return data.replace(new RegExp("[\r\n]", "gm"), ",");
-                             
-//             })
-            
-//     }
-
 fetch(staff + ".json")
         .then(function(response) {
             return response.json()
         })
         .then(function(data) {
-            console.log(data)
-            // let avatarpath = "avatars/" + staff + ".txt"
-            // let avatarbase64 = importImagebase64(avatarpath);
-            //console.log(avatarbase64)
+//            console.log(data)
             document.getElementById('avatar').innerHTML = "<img src='//aolccbc.com/staff/avatars/" + staff + ".png' alt='Profile Picture'>";
             document.getElementById('name').innerHTML = data.name;
             document.getElementById('title').innerHTML = data.title;
