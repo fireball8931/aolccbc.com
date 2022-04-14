@@ -22,7 +22,7 @@ fetch(staff + ".json")
             console.log(data)
             // let avatarpath = "avatars/" + staff + ".txt"
             // let avatarbase64 = importImagebase64(avatarpath);
-            console.log(avatarbase64)
+            //console.log(avatarbase64)
             document.getElementById('avatar').innerHTML = "<img src='//aolccbc.com/staff/avatars/" + staff + ".png' alt='Profile Picture'>";
             document.getElementById('name').innerHTML = data.name;
             document.getElementById('title').innerHTML = data.title;
