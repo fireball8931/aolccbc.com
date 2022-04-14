@@ -7,6 +7,8 @@ body {
     /* padding: 20px;*/
     font-family: Arial;
 }
+
+
 /* Center website */
 
 .main {
@@ -22,12 +24,16 @@ h1 {
 .row {
     margin: 8px -16px;
 }
+
+
 /* Add padding BETWEEN each column (if you want) */
 
 .row,
 .row>.column {
     padding: 8px;
 }
+
+
 /* Create three equal columns that floats next to each other */
 
 .column {
@@ -36,6 +42,8 @@ h1 {
     display: none;
     /* Hide columns by default */
 }
+
+
 /* Clear floats after rows */
 
 .row:after {
@@ -43,17 +51,23 @@ h1 {
     display: table;
     clear: both;
 }
+
+
 /* Content */
 
 .content {
     background-color: white;
     padding: 10px;
 }
+
+
 /* The "show" class is added to the filtered elements */
 
 .show {
     display: block;
 }
+
+
 /* Style the buttons */
 
 .slidesbtn {
@@ -63,14 +77,22 @@ h1 {
     background-color: white;
     cursor: pointer;
 }
+
+
 /* Add a grey background color on mouse-over */
 
 .slidesbtn:hover {
     background-color: #ddd;
 }
+
+
 /* Add a dark background color to the active button */
 
 .slidesbtn.active {
     background-color: #666;
     color: white;
+}
+
+.slide {
+    max-width: 273px;
 }
