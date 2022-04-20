@@ -16,25 +16,24 @@
 
 <body>
     <div w3-include-html="/navbar.html"></div>
+    <div class="container" id="maincontent">
+        <h2>Programs</h2>
+        <div id="myslidesbtnContainer">
 
-    <h2>Programs</h2>
-    <div id="myslidesbtnContainer">
-        
+        </div>
+
+        <!--Gallery Grid-->
+        <div class="row">
+            <div id="slides" class="row"></div>
+
+
+
+
+        </div>
+
+
     </div>
-
-    <!--Gallery Grid-->
-    <div class="row">
-        <div id="slides" class="row"></div>
-       
-        
-
-       
-    </div>
-
-
     <div w3-include-html="/promisebar.html"></div>
-
-    <div class="container-fluid"></div>
     <div w3-include-html="/footer.html"></div>
     </div>
     </div>
@@ -42,14 +41,13 @@
     <div id="programoverlay" class="overlay closed"></div>
 
 </body>
-
+<script src="/js/buildprogcontent.js"></script>
 <script src="/js/papaparse.min.js"></script>
 <script src="/js/parsecsv.js"></script>
 <script src="/js/buildoverlay.js"></script>
 <script>
     getData('programlisting.csv');
-    //document.getElementById('slides').innerHTML = slidecontent; 
-    
+    //document.getElementById('slides').innerHTML = slidecontent;
 </script>
 
 <script>

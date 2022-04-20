@@ -138,6 +138,27 @@
             "aolcc_category": "accounting"
         },
         {
+            "name": "Administrative Assistant",
+            "status": "approved",
+            "credential": "Diploma",
+            "noc-code": "1411 - General office support workers",
+            "cip-code": "52.0401 - Administrative assistant and secretarial science, general",
+            "duration": [{
+                "hours": 704,
+                "weeks": 35
+            }],
+            "schedule": "full-time_or_part-time",
+            "delivery": "blended",
+            "language": "English",
+            "tuition": [{
+                "domestic_tuition": 10097,
+                "domestic_application_fee": 250,
+                "assessment_fee": 100,
+                "other": 4
+            }],
+            "aolcc_category": "accounting"
+        },
+        {
             "name": "Addictions Worker",
             "status": "approved",
             "credential": "Certificate",

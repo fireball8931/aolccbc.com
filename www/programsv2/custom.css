@@ -4,19 +4,21 @@
 
 body {
     background-color: #f1f1f1;
-    /* padding: 20px;*/
+    /* padding: 20px; */
     font-family: Arial;
 }
+
 .overlay {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
     z-index: 10;
-  }
-  
-  .modal {
+    background-color: white;
+}
+
+.modal {
     width: 300px;
     height: 200px;
     line-height: 200px;
@@ -29,8 +31,8 @@ body {
     border-radius: 40px;
     text-align: center;
     z-index: 11;
-  }
-  
+}
+
 
 /* Center website */
 
@@ -79,7 +81,7 @@ h1 {
 /* Content */
 
 .content {
-    background-color: white;
+    /* background-color: white; */
     padding: 10px;
 }
 
@@ -118,7 +120,42 @@ h1 {
 
 .slide {
     max-width: 273px;
+    /* background-color: white; */
+    border-style: none;
 }
-.closed{
+
+.slide button {
+    border-style: none;
+    background-color: white;
+    background: none;
+}
+
+.closed {
     display: none;
+}
+
+.closebutton {
+    float: right;
+    background: none;
+    border: none;
+}
+
+.progtitle1 {
+    word-break: break-word;
+}
+
+.progdata {
+    border-style: solid;
+    border-color: lightgrey;
+    text-align: right;
+}
+
+.progdata .title {
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.program-info {
+    margin-left: 5px;
+    margin-right: 5px;
 }

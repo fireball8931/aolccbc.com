@@ -763,8 +763,8 @@ hr {
     margin-left: 1%;
     margin-top: 10px;
 }
-table td {
-    font-size:unset !important;
+title {
+    font-style: bold !important;
 }
 footer {
     background:rgb(52, 58, 64);
@@ -786,7 +786,7 @@ footer td {
 .programdata .col,.programdata .col-2,.programdata .row {
     
     white-space: nowrap;
-}
+padding-bottom: unset;}
 .programdata .colheader {
 
     font-weight: bold;
