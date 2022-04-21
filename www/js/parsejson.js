@@ -1,17 +1,18 @@
-console.log(window.location.search);
+// console.log(window.location.search);
 
 function buildProgramPage(programname) {
 
     let JSONFile = "data/" + programname + "_programdata.json";
-    let proglistingJSONFile = "program_listing.json";
+    let proglistingJSONFile = "/data/3500.json";
     let fullImage = "images/full/" + programname + "_full_size.webp";
-
+    console.log(programname)
     fetch(JSONFile)
         .then(function(response) {
+            // console.log(response);
             return response.json()
         })
         .then(function(data) {
-            console.log(data)
+            // console.log(data)
                 //document.getElementById('programname').innerHTML = data.programname;
                 // Set Admit Requirements Paragraphs
                 //call function called create div loop

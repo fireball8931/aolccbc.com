@@ -1,4 +1,4 @@
-function buildProgramPage(programname) {
+function buildProgramPage(programnameasurlasurl, programname) {
     // const getScrollPosition = (el = window) => ({
     //     x: el.pageXOffset !== undefined ? el.pageXOffset : el.scrollLeft,
     //     y: el.pageYOffset !== undefined ? el.pageYOffset : el.scrollTop
@@ -14,25 +14,29 @@ function buildProgramPage(programname) {
 
     });
     othercontent = ''
-    JSONFile = "data/" + programname + "_programdata.json";
-    proglistingJSONFile = "program_listing.json";
-    fullImage = "images/full/" + programname + "_full_size.webp";
-    console.log(JSONFile);
+    JSONFile = "data/" + programnameasurlasurl + "_programdata.json";
+    proglistingJSONFile = "data/3500.json";
+    fullImage = "images/full/" + programnameasurlasurl + "_full_size.webp";
+    // console.log(JSONFile);
 
 
     fetch(JSONFile)
         .then(function(response) {
+            // console.log(response);
+            if(response.status == 404) {
+                alert("Error, the " + JSONFile + " cannot be found")
+            }
             return response.json()
         })
         .then(function(data) {
-            console.log(data)
+            // console.log(data)
 
-            //programname = data.programname;
+            //programnameasurl = data.programnameasurl;
             // Set Admit Requirements Paragraphs
             //call function called create div loop
 
             //fullimage = `<img src=${fullImage} alt='Program Image'>`;
-            smorg = "smorgs/" + programname + "_" + data.programtype.toLowerCase() + ".pdf"
+            smorg = "smorgs/" + programnameasurlasurl + "_" + data.programtype.toLowerCase() + ".pdf"
             textbooks1 = "";
             optional_cooperative_placement_hours = "";
             admitreq = createDivfromJSON(data.admitreq);
@@ -46,8 +50,8 @@ function buildProgramPage(programname) {
             } else {
                 bcminwage = 15.20;
             }
-            console.log(newMinWageDate)
-            console.log('BC Minimum Wage is: ' + bcminwage)
+            // console.log(newMinWageDate)
+            // console.log('BC Minimum Wage is: ' + bcminwage)
 
             const bcminannualsalary = bcminwage * 40 * 52;
             let salarystart = data.salarystart;
@@ -89,50 +93,61 @@ function buildProgramPage(programname) {
                     return response.json()
                 })
                 .then((data) => {
-                    // searchtext = "Searching for " + programname
-                    mainname = programname
+                    // searchtext = "Searching for " + programnameasurl
+                    mainname = programname.replace(/\sCertificate|\sDiploma/g,"")
 
                     // console.log(searchtext);
 
                     data.programs.forEach(program => {
-                            //console.log(program.name);
-                            programname2 = "";
-                            programname2 = program.name.replace(/\+| |-/g, "_").toLowerCase();
-                            programname2 = programname2.replace(/__/g, "_");
-                            //console.log(programname2);
+                            // console.log(program.name);
+                            programnameasurl2 = "";
+                            programnameasurl2 = program.name.replace(/\+| |-/g, "_").toLowerCase();
+                            programnameasurl2 = programnameasurl2.replace(/__/g, "_");
+                            //console.log(programnameasurl2);
                             //console.log(mainname);
-                            if (programname2 == mainname) {
-                                // console.log("I found it " + mainname + " is the same as " + programname2);
+                            if (program.name == mainname) {
+                                // console.log("I found it " + mainname + " is the same as " + programnameasurl2);
                                 // console.log(program.credential);
                                 progtitle = program.name;
-                                programtype = program.credential;
-                                programhours = program.duration[0].hours;
-                                programduration = program.duration[0].weeks;
-                                // workexphours = data.workexphours;
-                                dtuition = program.tuition[0].domestic_tuition.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
-                                ituition = (program.tuition[0].domestic_tuition * 1.3).toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
-                                dapp = program.tuition[0].domestic_application_fee.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
-                                iapp = (program.tuition[0].domestic_application_fee * 2).toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
-                                dassess = program.tuition[0].assessment_fee.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
-                                iassess = program.tuition[0].assessment_fee.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
-                                otherfees = 4;
-                                if (program.tuition[0].other === undefined) {
-
+                                programtype = program.Credential;
+                                programhours = program.Duration[0].hours;
+                                programduration = program.Duration[0].weeks;
+                                // console.log(program.Duration[0].weeks);
+                                workexphours = program.Duration[0].workexperience;
+                                
+                                if(workexphours === undefined) {
+                                    console.log("Whelp");
                                 } else {
-                                    otherfees = otherfees + program.tuition[0].other
+                                    console.log(workexphours);
+                                }
+                                // console.log(workexphours);
+                                // alert(workexphours)
+                                dtuition = program.domestic[0].tuition.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
+                                ituition = (program.domestic[0].tuition * 1.3).toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
+                                dapp = program.domestic[0].application_fee.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
+                                iapp = (program.domestic[0].application_fee * 2).toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
+                                // console.log(program.domestic[0]);
+                                dassess = program.domestic[0].assessment_fee.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
+                                iassess = program.domestic[0].assessment_fee.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
+                                
+                                otherfees = 4;
+                                if (program.domestic[0].other === undefined) {
+                                    otherfees = 4;
+                                } else {
+                                    otherfees = otherfees + program.domestic[0].other
 
                                     if (otherfees === 8) {
                                         otherfees = 4;
                                     }
                                 }
-
+                                // console.log(otherfees);
                                 dother = otherfees.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
                                 iother = dother;
                                 if (program.textbooks === undefined) {
                                     textbooks1 = "";
 
                                 } else {
-                                    textbookscost = program.tuition[0].textbooks.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
+                                    textbookscost = program.textbooks.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
 
                                     textbooks1 = textbookscost;
                                     // textbooks2 = textbookscost;
@@ -216,7 +231,7 @@ function buildProgramPage(programname) {
                                                                     <td>${programhours} Hours</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>${optional_cooperative_placement_hours} Work Experience Hours</td>
+                                                                    <td>${workexphours}</td>
                                                                 </tr>
                                                             </tbody>
                                                         </table>
@@ -289,7 +304,7 @@ function buildProgramPage(programname) {
             return othercontent;
             // console.log(othercontent);
         })
-    console.log(othercontent);
+    // console.log(othercontent);
     // return othercontent;
 }
 

@@ -1,6 +1,6 @@
 function buildSlideShow() {
 
-    fetch("./program_listing.json")
+    fetch("./data/3500.json")
         .then(function(response) {
             return response.json()
         })

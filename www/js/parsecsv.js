@@ -60,8 +60,9 @@ function getData(file) {
 
 
                                 programnameasurl = program["URL"].toURL(); //programname.toURL();
-                                domestic_tuition = program["Program Cost\r\nexcl.\r\nReg/Ass"].toNumber();
-                                programweeks = program["Weeks Durat-ion"];
+                                // console.log(program["Tuition"])
+                                domestic_tuition = program["Tuition"].toNumber();
+                                programweeks = program["Weeks Duration"];
                                 programhours = programweeks * 20;
                                 //console.log(programname)
                                 //console.log(programcat)

@@ -13,6 +13,8 @@ function overlayprogram(programnameasurl, programname) {
     // const closebutton = `<button class="closebutton" onClick="closeOverlay(${getScrollPosition.x}, ${getScrollPosition.y});">X<br />Close</button>`
     othercontent = '';
     //Get the info from the JSON files
-    buildProgramPage(programnameasurl);
+    console.log([programnameasurl]);
+    console.log([programname]);
+    buildProgramPage(programnameasurl,programname);
 
 }
