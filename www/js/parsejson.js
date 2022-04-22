@@ -1,25 +1,25 @@
-// console.log(window.location.search);
+///console.log(window.location.search);
 
 function buildProgramPage(programname) {
 
     let JSONFile = "data/" + programname + "_programdata.json";
     let proglistingJSONFile = "/data/3500.json";
-    let fullImage = "images/full/" + programname + "_full_size.webp";
-    console.log(programname)
+    let fullImage = "images/full/" + programname + "_full_size.webp";\
+    //console.log(programname)
     fetch(JSONFile)
         .then(function(response) {
-            // console.log(response);
+            ///console.log(response);
             return response.json()
         })
         .then(function(data) {
-            // console.log(data)
-                //document.getElementById('programname').innerHTML = data.programname;
-                // Set Admit Requirements Paragraphs
-                //call function called create div loop
+            ///console.log(data)
+            //document.getElementById('programname').innerHTML = data.programname;
+            // Set Admit Requirements Paragraphs
+            //call function called create div loop
 
             document.getElementById('fullimage').innerHTML = `<img src=${fullImage} alt='Program Image'>`;
             document.getElementById('admitreq').innerHTML = createDivfromJSON(data.admitreq);
-            //        console.log(createDivfromJSON(data.admitreq));
+            //      //console.log(createDivfromJSON(data.admitreq));
             document.getElementById('programhighlights').innerHTML = createDivfromJSON(data.programhighlights);
             document.getElementById('careeropp').innerHTML = createDivfromJSON(data.careeropp);
             document.getElementById('corecourses').innerHTML = createDivfromJSON(data.corecourses);
@@ -59,7 +59,7 @@ function buildProgramPage(programname) {
                     // let searchtext = "Searching for " + programname
                     let mainname = programname
 
-                    // console.log(searchtext);
+                    //console.log(searchtext);
 
                     data.programs.forEach(program => {
                             //console.log(program.name);
@@ -69,8 +69,7 @@ function buildProgramPage(programname) {
                             //console.log(programname2);
                             //console.log(mainname);
                             if (programname2 == mainname) {
-                                // console.log("I found it " + mainname + " is the same as " + programname2);
-                                // console.log(program.credential);
+                                ///console.log("I found it " + mainname + " is the same as " + programname2);                                    //console.log(program.credential);
                                 document.getElementById('progtitle').innerHTML = program.name;
                                 document.getElementById('programtype').innerHTML = program.credential;
                                 document.getElementById('programhours').innerHTML = program.duration[0].hours;

@@ -1,10 +1,14 @@
-function buildProgramPage(programnameasurlasurl, programname) {
+function toCAD(amount) {
+    return amount.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 })
+}
+
+function buildProgramPage(programnameasurl, programname, programtype) {
     // const getScrollPosition = (el = window) => ({
     //     x: el.pageXOffset !== undefined ? el.pageXOffset : el.scrollLeft,
     //     y: el.pageYOffset !== undefined ? el.pageYOffset : el.scrollTop
     // });
-
-
+    //console.log(programnameasurl + ' ' + programname + ' ' + programtype);
+    const credential = programtype;
     const overlay = document.getElementById('programoverlay')
     const closebutton = `<button class="closebutton" onClick="closeOverlay();">X<br />Close</button>`
     document.addEventListener('keydown', function(event) {
@@ -14,33 +18,33 @@ function buildProgramPage(programnameasurlasurl, programname) {
 
     });
     othercontent = ''
-    JSONFile = "data/" + programnameasurlasurl + "_programdata.json";
+    JSONFile = "data/" + programnameasurl + "_programdata.json";
     proglistingJSONFile = "data/3500.json";
-    fullImage = "images/full/" + programnameasurlasurl + "_full_size.webp";
-    // console.log(JSONFile);
-
+    fullImage = "images/full/" + programnameasurl + "_full_size.webp";
+    //console.log(JSONFile);
+    smorg = "smorgs/" + programnameasurl + "_" + programtype.toLowerCase() + ".pdf"
 
     fetch(JSONFile)
         .then(function(response) {
-            // console.log(response);
-            if(response.status == 404) {
+            ///console.log(response);
+            if (response.status == 404) {
                 alert("Error, the " + JSONFile + " cannot be found")
             }
             return response.json()
         })
         .then(function(data) {
-            // console.log(data)
+            console.log(data)
 
             //programnameasurl = data.programnameasurl;
             // Set Admit Requirements Paragraphs
             //call function called create div loop
 
             //fullimage = `<img src=${fullImage} alt='Program Image'>`;
-            smorg = "smorgs/" + programnameasurlasurl + "_" + data.programtype.toLowerCase() + ".pdf"
+
             textbooks1 = "";
             optional_cooperative_placement_hours = "";
             admitreq = createDivfromJSON(data.admitreq);
-            //        console.log(createDivfromJSON(data.admitreq));
+            //      //console.log(createDivfromJSON(data.admitreq));
             programhighlights = createDivfromJSON(data.programhighlights);
             careeropp = createDivfromJSON(data.careeropp);
             corecourses = createDivfromJSON(data.corecourses);
@@ -49,19 +53,18 @@ function buildProgramPage(programnameasurlasurl, programname) {
                 bcminwage = 15.65;
             } else {
                 bcminwage = 15.20;
-            }
-            // console.log(newMinWageDate)
-            // console.log('BC Minimum Wage is: ' + bcminwage)
+            } //console.log(newMinWageDate) 
+            //console.log('BC Minimum Wage is: ' + bcminwage)
 
             const bcminannualsalary = bcminwage * 40 * 52;
             let salarystart = data.salarystart;
             if (salarystart < bcminannualsalary) {
                 salarystart = bcminannualsalary
-                console.log('Salary Start too low, overriding to ' + salarystart.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 }))
+                    //console.log('Salary Start too low, overriding to ' + toCAD(salarystart))
             };
-            salarystart = salarystart.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
+            salarystart = toCAD(salarystart);
             //console.log(salarystart);
-            salaryend = data.salaryend.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
+            salaryend = toCAD(data.salaryend);
             if (!(data.prog_video)) {
                 syllabuslink = "<a href=smorgs/" + data.syllabuslink + " target=\"_blank\">Click Here<\/a>"
             } else {
@@ -85,6 +88,7 @@ function buildProgramPage(programnameasurlasurl, programname) {
                     }
 
                 });
+                //console.log(partcontent);
                 return partcontent;
 
             }
@@ -94,42 +98,43 @@ function buildProgramPage(programnameasurlasurl, programname) {
                 })
                 .then((data) => {
                     // searchtext = "Searching for " + programnameasurl
-                    mainname = programname.replace(/\sCertificate|\sDiploma/g,"")
-
-                    // console.log(searchtext);
+                    mainname = programname.replace(/\sCertificate|\sDiploma/g, "")
+                    mainname = mainname.toLowerCase();
+                    ///console.log(searchtext);
 
                     data.programs.forEach(program => {
-                            // console.log(program.name);
-                            programnameasurl2 = "";
-                            programnameasurl2 = program.name.replace(/\+| |-/g, "_").toLowerCase();
-                            programnameasurl2 = programnameasurl2.replace(/__/g, "_");
-                            //console.log(programnameasurl2);
+                            //console.log(program.name);
                             //console.log(mainname);
-                            if (program.name == mainname) {
-                                // console.log("I found it " + mainname + " is the same as " + programnameasurl2);
-                                // console.log(program.credential);
+                            // programnameasurl2 = "";
+                            // programnameasurl2 = program.name.replace(/\+| |-/g, "_").toLowerCase();
+                            // programnameasurl2 = programnameasurl2.replace(/__/g, "_");
+                            //console.log(programnameasurl2);
+
+                            if (program.name.toLowerCase() === mainname.toLowerCase()) {
+                                ///console.log("I found it " + mainname + " is the same as " + programnameasurl2);                                //console.log(program.credential);
                                 progtitle = program.name;
                                 programtype = program.Credential;
                                 programhours = program.Duration[0].hours;
                                 programduration = program.Duration[0].weeks;
-                                // console.log(program.Duration[0].weeks);
+                                ///console.log(program.Duration[0].weeks);
                                 workexphours = program.Duration[0].workexperience;
-                                
-                                if(workexphours === undefined) {
-                                    console.log("Whelp");
+
+                                if (workexphours === undefined) {
+                                    //console.log("Whelp");
+                                    workexphours = '';
                                 } else {
-                                    console.log(workexphours);
+                                    //console.log(workexphours);
                                 }
-                                // console.log(workexphours);
+                                ///console.log(workexphours);
                                 // alert(workexphours)
-                                dtuition = program.domestic[0].tuition.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
-                                ituition = (program.domestic[0].tuition * 1.3).toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
-                                dapp = program.domestic[0].application_fee.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
-                                iapp = (program.domestic[0].application_fee * 2).toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
-                                // console.log(program.domestic[0]);
-                                dassess = program.domestic[0].assessment_fee.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
-                                iassess = program.domestic[0].assessment_fee.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
-                                
+                                dtuition = toCAD(program.domestic[0].tuition);
+                                ituition = toCAD((program.domestic[0].tuition * 1.3));
+                                dapp = toCAD(program.domestic[0].application_fee);
+                                iapp = toCAD((program.domestic[0].application_fee * 2));
+                                ///console.log(program.domestic[0]);
+                                dassess = toCAD(program.domestic[0].assessment_fee);
+                                iassess = toCAD(program.domestic[0].assessment_fee);
+
                                 otherfees = 4;
                                 if (program.domestic[0].other === undefined) {
                                     otherfees = 4;
@@ -140,14 +145,15 @@ function buildProgramPage(programnameasurlasurl, programname) {
                                         otherfees = 4;
                                     }
                                 }
-                                // console.log(otherfees);
-                                dother = otherfees.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
+
+                                dother = toCAD(otherfees);
+                                //console.log(dother);
                                 iother = dother;
                                 if (program.textbooks === undefined) {
                                     textbooks1 = "";
 
                                 } else {
-                                    textbookscost = program.textbooks.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
+                                    textbookscost = toCAD(program.textbooks);
 
                                     textbooks1 = textbookscost;
                                     // textbooks2 = textbookscost;
@@ -231,7 +237,7 @@ function buildProgramPage(programnameasurlasurl, programname) {
                                                                     <td>${programhours} Hours</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>${workexphours}</td>
+                                                                    <td id="workexphours">${workexphours}</td>
                                                                 </tr>
                                                             </tbody>
                                                         </table>
@@ -264,8 +270,8 @@ function buildProgramPage(programnameasurlasurl, programname) {
                                                 </tr>
                                                 <tr>
                                                     <td class="title">Other Fees:</td>
-                                                    <td>${otherfees}</td>
-                                                    <td>${otherfees}</td>
+                                                    <td>${dother}</td>
+                                                    <td>${dother}</td>
                                                 </tr>
                             
                                             </tbody>
@@ -286,6 +292,9 @@ function buildProgramPage(programnameasurlasurl, programname) {
 
                                 //console.log(othercontent);
                                 overlay.innerHTML = closebutton + othercontent;
+                                if (workexphours === undefined) {
+                                    document.getElementById('workexphours').innerHTML = '';
+                                }
                             } else {
                                 //console.log('there was an issue')
                             };
@@ -295,17 +304,16 @@ function buildProgramPage(programnameasurlasurl, programname) {
 
 
                     );
-                    // console.log(othercontent);
+                    ///console.log(othercontent);
                     return othercontent;
                 })
 
-            // console.log(othercontent);
+            //console.log(othercontent);
 
             return othercontent;
-            // console.log(othercontent);
-        })
-    // console.log(othercontent);
-    // return othercontent;
+            ///console.log(othercontent);
+        }) //console.log(othercontent);
+        // return othercontent;
 }
 
 function closeOverlay() {

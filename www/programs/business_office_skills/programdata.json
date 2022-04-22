@@ -1,276 +1,282 @@
-@{domestic_fees=; programduration=; admitreq=System.Object[]; salaryend=; prog_video=; careeropp=System.Object[]; programhighlights=<p>The objective of this program is to provide the student with opportunities to acquire and apply office skills and knowledge of business office concepts to meet the demands of today’s workplace.<\/p>; programhours=; syllabuslink=business_office_skills_diploma.pdf; corecourses=System.Object[]; salarystart=; programtype=; programname=}
-{
-    "domestic_fees":  {
-                          "tuition":  {
-                                          "value":  "11409",
-                                          "PSPath":  "C:\\xampp\\htdocs\\programs\\business_office_skills\\dtuition.html",
-                                          "PSParentPath":  "C:\\xampp\\htdocs\\programs\\business_office_skills",
-                                          "PSChildName":  "dtuition.html",
-                                          "PSDrive":  "C",
-                                          "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                          "ReadCount":  1
-                                      },
-                          "assessment":  {
+@ {
+    domestic_fees = ;
+    programduration = ;
+    admitreq = System.Object[];
+    salaryend = ;
+    prog_video = ;
+    careeropp = System.Object[];
+    programhighlights = {
+        "style": "p",
+        "content": "The objective of this program is to provide the student with opportunities to acquire and apply office skills and knowledge of business office concepts to meet the demands of today' s workplace. < \/p>; programhours=; syllabuslink=business_office_skills_diploma.pdf; corecourses=System.Object[]; salarystart=; programtype=; programname=} {
+        "domestic_fees": {
+            "tuition": {
+                "value": "11409",
+                "PSPath": "C:\\xampp\\htdocs\\programs\\business_office_skills\\dtuition.html",
+                "PSParentPath": "C:\\xampp\\htdocs\\programs\\business_office_skills",
+                "PSChildName": "dtuition.html",
+                "PSDrive": "C",
+                "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+                "ReadCount": 1
+            },
+            "assessment": {
 
-                                         },
-                          "other":  {
-                                        "value":  "4",
-                                        "PSPath":  "C:\\xampp\\htdocs\\programs\\business_office_skills\\dother.html",
-                                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\business_office_skills",
-                                        "PSChildName":  "dother.html",
-                                        "PSDrive":  "C",
-                                        "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "ReadCount":  1
-                                    },
-                          "application":  {
-                                              "value":  "250",
-                                              "PSPath":  "C:\\xampp\\htdocs\\programs\\business_office_skills\\dapp.html",
-                                              "PSParentPath":  "C:\\xampp\\htdocs\\programs\\business_office_skills",
-                                              "PSChildName":  "dapp.html",
-                                              "PSDrive":  "C",
-                                              "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                              "ReadCount":  1
-                                          }
-                      },
-    "programduration":  {
-                            "value":  "38",
-                            "PSPath":  "C:\\xampp\\htdocs\\programs\\business_office_skills\\programduration.html",
-                            "PSParentPath":  "C:\\xampp\\htdocs\\programs\\business_office_skills",
-                            "PSChildName":  "programduration.html",
-                            "PSDrive":  {
-                                            "CurrentLocation":  "xampp\\htdocs\\programs\\business_office_skills",
-                                            "Name":  "C",
-                                            "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                            "Root":  "C:\\",
-                                            "Description":  "",
-                                            "MaximumSize":  null,
-                                            "Credential":  "System.Management.Automation.PSCredential",
-                                            "DisplayRoot":  null
-                                        },
-                            "PSProvider":  {
-                                               "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                               "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                               "Name":  "FileSystem",
-                                               "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                               "ModuleName":  "Microsoft.PowerShell.Core",
-                                               "Module":  null,
-                                               "Description":  "",
-                                               "Capabilities":  52,
-                                               "Home":  "C:\\Users\\mike",
-                                               "Drives":  "C D"
-                                           },
-                            "ReadCount":  1
-                        },
-    "admitreq":  [
-                     {
-                         "value":  "\u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instruction. Full-time students must attend the required hours per week as per the course schedule",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\business_office_skills\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\business_office_skills",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  1
-                     },
-                     {
-                         "value":  "    and may do so at times convenient to them.\u003c/p\u003e",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\business_office_skills\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\business_office_skills",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  2
-                     }
-                 ],
-    "salaryend":  {
-                      "value":  "65,365",
-                      "PSPath":  "C:\\xampp\\htdocs\\programs\\business_office_skills\\salaryend.html",
-                      "PSParentPath":  "C:\\xampp\\htdocs\\programs\\business_office_skills",
-                      "PSChildName":  "salaryend.html",
-                      "PSDrive":  {
-                                      "CurrentLocation":  "xampp\\htdocs\\programs\\business_office_skills",
-                                      "Name":  "C",
-                                      "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                      "Root":  "C:\\",
-                                      "Description":  "",
-                                      "MaximumSize":  null,
-                                      "Credential":  "System.Management.Automation.PSCredential",
-                                      "DisplayRoot":  null
-                                  },
-                      "PSProvider":  {
-                                         "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                         "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                         "Name":  "FileSystem",
-                                         "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                         "ModuleName":  "Microsoft.PowerShell.Core",
-                                         "Module":  null,
-                                         "Description":  "",
-                                         "Capabilities":  52,
-                                         "Home":  "C:\\Users\\mike",
-                                         "Drives":  "C D"
-                                     },
-                      "ReadCount":  1
-                  },
-    "prog_video":  "",
-    "careeropp":  [
-                      "\u003cp\u003e",
-                      "    Career opportunities are almost unlimited. Efficient and responsible Business Office Skills personnel are an integral and invaluable part of today’s office environment.",
-                      "",
-                      "\u003c\\/p\u003e"
-                  ],
-    "programhighlights":  "\u003cp\u003eThe objective of this program is to provide the student with opportunities to acquire and apply office skills and knowledge of business office concepts to meet the demands of today’s workplace.\u003c\\/p\u003e",
-    "programhours":  {
-                         "value":  "778",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\business_office_skills\\programhours.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\business_office_skills",
-                         "PSChildName":  "programhours.html",
-                         "PSDrive":  {
-                                         "CurrentLocation":  "xampp\\htdocs\\programs\\business_office_skills",
-                                         "Name":  "C",
-                                         "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                         "Root":  "C:\\",
-                                         "Description":  "",
-                                         "MaximumSize":  null,
-                                         "Credential":  "System.Management.Automation.PSCredential",
-                                         "DisplayRoot":  null
-                                     },
-                         "PSProvider":  {
-                                            "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                            "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                            "Name":  "FileSystem",
-                                            "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                            "ModuleName":  "Microsoft.PowerShell.Core",
-                                            "Module":  null,
-                                            "Description":  "",
-                                            "Capabilities":  52,
-                                            "Home":  "C:\\Users\\mike",
-                                            "Drives":  "C D"
-                                        },
-                         "ReadCount":  1
-                     },
-    "syllabuslink":  "business_office_skills_diploma.pdf",
-    "corecourses":  [
-                        "\u003cul class=\"textleft\"\u003e",
-                        "",
-                        "",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eKeyboarding\u003cbr /\u003eMinimum 40 words per minute (WPM).\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eOperating Systems\u003cbr /\u003eAdvanced level of proficiency in a Windows operating system\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eWord Processing\u003cbr /\u003eIntermediate level of proficiency in Microsoft Word\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eSpreadsheets\u003cbr /\u003eIntermediate level of proficiency in Microsoft Excel\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eGraphics/Presentation\u003cbr /\u003eBasic level of proficiency in Microsoft PowerPoint and Microsoft Publisher\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eData Management\u003cbr /\u003eBasic level of proficiency in Microsoft Access\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eSimulations and Drills\u003cbr /\u003ePractical Applications – 2 Units\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eAccounting\u003cbr /\u003eQuickBooks Premier\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eBusiness Skills\u003cbr /\u003eCustomer Service, Grammar Essentials for Business Writing, Business Correspondence Level 1, and Business Math\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eOffice Skills\u003cbr /\u003ePersonal Computer Fundamentals for End Users, Internet Fundamentals, basic level of proficiency in Microsoft Outlook, Basic Bookkeeping Level 1, and Office Procedures Levels 1 and 2\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eEmployability Skills\u003cbr /\u003eJob Search and Résumé Writing and Thought Patterns for a Successful Career\u003c\\/li\u003e",
-                        "\u003c\\/ul\u003e"
-                    ],
-    "salarystart":  {
-                        "value":  "32,548",
-                        "PSPath":  "C:\\xampp\\htdocs\\programs\\business_office_skills\\salarystart.html",
-                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\business_office_skills",
-                        "PSChildName":  "salarystart.html",
-                        "PSDrive":  {
-                                        "CurrentLocation":  "xampp\\htdocs\\programs\\business_office_skills",
-                                        "Name":  "C",
-                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "Root":  "C:\\",
-                                        "Description":  "",
-                                        "MaximumSize":  null,
-                                        "Credential":  "System.Management.Automation.PSCredential",
-                                        "DisplayRoot":  null
-                                    },
-                        "PSProvider":  {
-                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                           "Name":  "FileSystem",
-                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                           "ModuleName":  "Microsoft.PowerShell.Core",
-                                           "Module":  null,
-                                           "Description":  "",
-                                           "Capabilities":  52,
-                                           "Home":  "C:\\Users\\mike",
-                                           "Drives":  "C D"
-                                       },
-                        "ReadCount":  1
-                    },
-    "programtype":  {
-                        "value":  "Diploma",
-                        "PSPath":  "C:\\xampp\\htdocs\\programs\\business_office_skills\\programtype.html",
-                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\business_office_skills",
-                        "PSChildName":  "programtype.html",
-                        "PSDrive":  {
-                                        "CurrentLocation":  "xampp\\htdocs\\programs\\business_office_skills",
-                                        "Name":  "C",
-                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "Root":  "C:\\",
-                                        "Description":  "",
-                                        "MaximumSize":  null,
-                                        "Credential":  "System.Management.Automation.PSCredential",
-                                        "DisplayRoot":  null
-                                    },
-                        "PSProvider":  {
-                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                           "Name":  "FileSystem",
-                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                           "ModuleName":  "Microsoft.PowerShell.Core",
-                                           "Module":  null,
-                                           "Description":  "",
-                                           "Capabilities":  52,
-                                           "Home":  "C:\\Users\\mike",
-                                           "Drives":  "C D"
-                                       },
-                        "ReadCount":  1
-                    },
-    "programname":  {
-                        "value":  "BUSINESS OFFICE SKILLS",
-                        "PSPath":  "C:\\xampp\\htdocs\\programs\\business_office_skills\\progtitle.html",
-                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\business_office_skills",
-                        "PSChildName":  "progtitle.html",
-                        "PSDrive":  {
-                                        "CurrentLocation":  "xampp\\htdocs\\programs\\business_office_skills",
-                                        "Name":  "C",
-                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "Root":  "C:\\",
-                                        "Description":  "",
-                                        "MaximumSize":  null,
-                                        "Credential":  "System.Management.Automation.PSCredential",
-                                        "DisplayRoot":  null
-                                    },
-                        "PSProvider":  {
-                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                           "Name":  "FileSystem",
-                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                           "ModuleName":  "Microsoft.PowerShell.Core",
-                                           "Module":  null,
-                                           "Description":  "",
-                                           "Capabilities":  52,
-                                           "Home":  "C:\\Users\\mike",
-                                           "Drives":  "C D"
-                                       },
-                        "ReadCount":  1
-                    }
-}
-{
-    "domestic_fees":  {
-                          "tuition":  null,
-                          "assessment":  null,
-                          "other":  null,
-                          "application":  null
-                      },
-    "programduration":  null,
-    "admitreq":  null,
-    "salaryend":  null,
-    "prog_video":  "",
-    "careeropp":  null,
-    "programhighlights":  null,
-    "programhours":  null,
-    "syllabuslink":  "business_office_skills_diploma.pdf",
-    "corecourses":  null,
-    "salarystart":  null,
-    "programtype":  null,
-    "programname":  null
-}
-"{\r\n    \"programname\": \r\n    \"admitreq\": \u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instruction. Full-time students must attend the required hours per week as per the course schedule     and may do so at times convenient to them.\u003c/p\u003e\r\n    \"programhighlights\": \u003cp\u003eThe objective of this program is to provide the student with opportunities to acquire and apply office skills and knowledge of business office concepts to meet the demands of today’s workplace.\u003c\\/p\u003e\r\n    \"careeropp\": \u003cp\u003e     Career opportunities are almost unlimited. Efficient and responsible Business Office Skills personnel are an integral and invaluable part of today’s office environment.  \u003c\\/p\u003e\r\n    \"corecourses\": \u003cul class=\"textleft\"\u003e       \u003cli class=\"textleft-ul-li\"\u003eKeyboarding\u003cbr /\u003eMinimum 40 words per minute (WPM).\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eOperating Systems\u003cbr /\u003eAdvanced level of proficiency in a Windows operating system\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eWord Processing\u003cbr /\u003eIntermediate level of proficiency in Microsoft Word\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eSpreadsheets\u003cbr /\u003eIntermediate level of proficiency in Microsoft Excel\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eGraphics/Presentation\u003cbr /\u003eBasic level of proficiency in Microsoft PowerPoint and Microsoft Publisher\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eData Management\u003cbr /\u003eBasic level of proficiency in Microsoft Access\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eSimulations and Drills\u003cbr /\u003ePractical Applications – 2 Units\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eAccounting\u003cbr /\u003eQuickBooks Premier\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eBusiness Skills\u003cbr /\u003eCustomer Service, Grammar Essentials for Business Writing, Business Correspondence Level 1, and Business Math\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eOffice Skills\u003cbr /\u003ePersonal Computer Fundamentals for End Users, Internet Fundamentals, basic level of proficiency in Microsoft Outlook, Basic Bookkeeping Level 1, and Office Procedures Levels 1 and 2\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eEmployability Skills\u003cbr /\u003eJob Search and Résumé Writing and Thought Patterns for a Successful Career\u003c\\/li\u003e \u003c\\/ul\u003e\r\n    \"programtype\": Diploma\r\n    \"salarystart\": 32,548\r\n    \"salaryend\": 65,365\r\n    \"programhours\": 778\r\n    \"programduration\": 38\r\n    \"domestic_fees\": @{\r\n        \"tuition\": 11409\r\n        \"application\": 250\r\n        \"assessment\": 100\r\n        \"other\": 4\r\n    }\r\n    \"syllabuslink\": business_office_skills_diploma.pdf\r\n    \"prog_video\": \"\"\r\n}"
+            },
+            "other": {
+                "value": "4",
+                "PSPath": "C:\\xampp\\htdocs\\programs\\business_office_skills\\dother.html",
+                "PSParentPath": "C:\\xampp\\htdocs\\programs\\business_office_skills",
+                "PSChildName": "dother.html",
+                "PSDrive": "C",
+                "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+                "ReadCount": 1
+            },
+            "application": {
+                "value": "250",
+                "PSPath": "C:\\xampp\\htdocs\\programs\\business_office_skills\\dapp.html",
+                "PSParentPath": "C:\\xampp\\htdocs\\programs\\business_office_skills",
+                "PSChildName": "dapp.html",
+                "PSDrive": "C",
+                "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+                "ReadCount": 1
+            }
+        },
+        "programduration": {
+            "value": "38",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\business_office_skills\\programduration.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\business_office_skills",
+            "PSChildName": "programduration.html",
+            "PSDrive": {
+                "CurrentLocation": "xampp\\htdocs\\programs\\business_office_skills",
+                "Name": "C",
+                "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+                "Root": "C:\\",
+                "Description": "",
+                "MaximumSize": null,
+                "Credential": "System.Management.Automation.PSCredential",
+                "DisplayRoot": null
+            },
+            "PSProvider": {
+                "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+                "HelpFile": "System.Management.Automation.dll-Help.xml",
+                "Name": "FileSystem",
+                "PSSnapIn": "Microsoft.PowerShell.Core",
+                "ModuleName": "Microsoft.PowerShell.Core",
+                "Module": null,
+                "Description": "",
+                "Capabilities": 52,
+                "Home": "C:\\Users\\mike",
+                "Drives": "C D"
+            },
+            "ReadCount": 1
+        },
+        "admitreq": [{
+                "value": "\u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instruction. Full-time students must attend the required hours per week as per the course schedule",
+                "PSPath": "C:\\xampp\\htdocs\\programs\\business_office_skills\\admitreq.html",
+                "PSParentPath": "C:\\xampp\\htdocs\\programs\\business_office_skills",
+                "PSChildName": "admitreq.html",
+                "PSDrive": "C",
+                "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+                "ReadCount": 1
+            },
+            {
+                "value": "    and may do so at times convenient to them.\u003c/p\u003e",
+                "PSPath": "C:\\xampp\\htdocs\\programs\\business_office_skills\\admitreq.html",
+                "PSParentPath": "C:\\xampp\\htdocs\\programs\\business_office_skills",
+                "PSChildName": "admitreq.html",
+                "PSDrive": "C",
+                "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+                "ReadCount": 2
+            }
+        ],
+        "salaryend": {
+            "value": "65,365",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\business_office_skills\\salaryend.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\business_office_skills",
+            "PSChildName": "salaryend.html",
+            "PSDrive": {
+                "CurrentLocation": "xampp\\htdocs\\programs\\business_office_skills",
+                "Name": "C",
+                "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+                "Root": "C:\\",
+                "Description": "",
+                "MaximumSize": null,
+                "Credential": "System.Management.Automation.PSCredential",
+                "DisplayRoot": null
+            },
+            "PSProvider": {
+                "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+                "HelpFile": "System.Management.Automation.dll-Help.xml",
+                "Name": "FileSystem",
+                "PSSnapIn": "Microsoft.PowerShell.Core",
+                "ModuleName": "Microsoft.PowerShell.Core",
+                "Module": null,
+                "Description": "",
+                "Capabilities": 52,
+                "Home": "C:\\Users\\mike",
+                "Drives": "C D"
+            },
+            "ReadCount": 1
+        },
+        "prog_video": "",
+        "careeropp": [
+            "\u003cp\u003e",
+            "    Career opportunities are almost unlimited. Efficient and responsible Business Office Skills personnel are an integral and invaluable part of today's office environment.",
+            "",
+            "\u003c\\/p\u003e"
+        ],
+        "programhighlights": "\u003cp\u003eThe objective of this program is to provide the student with opportunities to acquire and apply office skills and knowledge of business office concepts to meet the demands of today's workplace.\u003c\\/p\u003e",
+        "programhours": {
+            "value": "778",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\business_office_skills\\programhours.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\business_office_skills",
+            "PSChildName": "programhours.html",
+            "PSDrive": {
+                "CurrentLocation": "xampp\\htdocs\\programs\\business_office_skills",
+                "Name": "C",
+                "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+                "Root": "C:\\",
+                "Description": "",
+                "MaximumSize": null,
+                "Credential": "System.Management.Automation.PSCredential",
+                "DisplayRoot": null
+            },
+            "PSProvider": {
+                "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+                "HelpFile": "System.Management.Automation.dll-Help.xml",
+                "Name": "FileSystem",
+                "PSSnapIn": "Microsoft.PowerShell.Core",
+                "ModuleName": "Microsoft.PowerShell.Core",
+                "Module": null,
+                "Description": "",
+                "Capabilities": 52,
+                "Home": "C:\\Users\\mike",
+                "Drives": "C D"
+            },
+            "ReadCount": 1
+        },
+        "syllabuslink": "business_office_skills_diploma.pdf",
+        "corecourses": [
+            "\u003cul class=\"textleft\"\u003e",
+            "",
+            "",
+            "    \u003cli class=\"textleft-ul-li\"\u003eKeyboarding\u003cbr /\u003eMinimum 40 words per minute (WPM).\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eOperating Systems\u003cbr /\u003eAdvanced level of proficiency in a Windows operating system\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eWord Processing\u003cbr /\u003eIntermediate level of proficiency in Microsoft Word\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eSpreadsheets\u003cbr /\u003eIntermediate level of proficiency in Microsoft Excel\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eGraphics/Presentation\u003cbr /\u003eBasic level of proficiency in Microsoft PowerPoint and Microsoft Publisher\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eData Management\u003cbr /\u003eBasic level of proficiency in Microsoft Access\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eSimulations and Drills\u003cbr /\u003ePractical Applications – 2 Units\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eAccounting\u003cbr /\u003eQuickBooks Premier\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eBusiness Skills\u003cbr /\u003eCustomer Service, Grammar Essentials for Business Writing, Business Correspondence Level 1, and Business Math\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eOffice Skills\u003cbr /\u003ePersonal Computer Fundamentals for End Users, Internet Fundamentals, basic level of proficiency in Microsoft Outlook, Basic Bookkeeping Level 1, and Office Procedures Levels 1 and 2\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eEmployability Skills\u003cbr /\u003eJob Search and Résumé Writing and Thought Patterns for a Successful Career\u003c\\/li\u003e",
+            "\u003c\\/ul\u003e"
+        ],
+        "salarystart": {
+            "value": "32,548",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\business_office_skills\\salarystart.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\business_office_skills",
+            "PSChildName": "salarystart.html",
+            "PSDrive": {
+                "CurrentLocation": "xampp\\htdocs\\programs\\business_office_skills",
+                "Name": "C",
+                "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+                "Root": "C:\\",
+                "Description": "",
+                "MaximumSize": null,
+                "Credential": "System.Management.Automation.PSCredential",
+                "DisplayRoot": null
+            },
+            "PSProvider": {
+                "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+                "HelpFile": "System.Management.Automation.dll-Help.xml",
+                "Name": "FileSystem",
+                "PSSnapIn": "Microsoft.PowerShell.Core",
+                "ModuleName": "Microsoft.PowerShell.Core",
+                "Module": null,
+                "Description": "",
+                "Capabilities": 52,
+                "Home": "C:\\Users\\mike",
+                "Drives": "C D"
+            },
+            "ReadCount": 1
+        },
+        "programtype": {
+            "value": "Diploma",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\business_office_skills\\programtype.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\business_office_skills",
+            "PSChildName": "programtype.html",
+            "PSDrive": {
+                "CurrentLocation": "xampp\\htdocs\\programs\\business_office_skills",
+                "Name": "C",
+                "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+                "Root": "C:\\",
+                "Description": "",
+                "MaximumSize": null,
+                "Credential": "System.Management.Automation.PSCredential",
+                "DisplayRoot": null
+            },
+            "PSProvider": {
+                "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+                "HelpFile": "System.Management.Automation.dll-Help.xml",
+                "Name": "FileSystem",
+                "PSSnapIn": "Microsoft.PowerShell.Core",
+                "ModuleName": "Microsoft.PowerShell.Core",
+                "Module": null,
+                "Description": "",
+                "Capabilities": 52,
+                "Home": "C:\\Users\\mike",
+                "Drives": "C D"
+            },
+            "ReadCount": 1
+        },
+        "programname": {
+            "value": "BUSINESS OFFICE SKILLS",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\business_office_skills\\progtitle.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\business_office_skills",
+            "PSChildName": "progtitle.html",
+            "PSDrive": {
+                "CurrentLocation": "xampp\\htdocs\\programs\\business_office_skills",
+                "Name": "C",
+                "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+                "Root": "C:\\",
+                "Description": "",
+                "MaximumSize": null,
+                "Credential": "System.Management.Automation.PSCredential",
+                "DisplayRoot": null
+            },
+            "PSProvider": {
+                "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+                "HelpFile": "System.Management.Automation.dll-Help.xml",
+                "Name": "FileSystem",
+                "PSSnapIn": "Microsoft.PowerShell.Core",
+                "ModuleName": "Microsoft.PowerShell.Core",
+                "Module": null,
+                "Description": "",
+                "Capabilities": 52,
+                "Home": "C:\\Users\\mike",
+                "Drives": "C D"
+            },
+            "ReadCount": 1
+        }
+    } {
+        "domestic_fees": {
+            "tuition": null,
+            "assessment": null,
+            "other": null,
+            "application": null
+        },
+        "programduration": null,
+        "admitreq": null,
+        "salaryend": null,
+        "prog_video": "",
+        "careeropp": null,
+        "programhighlights": null,
+        "programhours": null,
+        "syllabuslink": "business_office_skills_diploma.pdf",
+        "corecourses": null,
+        "salarystart": null,
+        "programtype": null,
+        "programname": null
+    }
+    "{\r\n    \"programname\": \r\n    \"admitreq\": \u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instruction. Full-time students must attend the required hours per week as per the course schedule     and may do so at times convenient to them.\u003c/p\u003e\r\n    \"programhighlights\": \u003cp\u003eThe objective of this program is to provide the student with opportunities to acquire and apply office skills and knowledge of business office concepts to meet the demands of today's workplace.\u003c\\/p\u003e\r\n    \"careeropp\": \u003cp\u003e     Career opportunities are almost unlimited. Efficient and responsible Business Office Skills personnel are an integral and invaluable part of today's office environment.  \u003c\\/p\u003e\r\n    \"corecourses\": \u003cul class=\"textleft\"\u003e       \u003cli class=\"textleft-ul-li\"\u003eKeyboarding\u003cbr /\u003eMinimum 40 words per minute (WPM).\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eOperating Systems\u003cbr /\u003eAdvanced level of proficiency in a Windows operating system\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eWord Processing\u003cbr /\u003eIntermediate level of proficiency in Microsoft Word\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eSpreadsheets\u003cbr /\u003eIntermediate level of proficiency in Microsoft Excel\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eGraphics/Presentation\u003cbr /\u003eBasic level of proficiency in Microsoft PowerPoint and Microsoft Publisher\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eData Management\u003cbr /\u003eBasic level of proficiency in Microsoft Access\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eSimulations and Drills\u003cbr /\u003ePractical Applications – 2 Units\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eAccounting\u003cbr /\u003eQuickBooks Premier\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eBusiness Skills\u003cbr /\u003eCustomer Service, Grammar Essentials for Business Writing, Business Correspondence Level 1, and Business Math\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eOffice Skills\u003cbr /\u003ePersonal Computer Fundamentals for End Users, Internet Fundamentals, basic level of proficiency in Microsoft Outlook, Basic Bookkeeping Level 1, and Office Procedures Levels 1 and 2\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eEmployability Skills\u003cbr /\u003eJob Search and Résumé Writing and Thought Patterns for a Successful Career\u003c\\/li\u003e \u003c\\/ul\u003e\r\n    \"programtype\": Diploma\r\n    \"salarystart\": 32,548\r\n    \"salaryend\": 65,365\r\n    \"programhours\": 778\r\n    \"programduration\": 38\r\n    \"domestic_fees\": @{\r\n        \"tuition\": 11409\r\n        \"application\": 250\r\n        \"assessment\": 100\r\n        \"other\": 4\r\n    }\r\n    \"syllabuslink\": business_office_skills_diploma.pdf\r\n    \"prog_video\": \"\"\r\n}"

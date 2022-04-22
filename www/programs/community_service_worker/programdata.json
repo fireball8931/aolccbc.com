@@ -1,442 +1,452 @@
-@{domestic_fees=; programduration=; admitreq=System.Object[]; salaryend=; prog_video=; careeropp=System.Object[]; programhighlights=System.Object[]; programhours=; syllabuslink=community_service_worker_outline.pdf; corecourses=System.Object[]; salarystart=; programtype=System.Object[]; programname=}
-{
-    "domestic_fees":  {
-                          "tuition":  {
-                                          "value":  "11630",
-                                          "PSPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker\\dtuition.html",
-                                          "PSParentPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker",
-                                          "PSChildName":  "dtuition.html",
-                                          "PSDrive":  "C",
-                                          "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                          "ReadCount":  1
-                                      },
-                          "assessment":  {
+@ { domestic_fees = ;
+    programduration = ;
+    admitreq = System.Object[];
+    salaryend = ;
+    prog_video = ;
+    careeropp = System.Object[];
+    programhighlights = System.Object[];
+    programhours = ;
+    syllabuslink = community_service_worker_outline.pdf;
+    corecourses = System.Object[];
+    salarystart = ;
+    programtype = System.Object[];
+    programname = } {
+    "domestic_fees": {
+        "tuition": {
+            "value": "11630",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\community_service_worker\\dtuition.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\community_service_worker",
+            "PSChildName": "dtuition.html",
+            "PSDrive": "C",
+            "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+            "ReadCount": 1
+        },
+        "assessment": {
 
-                                         },
-                          "other":  {
-                                        "value":  "144",
-                                        "PSPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker\\dother.html",
-                                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker",
-                                        "PSChildName":  "dother.html",
-                                        "PSDrive":  "C",
-                                        "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "ReadCount":  1
-                                    },
-                          "application":  {
-                                              "value":  "250",
-                                              "PSPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker\\dapp.html",
-                                              "PSParentPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker",
-                                              "PSChildName":  "dapp.html",
-                                              "PSDrive":  "C",
-                                              "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                              "ReadCount":  1
-                                          }
-                      },
-    "programduration":  {
-                            "value":  "34",
-                            "PSPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker\\programduration.html",
-                            "PSParentPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker",
-                            "PSChildName":  "programduration.html",
-                            "PSDrive":  {
-                                            "CurrentLocation":  "xampp\\htdocs\\programs\\community_service_worker",
-                                            "Name":  "C",
-                                            "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                            "Root":  "C:\\",
-                                            "Description":  "",
-                                            "MaximumSize":  null,
-                                            "Credential":  "System.Management.Automation.PSCredential",
-                                            "DisplayRoot":  null
-                                        },
-                            "PSProvider":  {
-                                               "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                               "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                               "Name":  "FileSystem",
-                                               "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                               "ModuleName":  "Microsoft.PowerShell.Core",
-                                               "Module":  null,
-                                               "Description":  "",
-                                               "Capabilities":  52,
-                                               "Home":  "C:\\Users\\mike",
-                                               "Drives":  "C D"
-                                           },
-                            "ReadCount":  1
-                        },
-    "admitreq":  [
-                     {
-                         "value":  "\u003cp\u003e",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  1
-                     },
-                     {
-                         "value":  "    \u003cul\u003e",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  2
-                     },
-                     {
-                         "value":  "        \u003cli\u003eClear Criminal Record Check with Vulnerable Sector Check\u003c/li\u003e",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  3
-                     },
-                     {
-                         "value":  "        \u003cli\u003e19 years of age or older (varies, depending on province-specific ministry requirements)\u003c/li\u003e",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  4
-                     },
-                     {
-                         "value":  "        \u003cli\u003eGrade 12 or equivalent, or Mature Student Status with successful completion of CAST testing\u003c/li\u003e",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  5
-                     },
-                     {
-                         "value":  "        \u003cli\u003eAdequate level of physical health to be able to fulfill job requirements (as stated in self-assessment)\u003c/li\u003e",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  6
-                     },
-                     {
-                         "value":  "        \u003cli\u003eOther medical tests (e.g., TB Test) or proof of vaccinations (e.g., Hepatitis B) may be required by industry prior to placement\u003c/li\u003e",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  7
-                     },
-                     {
-                         "value":  "        \u003cli\u003eGood command of the English language – both written and oral (as per completion of the Wonderlic SLE admission test with a minimum score of 18)\u003c/li\u003e",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  8
-                     },
-                     {
-                         "value":  "        \u003cli\u003eCompletion of standard registration form\u003c/li\u003e",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  9
-                     },
-                     {
-                         "value":  "",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  10
-                     },
-                     {
-                         "value":  "",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  11
-                     },
-                     {
-                         "value":  "",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  12
-                     },
-                     {
-                         "value":  "    \u003c/ul\u003e",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  13
-                     },
-                     {
-                         "value":  "",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  14
-                     },
-                     {
-                         "value":  "",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  15
-                     },
-                     {
-                         "value":  "\u003c/p\u003e",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  16
-                     }
-                 ],
-    "salaryend":  {
-                      "value":  "48,307",
-                      "PSPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker\\salaryend.html",
-                      "PSParentPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker",
-                      "PSChildName":  "salaryend.html",
-                      "PSDrive":  {
-                                      "CurrentLocation":  "xampp\\htdocs\\programs\\community_service_worker",
-                                      "Name":  "C",
-                                      "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                      "Root":  "C:\\",
-                                      "Description":  "",
-                                      "MaximumSize":  null,
-                                      "Credential":  "System.Management.Automation.PSCredential",
-                                      "DisplayRoot":  null
-                                  },
-                      "PSProvider":  {
-                                         "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                         "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                         "Name":  "FileSystem",
-                                         "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                         "ModuleName":  "Microsoft.PowerShell.Core",
-                                         "Module":  null,
-                                         "Description":  "",
-                                         "Capabilities":  52,
-                                         "Home":  "C:\\Users\\mike",
-                                         "Drives":  "C D"
-                                     },
-                      "ReadCount":  1
-                  },
-    "prog_video":  "",
-    "careeropp":  [
-                      "\u003cp\u003e",
-                      "    Graduates of this program are qualified to work in a wide variety of CSW settings and occupations. Job titles vary per location, but graduates are an integral part of many settings, including:",
-                      "    \u003cul\u003e",
-                      "        \u003cli\u003eYouth centres and youth protection services\u003c\\/li\u003e",
-                      "        \u003cli\u003eIndividual and family services\u003c\\/li\u003e",
-                      "        \u003cli\u003eCivic and social organizations\u003c\\/li\u003e",
-                      "        \u003cli\u003eOut-patient care centres\u003c\\/li\u003e",
-                      "        \u003cli\u003eLocal Community Service Centres (CLSC)\u003c\\/li\u003e",
-                      "        \u003cli\u003eVocational rehabilitation services\u003c\\/li\u003e",
-                      "        \u003cli\u003eEducational services\u003c\\/li\u003e",
-                      "        \u003cli\u003eCommunity food and housing\u003c\\/li\u003e",
-                      "        \u003cli\u003eEmergency relief services\u003c\\/li\u003e",
-                      "    \u003c\\/ul\u003e",
-                      "",
-                      "",
-                      "",
-                      "\u003c\\/p\u003e"
-                  ],
-    "programhighlights":  [
-                              "\u003cp\u003eWith the aging population, the tremendous advancements in technology, and our demand for the best quality of life, the healthcare industry is facing a growing shortage of well-trained personnel. Throughout the North American healthcare industry, there",
-                              "    is an acute need to increase the size of the workforce, and raise the skill level of that workforce.\u003c\\/p\u003e",
-                              "",
-                              "\u003cp\u003eA well-trained Community Service Worker (CSW) is equipped with a flexible, adaptable career. Social and community service workers administer and implement a variety of social assistance programs and community services. They assist clients to address personal",
-                              "    and social problems. They are employed by social service and government agencies, mental health agencies, group homes, shelters, substance abuse centres, school boards, correctional facilities, and other establishments.\u003c\\/p\u003e",
-                              "",
-                              "\u003cp\u003eThis program provides students with the base knowledge, skills, and work experience to become permanently employable in a CSW setting. Skill development is delivered in three areas:\u003c\\/p\u003e",
-                              "",
-                              "\u003cul\u003e",
-                              "    \u003cli\u003e Comprehensive community service worker knowledge, which includes psychology, sociology, family life, mental health, addictions, criminology, dealing with at-risk populations, case management, counselling, ethics, business communication, report writing,",
-                              "        and government and social services",
-                              "    \u003c\\/li\u003e",
-                              "    \u003cli\u003eFull range of computer and office skills, including current software applications, keyboarding skills, and personal and professional development\u003c\\/li\u003e",
-                              "    \u003cli\u003eOn-site work experience through participation in a 160 hour Clinical Placement at an approved CSW facility\u003c\\/li\u003e",
-                              "\u003c\\/ul\u003e"
-                          ],
-    "programhours":  {
-                         "value":  "827",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker\\programhours.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker",
-                         "PSChildName":  "programhours.html",
-                         "PSDrive":  {
-                                         "CurrentLocation":  "xampp\\htdocs\\programs\\community_service_worker",
-                                         "Name":  "C",
-                                         "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                         "Root":  "C:\\",
-                                         "Description":  "",
-                                         "MaximumSize":  null,
-                                         "Credential":  "System.Management.Automation.PSCredential",
-                                         "DisplayRoot":  null
-                                     },
-                         "PSProvider":  {
-                                            "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                            "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                            "Name":  "FileSystem",
-                                            "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                            "ModuleName":  "Microsoft.PowerShell.Core",
-                                            "Module":  null,
-                                            "Description":  "",
-                                            "Capabilities":  52,
-                                            "Home":  "C:\\Users\\mike",
-                                            "Drives":  "C D"
-                                        },
-                         "ReadCount":  1
-                     },
-    "syllabuslink":  "community_service_worker_outline.pdf",
-    "corecourses":  [
-                        "\u003cp\u003e\u003cstrong\u003ePart A: Computer and Business Office Skills\u003c\\/strong\u003e\u003c\\/p\u003e",
-                        "",
-                        "\u003cul\u003e",
-                        "    \u003cli\u003eIntroduction to Keyboarding\u003c\\/li\u003e",
-                        "    \u003cli\u003eKeyboard Skill Building Level 1\u003c\\/li\u003e",
-                        "    \u003cli\u003eMicrosoft Windows Level 1\u003c\\/li\u003e",
-                        "    \u003cli\u003eMicrosoft Word – Level 1\u003c\\/li\u003e",
-                        "    \u003cli\u003eMicrosoft Excel – Level 1\u003c\\/li\u003e",
-                        "    \u003cli\u003eMicrosoft Access – Level 1\u003c\\/li\u003e",
-                        "    \u003cli\u003eMicrosoft Outlook – Level 1\u003c\\/li\u003e",
-                        "    \u003cli\u003eThought Patterns For A Successful Career\u003c\\/li\u003e",
-                        "    \u003cli\u003eJob Search and Résumé Writing\u003c\\/li\u003e",
-                        "\u003c\\/ul\u003e",
-                        "",
-                        "",
-                        "\u003cp\u003e\u003cstrong\u003ePart B: CSW Administrative/Clinical\u003c\\/strong\u003e\u003c\\/p\u003e",
-                        "",
-                        "\u003cul\u003e",
-                        "    \u003cli\u003ePsychology Fundamentals\u003c\\/li\u003e",
-                        "    \u003cli\u003eSociology and Family Life in Canada\u003c\\/li\u003e",
-                        "    \u003cli\u003eIntroduction to Mental Health and Addictions\u003c\\/li\u003e",
-                        "    \u003cli\u003eLife-Span Development\u003c\\/li\u003e",
-                        "    \u003cli\u003eCriminology and At-Risk Populations\u003c\\/li\u003e",
-                        "    \u003cli\u003eCase Management, Counselling, and Ethics\u003c\\/li\u003e",
-                        "    \u003cli\u003eBusiness Communication and Report Writing\u003c\\/li\u003e",
-                        "    \u003cli\u003eGovernment and Social Services\u003c\\/li\u003e",
-                        "    \u003cli\u003eStandard First Aid\u003c\\/li\u003e",
-                        "    \u003cli\u003eBasic Rescuer (Level C) CPR Certification\u003c\\/li\u003e",
-                        "\u003c\\/ul\u003e",
-                        "",
-                        "\u003cp\u003e\u003cstrong\u003ePart C: Work Experience\u003c\\/strong\u003e\u003c\\/p\u003e",
-                        "",
-                        "\u003cul\u003e",
-                        "    \u003cli\u003ePreceptorship\u003c\\/li\u003e",
-                        "\u003c\\/ul\u003e"
-                    ],
-    "salarystart":  {
-                        "value":  "28,502",
-                        "PSPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker\\salarystart.html",
-                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker",
-                        "PSChildName":  "salarystart.html",
-                        "PSDrive":  {
-                                        "CurrentLocation":  "xampp\\htdocs\\programs\\community_service_worker",
-                                        "Name":  "C",
-                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "Root":  "C:\\",
-                                        "Description":  "",
-                                        "MaximumSize":  null,
-                                        "Credential":  "System.Management.Automation.PSCredential",
-                                        "DisplayRoot":  null
-                                    },
-                        "PSProvider":  {
-                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                           "Name":  "FileSystem",
-                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                           "ModuleName":  "Microsoft.PowerShell.Core",
-                                           "Module":  null,
-                                           "Description":  "",
-                                           "Capabilities":  52,
-                                           "Home":  "C:\\Users\\mike",
-                                           "Drives":  "C D"
-                                       },
-                        "ReadCount":  1
-                    },
-    "programtype":  [
-                        {
-                            "value":  "\u003c!--Certificate--\u003e",
-                            "PSPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker\\programtype.html",
-                            "PSParentPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker",
-                            "PSChildName":  "programtype.html",
-                            "PSDrive":  "C",
-                            "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                            "ReadCount":  1
-                        },
-                        {
-                            "value":  "Diploma",
-                            "PSPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker\\programtype.html",
-                            "PSParentPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker",
-                            "PSChildName":  "programtype.html",
-                            "PSDrive":  "C",
-                            "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                            "ReadCount":  2
-                        }
-                    ],
-    "programname":  {
-                        "value":  "COMMUNITY SERVICE WORKER",
-                        "PSPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker\\progtitle.html",
-                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\community_service_worker",
-                        "PSChildName":  "progtitle.html",
-                        "PSDrive":  {
-                                        "CurrentLocation":  "xampp\\htdocs\\programs\\community_service_worker",
-                                        "Name":  "C",
-                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "Root":  "C:\\",
-                                        "Description":  "",
-                                        "MaximumSize":  null,
-                                        "Credential":  "System.Management.Automation.PSCredential",
-                                        "DisplayRoot":  null
-                                    },
-                        "PSProvider":  {
-                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                           "Name":  "FileSystem",
-                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                           "ModuleName":  "Microsoft.PowerShell.Core",
-                                           "Module":  null,
-                                           "Description":  "",
-                                           "Capabilities":  52,
-                                           "Home":  "C:\\Users\\mike",
-                                           "Drives":  "C D"
-                                       },
-                        "ReadCount":  1
-                    }
+        },
+        "other": {
+            "value": "144",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\community_service_worker\\dother.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\community_service_worker",
+            "PSChildName": "dother.html",
+            "PSDrive": "C",
+            "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+            "ReadCount": 1
+        },
+        "application": {
+            "value": "250",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\community_service_worker\\dapp.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\community_service_worker",
+            "PSChildName": "dapp.html",
+            "PSDrive": "C",
+            "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+            "ReadCount": 1
+        }
+    },
+    "programduration": {
+        "value": "34",
+        "PSPath": "C:\\xampp\\htdocs\\programs\\community_service_worker\\programduration.html",
+        "PSParentPath": "C:\\xampp\\htdocs\\programs\\community_service_worker",
+        "PSChildName": "programduration.html",
+        "PSDrive": {
+            "CurrentLocation": "xampp\\htdocs\\programs\\community_service_worker",
+            "Name": "C",
+            "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+            "Root": "C:\\",
+            "Description": "",
+            "MaximumSize": null,
+            "Credential": "System.Management.Automation.PSCredential",
+            "DisplayRoot": null
+        },
+        "PSProvider": {
+            "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+            "HelpFile": "System.Management.Automation.dll-Help.xml",
+            "Name": "FileSystem",
+            "PSSnapIn": "Microsoft.PowerShell.Core",
+            "ModuleName": "Microsoft.PowerShell.Core",
+            "Module": null,
+            "Description": "",
+            "Capabilities": 52,
+            "Home": "C:\\Users\\mike",
+            "Drives": "C D"
+        },
+        "ReadCount": 1
+    },
+    "admitreq": [{
+            "value": "\u003cp\u003e",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\community_service_worker",
+            "PSChildName": "admitreq.html",
+            "PSDrive": "C",
+            "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+            "ReadCount": 1
+        },
+        {
+            "value": "    \u003cul\u003e",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\community_service_worker",
+            "PSChildName": "admitreq.html",
+            "PSDrive": "C",
+            "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+            "ReadCount": 2
+        },
+        {
+            "value": "        \u003cli\u003eClear Criminal Record Check with Vulnerable Sector Check\u003c/li\u003e",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\community_service_worker",
+            "PSChildName": "admitreq.html",
+            "PSDrive": "C",
+            "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+            "ReadCount": 3
+        },
+        {
+            "value": "        \u003cli\u003e19 years of age or older (varies, depending on province-specific ministry requirements)\u003c/li\u003e",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\community_service_worker",
+            "PSChildName": "admitreq.html",
+            "PSDrive": "C",
+            "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+            "ReadCount": 4
+        },
+        {
+            "value": "        \u003cli\u003eGrade 12 or equivalent, or Mature Student Status with successful completion of CAST testing\u003c/li\u003e",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\community_service_worker",
+            "PSChildName": "admitreq.html",
+            "PSDrive": "C",
+            "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+            "ReadCount": 5
+        },
+        {
+            "value": "        \u003cli\u003eAdequate level of physical health to be able to fulfill job requirements (as stated in self-assessment)\u003c/li\u003e",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\community_service_worker",
+            "PSChildName": "admitreq.html",
+            "PSDrive": "C",
+            "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+            "ReadCount": 6
+        },
+        {
+            "value": "        \u003cli\u003eOther medical tests (e.g., TB Test) or proof of vaccinations (e.g., Hepatitis B, COVID-19, etc
+        ) may be required by industry prior to placement\ u003c / li\ u003e ",
+        "PSPath": "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
+        "PSParentPath": "C:\\xampp\\htdocs\\programs\\community_service_worker",
+        "PSChildName": "admitreq.html",
+        "PSDrive": "C",
+        "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+        "ReadCount": 7
+    },
+    {
+        "value": "        \u003cli\u003eGood command of the English language – both written and oral (as per completion of the Wonderlic SLE admission test with a minimum score of 18)\u003c/li\u003e",
+        "PSPath": "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
+        "PSParentPath": "C:\\xampp\\htdocs\\programs\\community_service_worker",
+        "PSChildName": "admitreq.html",
+        "PSDrive": "C",
+        "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+        "ReadCount": 8
+    },
+    {
+        "value": "        \u003cli\u003eCompletion of standard registration form\u003c/li\u003e",
+        "PSPath": "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
+        "PSParentPath": "C:\\xampp\\htdocs\\programs\\community_service_worker",
+        "PSChildName": "admitreq.html",
+        "PSDrive": "C",
+        "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+        "ReadCount": 9
+    },
+    {
+        "value": "",
+        "PSPath": "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
+        "PSParentPath": "C:\\xampp\\htdocs\\programs\\community_service_worker",
+        "PSChildName": "admitreq.html",
+        "PSDrive": "C",
+        "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+        "ReadCount": 10
+    },
+    {
+        "value": "",
+        "PSPath": "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
+        "PSParentPath": "C:\\xampp\\htdocs\\programs\\community_service_worker",
+        "PSChildName": "admitreq.html",
+        "PSDrive": "C",
+        "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+        "ReadCount": 11
+    },
+    {
+        "value": "",
+        "PSPath": "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
+        "PSParentPath": "C:\\xampp\\htdocs\\programs\\community_service_worker",
+        "PSChildName": "admitreq.html",
+        "PSDrive": "C",
+        "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+        "ReadCount": 12
+    },
+    {
+        "value": "    \u003c/ul\u003e",
+        "PSPath": "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
+        "PSParentPath": "C:\\xampp\\htdocs\\programs\\community_service_worker",
+        "PSChildName": "admitreq.html",
+        "PSDrive": "C",
+        "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+        "ReadCount": 13
+    },
+    {
+        "value": "",
+        "PSPath": "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
+        "PSParentPath": "C:\\xampp\\htdocs\\programs\\community_service_worker",
+        "PSChildName": "admitreq.html",
+        "PSDrive": "C",
+        "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+        "ReadCount": 14
+    },
+    {
+        "value": "",
+        "PSPath": "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
+        "PSParentPath": "C:\\xampp\\htdocs\\programs\\community_service_worker",
+        "PSChildName": "admitreq.html",
+        "PSDrive": "C",
+        "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+        "ReadCount": 15
+    },
+    {
+        "value": "\u003c/p\u003e",
+        "PSPath": "C:\\xampp\\htdocs\\programs\\community_service_worker\\admitreq.html",
+        "PSParentPath": "C:\\xampp\\htdocs\\programs\\community_service_worker",
+        "PSChildName": "admitreq.html",
+        "PSDrive": "C",
+        "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+        "ReadCount": 16
+    }
+],
+"salaryend": {
+    "value": "48,307",
+    "PSPath": "C:\\xampp\\htdocs\\programs\\community_service_worker\\salaryend.html",
+    "PSParentPath": "C:\\xampp\\htdocs\\programs\\community_service_worker",
+    "PSChildName": "salaryend.html",
+    "PSDrive": {
+        "CurrentLocation": "xampp\\htdocs\\programs\\community_service_worker",
+        "Name": "C",
+        "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+        "Root": "C:\\",
+        "Description": "",
+        "MaximumSize": null,
+        "Credential": "System.Management.Automation.PSCredential",
+        "DisplayRoot": null
+    },
+    "PSProvider": {
+        "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+        "HelpFile": "System.Management.Automation.dll-Help.xml",
+        "Name": "FileSystem",
+        "PSSnapIn": "Microsoft.PowerShell.Core",
+        "ModuleName": "Microsoft.PowerShell.Core",
+        "Module": null,
+        "Description": "",
+        "Capabilities": 52,
+        "Home": "C:\\Users\\mike",
+        "Drives": "C D"
+    },
+    "ReadCount": 1
+},
+"prog_video": "",
+"careeropp": [
+    "\u003cp\u003e",
+    "    Graduates of this program are qualified to work in a wide variety of CSW settings and occupations. Job titles vary per location, but graduates are an integral part of many settings, including:",
+    "    \u003cul\u003e",
+    "        \u003cli\u003eYouth centres and youth protection services\u003c\\/li\u003e",
+    "        \u003cli\u003eIndividual and family services\u003c\\/li\u003e",
+    "        \u003cli\u003eCivic and social organizations\u003c\\/li\u003e",
+    "        \u003cli\u003eOut-patient care centres\u003c\\/li\u003e",
+    "        \u003cli\u003eLocal Community Service Centres (CLSC)\u003c\\/li\u003e",
+    "        \u003cli\u003eVocational rehabilitation services\u003c\\/li\u003e",
+    "        \u003cli\u003eEducational services\u003c\\/li\u003e",
+    "        \u003cli\u003eCommunity food and housing\u003c\\/li\u003e",
+    "        \u003cli\u003eEmergency relief services\u003c\\/li\u003e",
+    "    \u003c\\/ul\u003e",
+    "",
+    "",
+    "",
+    "\u003c\\/p\u003e"
+],
+"programhighlights": [
+    "\u003cp\u003eWith the aging population, the tremendous advancements in technology, and our demand for the best quality of life, the healthcare industry is facing a growing shortage of well-trained personnel. Throughout the North American healthcare industry, there",
+    "    is an acute need to increase the size of the workforce, and raise the skill level of that workforce.\u003c\\/p\u003e",
+    "",
+    "\u003cp\u003eA well-trained Community Service Worker (CSW) is equipped with a flexible, adaptable career. Social and community service workers administer and implement a variety of social assistance programs and community services. They assist clients to address personal",
+    "    and social problems. They are employed by social service and government agencies, mental health agencies, group homes, shelters, substance abuse centres, school boards, correctional facilities, and other establishments.\u003c\\/p\u003e",
+    "",
+    "\u003cp\u003eThis program provides students with the base knowledge, skills, and work experience to become permanently employable in a CSW setting. Skill development is delivered in three areas:\u003c\\/p\u003e",
+    "",
+    "\u003cul\u003e",
+    "    \u003cli\u003e Comprehensive community service worker knowledge, which includes psychology, sociology, family life, mental health, addictions, criminology, dealing with at-risk populations, case management, counselling, ethics, business communication, report writing,",
+    "        and government and social services",
+    "    \u003c\\/li\u003e",
+    "    \u003cli\u003eFull range of computer and office skills, including current software applications, keyboarding skills, and personal and professional development\u003c\\/li\u003e",
+    "    \u003cli\u003eOn-site work experience through participation in a 160 hour Clinical Placement at an approved CSW facility\u003c\\/li\u003e",
+    "\u003c\\/ul\u003e"
+],
+"programhours": {
+    "value": "827",
+    "PSPath": "C:\\xampp\\htdocs\\programs\\community_service_worker\\programhours.html",
+    "PSParentPath": "C:\\xampp\\htdocs\\programs\\community_service_worker",
+    "PSChildName": "programhours.html",
+    "PSDrive": {
+        "CurrentLocation": "xampp\\htdocs\\programs\\community_service_worker",
+        "Name": "C",
+        "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+        "Root": "C:\\",
+        "Description": "",
+        "MaximumSize": null,
+        "Credential": "System.Management.Automation.PSCredential",
+        "DisplayRoot": null
+    },
+    "PSProvider": {
+        "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+        "HelpFile": "System.Management.Automation.dll-Help.xml",
+        "Name": "FileSystem",
+        "PSSnapIn": "Microsoft.PowerShell.Core",
+        "ModuleName": "Microsoft.PowerShell.Core",
+        "Module": null,
+        "Description": "",
+        "Capabilities": 52,
+        "Home": "C:\\Users\\mike",
+        "Drives": "C D"
+    },
+    "ReadCount": 1
+},
+"syllabuslink": "community_service_worker_outline.pdf",
+"corecourses": [
+    "\u003cp\u003e\u003cstrong\u003ePart A: Computer and Business Office Skills\u003c\\/strong\u003e\u003c\\/p\u003e",
+    "",
+    "\u003cul\u003e",
+    "    \u003cli\u003eIntroduction to Keyboarding\u003c\\/li\u003e",
+    "    \u003cli\u003eKeyboard Skill Building Level 1\u003c\\/li\u003e",
+    "    \u003cli\u003eMicrosoft Windows Level 1\u003c\\/li\u003e",
+    "    \u003cli\u003eMicrosoft Word – Level 1\u003c\\/li\u003e",
+    "    \u003cli\u003eMicrosoft Excel – Level 1\u003c\\/li\u003e",
+    "    \u003cli\u003eMicrosoft Access – Level 1\u003c\\/li\u003e",
+    "    \u003cli\u003eMicrosoft Outlook – Level 1\u003c\\/li\u003e",
+    "    \u003cli\u003eThought Patterns For A Successful Career\u003c\\/li\u003e",
+    "    \u003cli\u003eJob Search and Résumé Writing\u003c\\/li\u003e",
+    "\u003c\\/ul\u003e",
+    "",
+    "",
+    "\u003cp\u003e\u003cstrong\u003ePart B: CSW Administrative/Clinical\u003c\\/strong\u003e\u003c\\/p\u003e",
+    "",
+    "\u003cul\u003e",
+    "    \u003cli\u003ePsychology Fundamentals\u003c\\/li\u003e",
+    "    \u003cli\u003eSociology and Family Life in Canada\u003c\\/li\u003e",
+    "    \u003cli\u003eIntroduction to Mental Health and Addictions\u003c\\/li\u003e",
+    "    \u003cli\u003eLife-Span Development\u003c\\/li\u003e",
+    "    \u003cli\u003eCriminology and At-Risk Populations\u003c\\/li\u003e",
+    "    \u003cli\u003eCase Management, Counselling, and Ethics\u003c\\/li\u003e",
+    "    \u003cli\u003eBusiness Communication and Report Writing\u003c\\/li\u003e",
+    "    \u003cli\u003eGovernment and Social Services\u003c\\/li\u003e",
+    "    \u003cli\u003eStandard First Aid\u003c\\/li\u003e",
+    "    \u003cli\u003eBasic Rescuer (Level C) CPR Certification\u003c\\/li\u003e",
+    "\u003c\\/ul\u003e",
+    "",
+    "\u003cp\u003e\u003cstrong\u003ePart C: Work Experience\u003c\\/strong\u003e\u003c\\/p\u003e",
+    "",
+    "\u003cul\u003e",
+    "    \u003cli\u003ePreceptorship\u003c\\/li\u003e",
+    "\u003c\\/ul\u003e"
+],
+"salarystart": {
+    "value": "28,502",
+    "PSPath": "C:\\xampp\\htdocs\\programs\\community_service_worker\\salarystart.html",
+    "PSParentPath": "C:\\xampp\\htdocs\\programs\\community_service_worker",
+    "PSChildName": "salarystart.html",
+    "PSDrive": {
+        "CurrentLocation": "xampp\\htdocs\\programs\\community_service_worker",
+        "Name": "C",
+        "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+        "Root": "C:\\",
+        "Description": "",
+        "MaximumSize": null,
+        "Credential": "System.Management.Automation.PSCredential",
+        "DisplayRoot": null
+    },
+    "PSProvider": {
+        "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+        "HelpFile": "System.Management.Automation.dll-Help.xml",
+        "Name": "FileSystem",
+        "PSSnapIn": "Microsoft.PowerShell.Core",
+        "ModuleName": "Microsoft.PowerShell.Core",
+        "Module": null,
+        "Description": "",
+        "Capabilities": 52,
+        "Home": "C:\\Users\\mike",
+        "Drives": "C D"
+    },
+    "ReadCount": 1
+},
+"programtype": [{
+        "value": "\u003c!--Certificate--\u003e",
+        "PSPath": "C:\\xampp\\htdocs\\programs\\community_service_worker\\programtype.html",
+        "PSParentPath": "C:\\xampp\\htdocs\\programs\\community_service_worker",
+        "PSChildName": "programtype.html",
+        "PSDrive": "C",
+        "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+        "ReadCount": 1
+    },
+    {
+        "value": "Diploma",
+        "PSPath": "C:\\xampp\\htdocs\\programs\\community_service_worker\\programtype.html",
+        "PSParentPath": "C:\\xampp\\htdocs\\programs\\community_service_worker",
+        "PSChildName": "programtype.html",
+        "PSDrive": "C",
+        "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+        "ReadCount": 2
+    }
+],
+"programname": {
+    "value": "COMMUNITY SERVICE WORKER",
+    "PSPath": "C:\\xampp\\htdocs\\programs\\community_service_worker\\progtitle.html",
+    "PSParentPath": "C:\\xampp\\htdocs\\programs\\community_service_worker",
+    "PSChildName": "progtitle.html",
+    "PSDrive": {
+        "CurrentLocation": "xampp\\htdocs\\programs\\community_service_worker",
+        "Name": "C",
+        "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+        "Root": "C:\\",
+        "Description": "",
+        "MaximumSize": null,
+        "Credential": "System.Management.Automation.PSCredential",
+        "DisplayRoot": null
+    },
+    "PSProvider": {
+        "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+        "HelpFile": "System.Management.Automation.dll-Help.xml",
+        "Name": "FileSystem",
+        "PSSnapIn": "Microsoft.PowerShell.Core",
+        "ModuleName": "Microsoft.PowerShell.Core",
+        "Module": null,
+        "Description": "",
+        "Capabilities": 52,
+        "Home": "C:\\Users\\mike",
+        "Drives": "C D"
+    },
+    "ReadCount": 1
 }
-{
-    "domestic_fees":  {
-                          "tuition":  null,
-                          "assessment":  null,
-                          "other":  null,
-                          "application":  null
-                      },
-    "programduration":  null,
-    "admitreq":  null,
-    "salaryend":  null,
-    "prog_video":  "",
-    "careeropp":  null,
-    "programhighlights":  null,
-    "programhours":  null,
-    "syllabuslink":  "community_service_worker_outline.pdf",
-    "corecourses":  null,
-    "salarystart":  null,
-    "programtype":  null,
-    "programname":  null
+} {
+    "domestic_fees": {
+        "tuition": null,
+        "assessment": null,
+        "other": null,
+        "application": null
+    },
+    "programduration": null,
+    "admitreq": null,
+    "salaryend": null,
+    "prog_video": "",
+    "careeropp": null,
+    "programhighlights": null,
+    "programhours": null,
+    "syllabuslink": "community_service_worker_outline.pdf",
+    "corecourses": null,
+    "salarystart": null,
+    "programtype": null,
+    "programname": null
 }
-"{\r\n    \"programname\": \r\n    \"admitreq\": \u003cp\u003e     \u003cul\u003e         \u003cli\u003eClear Criminal Record Check with Vulnerable Sector Check\u003c/li\u003e         \u003cli\u003e19 years of age or older (varies, depending on province-specific ministry requirements)\u003c/li\u003e         \u003cli\u003eGrade 12 or equivalent, or Mature Student Status with successful completion of CAST testing\u003c/li\u003e         \u003cli\u003eAdequate level of physical health to be able to fulfill job requirements (as stated in self-assessment)\u003c/li\u003e         \u003cli\u003eOther medical tests (e.g., TB Test) or proof of vaccinations (e.g., Hepatitis B) may be required by industry prior to placement\u003c/li\u003e         \u003cli\u003eGood command of the English language – both written and oral (as per completion of the Wonderlic SLE admission test with a minimum score of 18)\u003c/li\u003e         \u003cli\u003eCompletion of standard registration form\u003c/li\u003e        \u003c/ul\u003e   \u003c/p\u003e\r\n    \"programhighlights\": \u003cp\u003eWith the aging population, the tremendous advancements in technology, and our demand for the best quality of life, the healthcare industry is facing a growing shortage of well-trained personnel. Throughout the North American healthcare industry, there     is an acute need to increase the size of the workforce, and raise the skill level of that workforce.\u003c\\/p\u003e  \u003cp\u003eA well-trained Community Service Worker (CSW) is equipped with a flexible, adaptable career. Social and community service workers administer and implement a variety of social assistance programs and community services. They assist clients to address personal     and social problems. They are employed by social service and government agencies, mental health agencies, group homes, shelters, substance abuse centres, school boards, correctional facilities, and other establishments.\u003c\\/p\u003e  \u003cp\u003eThis program provides students with the base knowledge, skills, and work experience to become permanently employable in a CSW setting. Skill development is delivered in three areas:\u003c\\/p\u003e  \u003cul\u003e     \u003cli\u003e Comprehensive community service worker knowledge, which includes psychology, sociology, family life, mental health, addictions, criminology, dealing with at-risk populations, case management, counselling, ethics, business communication, report writing,         and government and social services     \u003c\\/li\u003e     \u003cli\u003eFull range of computer and office skills, including current software applications, keyboarding skills, and personal and professional development\u003c\\/li\u003e     \u003cli\u003eOn-site work experience through participation in a 160 hour Clinical Placement at an approved CSW facility\u003c\\/li\u003e \u003c\\/ul\u003e\r\n    \"careeropp\": \u003cp\u003e     Graduates of this program are qualified to work in a wide variety of CSW settings and occupations. Job titles vary per location, but graduates are an integral part of many settings, including:     \u003cul\u003e         \u003cli\u003eYouth centres and youth protection services\u003c\\/li\u003e         \u003cli\u003eIndividual and family services\u003c\\/li\u003e         \u003cli\u003eCivic and social organizations\u003c\\/li\u003e         \u003cli\u003eOut-patient care centres\u003c\\/li\u003e         \u003cli\u003eLocal Community Service Centres (CLSC)\u003c\\/li\u003e         \u003cli\u003eVocational rehabilitation services\u003c\\/li\u003e         \u003cli\u003eEducational services\u003c\\/li\u003e         \u003cli\u003eCommunity food and housing\u003c\\/li\u003e         \u003cli\u003eEmergency relief services\u003c\\/li\u003e     \u003c\\/ul\u003e    \u003c\\/p\u003e\r\n    \"corecourses\": \u003cp\u003e\u003cstrong\u003ePart A: Computer and Business Office Skills\u003c\\/strong\u003e\u003c\\/p\u003e  \u003cul\u003e     \u003cli\u003eIntroduction to Keyboarding\u003c\\/li\u003e     \u003cli\u003eKeyboard Skill Building Level 1\u003c\\/li\u003e     \u003cli\u003eMicrosoft Windows Level 1\u003c\\/li\u003e     \u003cli\u003eMicrosoft Word – Level 1\u003c\\/li\u003e     \u003cli\u003eMicrosoft Excel – Level 1\u003c\\/li\u003e     \u003cli\u003eMicrosoft Access – Level 1\u003c\\/li\u003e     \u003cli\u003eMicrosoft Outlook – Level 1\u003c\\/li\u003e     \u003cli\u003eThought Patterns For A Successful Career\u003c\\/li\u003e     \u003cli\u003eJob Search and Résumé Writing\u003c\\/li\u003e \u003c\\/ul\u003e   \u003cp\u003e\u003cstrong\u003ePart B: CSW Administrative/Clinical\u003c\\/strong\u003e\u003c\\/p\u003e  \u003cul\u003e     \u003cli\u003ePsychology Fundamentals\u003c\\/li\u003e     \u003cli\u003eSociology and Family Life in Canada\u003c\\/li\u003e     \u003cli\u003eIntroduction to Mental Health and Addictions\u003c\\/li\u003e     \u003cli\u003eLife-Span Development\u003c\\/li\u003e     \u003cli\u003eCriminology and At-Risk Populations\u003c\\/li\u003e     \u003cli\u003eCase Management, Counselling, and Ethics\u003c\\/li\u003e     \u003cli\u003eBusiness Communication and Report Writing\u003c\\/li\u003e     \u003cli\u003eGovernment and Social Services\u003c\\/li\u003e     \u003cli\u003eStandard First Aid\u003c\\/li\u003e     \u003cli\u003eBasic Rescuer (Level C) CPR Certification\u003c\\/li\u003e \u003c\\/ul\u003e  \u003cp\u003e\u003cstrong\u003ePart C: Work Experience\u003c\\/strong\u003e\u003c\\/p\u003e  \u003cul\u003e     \u003cli\u003ePreceptorship\u003c\\/li\u003e \u003c\\/ul\u003e\r\n    \"programtype\": \u003c!--Certificate--\u003e Diploma\r\n    \"salarystart\": 28,502\r\n    \"salaryend\": 48,307\r\n    \"programhours\": 827\r\n    \"programduration\": 34\r\n    \"domestic_fees\": @{\r\n        \"tuition\": 11630\r\n        \"application\": 250\r\n        \"assessment\": 100\r\n        \"other\": 144\r\n    }\r\n    \"syllabuslink\": community_service_worker_outline.pdf\r\n    \"prog_video\": \"\"\r\n}"
+"{\r\n    \"programname\": \r\n    \"admitreq\": \u003cp\u003e     \u003cul\u003e         \u003cli\u003eClear Criminal Record Check with Vulnerable Sector Check\u003c/li\u003e         \u003cli\u003e19 years of age or older (varies, depending on province-specific ministry requirements)\u003c/li\u003e         \u003cli\u003eGrade 12 or equivalent, or Mature Student Status with successful completion of CAST testing\u003c/li\u003e         \u003cli\u003eAdequate level of physical health to be able to fulfill job requirements (as stated in self-assessment)\u003c/li\u003e         \u003cli\u003eOther medical tests (e.g., TB Test) or proof of vaccinations (e.g., Hepatitis B, COVID-19, etc
+) may be required by industry prior to placement\ u003c / li\ u003e\ u003cli\ u003eGood command of the English language– both written and oral(as per completion of the Wonderlic SLE admission test with a minimum score of 18)\ u003c / li\ u003e\ u003cli\ u003eCompletion of standard registration form\ u003c / li\ u003e\ u003c / ul\ u003e\ u003c / p\ u003e\ r\ n\ "programhighlights\": \u003cp\u003eWith the aging population, the tremendous advancements in technology, and our demand for the best quality of life, the healthcare industry is facing a growing shortage of well-trained personnel. Throughout the North American healthcare industry, there     is an acute need to increase the size of the workforce, and raise the skill level of that workforce.\u003c\\/p\u003e  \u003cp\u003eA well-trained Community Service Worker (CSW) is equipped with a flexible, adaptable career. Social and community service workers administer and implement a variety of social assistance programs and community services. They assist clients to address personal     and social problems. They are employed by social service and government agencies, mental health agencies, group homes, shelters, substance abuse centres, school boards, correctional facilities, and other establishments.\u003c\\/p\u003e  \u003cp\u003eThis program provides students with the base knowledge, skills, and work experience to become permanently employable in a CSW setting. Skill development is delivered in three areas:\u003c\\/p\u003e  \u003cul\u003e     \u003cli\u003e Comprehensive community service worker knowledge, which includes psychology, sociology, family life, mental health, addictions, criminology, dealing with at-risk populations, case management, counselling, ethics, business communication, report writing,         and government and social services     \u003c\\/li\u003e     \u003cli\u003eFull range of computer and office skills, including current software applications, keyboarding skills, and personal and professional development\u003c\\/li\u003e     \u003cli\u003eOn-site work experience through participation in a 160 hour Clinical Placement at an approved CSW facility\u003c\\/li\u003e \u003c\\/ul\u003e\r\n    \"careeropp\": \u003cp\u003e     Graduates of this program are qualified to work in a wide variety of CSW settings and occupations. Job titles vary per location, but graduates are an integral part of many settings, including:     \u003cul\u003e         \u003cli\u003eYouth centres and youth protection services\u003c\\/li\u003e         \u003cli\u003eIndividual and family services\u003c\\/li\u003e         \u003cli\u003eCivic and social organizations\u003c\\/li\u003e         \u003cli\u003eOut-patient care centres\u003c\\/li\u003e         \u003cli\u003eLocal Community Service Centres (CLSC)\u003c\\/li\u003e         \u003cli\u003eVocational rehabilitation services\u003c\\/li\u003e         \u003cli\u003eEducational services\u003c\\/li\u003e         \u003cli\u003eCommunity food and housing\u003c\\/li\u003e         \u003cli\u003eEmergency relief services\u003c\\/li\u003e     \u003c\\/ul\u003e    \u003c\\/p\u003e\r\n    \"corecourses\": \u003cp\u003e\u003cstrong\u003ePart A: Computer and Business Office Skills\u003c\\/strong\u003e\u003c\\/p\u003e  \u003cul\u003e     \u003cli\u003eIntroduction to Keyboarding\u003c\\/li\u003e     \u003cli\u003eKeyboard Skill Building Level 1\u003c\\/li\u003e     \u003cli\u003eMicrosoft Windows Level 1\u003c\\/li\u003e     \u003cli\u003eMicrosoft Word – Level 1\u003c\\/li\u003e     \u003cli\u003eMicrosoft Excel – Level 1\u003c\\/li\u003e     \u003cli\u003eMicrosoft Access – Level 1\u003c\\/li\u003e     \u003cli\u003eMicrosoft Outlook – Level 1\u003c\\/li\u003e     \u003cli\u003eThought Patterns For A Successful Career\u003c\\/li\u003e     \u003cli\u003eJob Search and Résumé Writing\u003c\\/li\u003e \u003c\\/ul\u003e   \u003cp\u003e\u003cstrong\u003ePart B: CSW Administrative/Clinical\u003c\\/strong\u003e\u003c\\/p\u003e  \u003cul\u003e     \u003cli\u003ePsychology Fundamentals\u003c\\/li\u003e     \u003cli\u003eSociology and Family Life in Canada\u003c\\/li\u003e     \u003cli\u003eIntroduction to Mental Health and Addictions\u003c\\/li\u003e     \u003cli\u003eLife-Span Development\u003c\\/li\u003e     \u003cli\u003eCriminology and At-Risk Populations\u003c\\/li\u003e     \u003cli\u003eCase Management, Counselling, and Ethics\u003c\\/li\u003e     \u003cli\u003eBusiness Communication and Report Writing\u003c\\/li\u003e     \u003cli\u003eGovernment and Social Services\u003c\\/li\u003e     \u003cli\u003eStandard First Aid\u003c\\/li\u003e     \u003cli\u003eBasic Rescuer (Level C) CPR Certification\u003c\\/li\u003e \u003c\\/ul\u003e  \u003cp\u003e\u003cstrong\u003ePart C: Work Experience\u003c\\/strong\u003e\u003c\\/p\u003e  \u003cul\u003e     \u003cli\u003ePreceptorship\u003c\\/li\u003e \u003c\\/ul\u003e\r\n    \"programtype\": \u003c!--Certificate--\u003e Diploma\r\n    \"salarystart\": 28,502\r\n    \"salaryend\": 48,307\r\n    \"programhours\": 827\r\n    \"programduration\": 34\r\n    \"domestic_fees\": @{\r\n        \"tuition\": 11630\r\n        \"application\": 250\r\n        \"assessment\": 100\r\n        \"other\": 144\r\n    }\r\n    \"syllabuslink\": community_service_worker_outline.pdf\r\n    \"prog_video\": \"\"\r\n}"

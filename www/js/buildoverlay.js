@@ -1,7 +1,7 @@
 //import '/js/builprogcontent.js';
 
-function overlayprogram(programnameasurl, programname) {
-    console.log("start");
+function overlayprogram(programnameasurl, programname, programtype) {
+    //console.log("start");
     var overlay = document.getElementById('programoverlay')
     var list = overlay.classList
     list.remove("closed");
@@ -13,8 +13,9 @@ function overlayprogram(programnameasurl, programname) {
     // const closebutton = `<button class="closebutton" onClick="closeOverlay(${getScrollPosition.x}, ${getScrollPosition.y});">X<br />Close</button>`
     othercontent = '';
     //Get the info from the JSON files
-    console.log([programnameasurl]);
-    console.log([programname]);
-    buildProgramPage(programnameasurl,programname);
+    //console.log([programnameasurl]);
+    //console.log([programname]);
+    //console.log([programtype]);
+    buildProgramPage(programnameasurl, programname, programtype);
 
 }

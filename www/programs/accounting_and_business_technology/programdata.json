@@ -1,268 +1,273 @@
-@{domestic_fees=; programduration=; admitreq=System.Object[]; salaryend=; prog_video=; careeropp=The computerized accounting sector is one of the fastest growing areas. Excellent opportunities exist for skilled persons.; programhighlights=The objective of this program is to provide the student with opportunities to acquire and apply the knowledge of business concepts and office skills to meet the demands of today’s business environment. * Not all programs are offered at each location.; programhours=; syllabuslink=accounting_business_technology_diploma.pdf; corecourses=System.Object[]; salarystart=; programtype=; programname=}
-{
-    "domestic_fees":  {
-                          "tuition":  {
-                                          "value":  "12,729",
-                                          "PSPath":  "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology\\dtuition.html",
-                                          "PSParentPath":  "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology",
-                                          "PSChildName":  "dtuition.html",
-                                          "PSDrive":  "C",
-                                          "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                          "ReadCount":  1
-                                      },
-                          "assessment":  {
+@ {
+    domestic_fees = ;
+    programduration = ;
+    admitreq = System.Object[];
+    salaryend = ;
+    prog_video = ;
+    careeropp = The computerized accounting sector is one of the fastest growing areas.Excellent opportunities exist
+    for skilled persons.;
+    programhighlights = The objective of this program is to provide the student with opportunities to acquire and apply the knowledge of business concepts and office skills to meet the demands of today 's business environment. * Not all programs are offered at each location.; programhours=; syllabuslink=accounting_business_technology_diploma.pdf; corecourses=System.Object[]; salarystart=; programtype=; programname=} {
+        "domestic_fees": {
+            "tuition": {
+                "value": "12,729",
+                "PSPath": "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology\\dtuition.html",
+                "PSParentPath": "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology",
+                "PSChildName": "dtuition.html",
+                "PSDrive": "C",
+                "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+                "ReadCount": 1
+            },
+            "assessment": {
 
-                                         },
-                          "other":  {
-                                        "value":  "4",
-                                        "PSPath":  "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology\\dother.html",
-                                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology",
-                                        "PSChildName":  "dother.html",
-                                        "PSDrive":  "C",
-                                        "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "ReadCount":  1
-                                    },
-                          "application":  {
-                                              "value":  "250",
-                                              "PSPath":  "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology\\dapp.html",
-                                              "PSParentPath":  "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology",
-                                              "PSChildName":  "dapp.html",
-                                              "PSDrive":  "C",
-                                              "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                              "ReadCount":  1
-                                          }
-                      },
-    "programduration":  {
-                            "value":  "41",
-                            "PSPath":  "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology\\programduration.html",
-                            "PSParentPath":  "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology",
-                            "PSChildName":  "programduration.html",
-                            "PSDrive":  {
-                                            "CurrentLocation":  "xampp\\htdocs\\programs\\accounting_and_business_technology",
-                                            "Name":  "C",
-                                            "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                            "Root":  "C:\\",
-                                            "Description":  "",
-                                            "MaximumSize":  null,
-                                            "Credential":  "System.Management.Automation.PSCredential",
-                                            "DisplayRoot":  null
-                                        },
-                            "PSProvider":  {
-                                               "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                               "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                               "Name":  "FileSystem",
-                                               "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                               "ModuleName":  "Microsoft.PowerShell.Core",
-                                               "Module":  null,
-                                               "Description":  "",
-                                               "Capabilities":  52,
-                                               "Home":  "C:\\Users\\mike",
-                                               "Drives":  "C D"
-                                           },
-                            "ReadCount":  1
-                        },
-    "admitreq":  [
-                     {
-                         "value":  "Prospective students must be Grade 12 graduates, or equivalent, or have Mature Student status (19 years of age or over with at least one year out of high school) and subject to the discretion of the college Director. Grade 12 or equivalent graduates who",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  1
-                     },
-                     {
-                         "value":  "cannot supply appropriate proof and Mature Students will be required to complete an entrance examination to properly assess their personal strengths and weaknesses. The minimum passing grade for this examination is 75%.",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  2
-                     }
-                 ],
-    "salaryend":  {
-                      "value":  "72,527",
-                      "PSPath":  "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology\\salaryend.html",
-                      "PSParentPath":  "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology",
-                      "PSChildName":  "salaryend.html",
-                      "PSDrive":  {
-                                      "CurrentLocation":  "xampp\\htdocs\\programs\\accounting_and_business_technology",
-                                      "Name":  "C",
-                                      "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                      "Root":  "C:\\",
-                                      "Description":  "",
-                                      "MaximumSize":  null,
-                                      "Credential":  "System.Management.Automation.PSCredential",
-                                      "DisplayRoot":  null
-                                  },
-                      "PSProvider":  {
-                                         "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                         "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                         "Name":  "FileSystem",
-                                         "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                         "ModuleName":  "Microsoft.PowerShell.Core",
-                                         "Module":  null,
-                                         "Description":  "",
-                                         "Capabilities":  52,
-                                         "Home":  "C:\\Users\\mike",
-                                         "Drives":  "C D"
-                                     },
-                      "ReadCount":  1
-                  },
-    "prog_video":  "",
-    "careeropp":  "The computerized accounting sector is one of the fastest growing areas. Excellent opportunities exist for skilled persons.",
-    "programhighlights":  "The objective of this program is to provide the student with opportunities to acquire and apply the knowledge of business concepts and office skills to meet the demands of today’s business environment. * Not all programs are offered at each location.",
-    "programhours":  {
-                         "value":  "824",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology\\programhours.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology",
-                         "PSChildName":  "programhours.html",
-                         "PSDrive":  {
-                                         "CurrentLocation":  "xampp\\htdocs\\programs\\accounting_and_business_technology",
-                                         "Name":  "C",
-                                         "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                         "Root":  "C:\\",
-                                         "Description":  "",
-                                         "MaximumSize":  null,
-                                         "Credential":  "System.Management.Automation.PSCredential",
-                                         "DisplayRoot":  null
-                                     },
-                         "PSProvider":  {
-                                            "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                            "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                            "Name":  "FileSystem",
-                                            "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                            "ModuleName":  "Microsoft.PowerShell.Core",
-                                            "Module":  null,
-                                            "Description":  "",
-                                            "Capabilities":  52,
-                                            "Home":  "C:\\Users\\mike",
-                                            "Drives":  "C D"
-                                        },
-                         "ReadCount":  1
-                     },
-    "syllabuslink":  "accounting_business_technology_diploma.pdf",
-    "corecourses":  [
-                        "\u003cul class=\"textleft\"\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eKeyboarding\u003cbr\u003e Minimum 25 words per minute (WPM)\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eOperating Systems\u003cbr\u003e Basic level of proficiency in a Windows operating system\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eWord Processing\u003cbr\u003e Basic level of proficiency in Microsoft Word\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eSpreadsheets\u003cbr\u003e Advanced level of proficiency in Microsoft Excel\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eAccounting\u003cbr\u003e Sage 50 Premium Accounting, Sage 300 Inventory Control and Order Entry, Sage 300 General Ledger, Sage 300 Accounts Receivable, Sage 300 Accounts Payable, and QuickBooks\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eOffice Skills\u003cbr\u003e Personal Computer Fundamentals, Basic Bookkeeping Levels 1 and 2, Office Procedures Level 1, and basic level of proficiency in Microsoft Outlook\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eDatabase Management\u003cbr\u003e Basic level of proficiency in one database application.\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eBusiness Skills\u003cbr\u003e Business Math, Management Fundamentals, Customer Service, and Grammar Essentials for Business Writing\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eSimulations and Drills\u003cbr\u003e Practical Applications – 3 Units\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eEmployability Skills\u003cbr\u003e Job Search and Résumé Writing and Thought Patterns for a Successful Career\u003c\\/li\u003e",
-                        "\u003c\\/ul\u003e"
-                    ],
-    "salarystart":  {
-                        "value":  "33,744",
-                        "PSPath":  "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology\\salarystart.html",
-                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology",
-                        "PSChildName":  "salarystart.html",
-                        "PSDrive":  {
-                                        "CurrentLocation":  "xampp\\htdocs\\programs\\accounting_and_business_technology",
-                                        "Name":  "C",
-                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "Root":  "C:\\",
-                                        "Description":  "",
-                                        "MaximumSize":  null,
-                                        "Credential":  "System.Management.Automation.PSCredential",
-                                        "DisplayRoot":  null
-                                    },
-                        "PSProvider":  {
-                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                           "Name":  "FileSystem",
-                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                           "ModuleName":  "Microsoft.PowerShell.Core",
-                                           "Module":  null,
-                                           "Description":  "",
-                                           "Capabilities":  52,
-                                           "Home":  "C:\\Users\\mike",
-                                           "Drives":  "C D"
-                                       },
-                        "ReadCount":  1
-                    },
-    "programtype":  {
-                        "value":  "Diploma",
-                        "PSPath":  "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology\\programtype.html",
-                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology",
-                        "PSChildName":  "programtype.html",
-                        "PSDrive":  {
-                                        "CurrentLocation":  "xampp\\htdocs\\programs\\accounting_and_business_technology",
-                                        "Name":  "C",
-                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "Root":  "C:\\",
-                                        "Description":  "",
-                                        "MaximumSize":  null,
-                                        "Credential":  "System.Management.Automation.PSCredential",
-                                        "DisplayRoot":  null
-                                    },
-                        "PSProvider":  {
-                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                           "Name":  "FileSystem",
-                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                           "ModuleName":  "Microsoft.PowerShell.Core",
-                                           "Module":  null,
-                                           "Description":  "",
-                                           "Capabilities":  52,
-                                           "Home":  "C:\\Users\\mike",
-                                           "Drives":  "C D"
-                                       },
-                        "ReadCount":  1
-                    },
-    "programname":  {
-                        "value":  "ACCOUNTING \u0026 BUSINESS TECHNOLOGY",
-                        "PSPath":  "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology\\progtitle.html",
-                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology",
-                        "PSChildName":  "progtitle.html",
-                        "PSDrive":  {
-                                        "CurrentLocation":  "xampp\\htdocs\\programs\\accounting_and_business_technology",
-                                        "Name":  "C",
-                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "Root":  "C:\\",
-                                        "Description":  "",
-                                        "MaximumSize":  null,
-                                        "Credential":  "System.Management.Automation.PSCredential",
-                                        "DisplayRoot":  null
-                                    },
-                        "PSProvider":  {
-                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                           "Name":  "FileSystem",
-                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                           "ModuleName":  "Microsoft.PowerShell.Core",
-                                           "Module":  null,
-                                           "Description":  "",
-                                           "Capabilities":  52,
-                                           "Home":  "C:\\Users\\mike",
-                                           "Drives":  "C D"
-                                       },
-                        "ReadCount":  1
-                    }
-}
-{
-    "domestic_fees":  {
-                          "tuition":  null,
-                          "assessment":  null,
-                          "other":  null,
-                          "application":  null
-                      },
-    "programduration":  null,
-    "admitreq":  null,
-    "salaryend":  null,
-    "prog_video":  "",
-    "careeropp":  null,
-    "programhighlights":  null,
-    "programhours":  null,
-    "syllabuslink":  "accounting_business_technology_diploma.pdf",
-    "corecourses":  null,
-    "salarystart":  null,
-    "programtype":  null,
-    "programname":  null
-}
-"{\r\n    \"programname\": \r\n    \"admitreq\": Prospective students must be Grade 12 graduates, or equivalent, or have Mature Student status (19 years of age or over with at least one year out of high school) and subject to the discretion of the college Director. Grade 12 or equivalent graduates who cannot supply appropriate proof and Mature Students will be required to complete an entrance examination to properly assess their personal strengths and weaknesses. The minimum passing grade for this examination is 75%.\r\n    \"programhighlights\": The objective of this program is to provide the student with opportunities to acquire and apply the knowledge of business concepts and office skills to meet the demands of today’s business environment. * Not all programs are offered at each location.\r\n    \"careeropp\": The computerized accounting sector is one of the fastest growing areas. Excellent opportunities exist for skilled persons.\r\n    \"corecourses\": \u003cul class=\"textleft\"\u003e     \u003cli class=\"textleft-ul-li\"\u003eKeyboarding\u003cbr\u003e Minimum 25 words per minute (WPM)\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eOperating Systems\u003cbr\u003e Basic level of proficiency in a Windows operating system\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eWord Processing\u003cbr\u003e Basic level of proficiency in Microsoft Word\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eSpreadsheets\u003cbr\u003e Advanced level of proficiency in Microsoft Excel\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eAccounting\u003cbr\u003e Sage 50 Premium Accounting, Sage 300 Inventory Control and Order Entry, Sage 300 General Ledger, Sage 300 Accounts Receivable, Sage 300 Accounts Payable, and QuickBooks\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eOffice Skills\u003cbr\u003e Personal Computer Fundamentals, Basic Bookkeeping Levels 1 and 2, Office Procedures Level 1, and basic level of proficiency in Microsoft Outlook\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eDatabase Management\u003cbr\u003e Basic level of proficiency in one database application.\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eBusiness Skills\u003cbr\u003e Business Math, Management Fundamentals, Customer Service, and Grammar Essentials for Business Writing\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eSimulations and Drills\u003cbr\u003e Practical Applications – 3 Units\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eEmployability Skills\u003cbr\u003e Job Search and Résumé Writing and Thought Patterns for a Successful Career\u003c\\/li\u003e \u003c\\/ul\u003e\r\n    \"programtype\": Diploma\r\n    \"salarystart\": 33,744\r\n    \"salaryend\": 72,527\r\n    \"programhours\": 824\r\n    \"programduration\": 41\r\n    \"domestic_fees\": @{\r\n        \"tuition\": 12,729\r\n        \"application\": 250\r\n        \"assessment\": 100\r\n        \"other\": 4\r\n    }\r\n    \"syllabuslink\": accounting_business_technology_diploma.pdf\r\n    \"prog_video\": \"\"\r\n}"
+            },
+            "other": {
+                "value": "4",
+                "PSPath": "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology\\dother.html",
+                "PSParentPath": "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology",
+                "PSChildName": "dother.html",
+                "PSDrive": "C",
+                "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+                "ReadCount": 1
+            },
+            "application": {
+                "value": "250",
+                "PSPath": "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology\\dapp.html",
+                "PSParentPath": "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology",
+                "PSChildName": "dapp.html",
+                "PSDrive": "C",
+                "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+                "ReadCount": 1
+            }
+        },
+        "programduration": {
+            "value": "41",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology\\programduration.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology",
+            "PSChildName": "programduration.html",
+            "PSDrive": {
+                "CurrentLocation": "xampp\\htdocs\\programs\\accounting_and_business_technology",
+                "Name": "C",
+                "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+                "Root": "C:\\",
+                "Description": "",
+                "MaximumSize": null,
+                "Credential": "System.Management.Automation.PSCredential",
+                "DisplayRoot": null
+            },
+            "PSProvider": {
+                "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+                "HelpFile": "System.Management.Automation.dll-Help.xml",
+                "Name": "FileSystem",
+                "PSSnapIn": "Microsoft.PowerShell.Core",
+                "ModuleName": "Microsoft.PowerShell.Core",
+                "Module": null,
+                "Description": "",
+                "Capabilities": 52,
+                "Home": "C:\\Users\\mike",
+                "Drives": "C D"
+            },
+            "ReadCount": 1
+        },
+        "admitreq": [{
+                "value": "Prospective students must be Grade 12 graduates, or equivalent, or have Mature Student status (19 years of age or over with at least one year out of high school) and subject to the discretion of the college Director. Grade 12 or equivalent graduates who",
+                "PSPath": "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology\\admitreq.html",
+                "PSParentPath": "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology",
+                "PSChildName": "admitreq.html",
+                "PSDrive": "C",
+                "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+                "ReadCount": 1
+            },
+            {
+                "value": "cannot supply appropriate proof and Mature Students will be required to complete an entrance examination to properly assess their personal strengths and weaknesses. The minimum passing grade for this examination is 75%.",
+                "PSPath": "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology\\admitreq.html",
+                "PSParentPath": "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology",
+                "PSChildName": "admitreq.html",
+                "PSDrive": "C",
+                "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+                "ReadCount": 2
+            }
+        ],
+        "salaryend": {
+            "value": "72,527",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology\\salaryend.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology",
+            "PSChildName": "salaryend.html",
+            "PSDrive": {
+                "CurrentLocation": "xampp\\htdocs\\programs\\accounting_and_business_technology",
+                "Name": "C",
+                "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+                "Root": "C:\\",
+                "Description": "",
+                "MaximumSize": null,
+                "Credential": "System.Management.Automation.PSCredential",
+                "DisplayRoot": null
+            },
+            "PSProvider": {
+                "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+                "HelpFile": "System.Management.Automation.dll-Help.xml",
+                "Name": "FileSystem",
+                "PSSnapIn": "Microsoft.PowerShell.Core",
+                "ModuleName": "Microsoft.PowerShell.Core",
+                "Module": null,
+                "Description": "",
+                "Capabilities": 52,
+                "Home": "C:\\Users\\mike",
+                "Drives": "C D"
+            },
+            "ReadCount": 1
+        },
+        "prog_video": "",
+        "careeropp": "The computerized accounting sector is one of the fastest growing areas. Excellent opportunities exist for skilled persons.",
+        "programhighlights": "The objective of this program is to provide the student with opportunities to acquire and apply the knowledge of business concepts and office skills to meet the demands of today's business environment. * Not all programs are offered at each location.",
+        "programhours": {
+            "value": "824",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology\\programhours.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology",
+            "PSChildName": "programhours.html",
+            "PSDrive": {
+                "CurrentLocation": "xampp\\htdocs\\programs\\accounting_and_business_technology",
+                "Name": "C",
+                "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+                "Root": "C:\\",
+                "Description": "",
+                "MaximumSize": null,
+                "Credential": "System.Management.Automation.PSCredential",
+                "DisplayRoot": null
+            },
+            "PSProvider": {
+                "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+                "HelpFile": "System.Management.Automation.dll-Help.xml",
+                "Name": "FileSystem",
+                "PSSnapIn": "Microsoft.PowerShell.Core",
+                "ModuleName": "Microsoft.PowerShell.Core",
+                "Module": null,
+                "Description": "",
+                "Capabilities": 52,
+                "Home": "C:\\Users\\mike",
+                "Drives": "C D"
+            },
+            "ReadCount": 1
+        },
+        "syllabuslink": "accounting_business_technology_diploma.pdf",
+        "corecourses": [
+            "\u003cul class=\"textleft\"\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eKeyboarding\u003cbr\u003e Minimum 25 words per minute (WPM)\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eOperating Systems\u003cbr\u003e Basic level of proficiency in a Windows operating system\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eWord Processing\u003cbr\u003e Basic level of proficiency in Microsoft Word\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eSpreadsheets\u003cbr\u003e Advanced level of proficiency in Microsoft Excel\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eAccounting\u003cbr\u003e Sage 50 Premium Accounting, Sage 300 Inventory Control and Order Entry, Sage 300 General Ledger, Sage 300 Accounts Receivable, Sage 300 Accounts Payable, and QuickBooks\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eOffice Skills\u003cbr\u003e Personal Computer Fundamentals, Basic Bookkeeping Levels 1 and 2, Office Procedures Level 1, and basic level of proficiency in Microsoft Outlook\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eDatabase Management\u003cbr\u003e Basic level of proficiency in one database application.\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eBusiness Skills\u003cbr\u003e Business Math, Management Fundamentals, Customer Service, and Grammar Essentials for Business Writing\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eSimulations and Drills\u003cbr\u003e Practical Applications – 3 Units\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eEmployability Skills\u003cbr\u003e Job Search and Résumé Writing and Thought Patterns for a Successful Career\u003c\\/li\u003e",
+            "\u003c\\/ul\u003e"
+        ],
+        "salarystart": {
+            "value": "33,744",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology\\salarystart.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology",
+            "PSChildName": "salarystart.html",
+            "PSDrive": {
+                "CurrentLocation": "xampp\\htdocs\\programs\\accounting_and_business_technology",
+                "Name": "C",
+                "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+                "Root": "C:\\",
+                "Description": "",
+                "MaximumSize": null,
+                "Credential": "System.Management.Automation.PSCredential",
+                "DisplayRoot": null
+            },
+            "PSProvider": {
+                "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+                "HelpFile": "System.Management.Automation.dll-Help.xml",
+                "Name": "FileSystem",
+                "PSSnapIn": "Microsoft.PowerShell.Core",
+                "ModuleName": "Microsoft.PowerShell.Core",
+                "Module": null,
+                "Description": "",
+                "Capabilities": 52,
+                "Home": "C:\\Users\\mike",
+                "Drives": "C D"
+            },
+            "ReadCount": 1
+        },
+        "programtype": {
+            "value": "Diploma",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology\\programtype.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology",
+            "PSChildName": "programtype.html",
+            "PSDrive": {
+                "CurrentLocation": "xampp\\htdocs\\programs\\accounting_and_business_technology",
+                "Name": "C",
+                "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+                "Root": "C:\\",
+                "Description": "",
+                "MaximumSize": null,
+                "Credential": "System.Management.Automation.PSCredential",
+                "DisplayRoot": null
+            },
+            "PSProvider": {
+                "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+                "HelpFile": "System.Management.Automation.dll-Help.xml",
+                "Name": "FileSystem",
+                "PSSnapIn": "Microsoft.PowerShell.Core",
+                "ModuleName": "Microsoft.PowerShell.Core",
+                "Module": null,
+                "Description": "",
+                "Capabilities": 52,
+                "Home": "C:\\Users\\mike",
+                "Drives": "C D"
+            },
+            "ReadCount": 1
+        },
+        "programname": {
+            "value": "ACCOUNTING \u0026 BUSINESS TECHNOLOGY",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology\\progtitle.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\accounting_and_business_technology",
+            "PSChildName": "progtitle.html",
+            "PSDrive": {
+                "CurrentLocation": "xampp\\htdocs\\programs\\accounting_and_business_technology",
+                "Name": "C",
+                "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+                "Root": "C:\\",
+                "Description": "",
+                "MaximumSize": null,
+                "Credential": "System.Management.Automation.PSCredential",
+                "DisplayRoot": null
+            },
+            "PSProvider": {
+                "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+                "HelpFile": "System.Management.Automation.dll-Help.xml",
+                "Name": "FileSystem",
+                "PSSnapIn": "Microsoft.PowerShell.Core",
+                "ModuleName": "Microsoft.PowerShell.Core",
+                "Module": null,
+                "Description": "",
+                "Capabilities": 52,
+                "Home": "C:\\Users\\mike",
+                "Drives": "C D"
+            },
+            "ReadCount": 1
+        }
+    } {
+        "domestic_fees": {
+            "tuition": null,
+            "assessment": null,
+            "other": null,
+            "application": null
+        },
+        "programduration": null,
+        "admitreq": null,
+        "salaryend": null,
+        "prog_video": "",
+        "careeropp": null,
+        "programhighlights": null,
+        "programhours": null,
+        "syllabuslink": "accounting_business_technology_diploma.pdf",
+        "corecourses": null,
+        "salarystart": null,
+        "programtype": null,
+        "programname": null
+    }
+    "{\r\n    \"programname\": \r\n    \"admitreq\": Prospective students must be Grade 12 graduates, or equivalent, or have Mature Student status (19 years of age or over with at least one year out of high school) and subject to the discretion of the college Director. Grade 12 or equivalent graduates who cannot supply appropriate proof and Mature Students will be required to complete an entrance examination to properly assess their personal strengths and weaknesses. The minimum passing grade for this examination is 75%.\r\n    \"programhighlights\": The objective of this program is to provide the student with opportunities to acquire and apply the knowledge of business concepts and office skills to meet the demands of today's business environment. * Not all programs are offered at each location.\r\n    \"careeropp\": The computerized accounting sector is one of the fastest growing areas. Excellent opportunities exist for skilled persons.\r\n    \"corecourses\": \u003cul class=\"textleft\"\u003e     \u003cli class=\"textleft-ul-li\"\u003eKeyboarding\u003cbr\u003e Minimum 25 words per minute (WPM)\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eOperating Systems\u003cbr\u003e Basic level of proficiency in a Windows operating system\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eWord Processing\u003cbr\u003e Basic level of proficiency in Microsoft Word\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eSpreadsheets\u003cbr\u003e Advanced level of proficiency in Microsoft Excel\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eAccounting\u003cbr\u003e Sage 50 Premium Accounting, Sage 300 Inventory Control and Order Entry, Sage 300 General Ledger, Sage 300 Accounts Receivable, Sage 300 Accounts Payable, and QuickBooks\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eOffice Skills\u003cbr\u003e Personal Computer Fundamentals, Basic Bookkeeping Levels 1 and 2, Office Procedures Level 1, and basic level of proficiency in Microsoft Outlook\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eDatabase Management\u003cbr\u003e Basic level of proficiency in one database application.\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eBusiness Skills\u003cbr\u003e Business Math, Management Fundamentals, Customer Service, and Grammar Essentials for Business Writing\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eSimulations and Drills\u003cbr\u003e Practical Applications – 3 Units\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eEmployability Skills\u003cbr\u003e Job Search and Résumé Writing and Thought Patterns for a Successful Career\u003c\\/li\u003e \u003c\\/ul\u003e\r\n    \"programtype\": Diploma\r\n    \"salarystart\": 33,744\r\n    \"salaryend\": 72,527\r\n    \"programhours\": 824\r\n    \"programduration\": 41\r\n    \"domestic_fees\": @{\r\n        \"tuition\": 12,729\r\n        \"application\": 250\r\n        \"assessment\": 100\r\n        \"other\": 4\r\n    }\r\n    \"syllabuslink\": accounting_business_technology_diploma.pdf\r\n    \"prog_video\": \"\"\r\n}"

@@ -16,7 +16,7 @@ document.getElementById('dother', 'iother').innerHTML = programname2.tuition[0].
 if (programname3 = programname) {
 
     let what = "The Program is " + programname2.name;
-    console.log(what);
+  //console.log(what);
 )
 
 //programname3 = programname2.name.replace(/\+| |-/g, "_")).toLowerCase();

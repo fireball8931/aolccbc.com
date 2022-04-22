@@ -2,8 +2,8 @@ fetch('./programdata.json')
     .then(function(response) {
         return response.json()
     })
-    .then(function(data) {
-        console.log(data)
+    .then(function(data) {\
+        //console.log(data)
         document.getElementById('programname').innerHTML = data.programname;
         document.getElementById('admitreq').innerHTML = data.admitreq;
         document.getElementById('programhighlights').innerHTML = data.programhighlights;
@@ -24,8 +24,8 @@ fetch('./programdata.json')
         document.getElementById('dother').innerHTML = data.domestic_fees[0].other.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
         document.getElementById('iother').innerHTML = data.domestic_fees[0].other.toLocaleString('en-US', { style: 'currency', currency: 'CAD', maximumFractionDigits: 0 });
         document.getElementById('syllabuslink').innerHTML = "<a href=" + data.syllabuslink + " target=\"_blank\">Click Here<\/a>";
-        if (!(data.prog_video)) {
-            console.log("No Video")
+        if (!(data.prog_video)) {\
+            //console.log("No Video")
         } else {
             document.getElementById('prog_video').innerHTML = "<iframe width=\"345\" height=\"194\" src=" + data.prog_video + " frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>";
         }

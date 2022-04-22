@@ -15,14 +15,14 @@
         "paragraphs": [
             { "style": "p", "content": "With further studies the graduate may pursue a career as:" },
             { "ul_start": "true" },
-            { "style": "li", "li_title": "Internet Web site technician" },
-            { "style": "li", "li_title": "LAN (local area network) administrator" },
-            { "style": "li", "li_title": "LAN (local area network) technician, Web technician" },
-            { "style": "li", "li_title": "Computer network technician" },
-            { "style": "li", "li_title": "Computer network technician supervisor" },
-            { "style": "li", "li_title": "Data centre operator" },
-            { "style": "li", "li_title": "Network/System administrator" },
-            { "style": "li", "li_title": "Network support technician" },
+            { "style": "li", "content": "Internet Web site technician" },
+            { "style": "li", "content": "LAN (local area network) administrator" },
+            { "style": "li", "content": "LAN (local area network) technician, Web technician" },
+            { "style": "li", "content": "Computer network technician" },
+            { "style": "li", "content": "Computer network technician supervisor" },
+            { "style": "li", "content": "Data centre operator" },
+            { "style": "li", "content": "Network/System administrator" },
+            { "style": "li", "content": "Network support technician" },
             { "ul_end": "true" }
 
         ]
@@ -46,14 +46,5 @@
     "programtype": "Diploma",
     "salarystart": 36400,
     "salaryend": 90000,
-    "programhours": 591,
-    "programduration": 29,
-    "domestic_fees": [{
-        "tuition": 10774,
-        "application": 250,
-        "assessment": 100,
-        "other": 104
-    }],
-    "syllabuslink": "aolcc_-_web_developer_diploma_-_program_outline_bc.pdf",
     "prog_video": "https://www.youtube.com/embed/4gNpKQt5mJY"
 }

@@ -39,14 +39,5 @@
     },
     "programtype": "Diploma",
     "salarystart": 35375,
-    "salaryend": 59987,
-    "programhours": 996,
-    "programduration": 49,
-    "domestic_fees": [{
-        "tuition": 15180,
-        "application": 250,
-        "assessment": 100,
-        "other": 4
-    }],
-    "syllabuslink": ""
+    "salaryend": 59987
 }

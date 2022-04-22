@@ -42,14 +42,5 @@
     },
     "programtype": "Certificate",
     "salarystart": 29023,
-    "salaryend": 48853,
-    "programhours": 589,
-    "programduration": 29,
-    "domestic_fees": [{
-        "tuition": 8661,
-        "application": 250,
-        "assessment": 100,
-        "other": 4
-    }],
-    "syllabuslink": ""
+    "salaryend": 48853
 }

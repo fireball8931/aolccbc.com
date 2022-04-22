@@ -1,282 +1,286 @@
-@{domestic_fees=; programduration=; admitreq=System.Object[]; salaryend=; prog_video=; careeropp=<p>Skilled PC Support Specialists are in high demand in today’s skilled environment. Virtually all organizations with multiple computers require the skills of PC Support Specialists who can become invaluable members of a management team.<\/p>; programhighlights=System.Object[]; programhours=; syllabuslink=BC_Final_PC_Support_Specialist_Outline.pdf; corecourses=System.Object[]; salarystart=; programtype=System.Object[]; programname=}
-{
-    "domestic_fees":  {
-                          "tuition":  {
-                                          "value":  "13604",
-                                          "PSPath":  "C:\\xampp\\htdocs\\programs\\pc_support_specialist\\dtuition.html",
-                                          "PSParentPath":  "C:\\xampp\\htdocs\\programs\\pc_support_specialist",
-                                          "PSChildName":  "dtuition.html",
-                                          "PSDrive":  "C",
-                                          "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                          "ReadCount":  1
-                                      },
-                          "assessment":  {
+@ {
+    domestic_fees = ;
+    programduration = ;
+    admitreq = System.Object[];
+    salaryend = ;
+    prog_video = ;
+    careeropp = {
+        "style": "p",
+        "content": "killed PC Support Specialists are in high demand in today' s skilled environment.Virtually all organizations with multiple computers require the skills of PC Support Specialists who can become invaluable members of a management team. < \/p>; programhighlights=System.Object[]; programhours=; syllabuslink=BC_Final_PC_Support_Specialist_Outline.pdf; corecourses=System.Object[]; salarystart=; programtype=System.Object[]; programname=} {
+        "domestic_fees": {
+            "tuition": {
+                "value": "13604",
+                "PSPath": "C:\\xampp\\htdocs\\programs\\pc_support_specialist\\dtuition.html",
+                "PSParentPath": "C:\\xampp\\htdocs\\programs\\pc_support_specialist",
+                "PSChildName": "dtuition.html",
+                "PSDrive": "C",
+                "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+                "ReadCount": 1
+            },
+            "assessment": {
 
-                                         },
-                          "other":  {
-                                        "value":  "4",
-                                        "PSPath":  "C:\\xampp\\htdocs\\programs\\pc_support_specialist\\dother.html",
-                                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\pc_support_specialist",
-                                        "PSChildName":  "dother.html",
-                                        "PSDrive":  "C",
-                                        "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "ReadCount":  1
-                                    },
-                          "application":  {
-                                              "value":  "250",
-                                              "PSPath":  "C:\\xampp\\htdocs\\programs\\pc_support_specialist\\dapp.html",
-                                              "PSParentPath":  "C:\\xampp\\htdocs\\programs\\pc_support_specialist",
-                                              "PSChildName":  "dapp.html",
-                                              "PSDrive":  "C",
-                                              "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                              "ReadCount":  1
-                                          }
-                      },
-    "programduration":  {
-                            "value":  "50",
-                            "PSPath":  "C:\\xampp\\htdocs\\programs\\pc_support_specialist\\programduration.html",
-                            "PSParentPath":  "C:\\xampp\\htdocs\\programs\\pc_support_specialist",
-                            "PSChildName":  "programduration.html",
-                            "PSDrive":  {
-                                            "CurrentLocation":  "xampp\\htdocs\\programs\\pc_support_specialist",
-                                            "Name":  "C",
-                                            "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                            "Root":  "C:\\",
-                                            "Description":  "",
-                                            "MaximumSize":  null,
-                                            "Credential":  "System.Management.Automation.PSCredential",
-                                            "DisplayRoot":  null
-                                        },
-                            "PSProvider":  {
-                                               "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                               "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                               "Name":  "FileSystem",
-                                               "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                               "ModuleName":  "Microsoft.PowerShell.Core",
-                                               "Module":  null,
-                                               "Description":  "",
-                                               "Capabilities":  52,
-                                               "Home":  "C:\\Users\\mike",
-                                               "Drives":  "C D"
-                                           },
-                            "ReadCount":  1
-                        },
-    "admitreq":  [
-                     {
-                         "value":  "\u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instruction. An admissions interview will be administered to determine if the applicant has the",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\pc_support_specialist\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\pc_support_specialist",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  1
-                     },
-                     {
-                         "value":  "    required interest, motivation, and entry-level skills to take this program. Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them. Part-time students may set their own schedules",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\pc_support_specialist\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\pc_support_specialist",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  2
-                     },
-                     {
-                         "value":  "    to a minimum of two training sessions per week. These times may be scheduled during the day, evenings, or on weekends.\u003c/p\u003e",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\pc_support_specialist\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\pc_support_specialist",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  3
-                     }
-                 ],
-    "salaryend":  {
-                      "value":  "69,142",
-                      "PSPath":  "C:\\xampp\\htdocs\\programs\\pc_support_specialist\\salaryend.html",
-                      "PSParentPath":  "C:\\xampp\\htdocs\\programs\\pc_support_specialist",
-                      "PSChildName":  "salaryend.html",
-                      "PSDrive":  {
-                                      "CurrentLocation":  "xampp\\htdocs\\programs\\pc_support_specialist",
-                                      "Name":  "C",
-                                      "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                      "Root":  "C:\\",
-                                      "Description":  "",
-                                      "MaximumSize":  null,
-                                      "Credential":  "System.Management.Automation.PSCredential",
-                                      "DisplayRoot":  null
-                                  },
-                      "PSProvider":  {
-                                         "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                         "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                         "Name":  "FileSystem",
-                                         "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                         "ModuleName":  "Microsoft.PowerShell.Core",
-                                         "Module":  null,
-                                         "Description":  "",
-                                         "Capabilities":  52,
-                                         "Home":  "C:\\Users\\mike",
-                                         "Drives":  "C D"
-                                     },
-                      "ReadCount":  1
-                  },
-    "prog_video":  "",
-    "careeropp":  "\u003cp\u003eSkilled PC Support Specialists are in high demand in today’s skilled environment. Virtually all organizations with multiple computers require the skills of PC Support Specialists who can become invaluable members of a management team.\u003c\\/p\u003e",
-    "programhighlights":  [
-                              "\u003cp\u003e",
-                              "    This program prepares students to deal with the problems they may encounter when supporting Personal Computers in an office environment. It provides in-depth knowledge of both computer hardware and software, and prepares students to take the CompTIA A+,",
-                              "    Network+, and Security+ certification exams. Students will have practical hands-on experience in maintenance of PCs, mobile devices, laptops, operating systems and printers, network and network devices, and computer security such as cryptography and",
-                              "    access control, as well as business-related topics such as disaster recovery and risk management. Successful students may choose to progress to advanced qualifications such as MCSA.",
-                              "\u003c\\/p\u003e"
-                          ],
-    "programhours":  {
-                         "value":  "1003",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\pc_support_specialist\\programhours.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\pc_support_specialist",
-                         "PSChildName":  "programhours.html",
-                         "PSDrive":  {
-                                         "CurrentLocation":  "xampp\\htdocs\\programs\\pc_support_specialist",
-                                         "Name":  "C",
-                                         "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                         "Root":  "C:\\",
-                                         "Description":  "",
-                                         "MaximumSize":  null,
-                                         "Credential":  "System.Management.Automation.PSCredential",
-                                         "DisplayRoot":  null
-                                     },
-                         "PSProvider":  {
-                                            "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                            "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                            "Name":  "FileSystem",
-                                            "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                            "ModuleName":  "Microsoft.PowerShell.Core",
-                                            "Module":  null,
-                                            "Description":  "",
-                                            "Capabilities":  52,
-                                            "Home":  "C:\\Users\\mike",
-                                            "Drives":  "C D"
-                                        },
-                         "ReadCount":  1
-                     },
-    "syllabuslink":  "BC_Final_PC_Support_Specialist_Outline.pdf",
-    "corecourses":  [
-                        "Upon completion of the program the participant must demonstrate the following core competencies:",
-                        "\u003cul class=\"textleft\"\u003e",
-                        "",
-                        "",
-                        "    \u003cli class=\"textleft-ul-li\"\u003e Operating Systems\u003cbr /\u003e Advanced level of proficiency in a Windows operating system\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eWord Processing\u003cbr /\u003e Intermediate level of proficiency in Microsoft Word\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eSpreadsheets\u003cbr /\u003e Intermediate level of proficiency in Microsoft Excel\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eGraphic/Presentations\u003cbr /\u003e Advanced level of proficiency in Microsoft PowerPoint\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eDatabase Management\u003cbr /\u003e Advanced level of proficiency in Microsoft Access\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eSimulations and Drills\u003cbr /\u003e Practical Applications – 2 Units\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eOffice Skills\u003cbr /\u003e Advanced level of proficiency in Microsoft Outlook\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eBusiness Skills\u003cbr /\u003e Customer Service and Workplace Success/Intrapreneurship\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003ePC Troubleshooting\u003cbr /\u003e CompTIA A+ 220-1001 and CompTIA A+ 220-1002\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eComputer Networking\u003cbr /\u003e CompTIA Network + and CompTIA Security +\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003eJob Readiness/Employability Skills\u003cbr /\u003e Job Search and Résumé Writing and Thought Patterns for a Successful Career\u003c\\/li\u003e",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "\u003c\\/ul\u003e"
-                    ],
-    "salarystart":  {
-                        "value":  "34,798",
-                        "PSPath":  "C:\\xampp\\htdocs\\programs\\pc_support_specialist\\salarystart.html",
-                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\pc_support_specialist",
-                        "PSChildName":  "salarystart.html",
-                        "PSDrive":  {
-                                        "CurrentLocation":  "xampp\\htdocs\\programs\\pc_support_specialist",
-                                        "Name":  "C",
-                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "Root":  "C:\\",
-                                        "Description":  "",
-                                        "MaximumSize":  null,
-                                        "Credential":  "System.Management.Automation.PSCredential",
-                                        "DisplayRoot":  null
-                                    },
-                        "PSProvider":  {
-                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                           "Name":  "FileSystem",
-                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                           "ModuleName":  "Microsoft.PowerShell.Core",
-                                           "Module":  null,
-                                           "Description":  "",
-                                           "Capabilities":  52,
-                                           "Home":  "C:\\Users\\mike",
-                                           "Drives":  "C D"
-                                       },
-                        "ReadCount":  1
-                    },
-    "programtype":  [
-                        {
-                            "value":  "\u003c!--Certificate--\u003e",
-                            "PSPath":  "C:\\xampp\\htdocs\\programs\\pc_support_specialist\\programtype.html",
-                            "PSParentPath":  "C:\\xampp\\htdocs\\programs\\pc_support_specialist",
-                            "PSChildName":  "programtype.html",
-                            "PSDrive":  "C",
-                            "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                            "ReadCount":  1
-                        },
-                        {
-                            "value":  "Diploma",
-                            "PSPath":  "C:\\xampp\\htdocs\\programs\\pc_support_specialist\\programtype.html",
-                            "PSParentPath":  "C:\\xampp\\htdocs\\programs\\pc_support_specialist",
-                            "PSChildName":  "programtype.html",
-                            "PSDrive":  "C",
-                            "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                            "ReadCount":  2
-                        }
-                    ],
-    "programname":  {
-                        "value":  "PC SUPPORT SPECIALIST",
-                        "PSPath":  "C:\\xampp\\htdocs\\programs\\pc_support_specialist\\progtitle.html",
-                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\pc_support_specialist",
-                        "PSChildName":  "progtitle.html",
-                        "PSDrive":  {
-                                        "CurrentLocation":  "xampp\\htdocs\\programs\\pc_support_specialist",
-                                        "Name":  "C",
-                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "Root":  "C:\\",
-                                        "Description":  "",
-                                        "MaximumSize":  null,
-                                        "Credential":  "System.Management.Automation.PSCredential",
-                                        "DisplayRoot":  null
-                                    },
-                        "PSProvider":  {
-                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                           "Name":  "FileSystem",
-                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                           "ModuleName":  "Microsoft.PowerShell.Core",
-                                           "Module":  null,
-                                           "Description":  "",
-                                           "Capabilities":  52,
-                                           "Home":  "C:\\Users\\mike",
-                                           "Drives":  "C D"
-                                       },
-                        "ReadCount":  1
-                    }
-}
-{
-    "domestic_fees":  {
-                          "tuition":  null,
-                          "assessment":  null,
-                          "other":  null,
-                          "application":  null
-                      },
-    "programduration":  null,
-    "admitreq":  null,
-    "salaryend":  null,
-    "prog_video":  "",
-    "careeropp":  null,
-    "programhighlights":  null,
-    "programhours":  null,
-    "syllabuslink":  "BC_Final_PC_Support_Specialist_Outline.pdf",
-    "corecourses":  null,
-    "salarystart":  null,
-    "programtype":  null,
-    "programname":  null
-}
-"{\r\n    \"programname\": \r\n    \"admitreq\": \u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instruction. An admissions interview will be administered to determine if the applicant has the     required interest, motivation, and entry-level skills to take this program. Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them. Part-time students may set their own schedules     to a minimum of two training sessions per week. These times may be scheduled during the day, evenings, or on weekends.\u003c/p\u003e\r\n    \"programhighlights\": \u003cp\u003e     This program prepares students to deal with the problems they may encounter when supporting Personal Computers in an office environment. It provides in-depth knowledge of both computer hardware and software, and prepares students to take the CompTIA A+,     Network+, and Security+ certification exams. Students will have practical hands-on experience in maintenance of PCs, mobile devices, laptops, operating systems and printers, network and network devices, and computer security such as cryptography and     access control, as well as business-related topics such as disaster recovery and risk management. Successful students may choose to progress to advanced qualifications such as MCSA. \u003c\\/p\u003e\r\n    \"careeropp\": \u003cp\u003eSkilled PC Support Specialists are in high demand in today’s skilled environment. Virtually all organizations with multiple computers require the skills of PC Support Specialists who can become invaluable members of a management team.\u003c\\/p\u003e\r\n    \"corecourses\": Upon completion of the program the participant must demonstrate the following core competencies: \u003cul class=\"textleft\"\u003e       \u003cli class=\"textleft-ul-li\"\u003e Operating Systems\u003cbr /\u003e Advanced level of proficiency in a Windows operating system\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eWord Processing\u003cbr /\u003e Intermediate level of proficiency in Microsoft Word\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eSpreadsheets\u003cbr /\u003e Intermediate level of proficiency in Microsoft Excel\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eGraphic/Presentations\u003cbr /\u003e Advanced level of proficiency in Microsoft PowerPoint\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eDatabase Management\u003cbr /\u003e Advanced level of proficiency in Microsoft Access\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eSimulations and Drills\u003cbr /\u003e Practical Applications – 2 Units\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eOffice Skills\u003cbr /\u003e Advanced level of proficiency in Microsoft Outlook\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eBusiness Skills\u003cbr /\u003e Customer Service and Workplace Success/Intrapreneurship\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003ePC Troubleshooting\u003cbr /\u003e CompTIA A+ 220-1001 and CompTIA A+ 220-1002\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eComputer Networking\u003cbr /\u003e CompTIA Network + and CompTIA Security +\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eJob Readiness/Employability Skills\u003cbr /\u003e Job Search and Résumé Writing and Thought Patterns for a Successful Career\u003c\\/li\u003e     \u003c\\/ul\u003e\r\n    \"programtype\": \u003c!--Certificate--\u003e Diploma\r\n    \"salarystart\": 34,798\r\n    \"salaryend\": 69,142\r\n    \"programhours\": 1003\r\n    \"programduration\": 50\r\n    \"domestic_fees\": @{\r\n        \"tuition\": 13604\r\n        \"application\": 250\r\n        \"assessment\": 100\r\n        \"other\": 4\r\n    }\r\n    \"syllabuslink\": BC_Final_PC_Support_Specialist_Outline.pdf\r\n    \"prog_video\": \"\"\r\n}"
+            },
+            "other": {
+                "value": "4",
+                "PSPath": "C:\\xampp\\htdocs\\programs\\pc_support_specialist\\dother.html",
+                "PSParentPath": "C:\\xampp\\htdocs\\programs\\pc_support_specialist",
+                "PSChildName": "dother.html",
+                "PSDrive": "C",
+                "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+                "ReadCount": 1
+            },
+            "application": {
+                "value": "250",
+                "PSPath": "C:\\xampp\\htdocs\\programs\\pc_support_specialist\\dapp.html",
+                "PSParentPath": "C:\\xampp\\htdocs\\programs\\pc_support_specialist",
+                "PSChildName": "dapp.html",
+                "PSDrive": "C",
+                "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+                "ReadCount": 1
+            }
+        },
+        "programduration": {
+            "value": "50",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\pc_support_specialist\\programduration.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\pc_support_specialist",
+            "PSChildName": "programduration.html",
+            "PSDrive": {
+                "CurrentLocation": "xampp\\htdocs\\programs\\pc_support_specialist",
+                "Name": "C",
+                "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+                "Root": "C:\\",
+                "Description": "",
+                "MaximumSize": null,
+                "Credential": "System.Management.Automation.PSCredential",
+                "DisplayRoot": null
+            },
+            "PSProvider": {
+                "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+                "HelpFile": "System.Management.Automation.dll-Help.xml",
+                "Name": "FileSystem",
+                "PSSnapIn": "Microsoft.PowerShell.Core",
+                "ModuleName": "Microsoft.PowerShell.Core",
+                "Module": null,
+                "Description": "",
+                "Capabilities": 52,
+                "Home": "C:\\Users\\mike",
+                "Drives": "C D"
+            },
+            "ReadCount": 1
+        },
+        "admitreq": [{
+                "value": "\u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instruction. An admissions interview will be administered to determine if the applicant has the",
+                "PSPath": "C:\\xampp\\htdocs\\programs\\pc_support_specialist\\admitreq.html",
+                "PSParentPath": "C:\\xampp\\htdocs\\programs\\pc_support_specialist",
+                "PSChildName": "admitreq.html",
+                "PSDrive": "C",
+                "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+                "ReadCount": 1
+            },
+            {
+                "value": "    required interest, motivation, and entry-level skills to take this program. Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them. Part-time students may set their own schedules",
+                "PSPath": "C:\\xampp\\htdocs\\programs\\pc_support_specialist\\admitreq.html",
+                "PSParentPath": "C:\\xampp\\htdocs\\programs\\pc_support_specialist",
+                "PSChildName": "admitreq.html",
+                "PSDrive": "C",
+                "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+                "ReadCount": 2
+            },
+            {
+                "value": "    to a minimum of two training sessions per week. These times may be scheduled during the day, evenings, or on weekends.\u003c/p\u003e",
+                "PSPath": "C:\\xampp\\htdocs\\programs\\pc_support_specialist\\admitreq.html",
+                "PSParentPath": "C:\\xampp\\htdocs\\programs\\pc_support_specialist",
+                "PSChildName": "admitreq.html",
+                "PSDrive": "C",
+                "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+                "ReadCount": 3
+            }
+        ],
+        "salaryend": {
+            "value": "69,142",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\pc_support_specialist\\salaryend.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\pc_support_specialist",
+            "PSChildName": "salaryend.html",
+            "PSDrive": {
+                "CurrentLocation": "xampp\\htdocs\\programs\\pc_support_specialist",
+                "Name": "C",
+                "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+                "Root": "C:\\",
+                "Description": "",
+                "MaximumSize": null,
+                "Credential": "System.Management.Automation.PSCredential",
+                "DisplayRoot": null
+            },
+            "PSProvider": {
+                "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+                "HelpFile": "System.Management.Automation.dll-Help.xml",
+                "Name": "FileSystem",
+                "PSSnapIn": "Microsoft.PowerShell.Core",
+                "ModuleName": "Microsoft.PowerShell.Core",
+                "Module": null,
+                "Description": "",
+                "Capabilities": 52,
+                "Home": "C:\\Users\\mike",
+                "Drives": "C D"
+            },
+            "ReadCount": 1
+        },
+        "prog_video": "",
+        "careeropp": "\u003cp\u003eSkilled PC Support Specialists are in high demand in today's skilled environment. Virtually all organizations with multiple computers require the skills of PC Support Specialists who can become invaluable members of a management team.\u003c\\/p\u003e",
+        "programhighlights": [
+            "\u003cp\u003e",
+            "    This program prepares students to deal with the problems they may encounter when supporting Personal Computers in an office environment. It provides in-depth knowledge of both computer hardware and software, and prepares students to take the CompTIA A+,",
+            "    Network+, and Security+ certification exams. Students will have practical hands-on experience in maintenance of PCs, mobile devices, laptops, operating systems and printers, network and network devices, and computer security such as cryptography and",
+            "    access control, as well as business-related topics such as disaster recovery and risk management. Successful students may choose to progress to advanced qualifications such as MCSA.",
+            "\u003c\\/p\u003e"
+        ],
+        "programhours": {
+            "value": "1003",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\pc_support_specialist\\programhours.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\pc_support_specialist",
+            "PSChildName": "programhours.html",
+            "PSDrive": {
+                "CurrentLocation": "xampp\\htdocs\\programs\\pc_support_specialist",
+                "Name": "C",
+                "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+                "Root": "C:\\",
+                "Description": "",
+                "MaximumSize": null,
+                "Credential": "System.Management.Automation.PSCredential",
+                "DisplayRoot": null
+            },
+            "PSProvider": {
+                "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+                "HelpFile": "System.Management.Automation.dll-Help.xml",
+                "Name": "FileSystem",
+                "PSSnapIn": "Microsoft.PowerShell.Core",
+                "ModuleName": "Microsoft.PowerShell.Core",
+                "Module": null,
+                "Description": "",
+                "Capabilities": 52,
+                "Home": "C:\\Users\\mike",
+                "Drives": "C D"
+            },
+            "ReadCount": 1
+        },
+        "syllabuslink": "BC_Final_PC_Support_Specialist_Outline.pdf",
+        "corecourses": [
+            "Upon completion of the program the participant must demonstrate the following core competencies:",
+            "\u003cul class=\"textleft\"\u003e",
+            "",
+            "",
+            "    \u003cli class=\"textleft-ul-li\"\u003e Operating Systems\u003cbr /\u003e Advanced level of proficiency in a Windows operating system\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eWord Processing\u003cbr /\u003e Intermediate level of proficiency in Microsoft Word\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eSpreadsheets\u003cbr /\u003e Intermediate level of proficiency in Microsoft Excel\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eGraphic/Presentations\u003cbr /\u003e Advanced level of proficiency in Microsoft PowerPoint\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eDatabase Management\u003cbr /\u003e Advanced level of proficiency in Microsoft Access\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eSimulations and Drills\u003cbr /\u003e Practical Applications – 2 Units\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eOffice Skills\u003cbr /\u003e Advanced level of proficiency in Microsoft Outlook\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eBusiness Skills\u003cbr /\u003e Customer Service and Workplace Success/Intrapreneurship\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003ePC Troubleshooting\u003cbr /\u003e CompTIA A+ 220-1001 and CompTIA A+ 220-1002\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eComputer Networking\u003cbr /\u003e CompTIA Network + and CompTIA Security +\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003eJob Readiness/Employability Skills\u003cbr /\u003e Job Search and Résumé Writing and Thought Patterns for a Successful Career\u003c\\/li\u003e",
+            "",
+            "",
+            "",
+            "",
+            "\u003c\\/ul\u003e"
+        ],
+        "salarystart": {
+            "value": "34,798",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\pc_support_specialist\\salarystart.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\pc_support_specialist",
+            "PSChildName": "salarystart.html",
+            "PSDrive": {
+                "CurrentLocation": "xampp\\htdocs\\programs\\pc_support_specialist",
+                "Name": "C",
+                "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+                "Root": "C:\\",
+                "Description": "",
+                "MaximumSize": null,
+                "Credential": "System.Management.Automation.PSCredential",
+                "DisplayRoot": null
+            },
+            "PSProvider": {
+                "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+                "HelpFile": "System.Management.Automation.dll-Help.xml",
+                "Name": "FileSystem",
+                "PSSnapIn": "Microsoft.PowerShell.Core",
+                "ModuleName": "Microsoft.PowerShell.Core",
+                "Module": null,
+                "Description": "",
+                "Capabilities": 52,
+                "Home": "C:\\Users\\mike",
+                "Drives": "C D"
+            },
+            "ReadCount": 1
+        },
+        "programtype": [{
+                "value": "\u003c!--Certificate--\u003e",
+                "PSPath": "C:\\xampp\\htdocs\\programs\\pc_support_specialist\\programtype.html",
+                "PSParentPath": "C:\\xampp\\htdocs\\programs\\pc_support_specialist",
+                "PSChildName": "programtype.html",
+                "PSDrive": "C",
+                "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+                "ReadCount": 1
+            },
+            {
+                "value": "Diploma",
+                "PSPath": "C:\\xampp\\htdocs\\programs\\pc_support_specialist\\programtype.html",
+                "PSParentPath": "C:\\xampp\\htdocs\\programs\\pc_support_specialist",
+                "PSChildName": "programtype.html",
+                "PSDrive": "C",
+                "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+                "ReadCount": 2
+            }
+        ],
+        "programname": {
+            "value": "PC SUPPORT SPECIALIST",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\pc_support_specialist\\progtitle.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\pc_support_specialist",
+            "PSChildName": "progtitle.html",
+            "PSDrive": {
+                "CurrentLocation": "xampp\\htdocs\\programs\\pc_support_specialist",
+                "Name": "C",
+                "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+                "Root": "C:\\",
+                "Description": "",
+                "MaximumSize": null,
+                "Credential": "System.Management.Automation.PSCredential",
+                "DisplayRoot": null
+            },
+            "PSProvider": {
+                "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+                "HelpFile": "System.Management.Automation.dll-Help.xml",
+                "Name": "FileSystem",
+                "PSSnapIn": "Microsoft.PowerShell.Core",
+                "ModuleName": "Microsoft.PowerShell.Core",
+                "Module": null,
+                "Description": "",
+                "Capabilities": 52,
+                "Home": "C:\\Users\\mike",
+                "Drives": "C D"
+            },
+            "ReadCount": 1
+        }
+    } {
+        "domestic_fees": {
+            "tuition": null,
+            "assessment": null,
+            "other": null,
+            "application": null
+        },
+        "programduration": null,
+        "admitreq": null,
+        "salaryend": null,
+        "prog_video": "",
+        "careeropp": null,
+        "programhighlights": null,
+        "programhours": null,
+        "syllabuslink": "BC_Final_PC_Support_Specialist_Outline.pdf",
+        "corecourses": null,
+        "salarystart": null,
+        "programtype": null,
+        "programname": null
+    }
+    "{\r\n    \"programname\": \r\n    \"admitreq\": \u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instruction. An admissions interview will be administered to determine if the applicant has the     required interest, motivation, and entry-level skills to take this program. Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them. Part-time students may set their own schedules     to a minimum of two training sessions per week. These times may be scheduled during the day, evenings, or on weekends.\u003c/p\u003e\r\n    \"programhighlights\": \u003cp\u003e     This program prepares students to deal with the problems they may encounter when supporting Personal Computers in an office environment. It provides in-depth knowledge of both computer hardware and software, and prepares students to take the CompTIA A+,     Network+, and Security+ certification exams. Students will have practical hands-on experience in maintenance of PCs, mobile devices, laptops, operating systems and printers, network and network devices, and computer security such as cryptography and     access control, as well as business-related topics such as disaster recovery and risk management. Successful students may choose to progress to advanced qualifications such as MCSA. \u003c\\/p\u003e\r\n    \"careeropp\": \u003cp\u003eSkilled PC Support Specialists are in high demand in today's skilled environment. Virtually all organizations with multiple computers require the skills of PC Support Specialists who can become invaluable members of a management team.\u003c\\/p\u003e\r\n    \"corecourses\": Upon completion of the program the participant must demonstrate the following core competencies: \u003cul class=\"textleft\"\u003e       \u003cli class=\"textleft-ul-li\"\u003e Operating Systems\u003cbr /\u003e Advanced level of proficiency in a Windows operating system\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eWord Processing\u003cbr /\u003e Intermediate level of proficiency in Microsoft Word\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eSpreadsheets\u003cbr /\u003e Intermediate level of proficiency in Microsoft Excel\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eGraphic/Presentations\u003cbr /\u003e Advanced level of proficiency in Microsoft PowerPoint\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eDatabase Management\u003cbr /\u003e Advanced level of proficiency in Microsoft Access\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eSimulations and Drills\u003cbr /\u003e Practical Applications – 2 Units\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eOffice Skills\u003cbr /\u003e Advanced level of proficiency in Microsoft Outlook\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eBusiness Skills\u003cbr /\u003e Customer Service and Workplace Success/Intrapreneurship\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003ePC Troubleshooting\u003cbr /\u003e CompTIA A+ 220-1001 and CompTIA A+ 220-1002\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eComputer Networking\u003cbr /\u003e CompTIA Network + and CompTIA Security +\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003eJob Readiness/Employability Skills\u003cbr /\u003e Job Search and Résumé Writing and Thought Patterns for a Successful Career\u003c\\/li\u003e     \u003c\\/ul\u003e\r\n    \"programtype\": \u003c!--Certificate--\u003e Diploma\r\n    \"salarystart\": 34,798\r\n    \"salaryend\": 69,142\r\n    \"programhours\": 1003\r\n    \"programduration\": 50\r\n    \"domestic_fees\": @{\r\n        \"tuition\": 13604\r\n        \"application\": 250\r\n        \"assessment\": 100\r\n        \"other\": 4\r\n    }\r\n    \"syllabuslink\": BC_Final_PC_Support_Specialist_Outline.pdf\r\n    \"prog_video\": \"\"\r\n}"

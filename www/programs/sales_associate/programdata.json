@@ -1,276 +1,285 @@
-@{domestic_fees=; programduration=; admitreq=System.Object[]; salaryend=; prog_video=; careeropp=System.Object[]; programhighlights=System.Object[]; programhours=; syllabuslink=sales_associate_outline.pdf; corecourses=System.Object[]; salarystart=; programtype=; programname=}
-{
-    "domestic_fees":  {
-                          "tuition":  {
-                                          "value":  "5651",
-                                          "PSPath":  "C:\\xampp\\htdocs\\programs\\sales_associate\\dtuition.html",
-                                          "PSParentPath":  "C:\\xampp\\htdocs\\programs\\sales_associate",
-                                          "PSChildName":  "dtuition.html",
-                                          "PSDrive":  "C",
-                                          "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                          "ReadCount":  1
-                                      },
-                          "assessment":  {
+@ { domestic_fees = ;
+    programduration = ;
+    admitreq = System.Object[];
+    salaryend = ;
+    prog_video = ;
+    careeropp = System.Object[];
+    programhighlights = System.Object[];
+    programhours = ;
+    syllabuslink = sales_associate_outline.pdf;
+    corecourses = System.Object[];
+    salarystart = ;
+    programtype = ;
+    programname = } {
+    "domestic_fees": {
+        "tuition": {
+            "value": "5651",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\sales_associate\\dtuition.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\sales_associate",
+            "PSChildName": "dtuition.html",
+            "PSDrive": "C",
+            "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+            "ReadCount": 1
+        },
+        "assessment": {
 
-                                         },
-                          "other":  {
-                                        "value":  "4",
-                                        "PSPath":  "C:\\xampp\\htdocs\\programs\\sales_associate\\dother.html",
-                                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\sales_associate",
-                                        "PSChildName":  "dother.html",
-                                        "PSDrive":  "C",
-                                        "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "ReadCount":  1
-                                    },
-                          "application":  {
-                                              "value":  "250",
-                                              "PSPath":  "C:\\xampp\\htdocs\\programs\\sales_associate\\dapp.html",
-                                              "PSParentPath":  "C:\\xampp\\htdocs\\programs\\sales_associate",
-                                              "PSChildName":  "dapp.html",
-                                              "PSDrive":  "C",
-                                              "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                              "ReadCount":  1
-                                          }
-                      },
-    "programduration":  {
-                            "value":  "18",
-                            "PSPath":  "C:\\xampp\\htdocs\\programs\\sales_associate\\programduration.html",
-                            "PSParentPath":  "C:\\xampp\\htdocs\\programs\\sales_associate",
-                            "PSChildName":  "programduration.html",
-                            "PSDrive":  {
-                                            "CurrentLocation":  "xampp\\htdocs\\programs\\sales_associate",
-                                            "Name":  "C",
-                                            "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                            "Root":  "C:\\",
-                                            "Description":  "",
-                                            "MaximumSize":  null,
-                                            "Credential":  "System.Management.Automation.PSCredential",
-                                            "DisplayRoot":  null
-                                        },
-                            "PSProvider":  {
-                                               "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                               "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                               "Name":  "FileSystem",
-                                               "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                               "ModuleName":  "Microsoft.PowerShell.Core",
-                                               "Module":  null,
-                                               "Description":  "",
-                                               "Capabilities":  52,
-                                               "Home":  "C:\\Users\\mike",
-                                               "Drives":  "C D"
-                                           },
-                            "ReadCount":  1
-                        },
-    "admitreq":  [
-                     {
-                         "value":  "\u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instructions. An admissions interview will be administered to determine if the applicant has",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\sales_associate\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\sales_associate",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  1
-                     },
-                     {
-                         "value":  "    the required interest, motivation, and entry-level skills to take this program. Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them.\u003c/p\u003e",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\sales_associate\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\sales_associate",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  2
-                     }
-                 ],
-    "salaryend":  {
-                      "value":  "41,925",
-                      "PSPath":  "C:\\xampp\\htdocs\\programs\\sales_associate\\salaryend.html",
-                      "PSParentPath":  "C:\\xampp\\htdocs\\programs\\sales_associate",
-                      "PSChildName":  "salaryend.html",
-                      "PSDrive":  {
-                                      "CurrentLocation":  "xampp\\htdocs\\programs\\sales_associate",
-                                      "Name":  "C",
-                                      "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                      "Root":  "C:\\",
-                                      "Description":  "",
-                                      "MaximumSize":  null,
-                                      "Credential":  "System.Management.Automation.PSCredential",
-                                      "DisplayRoot":  null
-                                  },
-                      "PSProvider":  {
-                                         "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                         "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                         "Name":  "FileSystem",
-                                         "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                         "ModuleName":  "Microsoft.PowerShell.Core",
-                                         "Module":  null,
-                                         "Description":  "",
-                                         "Capabilities":  52,
-                                         "Home":  "C:\\Users\\mike",
-                                         "Drives":  "C D"
-                                     },
-                      "ReadCount":  1
-                  },
-    "prog_video":  "",
-    "careeropp":  [
-                      "\u003cp\u003e",
-                      "    Sales Associates sell, rent or lease a range of technical and non-technical goods and services directly to consumers. Job titles include: audio equipment salesperson, automobile salesperson, car rental agent, clothing salesperson, computer salesperson",
-                      "    – retail, counter clerk – retail, department store clerk, furniture salesperson, hardware store clerk, jewelry salesperson, retail sales associate, retail sales clerk, retail salesperson.",
-                      "\u003c\\/p\u003e"
-                  ],
-    "programhighlights":  [
-                              "\u003cp\u003e",
-                              "",
-                              "",
-                              "    The Sales Associate program provides students with the sales skills necessary to meet the demands of today’s retail business. This program is designed to engage students in basic sales training giving them a good start in any sales position.",
-                              "\u003c\\/p\u003e"
-                          ],
-    "programhours":  {
-                         "value":  "370",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\sales_associate\\programhours.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\sales_associate",
-                         "PSChildName":  "programhours.html",
-                         "PSDrive":  {
-                                         "CurrentLocation":  "xampp\\htdocs\\programs\\sales_associate",
-                                         "Name":  "C",
-                                         "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                         "Root":  "C:\\",
-                                         "Description":  "",
-                                         "MaximumSize":  null,
-                                         "Credential":  "System.Management.Automation.PSCredential",
-                                         "DisplayRoot":  null
-                                     },
-                         "PSProvider":  {
-                                            "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                            "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                            "Name":  "FileSystem",
-                                            "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                            "ModuleName":  "Microsoft.PowerShell.Core",
-                                            "Module":  null,
-                                            "Description":  "",
-                                            "Capabilities":  52,
-                                            "Home":  "C:\\Users\\mike",
-                                            "Drives":  "C D"
-                                        },
-                         "ReadCount":  1
-                     },
-    "syllabuslink":  "sales_associate_outline.pdf",
-    "corecourses":  [
-                        "\u003cp\u003eUpon completion of the program the participant must demonstrate the following core competencies:\u003c\\/p\u003e",
-                        "\u003cul\u003e",
-                        "    \u003cli\u003eKeyboarding\u003cbr /\u003e Minimum 25 words per minute (WPM).\u003c\\/li\u003e",
-                        "    \u003cli\u003eOperating Systems\u003cbr /\u003e Basic level of proficiency in a Windows operating system\u003c\\/li\u003e",
-                        "    \u003cli\u003eWord Processing\u003cbr /\u003e Basic level of proficiency in Microsoft Word\u003c\\/li\u003e",
-                        "    \u003cli\u003eBusiness Skills\u003cbr /\u003e Customer Service Essentials, Business Verbal Communication, Marketing and Sales, Business in the Digital Age, Business Math, Business Negotiations and Contracts, and Principles of Selling\u003c\\/li\u003e",
-                        "    \u003cli\u003eSimulations and Drills\u003cbr /\u003e Practical Applications – 1 Unit\u003c\\/li\u003e",
-                        "    \u003cli\u003eJob Readiness/Employability Skills\u003cbr /\u003e Job Search and Resume Writing\u003c\\/li\u003e",
-                        "\u003c\\/ul\u003e"
-                    ],
-    "salarystart":  {
-                        "value":  "22,016",
-                        "PSPath":  "C:\\xampp\\htdocs\\programs\\sales_associate\\salarystart.html",
-                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\sales_associate",
-                        "PSChildName":  "salarystart.html",
-                        "PSDrive":  {
-                                        "CurrentLocation":  "xampp\\htdocs\\programs\\sales_associate",
-                                        "Name":  "C",
-                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "Root":  "C:\\",
-                                        "Description":  "",
-                                        "MaximumSize":  null,
-                                        "Credential":  "System.Management.Automation.PSCredential",
-                                        "DisplayRoot":  null
-                                    },
-                        "PSProvider":  {
-                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                           "Name":  "FileSystem",
-                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                           "ModuleName":  "Microsoft.PowerShell.Core",
-                                           "Module":  null,
-                                           "Description":  "",
-                                           "Capabilities":  52,
-                                           "Home":  "C:\\Users\\mike",
-                                           "Drives":  "C D"
-                                       },
-                        "ReadCount":  1
-                    },
-    "programtype":  {
-                        "value":  "Certificate",
-                        "PSPath":  "C:\\xampp\\htdocs\\programs\\sales_associate\\programtype.html",
-                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\sales_associate",
-                        "PSChildName":  "programtype.html",
-                        "PSDrive":  {
-                                        "CurrentLocation":  "xampp\\htdocs\\programs\\sales_associate",
-                                        "Name":  "C",
-                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "Root":  "C:\\",
-                                        "Description":  "",
-                                        "MaximumSize":  null,
-                                        "Credential":  "System.Management.Automation.PSCredential",
-                                        "DisplayRoot":  null
-                                    },
-                        "PSProvider":  {
-                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                           "Name":  "FileSystem",
-                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                           "ModuleName":  "Microsoft.PowerShell.Core",
-                                           "Module":  null,
-                                           "Description":  "",
-                                           "Capabilities":  52,
-                                           "Home":  "C:\\Users\\mike",
-                                           "Drives":  "C D"
-                                       },
-                        "ReadCount":  1
-                    },
-    "programname":  {
-                        "value":  "SALES ASSOCIATE",
-                        "PSPath":  "C:\\xampp\\htdocs\\programs\\sales_associate\\progtitle.html",
-                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\sales_associate",
-                        "PSChildName":  "progtitle.html",
-                        "PSDrive":  {
-                                        "CurrentLocation":  "xampp\\htdocs\\programs\\sales_associate",
-                                        "Name":  "C",
-                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "Root":  "C:\\",
-                                        "Description":  "",
-                                        "MaximumSize":  null,
-                                        "Credential":  "System.Management.Automation.PSCredential",
-                                        "DisplayRoot":  null
-                                    },
-                        "PSProvider":  {
-                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                           "Name":  "FileSystem",
-                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                           "ModuleName":  "Microsoft.PowerShell.Core",
-                                           "Module":  null,
-                                           "Description":  "",
-                                           "Capabilities":  52,
-                                           "Home":  "C:\\Users\\mike",
-                                           "Drives":  "C D"
-                                       },
-                        "ReadCount":  1
-                    }
+        },
+        "other": {
+            "value": "4",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\sales_associate\\dother.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\sales_associate",
+            "PSChildName": "dother.html",
+            "PSDrive": "C",
+            "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+            "ReadCount": 1
+        },
+        "application": {
+            "value": "250",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\sales_associate\\dapp.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\sales_associate",
+            "PSChildName": "dapp.html",
+            "PSDrive": "C",
+            "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+            "ReadCount": 1
+        }
+    },
+    "programduration": {
+        "value": "18",
+        "PSPath": "C:\\xampp\\htdocs\\programs\\sales_associate\\programduration.html",
+        "PSParentPath": "C:\\xampp\\htdocs\\programs\\sales_associate",
+        "PSChildName": "programduration.html",
+        "PSDrive": {
+            "CurrentLocation": "xampp\\htdocs\\programs\\sales_associate",
+            "Name": "C",
+            "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+            "Root": "C:\\",
+            "Description": "",
+            "MaximumSize": null,
+            "Credential": "System.Management.Automation.PSCredential",
+            "DisplayRoot": null
+        },
+        "PSProvider": {
+            "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+            "HelpFile": "System.Management.Automation.dll-Help.xml",
+            "Name": "FileSystem",
+            "PSSnapIn": "Microsoft.PowerShell.Core",
+            "ModuleName": "Microsoft.PowerShell.Core",
+            "Module": null,
+            "Description": "",
+            "Capabilities": 52,
+            "Home": "C:\\Users\\mike",
+            "Drives": "C D"
+        },
+        "ReadCount": 1
+    },
+    "admitreq": [{
+            "value": "\u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instructions. An admissions interview will be administered to determine if the applicant has",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\sales_associate\\admitreq.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\sales_associate",
+            "PSChildName": "admitreq.html",
+            "PSDrive": "C",
+            "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+            "ReadCount": 1
+        },
+        {
+            "value": "    the required interest, motivation, and entry-level skills to take this program. Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them.\u003c/p\u003e",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\sales_associate\\admitreq.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\sales_associate",
+            "PSChildName": "admitreq.html",
+            "PSDrive": "C",
+            "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+            "ReadCount": 2
+        }
+    ],
+    "salaryend": {
+        "value": "41,925",
+        "PSPath": "C:\\xampp\\htdocs\\programs\\sales_associate\\salaryend.html",
+        "PSParentPath": "C:\\xampp\\htdocs\\programs\\sales_associate",
+        "PSChildName": "salaryend.html",
+        "PSDrive": {
+            "CurrentLocation": "xampp\\htdocs\\programs\\sales_associate",
+            "Name": "C",
+            "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+            "Root": "C:\\",
+            "Description": "",
+            "MaximumSize": null,
+            "Credential": "System.Management.Automation.PSCredential",
+            "DisplayRoot": null
+        },
+        "PSProvider": {
+            "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+            "HelpFile": "System.Management.Automation.dll-Help.xml",
+            "Name": "FileSystem",
+            "PSSnapIn": "Microsoft.PowerShell.Core",
+            "ModuleName": "Microsoft.PowerShell.Core",
+            "Module": null,
+            "Description": "",
+            "Capabilities": 52,
+            "Home": "C:\\Users\\mike",
+            "Drives": "C D"
+        },
+        "ReadCount": 1
+    },
+    "prog_video": "",
+    "careeropp": [
+        "\u003cp\u003e",
+        "    Sales Associates sell, rent or lease a range of technical and non-technical goods and services directly to consumers. Job titles include: audio equipment salesperson, automobile salesperson, car rental agent, clothing salesperson, computer salesperson",
+        "    – retail, counter clerk – retail, department store clerk, furniture salesperson, hardware store clerk, jewelry salesperson, retail sales associate, retail sales clerk, retail salesperson.",
+        "\u003c\\/p\u003e"
+    ],
+    "programhighlights": [
+        "\u003cp\u003e",
+        "",
+        "",
+        "    The Sales Associate program provides students with the sales skills necessary to meet the demands of today's retail business. This program is designed to engage students in basic sales training giving them a good start in any sales position.",
+        "\u003c\\/p\u003e"
+    ],
+    "programhours": {
+        "value": "370",
+        "PSPath": "C:\\xampp\\htdocs\\programs\\sales_associate\\programhours.html",
+        "PSParentPath": "C:\\xampp\\htdocs\\programs\\sales_associate",
+        "PSChildName": "programhours.html",
+        "PSDrive": {
+            "CurrentLocation": "xampp\\htdocs\\programs\\sales_associate",
+            "Name": "C",
+            "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+            "Root": "C:\\",
+            "Description": "",
+            "MaximumSize": null,
+            "Credential": "System.Management.Automation.PSCredential",
+            "DisplayRoot": null
+        },
+        "PSProvider": {
+            "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+            "HelpFile": "System.Management.Automation.dll-Help.xml",
+            "Name": "FileSystem",
+            "PSSnapIn": "Microsoft.PowerShell.Core",
+            "ModuleName": "Microsoft.PowerShell.Core",
+            "Module": null,
+            "Description": "",
+            "Capabilities": 52,
+            "Home": "C:\\Users\\mike",
+            "Drives": "C D"
+        },
+        "ReadCount": 1
+    },
+    "syllabuslink": "sales_associate_outline.pdf",
+    "corecourses": [
+        "\u003cp\u003eUpon completion of the program the participant must demonstrate the following core competencies:\u003c\\/p\u003e",
+        "\u003cul\u003e",
+        "    \u003cli\u003eKeyboarding\u003cbr /\u003e Minimum 25 words per minute (WPM).\u003c\\/li\u003e",
+        "    \u003cli\u003eOperating Systems\u003cbr /\u003e Basic level of proficiency in a Windows operating system\u003c\\/li\u003e",
+        "    \u003cli\u003eWord Processing\u003cbr /\u003e Basic level of proficiency in Microsoft Word\u003c\\/li\u003e",
+        "    \u003cli\u003eBusiness Skills\u003cbr /\u003e Customer Service Essentials, Business Verbal Communication, Marketing and Sales, Business in the Digital Age, Business Math, Business Negotiations and Contracts, and Principles of Selling\u003c\\/li\u003e",
+        "    \u003cli\u003eSimulations and Drills\u003cbr /\u003e Practical Applications – 1 Unit\u003c\\/li\u003e",
+        "    \u003cli\u003eJob Readiness/Employability Skills\u003cbr /\u003e Job Search and Resume Writing\u003c\\/li\u003e",
+        "\u003c\\/ul\u003e"
+    ],
+    "salarystart": {
+        "value": "22,016",
+        "PSPath": "C:\\xampp\\htdocs\\programs\\sales_associate\\salarystart.html",
+        "PSParentPath": "C:\\xampp\\htdocs\\programs\\sales_associate",
+        "PSChildName": "salarystart.html",
+        "PSDrive": {
+            "CurrentLocation": "xampp\\htdocs\\programs\\sales_associate",
+            "Name": "C",
+            "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+            "Root": "C:\\",
+            "Description": "",
+            "MaximumSize": null,
+            "Credential": "System.Management.Automation.PSCredential",
+            "DisplayRoot": null
+        },
+        "PSProvider": {
+            "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+            "HelpFile": "System.Management.Automation.dll-Help.xml",
+            "Name": "FileSystem",
+            "PSSnapIn": "Microsoft.PowerShell.Core",
+            "ModuleName": "Microsoft.PowerShell.Core",
+            "Module": null,
+            "Description": "",
+            "Capabilities": 52,
+            "Home": "C:\\Users\\mike",
+            "Drives": "C D"
+        },
+        "ReadCount": 1
+    },
+    "programtype": {
+        "value": "Certificate",
+        "PSPath": "C:\\xampp\\htdocs\\programs\\sales_associate\\programtype.html",
+        "PSParentPath": "C:\\xampp\\htdocs\\programs\\sales_associate",
+        "PSChildName": "programtype.html",
+        "PSDrive": {
+            "CurrentLocation": "xampp\\htdocs\\programs\\sales_associate",
+            "Name": "C",
+            "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+            "Root": "C:\\",
+            "Description": "",
+            "MaximumSize": null,
+            "Credential": "System.Management.Automation.PSCredential",
+            "DisplayRoot": null
+        },
+        "PSProvider": {
+            "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+            "HelpFile": "System.Management.Automation.dll-Help.xml",
+            "Name": "FileSystem",
+            "PSSnapIn": "Microsoft.PowerShell.Core",
+            "ModuleName": "Microsoft.PowerShell.Core",
+            "Module": null,
+            "Description": "",
+            "Capabilities": 52,
+            "Home": "C:\\Users\\mike",
+            "Drives": "C D"
+        },
+        "ReadCount": 1
+    },
+    "programname": {
+        "value": "SALES ASSOCIATE",
+        "PSPath": "C:\\xampp\\htdocs\\programs\\sales_associate\\progtitle.html",
+        "PSParentPath": "C:\\xampp\\htdocs\\programs\\sales_associate",
+        "PSChildName": "progtitle.html",
+        "PSDrive": {
+            "CurrentLocation": "xampp\\htdocs\\programs\\sales_associate",
+            "Name": "C",
+            "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+            "Root": "C:\\",
+            "Description": "",
+            "MaximumSize": null,
+            "Credential": "System.Management.Automation.PSCredential",
+            "DisplayRoot": null
+        },
+        "PSProvider": {
+            "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+            "HelpFile": "System.Management.Automation.dll-Help.xml",
+            "Name": "FileSystem",
+            "PSSnapIn": "Microsoft.PowerShell.Core",
+            "ModuleName": "Microsoft.PowerShell.Core",
+            "Module": null,
+            "Description": "",
+            "Capabilities": 52,
+            "Home": "C:\\Users\\mike",
+            "Drives": "C D"
+        },
+        "ReadCount": 1
+    }
+} {
+    "domestic_fees": {
+        "tuition": null,
+        "assessment": null,
+        "other": null,
+        "application": null
+    },
+    "programduration": null,
+    "admitreq": null,
+    "salaryend": null,
+    "prog_video": "",
+    "careeropp": null,
+    "programhighlights": null,
+    "programhours": null,
+    "syllabuslink": "sales_associate_outline.pdf",
+    "corecourses": null,
+    "salarystart": null,
+    "programtype": null,
+    "programname": null
 }
-{
-    "domestic_fees":  {
-                          "tuition":  null,
-                          "assessment":  null,
-                          "other":  null,
-                          "application":  null
-                      },
-    "programduration":  null,
-    "admitreq":  null,
-    "salaryend":  null,
-    "prog_video":  "",
-    "careeropp":  null,
-    "programhighlights":  null,
-    "programhours":  null,
-    "syllabuslink":  "sales_associate_outline.pdf",
-    "corecourses":  null,
-    "salarystart":  null,
-    "programtype":  null,
-    "programname":  null
-}
-"{\r\n    \"programname\": \r\n    \"admitreq\": \u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instructions. An admissions interview will be administered to determine if the applicant has     the required interest, motivation, and entry-level skills to take this program. Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them.\u003c/p\u003e\r\n    \"programhighlights\": \u003cp\u003e       The Sales Associate program provides students with the sales skills necessary to meet the demands of today’s retail business. This program is designed to engage students in basic sales training giving them a good start in any sales position. \u003c\\/p\u003e\r\n    \"careeropp\": \u003cp\u003e     Sales Associates sell, rent or lease a range of technical and non-technical goods and services directly to consumers. Job titles include: audio equipment salesperson, automobile salesperson, car rental agent, clothing salesperson, computer salesperson     – retail, counter clerk – retail, department store clerk, furniture salesperson, hardware store clerk, jewelry salesperson, retail sales associate, retail sales clerk, retail salesperson. \u003c\\/p\u003e\r\n    \"corecourses\": \u003cp\u003eUpon completion of the program the participant must demonstrate the following core competencies:\u003c\\/p\u003e \u003cul\u003e     \u003cli\u003eKeyboarding\u003cbr /\u003e Minimum 25 words per minute (WPM).\u003c\\/li\u003e     \u003cli\u003eOperating Systems\u003cbr /\u003e Basic level of proficiency in a Windows operating system\u003c\\/li\u003e     \u003cli\u003eWord Processing\u003cbr /\u003e Basic level of proficiency in Microsoft Word\u003c\\/li\u003e     \u003cli\u003eBusiness Skills\u003cbr /\u003e Customer Service Essentials, Business Verbal Communication, Marketing and Sales, Business in the Digital Age, Business Math, Business Negotiations and Contracts, and Principles of Selling\u003c\\/li\u003e     \u003cli\u003eSimulations and Drills\u003cbr /\u003e Practical Applications – 1 Unit\u003c\\/li\u003e     \u003cli\u003eJob Readiness/Employability Skills\u003cbr /\u003e Job Search and Resume Writing\u003c\\/li\u003e \u003c\\/ul\u003e\r\n    \"programtype\": Certificate\r\n    \"salarystart\": 22,016\r\n    \"salaryend\": 41,925\r\n    \"programhours\": 370\r\n    \"programduration\": 18\r\n    \"domestic_fees\": @{\r\n        \"tuition\": 5651\r\n        \"application\": 250\r\n        \"assessment\": 100\r\n        \"other\": 4\r\n    }\r\n    \"syllabuslink\": sales_associate_outline.pdf\r\n    \"prog_video\": \"\"\r\n}"
+"{\r\n    \"programname\": \r\n    \"admitreq\": \u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instructions. An admissions interview will be administered to determine if the applicant has     the required interest, motivation, and entry-level skills to take this program. Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them.\u003c/p\u003e\r\n    \"programhighlights\": \u003cp\u003e       The Sales Associate program provides students with the sales skills necessary to meet the demands of today's retail business. This program is designed to engage students in basic sales training giving them a good start in any sales position. \u003c\\/p\u003e\r\n    \"careeropp\": \u003cp\u003e     Sales Associates sell, rent or lease a range of technical and non-technical goods and services directly to consumers. Job titles include: audio equipment salesperson, automobile salesperson, car rental agent, clothing salesperson, computer salesperson     – retail, counter clerk – retail, department store clerk, furniture salesperson, hardware store clerk, jewelry salesperson, retail sales associate, retail sales clerk, retail salesperson. \u003c\\/p\u003e\r\n    \"corecourses\": \u003cp\u003eUpon completion of the program the participant must demonstrate the following core competencies:\u003c\\/p\u003e \u003cul\u003e     \u003cli\u003eKeyboarding\u003cbr /\u003e Minimum 25 words per minute (WPM).\u003c\\/li\u003e     \u003cli\u003eOperating Systems\u003cbr /\u003e Basic level of proficiency in a Windows operating system\u003c\\/li\u003e     \u003cli\u003eWord Processing\u003cbr /\u003e Basic level of proficiency in Microsoft Word\u003c\\/li\u003e     \u003cli\u003eBusiness Skills\u003cbr /\u003e Customer Service Essentials, Business Verbal Communication, Marketing and Sales, Business in the Digital Age, Business Math, Business Negotiations and Contracts, and Principles of Selling\u003c\\/li\u003e     \u003cli\u003eSimulations and Drills\u003cbr /\u003e Practical Applications – 1 Unit\u003c\\/li\u003e     \u003cli\u003eJob Readiness/Employability Skills\u003cbr /\u003e Job Search and Resume Writing\u003c\\/li\u003e \u003c\\/ul\u003e\r\n    \"programtype\": Certificate\r\n    \"salarystart\": 22,016\r\n    \"salaryend\": 41,925\r\n    \"programhours\": 370\r\n    \"programduration\": 18\r\n    \"domestic_fees\": @{\r\n        \"tuition\": 5651\r\n        \"application\": 250\r\n        \"assessment\": 100\r\n        \"other\": 4\r\n    }\r\n    \"syllabuslink\": sales_associate_outline.pdf\r\n    \"prog_video\": \"\"\r\n}"

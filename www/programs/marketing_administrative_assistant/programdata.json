@@ -1,285 +1,291 @@
-@{domestic_fees=; programduration=; admitreq=System.Object[]; salaryend=; prog_video=; careeropp=System.Object[]; programhighlights=<p>The objective of this program is to provide the student with opportunities to acquire and apply the knowledge of desktop publishing & basic marketing skills to meet the demands of today’s business.<\/p>; programhours=; syllabuslink=marketing_administrative_assistant_outline.pdf; corecourses=System.Object[]; salarystart=; programtype=; programname=}
-{
-    "domestic_fees":  {
-                          "tuition":  {
-                                          "value":  "10655",
-                                          "PSPath":  "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant\\dtuition.html",
-                                          "PSParentPath":  "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant",
-                                          "PSChildName":  "dtuition.html",
-                                          "PSDrive":  "C",
-                                          "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                          "ReadCount":  1
-                                      },
-                          "assessment":  {
+@ {
+    domestic_fees = ;
+    programduration = ;
+    admitreq = System.Object[];
+    salaryend = ;
+    prog_video = ;
+    careeropp = System.Object[];
+    programhighlights = {
+        "style": "p",
+        "content": "The objective of this program is to provide the student with opportunities to acquire and apply the knowledge of desktop publishing & basic marketing skills to meet the demands of today' s business. < \/p>; programhours=; syllabuslink=marketing_administrative_assistant_outline.pdf; corecourses=System.Object[]; salarystart=; programtype=; programname=} {
+        "domestic_fees": {
+            "tuition": {
+                "value": "10655",
+                "PSPath": "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant\\dtuition.html",
+                "PSParentPath": "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant",
+                "PSChildName": "dtuition.html",
+                "PSDrive": "C",
+                "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+                "ReadCount": 1
+            },
+            "assessment": {
 
-                                         },
-                          "other":  {
-                                        "value":  "4",
-                                        "PSPath":  "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant\\dother.html",
-                                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant",
-                                        "PSChildName":  "dother.html",
-                                        "PSDrive":  "C",
-                                        "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "ReadCount":  1
-                                    },
-                          "application":  {
-                                              "value":  "250",
-                                              "PSPath":  "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant\\dapp.html",
-                                              "PSParentPath":  "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant",
-                                              "PSChildName":  "dapp.html",
-                                              "PSDrive":  "C",
-                                              "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                              "ReadCount":  1
-                                          }
-                      },
-    "programduration":  {
-                            "value":  "34",
-                            "PSPath":  "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant\\programduration.html",
-                            "PSParentPath":  "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant",
-                            "PSChildName":  "programduration.html",
-                            "PSDrive":  {
-                                            "CurrentLocation":  "xampp\\htdocs\\programs\\marketing_administrative_assistant",
-                                            "Name":  "C",
-                                            "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                            "Root":  "C:\\",
-                                            "Description":  "",
-                                            "MaximumSize":  null,
-                                            "Credential":  "System.Management.Automation.PSCredential",
-                                            "DisplayRoot":  null
-                                        },
-                            "PSProvider":  {
-                                               "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                               "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                               "Name":  "FileSystem",
-                                               "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                               "ModuleName":  "Microsoft.PowerShell.Core",
-                                               "Module":  null,
-                                               "Description":  "",
-                                               "Capabilities":  52,
-                                               "Home":  "C:\\Users\\mike",
-                                               "Drives":  "C D"
-                                           },
-                            "ReadCount":  1
-                        },
-    "admitreq":  [
-                     {
-                         "value":  "\u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instructions. An admissions interview will be administered to determine if the applicant has",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  1
-                     },
-                     {
-                         "value":  "    the required interest, motivation, and entry-level skills to take this program. Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them.\u003c/p\u003e",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  2
-                     }
-                 ],
-    "salaryend":  {
-                      "value":  "46,262",
-                      "PSPath":  "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant\\salaryend.html",
-                      "PSParentPath":  "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant",
-                      "PSChildName":  "salaryend.html",
-                      "PSDrive":  {
-                                      "CurrentLocation":  "xampp\\htdocs\\programs\\marketing_administrative_assistant",
-                                      "Name":  "C",
-                                      "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                      "Root":  "C:\\",
-                                      "Description":  "",
-                                      "MaximumSize":  null,
-                                      "Credential":  "System.Management.Automation.PSCredential",
-                                      "DisplayRoot":  null
-                                  },
-                      "PSProvider":  {
-                                         "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                         "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                         "Name":  "FileSystem",
-                                         "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                         "ModuleName":  "Microsoft.PowerShell.Core",
-                                         "Module":  null,
-                                         "Description":  "",
-                                         "Capabilities":  52,
-                                         "Home":  "C:\\Users\\mike",
-                                         "Drives":  "C D"
-                                     },
-                      "ReadCount":  1
-                  },
-    "prog_video":  "",
-    "careeropp":  [
-                      "\u003cp\u003eCareers which correspond to the skills learned include:\u003c\\/p\u003e",
-                      "",
-                      "\u003cul\u003e",
-                      "    \u003cli\u003e",
-                      "        Sales, Marketing and Advertising Assistant\u003c\\/li\u003e",
-                      "    \u003cli\u003eOffice Equipment Operators\u003c\\/li\u003e",
-                      "    \u003cli\u003eAdministrative Support\u003c\\/li\u003e",
-                      "\u003c\\/ul\u003e"
-                  ],
-    "programhighlights":  "\u003cp\u003eThe objective of this program is to provide the student with opportunities to acquire and apply the knowledge of desktop publishing \u0026 basic marketing skills to meet the demands of today’s business.\u003c\\/p\u003e",
-    "programhours":  {
-                         "value":  "697",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant\\programhours.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant",
-                         "PSChildName":  "programhours.html",
-                         "PSDrive":  {
-                                         "CurrentLocation":  "xampp\\htdocs\\programs\\marketing_administrative_assistant",
-                                         "Name":  "C",
-                                         "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                         "Root":  "C:\\",
-                                         "Description":  "",
-                                         "MaximumSize":  null,
-                                         "Credential":  "System.Management.Automation.PSCredential",
-                                         "DisplayRoot":  null
-                                     },
-                         "PSProvider":  {
-                                            "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                            "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                            "Name":  "FileSystem",
-                                            "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                            "ModuleName":  "Microsoft.PowerShell.Core",
-                                            "Module":  null,
-                                            "Description":  "",
-                                            "Capabilities":  52,
-                                            "Home":  "C:\\Users\\mike",
-                                            "Drives":  "C D"
-                                        },
-                         "ReadCount":  1
-                     },
-    "syllabuslink":  "marketing_administrative_assistant_outline.pdf",
-    "corecourses":  [
-                        "\u003cp\u003e",
-                        "    Upon completion of the program the participant must demonstrate the following core competencies:\u003c\\/p\u003e",
-                        "\u003cul class=\"textleft\"\u003e",
-                        "",
-                        "    \u003cli class=\"textleft-ul-li\"\u003e Keyboarding\u003cbr /\u003e Minimum 25 words per minute (WPM).\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003e Operating Systems\u003cbr /\u003e Basic level of proficiency in a Windows operating system\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003e Word processing\u003cbr /\u003e Intermediate level of proficiency in Microsoft Word\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003e Spreadsheets\u003cbr /\u003e Basic level of proficiency in Microsoft Excel\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003e Business Skills\u003cbr /\u003e Customer Service, Grammar Essentials for Business Writing, Business Correspondence Level 1, Business Essentials, Marketing and Sales, and Marketing Administration\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003e Office Skills\u003cbr /\u003e Internet Fundamentals and basic level of proficiency in Microsoft Outlook\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003e Graphics/Presentations\u003cbr /\u003e Advanced level of proficiency in Microsoft PowerPoint, Photoshop, Illustrator, and Microsoft Publisher\u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003e Web Design\u003cbr /\u003e Dreamweaver",
-                        "    \u003c\\/li\u003e",
-                        "    \u003cli class=\"textleft-ul-li\"\u003e Job Readiness/Employability Skills\u003cbr /\u003e Job Search and Resume Writing\u003c\\/li\u003e",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "\u003c\\/ul\u003e"
-                    ],
-    "salarystart":  {
-                        "value":  "27,879",
-                        "PSPath":  "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant\\salarystart.html",
-                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant",
-                        "PSChildName":  "salarystart.html",
-                        "PSDrive":  {
-                                        "CurrentLocation":  "xampp\\htdocs\\programs\\marketing_administrative_assistant",
-                                        "Name":  "C",
-                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "Root":  "C:\\",
-                                        "Description":  "",
-                                        "MaximumSize":  null,
-                                        "Credential":  "System.Management.Automation.PSCredential",
-                                        "DisplayRoot":  null
-                                    },
-                        "PSProvider":  {
-                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                           "Name":  "FileSystem",
-                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                           "ModuleName":  "Microsoft.PowerShell.Core",
-                                           "Module":  null,
-                                           "Description":  "",
-                                           "Capabilities":  52,
-                                           "Home":  "C:\\Users\\mike",
-                                           "Drives":  "C D"
-                                       },
-                        "ReadCount":  1
-                    },
-    "programtype":  {
-                        "value":  "Certificate",
-                        "PSPath":  "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant\\programtype.html",
-                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant",
-                        "PSChildName":  "programtype.html",
-                        "PSDrive":  {
-                                        "CurrentLocation":  "xampp\\htdocs\\programs\\marketing_administrative_assistant",
-                                        "Name":  "C",
-                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "Root":  "C:\\",
-                                        "Description":  "",
-                                        "MaximumSize":  null,
-                                        "Credential":  "System.Management.Automation.PSCredential",
-                                        "DisplayRoot":  null
-                                    },
-                        "PSProvider":  {
-                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                           "Name":  "FileSystem",
-                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                           "ModuleName":  "Microsoft.PowerShell.Core",
-                                           "Module":  null,
-                                           "Description":  "",
-                                           "Capabilities":  52,
-                                           "Home":  "C:\\Users\\mike",
-                                           "Drives":  "C D"
-                                       },
-                        "ReadCount":  1
-                    },
-    "programname":  {
-                        "value":  "MARKETING ADMINISTRATION ASSISTANT",
-                        "PSPath":  "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant\\progtitle.html",
-                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant",
-                        "PSChildName":  "progtitle.html",
-                        "PSDrive":  {
-                                        "CurrentLocation":  "xampp\\htdocs\\programs\\marketing_administrative_assistant",
-                                        "Name":  "C",
-                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "Root":  "C:\\",
-                                        "Description":  "",
-                                        "MaximumSize":  null,
-                                        "Credential":  "System.Management.Automation.PSCredential",
-                                        "DisplayRoot":  null
-                                    },
-                        "PSProvider":  {
-                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                           "Name":  "FileSystem",
-                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                           "ModuleName":  "Microsoft.PowerShell.Core",
-                                           "Module":  null,
-                                           "Description":  "",
-                                           "Capabilities":  52,
-                                           "Home":  "C:\\Users\\mike",
-                                           "Drives":  "C D"
-                                       },
-                        "ReadCount":  1
-                    }
-}
-{
-    "domestic_fees":  {
-                          "tuition":  null,
-                          "assessment":  null,
-                          "other":  null,
-                          "application":  null
-                      },
-    "programduration":  null,
-    "admitreq":  null,
-    "salaryend":  null,
-    "prog_video":  "",
-    "careeropp":  null,
-    "programhighlights":  null,
-    "programhours":  null,
-    "syllabuslink":  "marketing_administrative_assistant_outline.pdf",
-    "corecourses":  null,
-    "salarystart":  null,
-    "programtype":  null,
-    "programname":  null
-}
-"{\r\n    \"programname\": \r\n    \"admitreq\": \u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instructions. An admissions interview will be administered to determine if the applicant has     the required interest, motivation, and entry-level skills to take this program. Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them.\u003c/p\u003e\r\n    \"programhighlights\": \u003cp\u003eThe objective of this program is to provide the student with opportunities to acquire and apply the knowledge of desktop publishing \u0026 basic marketing skills to meet the demands of today’s business.\u003c\\/p\u003e\r\n    \"careeropp\": \u003cp\u003eCareers which correspond to the skills learned include:\u003c\\/p\u003e  \u003cul\u003e     \u003cli\u003e         Sales, Marketing and Advertising Assistant\u003c\\/li\u003e     \u003cli\u003eOffice Equipment Operators\u003c\\/li\u003e     \u003cli\u003eAdministrative Support\u003c\\/li\u003e \u003c\\/ul\u003e\r\n    \"corecourses\": \u003cp\u003e     Upon completion of the program the participant must demonstrate the following core competencies:\u003c\\/p\u003e \u003cul class=\"textleft\"\u003e      \u003cli class=\"textleft-ul-li\"\u003e Keyboarding\u003cbr /\u003e Minimum 25 words per minute (WPM).\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e Operating Systems\u003cbr /\u003e Basic level of proficiency in a Windows operating system\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e Word processing\u003cbr /\u003e Intermediate level of proficiency in Microsoft Word\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e Spreadsheets\u003cbr /\u003e Basic level of proficiency in Microsoft Excel\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e Business Skills\u003cbr /\u003e Customer Service, Grammar Essentials for Business Writing, Business Correspondence Level 1, Business Essentials, Marketing and Sales, and Marketing Administration\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e Office Skills\u003cbr /\u003e Internet Fundamentals and basic level of proficiency in Microsoft Outlook\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e Graphics/Presentations\u003cbr /\u003e Advanced level of proficiency in Microsoft PowerPoint, Photoshop, Illustrator, and Microsoft Publisher\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e Web Design\u003cbr /\u003e Dreamweaver     \u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e Job Readiness/Employability Skills\u003cbr /\u003e Job Search and Resume Writing\u003c\\/li\u003e      \u003c\\/ul\u003e\r\n    \"programtype\": Certificate\r\n    \"salarystart\": 27,879\r\n    \"salaryend\": 46,262\r\n    \"programhours\": 697\r\n    \"programduration\": 34\r\n    \"domestic_fees\": @{\r\n        \"tuition\": 10655\r\n        \"application\": 250\r\n        \"assessment\": 100\r\n        \"other\": 4\r\n    }\r\n    \"syllabuslink\": marketing_administrative_assistant_outline.pdf\r\n    \"prog_video\": \"\"\r\n}"
+            },
+            "other": {
+                "value": "4",
+                "PSPath": "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant\\dother.html",
+                "PSParentPath": "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant",
+                "PSChildName": "dother.html",
+                "PSDrive": "C",
+                "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+                "ReadCount": 1
+            },
+            "application": {
+                "value": "250",
+                "PSPath": "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant\\dapp.html",
+                "PSParentPath": "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant",
+                "PSChildName": "dapp.html",
+                "PSDrive": "C",
+                "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+                "ReadCount": 1
+            }
+        },
+        "programduration": {
+            "value": "34",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant\\programduration.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant",
+            "PSChildName": "programduration.html",
+            "PSDrive": {
+                "CurrentLocation": "xampp\\htdocs\\programs\\marketing_administrative_assistant",
+                "Name": "C",
+                "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+                "Root": "C:\\",
+                "Description": "",
+                "MaximumSize": null,
+                "Credential": "System.Management.Automation.PSCredential",
+                "DisplayRoot": null
+            },
+            "PSProvider": {
+                "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+                "HelpFile": "System.Management.Automation.dll-Help.xml",
+                "Name": "FileSystem",
+                "PSSnapIn": "Microsoft.PowerShell.Core",
+                "ModuleName": "Microsoft.PowerShell.Core",
+                "Module": null,
+                "Description": "",
+                "Capabilities": 52,
+                "Home": "C:\\Users\\mike",
+                "Drives": "C D"
+            },
+            "ReadCount": 1
+        },
+        "admitreq": [{
+                "value": "\u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instructions. An admissions interview will be administered to determine if the applicant has",
+                "PSPath": "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant\\admitreq.html",
+                "PSParentPath": "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant",
+                "PSChildName": "admitreq.html",
+                "PSDrive": "C",
+                "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+                "ReadCount": 1
+            },
+            {
+                "value": "    the required interest, motivation, and entry-level skills to take this program. Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them.\u003c/p\u003e",
+                "PSPath": "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant\\admitreq.html",
+                "PSParentPath": "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant",
+                "PSChildName": "admitreq.html",
+                "PSDrive": "C",
+                "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+                "ReadCount": 2
+            }
+        ],
+        "salaryend": {
+            "value": "46,262",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant\\salaryend.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant",
+            "PSChildName": "salaryend.html",
+            "PSDrive": {
+                "CurrentLocation": "xampp\\htdocs\\programs\\marketing_administrative_assistant",
+                "Name": "C",
+                "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+                "Root": "C:\\",
+                "Description": "",
+                "MaximumSize": null,
+                "Credential": "System.Management.Automation.PSCredential",
+                "DisplayRoot": null
+            },
+            "PSProvider": {
+                "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+                "HelpFile": "System.Management.Automation.dll-Help.xml",
+                "Name": "FileSystem",
+                "PSSnapIn": "Microsoft.PowerShell.Core",
+                "ModuleName": "Microsoft.PowerShell.Core",
+                "Module": null,
+                "Description": "",
+                "Capabilities": 52,
+                "Home": "C:\\Users\\mike",
+                "Drives": "C D"
+            },
+            "ReadCount": 1
+        },
+        "prog_video": "",
+        "careeropp": [
+            "\u003cp\u003eCareers which correspond to the skills learned include:\u003c\\/p\u003e",
+            "",
+            "\u003cul\u003e",
+            "    \u003cli\u003e",
+            "        Sales, Marketing and Advertising Assistant\u003c\\/li\u003e",
+            "    \u003cli\u003eOffice Equipment Operators\u003c\\/li\u003e",
+            "    \u003cli\u003eAdministrative Support\u003c\\/li\u003e",
+            "\u003c\\/ul\u003e"
+        ],
+        "programhighlights": "\u003cp\u003eThe objective of this program is to provide the student with opportunities to acquire and apply the knowledge of desktop publishing \u0026 basic marketing skills to meet the demands of today's business.\u003c\\/p\u003e",
+        "programhours": {
+            "value": "697",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant\\programhours.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant",
+            "PSChildName": "programhours.html",
+            "PSDrive": {
+                "CurrentLocation": "xampp\\htdocs\\programs\\marketing_administrative_assistant",
+                "Name": "C",
+                "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+                "Root": "C:\\",
+                "Description": "",
+                "MaximumSize": null,
+                "Credential": "System.Management.Automation.PSCredential",
+                "DisplayRoot": null
+            },
+            "PSProvider": {
+                "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+                "HelpFile": "System.Management.Automation.dll-Help.xml",
+                "Name": "FileSystem",
+                "PSSnapIn": "Microsoft.PowerShell.Core",
+                "ModuleName": "Microsoft.PowerShell.Core",
+                "Module": null,
+                "Description": "",
+                "Capabilities": 52,
+                "Home": "C:\\Users\\mike",
+                "Drives": "C D"
+            },
+            "ReadCount": 1
+        },
+        "syllabuslink": "marketing_administrative_assistant_outline.pdf",
+        "corecourses": [
+            "\u003cp\u003e",
+            "    Upon completion of the program the participant must demonstrate the following core competencies:\u003c\\/p\u003e",
+            "\u003cul class=\"textleft\"\u003e",
+            "",
+            "    \u003cli class=\"textleft-ul-li\"\u003e Keyboarding\u003cbr /\u003e Minimum 25 words per minute (WPM).\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003e Operating Systems\u003cbr /\u003e Basic level of proficiency in a Windows operating system\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003e Word processing\u003cbr /\u003e Intermediate level of proficiency in Microsoft Word\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003e Spreadsheets\u003cbr /\u003e Basic level of proficiency in Microsoft Excel\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003e Business Skills\u003cbr /\u003e Customer Service, Grammar Essentials for Business Writing, Business Correspondence Level 1, Business Essentials, Marketing and Sales, and Marketing Administration\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003e Office Skills\u003cbr /\u003e Internet Fundamentals and basic level of proficiency in Microsoft Outlook\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003e Graphics/Presentations\u003cbr /\u003e Advanced level of proficiency in Microsoft PowerPoint, Photoshop, Illustrator, and Microsoft Publisher\u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003e Web Design\u003cbr /\u003e Dreamweaver",
+            "    \u003c\\/li\u003e",
+            "    \u003cli class=\"textleft-ul-li\"\u003e Job Readiness/Employability Skills\u003cbr /\u003e Job Search and Resume Writing\u003c\\/li\u003e",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "\u003c\\/ul\u003e"
+        ],
+        "salarystart": {
+            "value": "27,879",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant\\salarystart.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant",
+            "PSChildName": "salarystart.html",
+            "PSDrive": {
+                "CurrentLocation": "xampp\\htdocs\\programs\\marketing_administrative_assistant",
+                "Name": "C",
+                "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+                "Root": "C:\\",
+                "Description": "",
+                "MaximumSize": null,
+                "Credential": "System.Management.Automation.PSCredential",
+                "DisplayRoot": null
+            },
+            "PSProvider": {
+                "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+                "HelpFile": "System.Management.Automation.dll-Help.xml",
+                "Name": "FileSystem",
+                "PSSnapIn": "Microsoft.PowerShell.Core",
+                "ModuleName": "Microsoft.PowerShell.Core",
+                "Module": null,
+                "Description": "",
+                "Capabilities": 52,
+                "Home": "C:\\Users\\mike",
+                "Drives": "C D"
+            },
+            "ReadCount": 1
+        },
+        "programtype": {
+            "value": "Certificate",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant\\programtype.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant",
+            "PSChildName": "programtype.html",
+            "PSDrive": {
+                "CurrentLocation": "xampp\\htdocs\\programs\\marketing_administrative_assistant",
+                "Name": "C",
+                "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+                "Root": "C:\\",
+                "Description": "",
+                "MaximumSize": null,
+                "Credential": "System.Management.Automation.PSCredential",
+                "DisplayRoot": null
+            },
+            "PSProvider": {
+                "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+                "HelpFile": "System.Management.Automation.dll-Help.xml",
+                "Name": "FileSystem",
+                "PSSnapIn": "Microsoft.PowerShell.Core",
+                "ModuleName": "Microsoft.PowerShell.Core",
+                "Module": null,
+                "Description": "",
+                "Capabilities": 52,
+                "Home": "C:\\Users\\mike",
+                "Drives": "C D"
+            },
+            "ReadCount": 1
+        },
+        "programname": {
+            "value": "MARKETING ADMINISTRATION ASSISTANT",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant\\progtitle.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\marketing_administrative_assistant",
+            "PSChildName": "progtitle.html",
+            "PSDrive": {
+                "CurrentLocation": "xampp\\htdocs\\programs\\marketing_administrative_assistant",
+                "Name": "C",
+                "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+                "Root": "C:\\",
+                "Description": "",
+                "MaximumSize": null,
+                "Credential": "System.Management.Automation.PSCredential",
+                "DisplayRoot": null
+            },
+            "PSProvider": {
+                "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+                "HelpFile": "System.Management.Automation.dll-Help.xml",
+                "Name": "FileSystem",
+                "PSSnapIn": "Microsoft.PowerShell.Core",
+                "ModuleName": "Microsoft.PowerShell.Core",
+                "Module": null,
+                "Description": "",
+                "Capabilities": 52,
+                "Home": "C:\\Users\\mike",
+                "Drives": "C D"
+            },
+            "ReadCount": 1
+        }
+    } {
+        "domestic_fees": {
+            "tuition": null,
+            "assessment": null,
+            "other": null,
+            "application": null
+        },
+        "programduration": null,
+        "admitreq": null,
+        "salaryend": null,
+        "prog_video": "",
+        "careeropp": null,
+        "programhighlights": null,
+        "programhours": null,
+        "syllabuslink": "marketing_administrative_assistant_outline.pdf",
+        "corecourses": null,
+        "salarystart": null,
+        "programtype": null,
+        "programname": null
+    }
+    "{\r\n    \"programname\": \r\n    \"admitreq\": \u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instructions. An admissions interview will be administered to determine if the applicant has     the required interest, motivation, and entry-level skills to take this program. Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them.\u003c/p\u003e\r\n    \"programhighlights\": \u003cp\u003eThe objective of this program is to provide the student with opportunities to acquire and apply the knowledge of desktop publishing \u0026 basic marketing skills to meet the demands of today's business.\u003c\\/p\u003e\r\n    \"careeropp\": \u003cp\u003eCareers which correspond to the skills learned include:\u003c\\/p\u003e  \u003cul\u003e     \u003cli\u003e         Sales, Marketing and Advertising Assistant\u003c\\/li\u003e     \u003cli\u003eOffice Equipment Operators\u003c\\/li\u003e     \u003cli\u003eAdministrative Support\u003c\\/li\u003e \u003c\\/ul\u003e\r\n    \"corecourses\": \u003cp\u003e     Upon completion of the program the participant must demonstrate the following core competencies:\u003c\\/p\u003e \u003cul class=\"textleft\"\u003e      \u003cli class=\"textleft-ul-li\"\u003e Keyboarding\u003cbr /\u003e Minimum 25 words per minute (WPM).\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e Operating Systems\u003cbr /\u003e Basic level of proficiency in a Windows operating system\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e Word processing\u003cbr /\u003e Intermediate level of proficiency in Microsoft Word\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e Spreadsheets\u003cbr /\u003e Basic level of proficiency in Microsoft Excel\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e Business Skills\u003cbr /\u003e Customer Service, Grammar Essentials for Business Writing, Business Correspondence Level 1, Business Essentials, Marketing and Sales, and Marketing Administration\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e Office Skills\u003cbr /\u003e Internet Fundamentals and basic level of proficiency in Microsoft Outlook\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e Graphics/Presentations\u003cbr /\u003e Advanced level of proficiency in Microsoft PowerPoint, Photoshop, Illustrator, and Microsoft Publisher\u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e Web Design\u003cbr /\u003e Dreamweaver     \u003c\\/li\u003e     \u003cli class=\"textleft-ul-li\"\u003e Job Readiness/Employability Skills\u003cbr /\u003e Job Search and Resume Writing\u003c\\/li\u003e      \u003c\\/ul\u003e\r\n    \"programtype\": Certificate\r\n    \"salarystart\": 27,879\r\n    \"salaryend\": 46,262\r\n    \"programhours\": 697\r\n    \"programduration\": 34\r\n    \"domestic_fees\": @{\r\n        \"tuition\": 10655\r\n        \"application\": 250\r\n        \"assessment\": 100\r\n        \"other\": 4\r\n    }\r\n    \"syllabuslink\": marketing_administrative_assistant_outline.pdf\r\n    \"prog_video\": \"\"\r\n}"

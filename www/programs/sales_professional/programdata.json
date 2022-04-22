@@ -1,9 +1,67 @@
 {
     "programname": "Sales Professional",
-    "admitreq": "<p>Grade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instructions. An admissions interview will be administered to determine if the applicant has the required interest, motivation, and entry-level skills to take this program. Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them. Part-time students may set their own schedules to a minimum of two training sessions per week. These times may be scheduled during the day, evenings, or on weekends.<\/p>",
-    "programhighlights": "<p>With an ever-growing and competitive market, companies are constantly in need of highly professional and motivated salespeople who can be successful in any type of environment. The discerning Sales Professional understands that it is not so much what you do, but “how” you do it. Partnerships and relationships are established and maintained only when the Sales Professional provides exceptional customer value. Customers have fundamentally changed their expectations in recent years and desire to build a relationship with a Sales Professional who provides value, not just communicates it. This program is designed to provide students with the fundamental skills, knowledge, and attitudes required for success in an entry-level position. It will appeal to those individuals who are charismatic, energetic, strong communicators, driven by results, and willing to put themselves on the front line. This program provides students with:<\/p> <ul> <li>The knowledge and skills necessary to manage relationships and key accounts.<\/li> <li>An understanding of the sales profession and the environments in which they will be selling.<\/li> <li>The opportunity to explore the consultative selling approach and various selling processes in depth.<\/li> <li>Professional skills to develop sale proposals and deliver effective sales presentations.<\/li> <li>The ability to assess their potential clients and adjust their personality style to successfully build rapport with each client.<\/li> <\/ul>",
-    "careeropp": "<p>Graduates of this program will find opportunities in a variety of companies that produce or provide goods and/or services. Careers that correspond with the skills learned in this program include:<\/p> <ul> <li>Account Executive<\/li> <li>Sales Agent<\/li> <li>Broker<\/li> <li>Exporter<\/li> <li>Merchandiser<\/li> <li>Sales Consultant<\/li> <li>Salesperson<\/li> <li>Sales Representative<\/li> <\/ul>",
-    "corecourses": "<p>Upon completion of the program the participant must demonstrate the following core competencies:<\/p> <ul> <li>Word Processing<br /> Basic level of proficiency in Microsoft Word<\/li> <li>Spreadsheets<br /> Basic level of proficiency in Microsoft Excel<\/li> <li>Simulations and Drills<br /> Practical Applications – 1 Unit<\/li> <li>Database Management<br /> Basic level of proficiency in Microsoft Access<\/li> <li>Graphics/Presentation<br /> Basic level of proficiency in Microsoft PowerPoint<\/li> <li>Office Skills<br /> Basic level of proficiency in Microsoft Outlook<\/li> <li>Business Skills<br /> Customer Service, Grammar Essentials for Business Writing, Business Correspondence Levels 1 and 2, Business Essentials, Business Math, Marketing and Sales, Principles of Selling, Business Presentations, Business in the Digital Age, Business Law & Ethics, Business Negotiations and Contracts, Business Verbal Communication, and Professional Selling<\/li> <li>Job Readiness/Employability Skills<br /> Job Search and Résumé Writing, Thought Patterns for a Successful Career, and Employment Success Strategies<\/li> <\/ul>",
+    "admitreq": "{ "
+    style " : "
+    p ", "
+    content ": Grade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instructions. An admissions interview will be administered to determine if the applicant has the required interest, motivation, and entry-level skills to take this program. Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them. Part-time students may set their own schedules to a minimum of two training sessions per week. These times may be scheduled during the day, evenings, or on weekends.<\/p>",
+    "programhighlights": "{ "
+    style " : "
+    p ", "
+    content ": With an ever-growing and competitive market, companies are constantly in need of highly professional and motivated salespeople who can be successful in any type of environment. The discerning Sales Professional understands that it is not so much what you do, but “how” you do it. Partnerships and relationships are established and maintained only when the Sales Professional provides exceptional customer value. Customers have fundamentally changed their expectations in recent years and desire to build a relationship with a Sales Professional who provides value, not just communicates it. This program is designed to provide students with the fundamental skills, knowledge, and attitudes required for success in an entry-level position. It will appeal to those individuals who are charismatic, energetic, strong communicators, driven by results, and willing to put themselves on the front line. This program provides students with:<\/p> { "
+    ul_start ": "
+    true " }, { "
+    style " :  "
+    li ", "
+    content ": "
+    The knowledge and skills necessary to manage relationships and key accounts. < \/li> { "style" :  "li", "content": "An understanding of the sales profession and the environments in which they will be selling.<\/li> { "style" :  "li", "content": "The opportunity to explore the consultative selling approach and various selling processes in depth.<\/li> { "style" :  "li", "content": "Professional skills to develop sale proposals and deliver effective sales presentations.<\/li> { "style" :  "li", "content": "The ability to assess their potential clients and adjust their personality style to successfully build rapport with each client.<\/li> <\/ul>",
+    "careeropp": "{ "
+    style " : "
+    p ", "
+    content ": Graduates of this program will find opportunities in a variety of companies that produce or provide goods and/or services. Careers that correspond with the skills learned in this program include:<\/p> { "
+    ul_start ": "
+    true " }, { "
+    style " :  "
+    li ", "
+    content ": "
+    Account Executive < \/li> { "style" :  "li", "content": "Sales Agent<\/li> { "style" :  "li", "content": "Broker<\/li> { "style" :  "li", "content": "Exporter<\/li> { "style" :  "li", "content": "Merchandiser<\/li> { "style" :  "li", "content": "Sales Consultant<\/li> { "style" :  "li", "content": "Salesperson<\/li> { "style" :  "li", "content": "Sales Representative<\/li> <\/ul>",
+    "corecourses": "{ "
+    style " : "
+    p ", "
+    content ": Upon completion of the program the participant must demonstrate the following core competencies:<\/p> { "
+    ul_start ": "
+    true " }, { "
+    style ": "
+    li ", "
+    li_title " :Word Processing",
+    "content": " Basic level of proficiency in Microsoft Word<\/li> { "
+    style ": "
+    li ", "
+    li_title " :Spreadsheets",
+    "content": " Basic level of proficiency in Microsoft Excel<\/li> { "
+    style ": "
+    li ", "
+    li_title " :Simulations and Drills",
+    "content": " Practical Applications – 1 Unit<\/li> { "
+    style ": "
+    li ", "
+    li_title " :Database Management",
+    "content": " Basic level of proficiency in Microsoft Access<\/li> { "
+    style ": "
+    li ", "
+    li_title " :Graphics/Presentation",
+    "content": " Basic level of proficiency in Microsoft PowerPoint<\/li> { "
+    style ": "
+    li ", "
+    li_title " :Office Skills",
+    "content": " Basic level of proficiency in Microsoft Outlook<\/li> { "
+    style ": "
+    li ", "
+    li_title " :Business Skills",
+    "content": " Customer Service, Grammar Essentials for Business Writing, Business Correspondence Levels 1 and 2, Business Essentials, Business Math, Marketing and Sales, Principles of Selling, Business Presentations, Business in the Digital Age, Business Law & Ethics, Business Negotiations and Contracts, Business Verbal Communication, and Professional Selling<\/li> { "
+    style ": "
+    li ", "
+    li_title " :Job Readiness/Employability Skills",
+    "content": " Job Search and Résumé Writing, Thought Patterns for a Successful Career, and Employment Success Strategies<\/li> <\/ul>",
     "programtype": "Diploma",
     "salarystart": 34434,
     "salaryend": 84988,
@@ -18,305 +76,317 @@
     }],
     "syllabuslink": "sales_professional_outline.pdf",
     "prog_video": ""
-}@{domestic_fees=; programduration=; admitreq=System.Object[]; salaryend=; prog_video=; careeropp=System.Object[]; programhighlights=System.Object[]; programhours=; syllabuslink=sales_professional_outline.pdf; corecourses=System.Object[]; salarystart=; programtype=; programname=}
-{
-    "domestic_fees":  {
-                          "tuition":  {
-                                          "value":  "11787",
-                                          "PSPath":  "C:\\xampp\\htdocs\\programs\\sales_professional\\dtuition.html",
-                                          "PSParentPath":  "C:\\xampp\\htdocs\\programs\\sales_professional",
-                                          "PSChildName":  "dtuition.html",
-                                          "PSDrive":  "C",
-                                          "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                          "ReadCount":  1
-                                      },
-                          "assessment":  {
-
-                                         },
-                          "other":  {
-                                        "value":  "4",
-                                        "PSPath":  "C:\\xampp\\htdocs\\programs\\sales_professional\\dother.html",
-                                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\sales_professional",
-                                        "PSChildName":  "dother.html",
-                                        "PSDrive":  "C",
-                                        "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "ReadCount":  1
-                                    },
-                          "application":  {
-                                              "value":  "250",
-                                              "PSPath":  "C:\\xampp\\htdocs\\programs\\sales_professional\\dapp.html",
-                                              "PSParentPath":  "C:\\xampp\\htdocs\\programs\\sales_professional",
-                                              "PSChildName":  "dapp.html",
-                                              "PSDrive":  "C",
-                                              "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                              "ReadCount":  1
-                                          }
-                      },
-    "programduration":  {
-                            "value":  "38",
-                            "PSPath":  "C:\\xampp\\htdocs\\programs\\sales_professional\\programduration.html",
-                            "PSParentPath":  "C:\\xampp\\htdocs\\programs\\sales_professional",
-                            "PSChildName":  "programduration.html",
-                            "PSDrive":  {
-                                            "CurrentLocation":  "xampp\\htdocs\\programs\\sales_professional",
-                                            "Name":  "C",
-                                            "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                            "Root":  "C:\\",
-                                            "Description":  "",
-                                            "MaximumSize":  null,
-                                            "Credential":  "System.Management.Automation.PSCredential",
-                                            "DisplayRoot":  null
-                                        },
-                            "PSProvider":  {
-                                               "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                               "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                               "Name":  "FileSystem",
-                                               "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                               "ModuleName":  "Microsoft.PowerShell.Core",
-                                               "Module":  null,
-                                               "Description":  "",
-                                               "Capabilities":  52,
-                                               "Home":  "C:\\Users\\mike",
-                                               "Drives":  "C D"
-                                           },
-                            "ReadCount":  1
-                        },
-    "admitreq":  [
-                     {
-                         "value":  "\u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instructions. An admissions interview will be administered to determine if the applicant has",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\sales_professional\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\sales_professional",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  1
-                     },
-                     {
-                         "value":  "    the required interest, motivation, and entry-level skills to take this program. Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them. Part-time students may set their own schedules",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\sales_professional\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\sales_professional",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  2
-                     },
-                     {
-                         "value":  "    to a minimum of two training sessions per week. These times may be scheduled during the day, evenings, or on weekends.\u003c/p\u003e",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\sales_professional\\admitreq.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\sales_professional",
-                         "PSChildName":  "admitreq.html",
-                         "PSDrive":  "C",
-                         "PSProvider":  "Microsoft.PowerShell.Core\\FileSystem",
-                         "ReadCount":  3
-                     }
-                 ],
-    "salaryend":  {
-                      "value":  "84,988",
-                      "PSPath":  "C:\\xampp\\htdocs\\programs\\sales_professional\\salaryend.html",
-                      "PSParentPath":  "C:\\xampp\\htdocs\\programs\\sales_professional",
-                      "PSChildName":  "salaryend.html",
-                      "PSDrive":  {
-                                      "CurrentLocation":  "xampp\\htdocs\\programs\\sales_professional",
-                                      "Name":  "C",
-                                      "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                      "Root":  "C:\\",
-                                      "Description":  "",
-                                      "MaximumSize":  null,
-                                      "Credential":  "System.Management.Automation.PSCredential",
-                                      "DisplayRoot":  null
-                                  },
-                      "PSProvider":  {
-                                         "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                         "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                         "Name":  "FileSystem",
-                                         "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                         "ModuleName":  "Microsoft.PowerShell.Core",
-                                         "Module":  null,
-                                         "Description":  "",
-                                         "Capabilities":  52,
-                                         "Home":  "C:\\Users\\mike",
-                                         "Drives":  "C D"
-                                     },
-                      "ReadCount":  1
-                  },
-    "prog_video":  "",
-    "careeropp":  [
-                      "\u003cp\u003eGraduates of this program will find opportunities in a variety of companies that produce or provide goods and/or services. Careers that correspond with the skills learned in this program include:\u003c\\/p\u003e",
-                      "\u003cul\u003e",
-                      "    \u003cli\u003eAccount Executive\u003c\\/li\u003e",
-                      "    \u003cli\u003eSales Agent\u003c\\/li\u003e",
-                      "    \u003cli\u003eBroker\u003c\\/li\u003e",
-                      "    \u003cli\u003eExporter\u003c\\/li\u003e",
-                      "    \u003cli\u003eMerchandiser\u003c\\/li\u003e",
-                      "    \u003cli\u003eSales Consultant\u003c\\/li\u003e",
-                      "    \u003cli\u003eSalesperson\u003c\\/li\u003e",
-                      "    \u003cli\u003eSales Representative\u003c\\/li\u003e",
-                      "\u003c\\/ul\u003e"
-                  ],
-    "programhighlights":  [
-                              "\u003cp\u003eWith an ever-growing and competitive market, companies are constantly in need of highly professional and motivated salespeople who can be successful in any type of environment. The discerning Sales Professional understands that it is not so much what",
-                              "    you do, but “how” you do it. Partnerships and relationships are established and maintained only when the Sales Professional provides exceptional customer value. Customers have fundamentally changed their expectations in recent years and desire to",
-                              "    build a relationship with a Sales Professional who provides value, not just communicates it. This program is designed to provide students with the fundamental skills, knowledge, and attitudes required for success in an entry-level position. It will",
-                              "    appeal to those individuals who are charismatic, energetic, strong communicators, driven by results, and willing to put themselves on the front line. This program provides students with:\u003c\\/p\u003e",
-                              "",
-                              "\u003cul\u003e",
-                              "    \u003cli\u003eThe knowledge and skills necessary to manage relationships and key accounts.\u003c\\/li\u003e",
-                              "    \u003cli\u003eAn understanding of the sales profession and the environments in which they will be selling.\u003c\\/li\u003e",
-                              "    \u003cli\u003eThe opportunity to explore the consultative selling approach and various selling processes in depth.\u003c\\/li\u003e",
-                              "    \u003cli\u003eProfessional skills to develop sale proposals and deliver effective sales presentations.\u003c\\/li\u003e",
-                              "    \u003cli\u003eThe ability to assess their potential clients and adjust their personality style to successfully build rapport with each client.\u003c\\/li\u003e",
-                              "\u003c\\/ul\u003e"
-                          ],
-    "programhours":  {
-                         "value":  "773",
-                         "PSPath":  "C:\\xampp\\htdocs\\programs\\sales_professional\\programhours.html",
-                         "PSParentPath":  "C:\\xampp\\htdocs\\programs\\sales_professional",
-                         "PSChildName":  "programhours.html",
-                         "PSDrive":  {
-                                         "CurrentLocation":  "xampp\\htdocs\\programs\\sales_professional",
-                                         "Name":  "C",
-                                         "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                         "Root":  "C:\\",
-                                         "Description":  "",
-                                         "MaximumSize":  null,
-                                         "Credential":  "System.Management.Automation.PSCredential",
-                                         "DisplayRoot":  null
-                                     },
-                         "PSProvider":  {
-                                            "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                            "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                            "Name":  "FileSystem",
-                                            "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                            "ModuleName":  "Microsoft.PowerShell.Core",
-                                            "Module":  null,
-                                            "Description":  "",
-                                            "Capabilities":  52,
-                                            "Home":  "C:\\Users\\mike",
-                                            "Drives":  "C D"
-                                        },
-                         "ReadCount":  1
-                     },
-    "syllabuslink":  "sales_professional_outline.pdf",
-    "corecourses":  [
-                        "\u003cp\u003eUpon completion of the program the participant must demonstrate the following core competencies:\u003c\\/p\u003e",
-                        "\u003cul\u003e",
-                        "    \u003cli\u003eWord Processing\u003cbr /\u003e Basic level of proficiency in Microsoft Word\u003c\\/li\u003e",
-                        "    \u003cli\u003eSpreadsheets\u003cbr /\u003e Basic level of proficiency in Microsoft Excel\u003c\\/li\u003e",
-                        "    \u003cli\u003eSimulations and Drills\u003cbr /\u003e Practical Applications – 1 Unit\u003c\\/li\u003e",
-                        "    \u003cli\u003eDatabase Management\u003cbr /\u003e Basic level of proficiency in Microsoft Access\u003c\\/li\u003e",
-                        "    \u003cli\u003eGraphics/Presentation\u003cbr /\u003e Basic level of proficiency in Microsoft PowerPoint\u003c\\/li\u003e",
-                        "    \u003cli\u003eOffice Skills\u003cbr /\u003e Basic level of proficiency in Microsoft Outlook\u003c\\/li\u003e",
-                        "    \u003cli\u003eBusiness Skills\u003cbr /\u003e Customer Service, Grammar Essentials for Business Writing, Business Correspondence Levels 1 and 2, Business Essentials, Business Math, Marketing and Sales, Principles of Selling, Business Presentations, Business in the Digital",
-                        "        Age, Business Law \u0026 Ethics, Business Negotiations and Contracts, Business Verbal Communication, and Professional Selling\u003c\\/li\u003e",
-                        "    \u003cli\u003eJob Readiness/Employability Skills\u003cbr /\u003e Job Search and Résumé Writing, Thought Patterns for a Successful Career, and Employment Success Strategies\u003c\\/li\u003e",
-                        "\u003c\\/ul\u003e"
-                    ],
-    "salarystart":  {
-                        "value":  "34,434",
-                        "PSPath":  "C:\\xampp\\htdocs\\programs\\sales_professional\\salarystart.html",
-                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\sales_professional",
-                        "PSChildName":  "salarystart.html",
-                        "PSDrive":  {
-                                        "CurrentLocation":  "xampp\\htdocs\\programs\\sales_professional",
-                                        "Name":  "C",
-                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "Root":  "C:\\",
-                                        "Description":  "",
-                                        "MaximumSize":  null,
-                                        "Credential":  "System.Management.Automation.PSCredential",
-                                        "DisplayRoot":  null
-                                    },
-                        "PSProvider":  {
-                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                           "Name":  "FileSystem",
-                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                           "ModuleName":  "Microsoft.PowerShell.Core",
-                                           "Module":  null,
-                                           "Description":  "",
-                                           "Capabilities":  52,
-                                           "Home":  "C:\\Users\\mike",
-                                           "Drives":  "C D"
-                                       },
-                        "ReadCount":  1
-                    },
-    "programtype":  {
-                        "value":  "Diploma",
-                        "PSPath":  "C:\\xampp\\htdocs\\programs\\sales_professional\\programtype.html",
-                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\sales_professional",
-                        "PSChildName":  "programtype.html",
-                        "PSDrive":  {
-                                        "CurrentLocation":  "xampp\\htdocs\\programs\\sales_professional",
-                                        "Name":  "C",
-                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "Root":  "C:\\",
-                                        "Description":  "",
-                                        "MaximumSize":  null,
-                                        "Credential":  "System.Management.Automation.PSCredential",
-                                        "DisplayRoot":  null
-                                    },
-                        "PSProvider":  {
-                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                           "Name":  "FileSystem",
-                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                           "ModuleName":  "Microsoft.PowerShell.Core",
-                                           "Module":  null,
-                                           "Description":  "",
-                                           "Capabilities":  52,
-                                           "Home":  "C:\\Users\\mike",
-                                           "Drives":  "C D"
-                                       },
-                        "ReadCount":  1
-                    },
-    "programname":  {
-                        "value":  "SALES PROFESSIONAL",
-                        "PSPath":  "C:\\xampp\\htdocs\\programs\\sales_professional\\progtitle.html",
-                        "PSParentPath":  "C:\\xampp\\htdocs\\programs\\sales_professional",
-                        "PSChildName":  "progtitle.html",
-                        "PSDrive":  {
-                                        "CurrentLocation":  "xampp\\htdocs\\programs\\sales_professional",
-                                        "Name":  "C",
-                                        "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
-                                        "Root":  "C:\\",
-                                        "Description":  "",
-                                        "MaximumSize":  null,
-                                        "Credential":  "System.Management.Automation.PSCredential",
-                                        "DisplayRoot":  null
-                                    },
-                        "PSProvider":  {
-                                           "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
-                                           "HelpFile":  "System.Management.Automation.dll-Help.xml",
-                                           "Name":  "FileSystem",
-                                           "PSSnapIn":  "Microsoft.PowerShell.Core",
-                                           "ModuleName":  "Microsoft.PowerShell.Core",
-                                           "Module":  null,
-                                           "Description":  "",
-                                           "Capabilities":  52,
-                                           "Home":  "C:\\Users\\mike",
-                                           "Drives":  "C D"
-                                       },
-                        "ReadCount":  1
-                    }
 }
-{
-    "domestic_fees":  {
-                          "tuition":  null,
-                          "assessment":  null,
-                          "other":  null,
-                          "application":  null
-                      },
-    "programduration":  null,
-    "admitreq":  null,
-    "salaryend":  null,
-    "prog_video":  "",
-    "careeropp":  null,
-    "programhighlights":  null,
-    "programhours":  null,
-    "syllabuslink":  "sales_professional_outline.pdf",
-    "corecourses":  null,
-    "salarystart":  null,
-    "programtype":  null,
-    "programname":  null
+@ {
+    domestic_fees = ;
+    programduration = ;
+    admitreq = System.Object[];
+    salaryend = ;
+    prog_video = ;
+    careeropp = System.Object[];
+    programhighlights = System.Object[];
+    programhours = ;
+    syllabuslink = sales_professional_outline.pdf;
+    corecourses = System.Object[];
+    salarystart = ;
+    programtype = ;
+    programname =
+} {
+    "domestic_fees": {
+        "tuition": {
+            "value": "11787",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\sales_professional\\dtuition.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\sales_professional",
+            "PSChildName": "dtuition.html",
+            "PSDrive": "C",
+            "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+            "ReadCount": 1
+        },
+        "assessment": {
+
+        },
+        "other": {
+            "value": "4",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\sales_professional\\dother.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\sales_professional",
+            "PSChildName": "dother.html",
+            "PSDrive": "C",
+            "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+            "ReadCount": 1
+        },
+        "application": {
+            "value": "250",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\sales_professional\\dapp.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\sales_professional",
+            "PSChildName": "dapp.html",
+            "PSDrive": "C",
+            "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+            "ReadCount": 1
+        }
+    },
+    "programduration": {
+        "value": "38",
+        "PSPath": "C:\\xampp\\htdocs\\programs\\sales_professional\\programduration.html",
+        "PSParentPath": "C:\\xampp\\htdocs\\programs\\sales_professional",
+        "PSChildName": "programduration.html",
+        "PSDrive": {
+            "CurrentLocation": "xampp\\htdocs\\programs\\sales_professional",
+            "Name": "C",
+            "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+            "Root": "C:\\",
+            "Description": "",
+            "MaximumSize": null,
+            "Credential": "System.Management.Automation.PSCredential",
+            "DisplayRoot": null
+        },
+        "PSProvider": {
+            "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+            "HelpFile": "System.Management.Automation.dll-Help.xml",
+            "Name": "FileSystem",
+            "PSSnapIn": "Microsoft.PowerShell.Core",
+            "ModuleName": "Microsoft.PowerShell.Core",
+            "Module": null,
+            "Description": "",
+            "Capabilities": 52,
+            "Home": "C:\\Users\\mike",
+            "Drives": "C D"
+        },
+        "ReadCount": 1
+    },
+    "admitreq": [{
+            "value": "\u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instructions. An admissions interview will be administered to determine if the applicant has",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\sales_professional\\admitreq.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\sales_professional",
+            "PSChildName": "admitreq.html",
+            "PSDrive": "C",
+            "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+            "ReadCount": 1
+        },
+        {
+            "value": "    the required interest, motivation, and entry-level skills to take this program. Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them. Part-time students may set their own schedules",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\sales_professional\\admitreq.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\sales_professional",
+            "PSChildName": "admitreq.html",
+            "PSDrive": "C",
+            "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+            "ReadCount": 2
+        },
+        {
+            "value": "    to a minimum of two training sessions per week. These times may be scheduled during the day, evenings, or on weekends.\u003c/p\u003e",
+            "PSPath": "C:\\xampp\\htdocs\\programs\\sales_professional\\admitreq.html",
+            "PSParentPath": "C:\\xampp\\htdocs\\programs\\sales_professional",
+            "PSChildName": "admitreq.html",
+            "PSDrive": "C",
+            "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+            "ReadCount": 3
+        }
+    ],
+    "salaryend": {
+        "value": "84,988",
+        "PSPath": "C:\\xampp\\htdocs\\programs\\sales_professional\\salaryend.html",
+        "PSParentPath": "C:\\xampp\\htdocs\\programs\\sales_professional",
+        "PSChildName": "salaryend.html",
+        "PSDrive": {
+            "CurrentLocation": "xampp\\htdocs\\programs\\sales_professional",
+            "Name": "C",
+            "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+            "Root": "C:\\",
+            "Description": "",
+            "MaximumSize": null,
+            "Credential": "System.Management.Automation.PSCredential",
+            "DisplayRoot": null
+        },
+        "PSProvider": {
+            "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+            "HelpFile": "System.Management.Automation.dll-Help.xml",
+            "Name": "FileSystem",
+            "PSSnapIn": "Microsoft.PowerShell.Core",
+            "ModuleName": "Microsoft.PowerShell.Core",
+            "Module": null,
+            "Description": "",
+            "Capabilities": 52,
+            "Home": "C:\\Users\\mike",
+            "Drives": "C D"
+        },
+        "ReadCount": 1
+    },
+    "prog_video": "",
+    "careeropp": [
+        "\u003cp\u003eGraduates of this program will find opportunities in a variety of companies that produce or provide goods and/or services. Careers that correspond with the skills learned in this program include:\u003c\\/p\u003e",
+        "\u003cul\u003e",
+        "    \u003cli\u003eAccount Executive\u003c\\/li\u003e",
+        "    \u003cli\u003eSales Agent\u003c\\/li\u003e",
+        "    \u003cli\u003eBroker\u003c\\/li\u003e",
+        "    \u003cli\u003eExporter\u003c\\/li\u003e",
+        "    \u003cli\u003eMerchandiser\u003c\\/li\u003e",
+        "    \u003cli\u003eSales Consultant\u003c\\/li\u003e",
+        "    \u003cli\u003eSalesperson\u003c\\/li\u003e",
+        "    \u003cli\u003eSales Representative\u003c\\/li\u003e",
+        "\u003c\\/ul\u003e"
+    ],
+    "programhighlights": [
+        "\u003cp\u003eWith an ever-growing and competitive market, companies are constantly in need of highly professional and motivated salespeople who can be successful in any type of environment. The discerning Sales Professional understands that it is not so much what",
+        "    you do, but “how” you do it. Partnerships and relationships are established and maintained only when the Sales Professional provides exceptional customer value. Customers have fundamentally changed their expectations in recent years and desire to",
+        "    build a relationship with a Sales Professional who provides value, not just communicates it. This program is designed to provide students with the fundamental skills, knowledge, and attitudes required for success in an entry-level position. It will",
+        "    appeal to those individuals who are charismatic, energetic, strong communicators, driven by results, and willing to put themselves on the front line. This program provides students with:\u003c\\/p\u003e",
+        "",
+        "\u003cul\u003e",
+        "    \u003cli\u003eThe knowledge and skills necessary to manage relationships and key accounts.\u003c\\/li\u003e",
+        "    \u003cli\u003eAn understanding of the sales profession and the environments in which they will be selling.\u003c\\/li\u003e",
+        "    \u003cli\u003eThe opportunity to explore the consultative selling approach and various selling processes in depth.\u003c\\/li\u003e",
+        "    \u003cli\u003eProfessional skills to develop sale proposals and deliver effective sales presentations.\u003c\\/li\u003e",
+        "    \u003cli\u003eThe ability to assess their potential clients and adjust their personality style to successfully build rapport with each client.\u003c\\/li\u003e",
+        "\u003c\\/ul\u003e"
+    ],
+    "programhours": {
+        "value": "773",
+        "PSPath": "C:\\xampp\\htdocs\\programs\\sales_professional\\programhours.html",
+        "PSParentPath": "C:\\xampp\\htdocs\\programs\\sales_professional",
+        "PSChildName": "programhours.html",
+        "PSDrive": {
+            "CurrentLocation": "xampp\\htdocs\\programs\\sales_professional",
+            "Name": "C",
+            "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+            "Root": "C:\\",
+            "Description": "",
+            "MaximumSize": null,
+            "Credential": "System.Management.Automation.PSCredential",
+            "DisplayRoot": null
+        },
+        "PSProvider": {
+            "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+            "HelpFile": "System.Management.Automation.dll-Help.xml",
+            "Name": "FileSystem",
+            "PSSnapIn": "Microsoft.PowerShell.Core",
+            "ModuleName": "Microsoft.PowerShell.Core",
+            "Module": null,
+            "Description": "",
+            "Capabilities": 52,
+            "Home": "C:\\Users\\mike",
+            "Drives": "C D"
+        },
+        "ReadCount": 1
+    },
+    "syllabuslink": "sales_professional_outline.pdf",
+    "corecourses": [
+        "\u003cp\u003eUpon completion of the program the participant must demonstrate the following core competencies:\u003c\\/p\u003e",
+        "\u003cul\u003e",
+        "    \u003cli\u003eWord Processing\u003cbr /\u003e Basic level of proficiency in Microsoft Word\u003c\\/li\u003e",
+        "    \u003cli\u003eSpreadsheets\u003cbr /\u003e Basic level of proficiency in Microsoft Excel\u003c\\/li\u003e",
+        "    \u003cli\u003eSimulations and Drills\u003cbr /\u003e Practical Applications – 1 Unit\u003c\\/li\u003e",
+        "    \u003cli\u003eDatabase Management\u003cbr /\u003e Basic level of proficiency in Microsoft Access\u003c\\/li\u003e",
+        "    \u003cli\u003eGraphics/Presentation\u003cbr /\u003e Basic level of proficiency in Microsoft PowerPoint\u003c\\/li\u003e",
+        "    \u003cli\u003eOffice Skills\u003cbr /\u003e Basic level of proficiency in Microsoft Outlook\u003c\\/li\u003e",
+        "    \u003cli\u003eBusiness Skills\u003cbr /\u003e Customer Service, Grammar Essentials for Business Writing, Business Correspondence Levels 1 and 2, Business Essentials, Business Math, Marketing and Sales, Principles of Selling, Business Presentations, Business in the Digital",
+        "        Age, Business Law \u0026 Ethics, Business Negotiations and Contracts, Business Verbal Communication, and Professional Selling\u003c\\/li\u003e",
+        "    \u003cli\u003eJob Readiness/Employability Skills\u003cbr /\u003e Job Search and Résumé Writing, Thought Patterns for a Successful Career, and Employment Success Strategies\u003c\\/li\u003e",
+        "\u003c\\/ul\u003e"
+    ],
+    "salarystart": {
+        "value": "34,434",
+        "PSPath": "C:\\xampp\\htdocs\\programs\\sales_professional\\salarystart.html",
+        "PSParentPath": "C:\\xampp\\htdocs\\programs\\sales_professional",
+        "PSChildName": "salarystart.html",
+        "PSDrive": {
+            "CurrentLocation": "xampp\\htdocs\\programs\\sales_professional",
+            "Name": "C",
+            "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+            "Root": "C:\\",
+            "Description": "",
+            "MaximumSize": null,
+            "Credential": "System.Management.Automation.PSCredential",
+            "DisplayRoot": null
+        },
+        "PSProvider": {
+            "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+            "HelpFile": "System.Management.Automation.dll-Help.xml",
+            "Name": "FileSystem",
+            "PSSnapIn": "Microsoft.PowerShell.Core",
+            "ModuleName": "Microsoft.PowerShell.Core",
+            "Module": null,
+            "Description": "",
+            "Capabilities": 52,
+            "Home": "C:\\Users\\mike",
+            "Drives": "C D"
+        },
+        "ReadCount": 1
+    },
+    "programtype": {
+        "value": "Diploma",
+        "PSPath": "C:\\xampp\\htdocs\\programs\\sales_professional\\programtype.html",
+        "PSParentPath": "C:\\xampp\\htdocs\\programs\\sales_professional",
+        "PSChildName": "programtype.html",
+        "PSDrive": {
+            "CurrentLocation": "xampp\\htdocs\\programs\\sales_professional",
+            "Name": "C",
+            "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+            "Root": "C:\\",
+            "Description": "",
+            "MaximumSize": null,
+            "Credential": "System.Management.Automation.PSCredential",
+            "DisplayRoot": null
+        },
+        "PSProvider": {
+            "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+            "HelpFile": "System.Management.Automation.dll-Help.xml",
+            "Name": "FileSystem",
+            "PSSnapIn": "Microsoft.PowerShell.Core",
+            "ModuleName": "Microsoft.PowerShell.Core",
+            "Module": null,
+            "Description": "",
+            "Capabilities": 52,
+            "Home": "C:\\Users\\mike",
+            "Drives": "C D"
+        },
+        "ReadCount": 1
+    },
+    "programname": {
+        "value": "SALES PROFESSIONAL",
+        "PSPath": "C:\\xampp\\htdocs\\programs\\sales_professional\\progtitle.html",
+        "PSParentPath": "C:\\xampp\\htdocs\\programs\\sales_professional",
+        "PSChildName": "progtitle.html",
+        "PSDrive": {
+            "CurrentLocation": "xampp\\htdocs\\programs\\sales_professional",
+            "Name": "C",
+            "Provider": "Microsoft.PowerShell.Core\\FileSystem",
+            "Root": "C:\\",
+            "Description": "",
+            "MaximumSize": null,
+            "Credential": "System.Management.Automation.PSCredential",
+            "DisplayRoot": null
+        },
+        "PSProvider": {
+            "ImplementingType": "Microsoft.PowerShell.Commands.FileSystemProvider",
+            "HelpFile": "System.Management.Automation.dll-Help.xml",
+            "Name": "FileSystem",
+            "PSSnapIn": "Microsoft.PowerShell.Core",
+            "ModuleName": "Microsoft.PowerShell.Core",
+            "Module": null,
+            "Description": "",
+            "Capabilities": 52,
+            "Home": "C:\\Users\\mike",
+            "Drives": "C D"
+        },
+        "ReadCount": 1
+    }
+} {
+    "domestic_fees": {
+        "tuition": null,
+        "assessment": null,
+        "other": null,
+        "application": null
+    },
+    "programduration": null,
+    "admitreq": null,
+    "salaryend": null,
+    "prog_video": "",
+    "careeropp": null,
+    "programhighlights": null,
+    "programhours": null,
+    "syllabuslink": "sales_professional_outline.pdf",
+    "corecourses": null,
+    "salarystart": null,
+    "programtype": null,
+    "programname": null
 }
 "{\r\n    \"programname\": \r\n    \"admitreq\": \u003cp\u003eGrade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instructions. An admissions interview will be administered to determine if the applicant has     the required interest, motivation, and entry-level skills to take this program. Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them. Part-time students may set their own schedules     to a minimum of two training sessions per week. These times may be scheduled during the day, evenings, or on weekends.\u003c/p\u003e\r\n    \"programhighlights\": \u003cp\u003eWith an ever-growing and competitive market, companies are constantly in need of highly professional and motivated salespeople who can be successful in any type of environment. The discerning Sales Professional understands that it is not so much what     you do, but “how” you do it. Partnerships and relationships are established and maintained only when the Sales Professional provides exceptional customer value. Customers have fundamentally changed their expectations in recent years and desire to     build a relationship with a Sales Professional who provides value, not just communicates it. This program is designed to provide students with the fundamental skills, knowledge, and attitudes required for success in an entry-level position. It will     appeal to those individuals who are charismatic, energetic, strong communicators, driven by results, and willing to put themselves on the front line. This program provides students with:\u003c\\/p\u003e  \u003cul\u003e     \u003cli\u003eThe knowledge and skills necessary to manage relationships and key accounts.\u003c\\/li\u003e     \u003cli\u003eAn understanding of the sales profession and the environments in which they will be selling.\u003c\\/li\u003e     \u003cli\u003eThe opportunity to explore the consultative selling approach and various selling processes in depth.\u003c\\/li\u003e     \u003cli\u003eProfessional skills to develop sale proposals and deliver effective sales presentations.\u003c\\/li\u003e     \u003cli\u003eThe ability to assess their potential clients and adjust their personality style to successfully build rapport with each client.\u003c\\/li\u003e \u003c\\/ul\u003e\r\n    \"careeropp\": \u003cp\u003eGraduates of this program will find opportunities in a variety of companies that produce or provide goods and/or services. Careers that correspond with the skills learned in this program include:\u003c\\/p\u003e \u003cul\u003e     \u003cli\u003eAccount Executive\u003c\\/li\u003e     \u003cli\u003eSales Agent\u003c\\/li\u003e     \u003cli\u003eBroker\u003c\\/li\u003e     \u003cli\u003eExporter\u003c\\/li\u003e     \u003cli\u003eMerchandiser\u003c\\/li\u003e     \u003cli\u003eSales Consultant\u003c\\/li\u003e     \u003cli\u003eSalesperson\u003c\\/li\u003e     \u003cli\u003eSales Representative\u003c\\/li\u003e \u003c\\/ul\u003e\r\n    \"corecourses\": \u003cp\u003eUpon completion of the program the participant must demonstrate the following core competencies:\u003c\\/p\u003e \u003cul\u003e     \u003cli\u003eWord Processing\u003cbr /\u003e Basic level of proficiency in Microsoft Word\u003c\\/li\u003e     \u003cli\u003eSpreadsheets\u003cbr /\u003e Basic level of proficiency in Microsoft Excel\u003c\\/li\u003e     \u003cli\u003eSimulations and Drills\u003cbr /\u003e Practical Applications – 1 Unit\u003c\\/li\u003e     \u003cli\u003eDatabase Management\u003cbr /\u003e Basic level of proficiency in Microsoft Access\u003c\\/li\u003e     \u003cli\u003eGraphics/Presentation\u003cbr /\u003e Basic level of proficiency in Microsoft PowerPoint\u003c\\/li\u003e     \u003cli\u003eOffice Skills\u003cbr /\u003e Basic level of proficiency in Microsoft Outlook\u003c\\/li\u003e     \u003cli\u003eBusiness Skills\u003cbr /\u003e Customer Service, Grammar Essentials for Business Writing, Business Correspondence Levels 1 and 2, Business Essentials, Business Math, Marketing and Sales, Principles of Selling, Business Presentations, Business in the Digital         Age, Business Law \u0026 Ethics, Business Negotiations and Contracts, Business Verbal Communication, and Professional Selling\u003c\\/li\u003e     \u003cli\u003eJob Readiness/Employability Skills\u003cbr /\u003e Job Search and Résumé Writing, Thought Patterns for a Successful Career, and Employment Success Strategies\u003c\\/li\u003e \u003c\\/ul\u003e\r\n    \"programtype\": Diploma\r\n    \"salarystart\": 34,434\r\n    \"salaryend\": 84,988\r\n    \"programhours\": 773\r\n    \"programduration\": 38\r\n    \"domestic_fees\": @{\r\n        \"tuition\": 11787\r\n        \"application\": 250\r\n        \"assessment\": 100\r\n        \"other\": 4\r\n    }\r\n    \"syllabuslink\": sales_professional_outline.pdf\r\n    \"prog_video\": \"\"\r\n}"

@@ -26,6 +26,7 @@ String.prototype.toNumber = function() {
 }
 
 
+
 function getData(file) {
     try {
         mycontent = ''
@@ -37,41 +38,40 @@ function getData(file) {
             download: true,
             header: true,
             complete: function(results) {
-                // console.log("Finished:", results.data);
+                ///console.log("Finished:", results.data);
                 //foreach loop
                 results.data.forEach(program => {
                         if (program["Name of Program"]) {
                             if (program["Active"] == 'Yes') {
+                                // console.log(program);
                                 programname = program["Name of Program"].toLowerCase().toTitle();
                                 programcat = program['Category'];
                                 programcat_short = programcat.toURL();
                                 programcat_short = programcat_short.toURL();
+                                program_type = program["Type"]
+                                    //console.log(program_type);
                                 if (usedcats.includes(programcat_short)) {
-                                    // console.log('duplicate cat found')
+                                    ///console.log('duplicate cat found')
 
 
                                 } else {
                                     usedcats = usedcats + programcat_short
-                                    categories = categories + `<button class='slidesbtn active' onclick=\"filterSelection('${programcat_short}')\">${programcat}</button>`
-                                        // console.log('added cat')
-                                        // console.log(usedcats)  
+                                    categories = categories + `<button class='slidesbtn active' onclick=\"filterSelection('${programcat_short}')\">${programcat}</button>` //console.log('added cat')                                        //console.log(usedcats)
                                 }
 
 
 
                                 programnameasurl = program["URL"].toURL(); //programname.toURL();
-                                // console.log(program["Tuition"])
+                                ///console.log(program["Tuition"])
                                 domestic_tuition = program["Tuition"].toNumber();
                                 programweeks = program["Weeks Duration"];
                                 programhours = programweeks * 20;
                                 //console.log(programname)
                                 //console.log(programcat)
-                                // console.log(domestic_tuition)
-                                // console.log(programweeks)
-                                // console.log(programhours)
+                                ///console.log(domestic_tuition)                                //console.log(programweeks)                                //console.log(programhours)
                                 //console.log(programnameasurl)
 
-                                mycontent = `${mycontent}<div class="column ${programcat_short} slide show"><div class="content"><button onClick=\"overlayprogram\('${programnameasurl}\',\'${programname}'\)\"> <img src="/programsv2/images/${programnameasurl}.webp" alt="${programname}" style="width:100%" /><h4>${programname}</h4></div></button></div></div>`;
+                                mycontent = `${mycontent}<div class="column ${programcat_short} slide show"><div class="content"><button onClick=\"overlayprogram\('${programnameasurl}\',\'${programname}'\,\'${program_type}\')\"> <img src="/programsv2/images/${programnameasurl}.webp" alt="${programname}" style="width:100%" /><h4>${programname}</h4></div></button></div></div>`;
 
                             }
                         }
@@ -84,7 +84,7 @@ function getData(file) {
                 document.getElementById('myslidesbtnContainer').innerHTML = categories;
                 document.getElementById('slides').innerHTML = mycontent;
 
-                // console.log(categories)    
+                ///console.log(categories)    
                 //return mycontent;
 
 
