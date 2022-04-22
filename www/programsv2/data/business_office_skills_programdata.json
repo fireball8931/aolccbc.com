@@ -18,17 +18,18 @@
     },
     "corecourses": {
         "paragraphs": [
-            { "style": "p", "content": "Core Courses:" },
+
             { "ul_start": "true" },
-            { "style": "li", "li_title": "Keyboarding", "content": "Minimum 40 words per minute (WPM)." }, { "style": "li", "li_title": "Operating Systems", "content": "Advanced level of proficiency in a Windows operating system" },
+            { "style": "li", "li_title": "Keyboarding", "content": "Minimum 40 words per minute (WPM)." },
+            { "style": "li", "li_title": "Operating Systems", "content": "Advanced level of proficiency in a Windows operating system" },
             { "style": "li", "li_title": "Word Processing", "content": "Intermediate level of proficiency in Microsoft Word" },
             { "style": "li", "li_title": "Spreadsheets", "content": "Intermediate level of proficiency in Microsoft Excel" },
             { "style": "li", "li_title": "Graphics/Presentation", "content": "Basic level of proficiency in Microsoft PowerPoint and Microsoft Publisher" },
             { "style": "li", "li_title": "Data Management", "content": "Basic level of proficiency in Microsoft Access" },
             { "style": "li", "li_title": "Simulations and Drills", "content": "Practical Applications – 2 Units" },
             { "style": "li", "li_title": "Accounting", "content": "QuickBooks Premier" },
-            { "style": "li", "li_title": "Business Skills", "content": "Customer Service, Grammar Essentials for Business Writing, Business Correspondence Level 1, and Business Math" },
-            { "style": "li", "li_title": "Office Skills", "content": "Personal Computer Fundamentals for End Users, Internet Fundamentals, basic level of  in Microsoft Outlook, Basic Bookkeeping Level 1, and Office Procedures Levels 1 and 2" },
+            { "style": "li", "li_title": "Business Skills", "content": "Customer Service, Grammar EssentialsforBusiness Writing, Business Correspondence Level 1, and Business Math" },
+            { "style": "li", "li_title": "Office Skills", "content": "Personal Computer Fundamentals for End Users, Internet Fundamentals, basic level of proficiency in Microsoft Outlook,BasicBookkeeping Level 1, and Office Procedures Levels 1 and 2" },
             { "style": "li", "li_title": "Employability Skills", "content": "Job Search and Résumé Writing and Thought Patterns for a Successful Career" },
             { "ul_end": "true" }
         ]

@@ -44,8 +44,9 @@ function getData(file) {
                         if (program["Name of Program"]) {
                             if (program["Active"] == 'Yes') {
                                 // console.log(program);
-                                programname = program["Name of Program"].toLowerCase().toTitle();
+                                programname = program["Name of Program"].toTitle();
                                 programcat = program['Category'];
+                                programnameasurl = program["URL"]
                                 programcat_short = programcat.toURL();
                                 programcat_short = programcat_short.toURL();
                                 program_type = program["Type"]
@@ -61,15 +62,15 @@ function getData(file) {
 
 
 
-                                programnameasurl = program["URL"].toURL(); //programname.toURL();
+                                //programname.toURL();
                                 ///console.log(program["Tuition"])
-                                domestic_tuition = program["Tuition"].toNumber();
-                                programweeks = program["Weeks Duration"];
-                                programhours = programweeks * 20;
-                                //console.log(programname)
-                                //console.log(programcat)
-                                ///console.log(domestic_tuition)                                //console.log(programweeks)                                //console.log(programhours)
-                                //console.log(programnameasurl)
+                                //domestic_tuition = program["Tuition"].toNumber();
+                                //programweeks = program["Weeks Duration"];
+                                //programhours = programweeks * 20;
+                                console.log(programname)
+                                    //console.log(programcat)
+                                    ///console.log(domestic_tuition)                                //console.log(programweeks)                                //console.log(programhours)
+                                console.log(programnameasurl)
 
                                 mycontent = `${mycontent}<div class="column ${programcat_short} slide show"><div class="content"><button onClick=\"overlayprogram\('${programnameasurl}\',\'${programname}'\,\'${program_type}\')\"> <img src="/programsv2/images/${programnameasurl}.webp" alt="${programname}" style="width:100%" /><h4>${programname}</h4></div></button></div></div>`;
 

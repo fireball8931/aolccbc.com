@@ -4,7 +4,7 @@ function buildProgramPage(programname) {
 
     let JSONFile = "data/" + programname + "_programdata.json";
     let proglistingJSONFile = "/data/3500.json";
-    let fullImage = "images/full/" + programname + "_full_size.webp";\
+    let fullImage = "images/full/" + programname + "_full_size.webp";
     //console.log(programname)
     fetch(JSONFile)
         .then(function(response) {

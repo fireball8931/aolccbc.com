@@ -21,7 +21,9 @@
                 "style": "li",
                 "content": " "
                 Translate wire frames and storyboards into functional,
-                responsive websites "}, { "ul_end": "true" }
+                responsive websites "}, { "
+                ul_end ": "
+                true " }
             ]
         },
         "careeropp": {
@@ -31,7 +33,7 @@
         },
         "corecourses": {
             "paragraphs": [
-                { "style": "p", "content": "Core Courses:" },
+
                 { "ul_start": "true" },
                 { "style": "li", "li_title": "Keyboarding", "content": "Minimum 25 words per minute (WPM)." },
                 { "style": "li", "li_title": "Operating Systems", "content": "Intermediate level of proficiency with Windows OS" },

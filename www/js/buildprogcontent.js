@@ -129,35 +129,55 @@ function buildProgramPage(programnameasurl, programname, programtype) {
                                 // alert(workexphours)
                                 dtuition = toCAD(program.domestic[0].tuition);
                                 ituition = toCAD((program.domestic[0].tuition * 1.3));
-                                dapp = toCAD(program.domestic[0].application_fee);
-                                iapp = toCAD((program.domestic[0].application_fee * 2));
+                                appfee = 250;
+                                //iappfee = appfee * 2;
+                                dapp = toCAD(appfee);
+                                iapp = toCAD(appfee * 2);
+                                //dapp = toCAD(program.domestic[0].application_fee);
+                                //iapp = toCAD((program.domestic[0].application_fee * 2));
                                 ///console.log(program.domestic[0]);
-                                dassess = toCAD(program.domestic[0].assessment_fee);
-                                iassess = toCAD(program.domestic[0].assessment_fee);
+                                assessfee = toCAD(100);
+                                dassess = assessfee
+                                iassess = assessfee;
 
-                                otherfees = 4;
-                                if (program.domestic[0].other === undefined) {
+                                //dassess = toCAD(program.domestic[0].assessment_fee);
+                                // iassess = toCAD(program.domestic[0].assessment_fee);
+
+                                otherfees = program.domestic[0].other;
+                                if (otherfees === undefined) {
                                     otherfees = 4;
-                                } else {
-                                    otherfees = otherfees + program.domestic[0].other
-
-                                    if (otherfees === 8) {
-                                        otherfees = 4;
-                                    }
                                 }
 
                                 dother = toCAD(otherfees);
                                 //console.log(dother);
                                 iother = dother;
-                                if (program.textbooks === undefined) {
+                                textbooks = program.domestic[0].textbooks;
+                                if (textbooks === undefined) {
                                     textbooks1 = "";
 
                                 } else {
-                                    textbookscost = toCAD(program.textbooks);
+                                    textbookscost = toCAD(textbooks);
 
-                                    textbooks1 = textbookscost;
+                                    textbooks1 = `<tr id="textbooks">
+                                                    <td class="title">Text Books:</td>
+                                                    <td>${textbookscost}</td>
+                                                    <td>${textbookscost}</td>
+                                                </tr>`;
+
                                     // textbooks2 = textbookscost;
                                 }
+                                coursemat = program.domestic[0].coursematerials
+                                if (coursemat === undefined) {
+                                    coursemat_html = "";
+                                } else {
+                                    coursemat_cost = toCAD(coursemat);
+                                    coursemat_html = `<tr id="coursemats">
+                                    <td class="title">Course Materials:</td>
+                                    <td>${coursemat_cost}</td>
+                                    <td>${coursemat_cost}</td>
+                                </tr>`;
+                                }
+
                                 if (program.cooperative_placement_hours === undefined) {
                                     optional_cooperative_placement_hours = "";
                                 } else {
@@ -263,11 +283,9 @@ function buildProgramPage(programnameasurl, programname, programtype) {
                                                     <td>${dassess}</td>
                                                     <td>${iassess}</td>
                                                 </tr>
-                                                <tr>
-                                                    <td class="title">Text Books:</td>
-                                                    <td>${textbooks1}</td>
-                                                    <td>${textbooks1}</td>
-                                                </tr>
+                                                ${textbooks1}
+                                                ${coursemat_html}
+
                                                 <tr>
                                                     <td class="title">Other Fees:</td>
                                                     <td>${dother}</td>

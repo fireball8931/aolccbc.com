@@ -48,7 +48,7 @@
     },
     "corecourses": {
         "paragraphs": [
-            { "style": "p", "content": "Core Courses:" },
+
             { "ul_start": "true" },
             { "style": "li", "content": "Addictions Worker Level 1" },
             { "style": "li", "content": "Addictions Worker Level 2" },

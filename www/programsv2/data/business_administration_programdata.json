@@ -26,7 +26,7 @@
     },
     "corecourses": {
         "paragraphs": [
-            { "style": "p", "content": "Core Courses:" },
+
             { "style": "h3", "content": "YEAR 1" },
             { "ul_start": "true" },
             { "style": "li", "li_title": "Keyboarding", "content": "Minimum 40 words per minute (WPM)." },

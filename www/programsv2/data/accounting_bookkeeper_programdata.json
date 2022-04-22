@@ -18,7 +18,7 @@
     },
     "corecourses": {
         "paragraphs": [
-            { "style": "p", "content": "Core Courses:" },
+
             { "ul_start": "true" },
             { "style": "li", "li_title": "Keyboarding", "content": "Minimum 25 words per minute (WPM)." },
             { "style": "li", "li_title": "Operating Systems", "content": "Basic level of proficiency with Windows OS" },

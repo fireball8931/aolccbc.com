@@ -1,0 +1,34 @@
+{
+    "admitreq": {
+        "paragraphs": [
+{ "style" : "p", "content" : "Grade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instructions. An admissions interview will be administered to determineif
+the applicant has the required interest, motivation, and entry-level skills to take this program. Full-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them."},
+]
+},
+"programhighlights": {
+    "paragraphs": [
+{ "style" : "p", "content" : "This program offers individuals the opportunity to acquire the skills required by many companies that specialize in customer service and outbound marketing services and to provide skills to facilitate advancement in theirchosen
+career."},
+]
+},
+"careeropp": {
+    "paragraphs": [
+{ "style" : "p", "content" : "Graduates of this program have a varied choice of positions available to them, ranging from Inbound/Outbound marketing or Order Desk Support, Reservations and Outbound Sales, to Team Leaders and Supervisors of Call Centres."},
+]
+},
+"corecourses": {
+    "paragraphs": [
+{ "style" : "p", "content" : "pon completion of the program the participant must demonstrate the following core competencies:"}, { "ul_start" : "true"}, { "style" : "li", "li_title" : " Keyboarding", "content" : " Minimum 40 words per minute (WPM)."},{
+"style" : "li", "li_title" : " Operating Systems", "content" : " Basic level of proficiency in a Windows operating system"}, { "style" : "li", "li_title" : " Word Processing", "content" : " Basic level of proficiency in Microsoft Word"}, { "style" :"li",
+"li_title" : " Spreadsheets", "content" : " Basic level of proficiency in Microsoft Excel"}, { "style" : "li", "li_title" : " Database Management", "content" : " Basic level of proficiency in Microsoft Access"}, { "style" : "li", "li_title" : "Office
+Skills", "content" : " Personal Computer Fundamentals for End Users, basic level of proficiency in Microsoft Outlook, and Internet Fundamentals"}, { "style" : "li", "li_title" : " Help Desk & Call Centre Skills", "content" : " Call Centre IndustryOverview,
+Call Centre Equipment and Technology, Telephone Communication Skills, Call Centre Telephone Sales, Career Options and Opportunities, and Team Dynamics and Personal Development"}, { "style" : "li", "li_title" : " Business Skills", "content" :" Customer
+Service Essentials"}, { "ul_end": "true" },
+]
+},
+"salarystart":
+23941
+,
+"salaryend":
+46392
+}

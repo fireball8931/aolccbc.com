@@ -23,7 +23,7 @@
     },
     "corecourses": {
         "paragraphs": [
-            { "style": "p", "content": "Core Courses:" },
+
             { "ul_start": "true" },
             { "style": "li", "li_title": "Operating Systems", "content": "Basic level of proficiency with Windows OS" },
             { "style": "li", "li_title": "Word Processing", "content": "Intermediate  level of proficiency in Microsoft Word" },

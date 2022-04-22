@@ -169,25 +169,19 @@
             "Delivery Method": "Blended",
             "Language of Instruction": "English",
             "domestic": [{
-                    "tuition": 2964,
-                    "application_fee": 250,
-                    "assessment_fee": 100
-                },
-                {
-                    "text Books": 115,
-                    "other": 4
-                }
-            ],
+                "tuition": 2964,
+                "application_fee": 250,
+                "assessment_fee": 100,
+                "textbooks": 115,
+                "other": 4
+            }],
             "international Students": [{
-                    "tuition": 3853,
-                    "application_fee": 500,
-                    "assessment_fee": 100
-                },
-                {
-                    "text Books": 115,
-                    "other": 4
-                }
-            ]
+                "tuition": 3853,
+                "application_fee": 500,
+                "assessment_fee": 100,
+                "textbooks": 115,
+                "other": 4
+            }]
         },
         {
             "name": "Business Administration",
@@ -413,25 +407,19 @@
             "Delivery Method": "Blended",
             "Language of Instruction": "English",
             "domestic": [{
-                    "tuition": 11630,
-                    "application_fee": 250,
-                    "assessment_fee": 100
-                },
-                {
-                    "text Books": 600,
-                    "other": 144
-                }
-            ],
+                "tuition": 11630,
+                "application_fee": 250,
+                "assessment_fee": 100,
+                "textbooks": 600,
+                "other": 144
+            }],
             "international Students": [{
-                    "tuition": 15119,
-                    "application_fee": 500,
-                    "assessment_fee": 100
-                },
-                {
-                    "text Books": 600,
-                    "other": 144
-                }
-            ]
+                "tuition": 15119,
+                "application_fee": 500,
+                "assessment_fee": 100,
+                "textbooks": 600,
+                "other": 144
+            }]
         },
         {
             "name": "Community Service Worker and Addictions Worker",
@@ -448,28 +436,22 @@
             "Delivery Method": "In-Class, Blended",
             "Language of Instruction": "English",
             "domestic": [{
-                    "tuition": 14594,
-                    "application_fee": 250,
-                    "assessment_fee": 100
-                },
-                {
-                    "text Books": 715,
-                    "other": 144
-                }
-            ],
+                "tuition": 14594,
+                "application_fee": 250,
+                "assessment_fee": 100,
+                "textbooks": 715,
+                "other": 144
+            }],
             "international Students": [{
-                    "tuition": 18972,
-                    "application_fee": 500,
-                    "assessment_fee": 100
-                },
-                {
-                    "text Books": 715,
-                    "other": 144
-                }
-            ]
+                "tuition": 18972,
+                "application_fee": 500,
+                "assessment_fee": 100,
+                "textbooks": 715,
+                "other": 144
+            }]
         },
         {
-            "name": "Computer Service Technician",
+            "name": "Computer Service Technician C",
             "status": "approved",
             "Credential": "Certificate",
             "NOC Code": "2242 - Electronic service technicians (household and business equipment)",
@@ -495,7 +477,7 @@
             }]
         },
         {
-            "name": "Computer Service Technician",
+            "name": "Computer Service Technician D",
             "status": "approved",
             "Credential": "Diploma",
             "NOC Code": "2242 - Electronic service technicians (household and business equipment)",
@@ -609,23 +591,17 @@
             "Delivery Method": "In-Class",
             "Language of Instruction": "English & English",
             "domestic": [{
-                    "tuition": 850,
-                    "application_fee": 100
-                },
-                {
-                    "Course Materials": 20,
-                    "other": 40
-                }
-            ],
+                "tuition": 850,
+                "application_fee": 100,
+                "coursematerials": 20,
+                "other": 40
+            }],
             "international Students": [{
-                    "tuition": 1105,
-                    "application_fee": 100
-                },
-                {
-                    "Course Materials": 20,
-                    "other": 40
-                }
-            ]
+                "tuition": 1105,
+                "application_fee": 100,
+                "coursematerials": 20,
+                "other": 40
+            }]
         },
         {
             "name": "Entrepreneurial Business Applications",
@@ -800,7 +776,7 @@
             }]
         },
         {
-            "name": "MCSA: Windows Server Certification Preparation",
+            "name": "Microsoft Certified Solutions Associate: Server Certification",
             "status": "approved",
             "Credential": "Certificate",
             "NOC Code": "2281 - Computer network technicians",
@@ -866,29 +842,21 @@
             "Delivery Method": "Blended",
             "Language of Instruction": "English",
             "domestic": [{
-                    "tuition": 13273,
-                    "application_fee": 250
-                },
-                {
-                    "text Books": 620
-                },
-                {
-                    "Course Materials": 240,
-                    "other": 104
-                }
-            ],
+                "tuition": 13273,
+                "application_fee": 250,
+                "textbooks": 620,
+                "coursematerials": 240,
+                "assessment_fee": 100,
+                "other": 104
+            }],
             "international Students": [{
-                    "tuition": 17255,
-                    "application_fee": 500
-                },
-                {
-                    "text Books": 620
-                },
-                {
-                    "Course Materials": 240,
-                    "other": 104
-                }
-            ]
+                "tuition": 17255,
+                "application_fee": 500,
+                "textbooks": 620,
+                "coursematerials": 240,
+                "assessment_fee": 100,
+                "other": 104
+            }]
         },
         {
             "name": "Medical Office Assistant With Unit Clerk",
@@ -905,31 +873,21 @@
             "Delivery Method": "Blended",
             "Language of Instruction": "English",
             "domestic": [{
-                    "tuition": 15469,
-                    "application_fee": 250,
-                    "assessment_fee": 100
-                },
-                {
-                    "text Books": 746
-                },
-                {
-                    "Course Materials": 240,
-                    "other": 4
-                }
-            ],
+                "tuition": 15469,
+                "application_fee": 250,
+                "assessment_fee": 100,
+                "textbooks": 746,
+                "coursematerials": 240,
+                "other": 4
+            }],
             "international Students": [{
-                    "tuition": 20110,
-                    "application_fee": 500,
-                    "assessment_fee": 100
-                },
-                {
-                    "text Books": 746
-                },
-                {
-                    "Course Materials": 240,
-                    "other": 4
-                }
-            ]
+                "tuition": 20110,
+                "application_fee": 500,
+                "assessment_fee": 100,
+                "textbooks": 746,
+                "coursematerials": 240,
+                "other": 4
+            }]
         },
         {
             "name": "Network Administrator",
