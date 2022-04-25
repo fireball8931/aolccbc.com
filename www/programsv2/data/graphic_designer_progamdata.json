@@ -21,7 +21,8 @@
     },
     "careeropp": {
         "paragraphs": [
-            { "style": "p", "content": " Graduates of the program may pursue positions such as:" } { "ul_start": "true" },
+            { "style": "p", "content": " Graduates of the program may pursue positions such as:" }, 
+            { "ul_start": "true" },
             { "style": "li", "content": " Graphic Designer" },
             { "style": "li", "content": " Graphic Artist" },
             { "style": "li", "content": "Layout Artist" },
