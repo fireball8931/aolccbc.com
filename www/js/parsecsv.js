@@ -67,12 +67,12 @@ function getData(file) {
                                 //domestic_tuition = program["Tuition"].toNumber();
                                 //programweeks = program["Weeks Duration"];
                                 //programhours = programweeks * 20;
-                                console.log(programname)
+                                // console.log(programname)
                                     //console.log(programcat)
                                     ///console.log(domestic_tuition)                                //console.log(programweeks)                                //console.log(programhours)
-                                console.log(programnameasurl)
+                                // console.log(programnameasurl)
 
-                                mycontent = `${mycontent}<div class="column ${programcat_short} slide show"><div class="content"><button onClick=\"overlayprogram\('${programnameasurl}\',\'${programname}'\,\'${program_type}\')\"> <img src="/programsv2/images/${programnameasurl}.webp" alt="${programname}" style="width:100%" /><h4>${programname}</h4></div></button></div></div>`;
+                                mycontent = `${mycontent}<div class="column ${programcat_short} slide show"><div class="content"><button onClick=\"overlayprogram\('${programnameasurl}\',\'${programname}'\,\'${program_type}\')\"> <img src="images/${programnameasurl}.webp" alt="${programname}" style="width:100%" /><h4>${programname}</h4></div></button></div></div>`;
 
                             }
                         }
