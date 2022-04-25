@@ -1,0 +1,55 @@
+{
+    "admitreq": {
+        "paragraphs": [{ "style": "p", "content": " British Columbia Secondary School Diploma or equivalent with prior education in English at grade 10 level or higher." }, {
+            "style": "b",
+            "content": "{ "
+            style " : "
+            p ", "
+            content " : "
+            R "},"
+        }, { "style": "p", "content": "Maturestudents who pass an entrance evaluation demonstrating sufficient ability (i.e., English comprehension and math skills) to undertake the program." }, { "style": "p", "content": "All applicants must demonstrate English proficiency through one of the aboverequirements or through an English language assessment (IELTS 5.5 or equivalent)." }]
+    },
+    "programhighlights": { "paragraphs": [{ "style": "p", "content": "This program prepares students to deal with the problems they may encounter when supporting Personal Computers in an office environment. It provides in-depth knowledge of both computer hardware and software, and preparesstudents to take the CompTIA A+, Network+, and Security+ certification exams. Students will have practical hands-on experience in maintenance of PCs, mobile devices, laptops, operating systems and printers, network and network devices, and computer securitysuch as cryptography and access control, as well as business-related topics such as disaster recovery and risk management. Successful students may choose to progress to advanced qualifications such as MCSA. " }] },
+    "careeropp": {
+        "paragraphs": [{
+                    "style": "p",
+                    "content": { "ul_start": "true" },
+                    { "style": "li", "content": "Systems Administrator" },
+                    { "style": "li", "content": "Server Administrator" },
+                    { "style": "li", "content": "Network Administrator" },
+                    { "style": "li", "content": "InformationSystems Administrator" },
+                    { "style": "li", "content": "Network Operations Analyst" },
+                    { "style": "li", "content": "Network Technician" },
+                    { "style": "li", "content": "Technical Support Specialist" },
+                    { "ul_end": "true" },
+                    " }] }, "
+                    corecourses ": {     "
+                    paragraphs ": [ { "
+                    ul_start " : "
+                    true "}, { "
+                    style " : "
+                    li ", "
+                    li_title " : " { "style": "b", "content": "Microsoft Windows Server 2012 Installing and Configuring (SSMS410R2)" },
+                    ", "
+                    content " : "
+                    This course prepares the student to write the exam 70 - 410– Installing and Configuringwindows Server 2012. Passing this exam counts as credit towards the Microsoft Certified Solutions Associate(MCSA): "Windows Server 2012 certification.
+                    "}, { "
+                    style " : "
+                    li ", "
+                    li_title " : " { "style": "b", "content": "Microsoft Windows Server 2012 Administering(SSMS411R2) " },
+                    ", "
+                    content " : "
+                    This course prepares the student to write the exam 70 - 411– Administering Windows Server 2012. Passing this exam counts as credit towards the Microsoft Certified Solutions Associate(MCSA): "Windows Server 2012 certification.
+                    "},{ "
+                    style " : "
+                    li ", "
+                    li_title " : " { "style": "b", "content": "Microsoft Windows Server 2012 Configuring Advanced Services (SSMS412R2) " },
+                    ", "
+                    content " : "
+                    This course prepares the student to write the exam 70 - 412– Configuring Advanced Windows Server 2012 Services.Passing the prerequisite exams and this exam completes the requirements
+                    for the Microsoft Certified Solutions Associate(MCSA): "Windows Server 2012 certification.
+                    "}, { "
+                    ul_end ": "
+                    true "  }] }, "
+                    salarystart ": 29496 , "
+                    salaryend ": 51666 }

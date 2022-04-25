@@ -1,39 +1,125 @@
 {
     "admitreq": {
-        "paragraphs": [
-            { "style": "p", "content": "Prospective students must be Grade 12 graduates, or equivalent, or have Mature Student status (19 years of age or over with at least one year out of high school) and subject to the discretion of the college Director. Grade 12 or equivalent graduates who cannot supply appropriate proof and Mature Students will be required to complete an entrance examination to properly assess their personal strengths and weaknesses. The minimum passing grade for this examination is 75%." }
-
+        "paragraphs": [{ "style": "p", "content": "Grade 12 or equivalent or Mature Student Status. Courses are open to any applicant who possesses a good command of the English language and is able to follow instructions. All applicants whose first language is not Englishmust provide proof of English proficiency. " },
+            { "style": "p", "content": "In admissions interview and entrance essay will be administered to determine if the applicant has the required interest, motivation, and entry-level skills to take this program." },
+            { "style": "p", "content": "ull-time students must attend the required hours per week as per the course schedule and may do so at times convenient to them." }
         ]
     },
     "programhighlights": {
-        "paragraphs": [
-            { "style": "p", "content": "The objective of this program is to provide the student with opportunities to acquire and apply the knowledge of business concepts and office skills to meet the demands of today’s business environment. * Not all programs are offered at each location." }
-
-        ]
-    },
-    "careeropp": {
-        "paragraphs": [
-            { "style": "p", "content": "The computerized accounting sector is one of the fastest growing areas. Excellent opportunities exist for skilled persons." }
-        ]
-    },
-    "corecourses": {
-        "paragraphs": [
-
-            { "ul_start": "true" },
-            { "style": "li", "li_title": "Keyboarding", "content": "Minimum 25 words per minute (WPM)." },
-            { "style": "li", "li_title": "Operating Systems", "content": "Basic level of proficiency with Windows OS" },
-            { "style": "li", "li_title": "Word Processing", "content": "Basic level of proficiency in Microsoft Word" },
-            { "style": "li", "li_title": "Spreadsheets", "content": "Advanced level of proficiency in Microsoft Excel" },
-            { "style": "li", "li_title": "Accounting", "content": "Sage 50 Premium Accounting, Sage 300 Inventory Control and Order Entry, Sage 300 General Ledger, Sage 300 Accounts Receivable, Sage 300 Accounts Payable, and QuickBooks" },
-            { "style": "li", "li_title": "Office Skills", "content": "Personal Computer Fundamentals, Basic Bookkeeping Levels 1 and 2, Office Procedures Level 1, and basic level of proficiency in Microsoft Outlook" },
-            { "style": "li", "li_title": "Database Management", "content": "Basic level of proficiency in one database application." },
-            { "style": "li", "li_title": "Business Skills", "content": "Business Math, Management Fundamentals, Customer Service, and Grammar Essentials for Business Writing" },
-            { "style": "li", "li_title": "Simulations and Drills", "content": "Practical Applications – 3 Units" },
-            { "style": "li", "li_title": "Employability Skills", "content": "Job Search and Résumé Writing and Thought Patterns for a Successful Career" },
-            { "ul_end": "true" }
-        ]
-    },
-    "programtype": "Diploma",
-    "salarystart": 33744,
-    "salaryend": 72527
-}
+        "paragraphs": [{
+                    "style": "p",
+                    "content": "In the Graphic Designer diploma program, students learn the software programs that every professional designer needs to know: "
+                    Adobe Photoshop,
+                    Illustrator,
+                    and InDesign.Students learn techniques
+                    for creating digital images,
+                    illustrations,
+                    and layouts,
+                    and they develop a strong theoretical foundation in color,
+                    typography,
+                    and composition.
+                    "  }, { "
+                    style ": "
+                    p ", "
+                    content ": "
+                    Students gain hands - on experience with a wide range of graphic design projects,
+                    ranging from photo editingand logo design,
+                    to poster design,
+                    magazine layouts,
+                    and more.Students learn the essentials of print production and how to prepare themselves
+                    for entry into the job market.
+                    " }, { "
+                    style ": "
+                    p ", "
+                    content ": "
+                    This program provides students with: " }, { "
+                    ul_start ": "
+                    true " }, { "
+                    style ": "
+                    li ", "
+                    content ": "
+                    A foundation in the principles of color theory,
+                    typography,
+                    and page composition.
+                    " }, {
+                    "style": "li",
+                    "content": "Professional skills in the essential tools of the graphic designer: "
+                    Adobe Photoshop,
+                    Illustrator,
+                    and InDesign.
+                    "  }, { "
+                    style ": "
+                    li ", "
+                    content ": "
+                    Proficiency in key Microsoft Office applications.
+                    " }, { "
+                    ul_end ": "
+                    true " }]
+                },
+                "careeropp": {
+                    "paragraphs": [{
+                            "style": "p",
+                            "content": "In the Graphic Designer diploma program, students learn the software programs that every professional designer needs to know: "
+                            Adobe Photoshop,
+                            Illustrator,
+                            and InDesign.Students learn techniques
+                            for creating digital images,
+                            illustrations,
+                            and layouts,
+                            and they develop a strong theoretical foundation in color,
+                            typography,
+                            and composition.
+                            "  }, { "
+                            style ": "
+                            p ", "
+                            content ": "
+                            Students gain hands - on experience with a wide range of graphic design projects,
+                            ranging from photo editingand logo design,
+                            to poster design,
+                            magazine layouts,
+                            and more.Students learn the essentials of print production and how to prepare themselves
+                            for entry into the job market.
+                            " }, { "
+                            style ": "
+                            p ", "
+                            content ": "
+                            This program provides students with: " }, { "
+                            ul_start ": "
+                            true " }, { "
+                            style ": "
+                            li ", "
+                            content ": "
+                            A foundation in the principles of color theory,
+                            typography,
+                            and page composition.
+                            " }, {
+                            "style": "li",
+                            "content": "Professional skills in the essential tools of the graphic designer: "
+                            Adobe Photoshop,
+                            Illustrator,
+                            and InDesign.
+                            "  }, { "
+                            style ": "
+                            li ", "
+                            content ": "
+                            Proficiency in key Microsoft Office applications.
+                            " }, { "
+                            ul_end ": "
+                            true " }]
+                        },
+                        "corecourses": {
+                            "paragraphs": [{ "style": "p", "content": "Upon completion of the program the participant must demonstrate the following core competencies:" },
+                                { "ul_start": "true" },
+                                { "style": "li", "li_title": " Keyboarding", "content": " Minimum 25 words per minute (WPM)" },
+                                { "style": "li", "li_title": " Operating Systems", "content": " Basic level of proficiency with Windows OS" },
+                                { "style": "li", "li_title": " Graphic Design Skills", "content": " Photoshop, Illustrator, InDesign, Color Theory, Fundamentals of Typography,Design and Composition, Graphic Design, Fundamentals of Logo Design, Print Production" },
+                                { "style": "li", "li_title": " Presentations", "content": " Intermediate level of proficiency in Microsoft PowerPoint" },
+                                { "style": "li", "li_title": " WordProcessing and Spreadsheets", "content": " Basic level of proficiency in Microsoft Word and Microsoft Excel" },
+                                { "style": "li", "li_title": " Office Skills", "content": " Personal Computer Fundamentals, basic level of proficiency in Microsoft Outlookand Internet Fundamentals" },
+                                { "style": "li", "li_title": " Business Skills", "content": " Customer Service, Marketing and Sales, Project Management Fundamentals, Design Business" },
+                                { "ul_end": "true" }
+                            ]
+                        },
+                        "salarystart": 32136,
+                        "salaryend": 79000
+                    }
