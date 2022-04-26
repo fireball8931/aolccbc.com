@@ -1,0 +1,56 @@
+<!DOCTYPE html >
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Academy of Learning Career College - Abbotsford - Langley</title>
+    <script src="/js/includes.js"></script>
+    <script src="/js/global_functions.js"></script>
+    <div w3-include-html="/css.html"></div>
+    <link rel="stylesheet" href="custom.css">
+    <script src="confetti.js"></script>
+<script src="quiz.js"></script>
+
+
+</head>
+
+<body>
+    
+    <div w3-include-html="/navbar.html"></div>
+    <canvas id="confetti-canvas" class="confetti-canvas"></canvas>
+    <div class="container" id="maincontent">
+        <h2>Career Readiness Check</h2>
+        <p onclick="startQuiz();">
+            Click here to find out if you are ready to start a new career:
+        </p>
+
+<div class="container mainquiz" id="mainquizcontainer">
+    <form id="quiz">
+
+    </div>
+    
+
+
+<input type="submit" onclick="getDataFromQuiz();">
+
+</form>
+</div>
+       
+    <div id="quizoverlay" class="overlay closed"></div>
+
+    <div w3-include-html="/promisebar.html"></div>
+    <div w3-include-html="/footer.html"></div>
+    </div>
+    </div>
+
+    
+    
+
+</body>
+
+<script>
+    includeHTML();
+    </script>
+    <!-- https://aolccbc.webhook.office.com/webhookb2/1db6062d-7e55-421e-a2d9-d599692916e9@2cba7723-a119-4394-9d02-27aac2d1ed11/IncomingWebhook/73f7f2d29fe74bed965112167c6bf716/ea32a7b2-5faf-4585-b298-fb1559f82dca -->
