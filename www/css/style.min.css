@@ -5,7 +5,9 @@
 @import url("//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
 @import url("//fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
 
-
+:root {
+    --aol-black: rgba(83,83,83,0.8)
+}
 img {
     max-width: 100%;
 }
@@ -763,8 +765,9 @@ hr {
     margin-left: 1%;
     margin-top: 10px;
 }
-table td {
-    font-size:unset !important;
+title {
+    font-style: bold !important;
+    
 }
 footer {
     background:rgb(52, 58, 64);
@@ -786,7 +789,7 @@ footer td {
 .programdata .col,.programdata .col-2,.programdata .row {
     
     white-space: nowrap;
-}
+padding-bottom: unset;}
 .programdata .colheader {
 
     font-weight: bold;
@@ -803,3 +806,7 @@ footer td {
 .tudata {
     text-align: left;
 }
+
+.title_with_emoji {
+    text-align: right;
+white-space: nowrap;}

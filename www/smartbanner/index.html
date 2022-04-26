@@ -36,13 +36,13 @@
     <script>
         let onLoadHandlerForConflictTesting = function() {};
         window.onload = onLoadHandlerForConflictTesting;
-        document.addEventListener('smartbanner.view', function() {
+        document.addEventListener('smartbanner.view', function() {\
             console.log('smartbanner.view');
         });
-        document.addEventListener('smartbanner.exit', function() {
+        document.addEventListener('smartbanner.exit', function() {\
             console.log('smartbanner.exit');
         });
-        document.addEventListener('smartbanner.clickout', function() {
+        document.addEventListener('smartbanner.clickout', function() {\
             console.log('smartbanner.clickout');
         });
 
@@ -52,4 +52,7 @@
         //let apiHandler = function() { smartbanner.publish(); };
         //window.onload = apiHandler;
     </script>
-</body><script src="/js/endofbody.js"></script></html>
+</body>
+<script src="/js/endofbody.js"></script>
+
+</html>

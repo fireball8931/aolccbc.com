@@ -93,12 +93,16 @@
 <!--Gallery Grid-->
 <div class="row">
 
-    <?php 
-    foreach (glob("images/*.html") as $filename)
-    {
-        include $filename;
-     } ?>
 
+    <script src="/js/papaparse.min.js"></script>
+    <script src="/js/parsecsv.js"></script>
+    <script>
+        getData('programlisting.csv');
+        
+        
+        
+            
+    </script>
     <script>
         filterSelection("all") // Execute the function and show all columns
         function filterSelection(c) {
