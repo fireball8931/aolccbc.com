@@ -147,13 +147,13 @@ h1 {
 .progdata {
     border-style: solid;
     border-color: lightgrey;
-    text-align: right;
+    text-align: left;
 }
 
 .progdata .title {
     font-weight: bold;
     font-style: oblique;
-}
+vertical-align: top;text-align: left;border-right-color: var(--aol-black);border-right-style: groove;border-right-width: thin;padding-right: 0.5em;}
 
 .program-info {
     margin-left: 5px;

@@ -5,7 +5,9 @@
 @import url("//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
 @import url("//fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
 
-
+:root {
+    --aol-black: rgba(83,83,83,0.8)
+}
 img {
     max-width: 100%;
 }
@@ -765,6 +767,7 @@ hr {
 }
 title {
     font-style: bold !important;
+    
 }
 footer {
     background:rgb(52, 58, 64);
@@ -804,6 +807,6 @@ padding-bottom: unset;}
     text-align: left;
 }
 
-.underlay {
-    
-}
+.title_with_emoji {
+    text-align: right;
+white-space: nowrap;}

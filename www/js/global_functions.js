@@ -21,6 +21,10 @@ function hideshowElementById(elementID,action,x,y) {
 
 // Clear out innerHTML
 function emptyElementByID(elementID) {
-    document.getElementById(elementID).innerHTML = '';
 
+    try {
+        document.getElementById(elementID).innerHTML = '';
+    } catch (error) {
+    console.log(error);        
+    }
 }

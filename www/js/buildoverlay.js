@@ -1,3 +1,16 @@
+var headings = [{
+    "a1" : "Admission Requirements",
+    "a2" : "Program Highlights",
+    "a3" : "Career Opportunities",
+    "a4" : "CORE COURSES",
+    "a5" : "Upon completion of the program the participant must demonstrate the following core competencies:"
+}]    
+var programs_with_no_data_table = {
+    "program" : "english_as_a_second_language"
+}
+
+
+
 function overlayprogram(programnameasurl, programname, programtype) {
 
     // Get Navbar bottom pos
@@ -9,10 +22,12 @@ function overlayprogram(programnameasurl, programname, programtype) {
  
     // Hide Slideshow
     hideshowElementById('maincontent','hide')
-    
+    hide_data_table = programs_with_no_data_table.program.includes(programnameasurl)
+    // alert(`I will be sending ${hide_data_table} for hide_data_table because ${programnameasurl} is not in ${programs_with_no_data_table}`)
     othercontent = '';
-    console.log(`I sent ${programnameasurl} ${programname} ${programtype}`);
-    buildProgramPage(programnameasurl, programname, programtype);
+    // console.log(`I sent ${programnameasurl} ${programname} ${programtype} ${hide_data_table}`);
+    buildProgramPage(programnameasurl, programname, programtype, hide_data_table);
+
 
 }
 
@@ -28,22 +43,17 @@ function toCAD(amount,element) {
         
     }
     
-    function buildProgramPage(programnameasurl, programname, programtype) {
+function buildProgramPage(programnameasurl, programname, programtype, hide_data_table) {
     
 
-    var headings = [{
-        "a1" : "Admission Requirements",
-        "a2" : "Program Highlights",
-        "a3" : "Career Opportunities",
-        "a4" : "CORE COURSES",
-        "a5" : "Upon completion of the program the participant must demonstrate the following core competencies:"
-    }]    
+   
     try {
 
         
 
 
-        console.log("I received " + programnameasurl + ' ' + programname + ' ' + programtype);
+        //console.log("I received " + programnameasurl + ' ' + programname + ' ' + programtype);
+        
         const credential = programtype;
         const overlay = document.getElementById('programoverlay')
         const closebutton = `<button class="closebutton" onClick="closeOverlay();">X<br />Close</button>`
@@ -77,31 +87,31 @@ function toCAD(amount,element) {
                 //call function called create div loop
     
                 //fullimage = `<img src=${fullImage} alt='Program Image'>`;
-    
+                
                 textbooks1 = "";
                 optional_cooperative_placement_hours = "";
-                admitreq_array = createDivfromJSON(data.admitreq, headings.a1)[0]
-                admitreq = admitreq_array.partcontent;
-                a1 = admitreq_array.part_alt_heading
+                admitreq_array = createDivfromJSON(data.admitreq, headings[0].a1)
+                admitreq = admitreq_array[0].partcontent;
+                a1 = admitreq_array[0].part_heading
                 
                 //console.log(createDivfromJSON(data.admitreq));
-                programhighlights_array = createDivfromJSON(data.programhighlights, headings.a2)[0];
-                programhighlights = programhighlights_array.partcontent;
-                a2 = programhighlights_array.part_alt_heading
+                programhighlights_array = createDivfromJSON(data.programhighlights, headings[0].a2);
+                programhighlights = programhighlights_array[0].partcontent;
+                a2 = programhighlights_array[0].part_heading
 
-                careeropp_array = createDivfromJSON(data.careeropp, headings.a3)[0];
-                careeropp = careeropp_array.partcontent
-                a3 = careeropp_array.part_alt_heading
-                corecourses_array = createDivfromJSON(data.corecourses, headings.a4)[0];
-                corecourses = corecourses_array.partcontent;
-                a4 = corecourses_array.part_alt_heading
-                a5 = headings.a5
+                careeropp_array = createDivfromJSON(data.careeropp, headings[0].a3);
+                careeropp = careeropp_array[0].partcontent
+                a3 = careeropp_array[0].part_heading
+                corecourses_array = createDivfromJSON(data.corecourses, headings[0].a4);
+                corecourses = corecourses_array[0].partcontent;
+                a4 = corecourses_array[0].part_heading
+                a5 = headings[0].a5
 
-                console.log(a1)
-                console.log(a2)
-                console.log(a3)
-                console.log(a4)
-                console.log(a5)
+                // console.log(a1)
+                // console.log(a2)
+                // console.log(a3)
+                // console.log(a4)
+                // console.log(a5)
                 newMinWageDate = new Date(2022, 07, 01)
                 if (newMinWageDate < new Date()) {
                     bcminwage = 15.65;
@@ -144,16 +154,18 @@ function toCAD(amount,element) {
                         console.log(alt_heading_temp)
                     });
                     //console.log(`Here's your content: ${partcontent}`);
-                    if (palt_heading_temp = undefined) {
-                        part_alt_heading = alt_heading_temp
-                        console.log(alt_heading_temp);
+                    if (alt_heading_temp == undefined) {
+                        part_alt_heading = alt_heading
+                        
+                        console.log(`alt_heading_temp = ${alt_heading_temp}\npart_alt_heading = ${part_alt_heading}\nalt_heading = ${alt_heading}`);
                     } else {
                         part_alt_heading = alt_heading_temp
                         console.log(alt_heading_temp);
+                        console.log(`alt_heading_temp = ${alt_heading_temp}\npart_alt_heading = ${part_alt_heading}\nalt_heading = ${alt_heading}`);
                     }
                     partcontent_array = [{
                         "partcontent": partcontent,
-                        "part_alt_heading" : part_alt_heading
+                        "part_heading" : part_alt_heading
                     }]
                     return partcontent_array;
     
@@ -261,7 +273,8 @@ function toCAD(amount,element) {
                                     console.log(`Building content now`);
     
     
-                                    othercontent = `
+                                    prog_info_array = [{
+                                     "top" : `
                                     <div class="container-flex center">
                                     <h1>
                                         <div id="progtitle" class="progtitle1">${progtitle}</div>
@@ -269,7 +282,8 @@ function toCAD(amount,element) {
                                 </div>
                                 <div class="container-flex center">
                                     <div id="fullimage"><img src=${fullImage} alt='Program Image'></div>
-                                </div>
+                                </div>`,
+                                "left" :`
                                 <div class="container-flex program-info" id="program-info">
                                     <div class="header lefthr">
                                         <h1>Program Info:</h1>
@@ -291,7 +305,8 @@ function toCAD(amount,element) {
                                             <div class="textleft">
                                                 <div class="container">
                                                     <h2>${a3}</h2>
-                                                </div>
+                                                </div>`,
+                                                "middle" : `
                                                 <div class="container">
                                                     <div id="careeropp">${careeropp}</div>
                                                 </div>
@@ -305,21 +320,23 @@ function toCAD(amount,element) {
                                                     <div id="corecourses">${corecourses}</div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div>`,
+                                    "right" : `
                                         <div class="p-2 programdatacol" id="progdatatable">
                                             <table class="progdata">
                                                 <tbody>
                                                     <tr>
-                                                        <td class="title">Program Type:</td>
+                                                        <td class="title title_with_emoji">
+                                                        <i class="fas fa-scroll"></i>&nbsp;Program&nbsp;Type:</td>
                                                         <td colspan="2">${programtype}</td>
                                                     </tr>
                                                     <tr>
-                                                        <td class="title"> Anticipated salary:</td>
+                                                        <td class="title title_with_emoji"><i class="fas fa-search-dollar"></i>&nbsp;Anticipated&nbsp;Salary:</td>
                                                         <td colspan="2">${salarystart} &ndash; ${salaryend}
                                                         </td>
                                                     </tr>
                                                     <tr class="tr-nobottomborder">
-                                                        <td class="title"> Program Duration:</td>
+                                                        <td class="title title_with_emoji"><i class="fas fa-calendar"></i>&nbsp;Program&nbsp;Duration:</td>
                                                         <td id="duration"colspan="2">
                                                             Weeks: ${programduration}<br>
                                                             Hours: ${programhours} <br>
@@ -381,30 +398,28 @@ function toCAD(amount,element) {
                                                     </tr>
                                                 </tbody>
                                             </table>
-                                            
-                                           
+                                        </div>`
+                                    }]
                                 
-                                        </div>
-                                    </div>
                                     
+                                    // console.log(`I reached the innerHTML part`);
                                     
-                                    `;
-    
-    
-                                    //console.log(othercontent);
-                                    console.log(`I reached the innerHTML part`);
+                                    // console.log(`Checking the value of hide_data_table`)
+                                    if(hide_data_table == true) {
+                                        // alert(hide_data_table)
+                                        prog_info_array[0].right = ''
+
+                                    }
                                     // console.log(`Here is the DIV's content: \n${othercontent}`);
-                                    overlay.innerHTML = closebutton + othercontent;
+                                    overlay.innerHTML = `${closebutton} ${prog_info_array[0].top} ${prog_info_array[0].left} ${prog_info_array[0].middle} ${prog_info_array[0].right}</div> `
+                                    
                                     if (workexphours === undefined) {
                                         document.getElementById('workexphours').innerHTML = '';
                                     }
                                 } else {
                                     //console.log('there was an issue')
                                 };
-                                if (program.bypass_data_table === "true"){
-                                    emptyElementByID('progdatatable')
-                                    hideshowElementById('progdatatable','hide');
-                                }
+  
     
     
                             }
@@ -422,7 +437,7 @@ function toCAD(amount,element) {
             }) //console.log(othercontent);
             // return othercontent;
     } catch (error) {
-        alert(error)
+        // alert(error)
     }
         
     }
