@@ -7,14 +7,17 @@
 }
 
 
-
+html{
+  text-size-adjust: 100%;
+}
 
 html,
 body {
-  padding: 0;
-  margin: 0;
+  padding: 0 !important;
+  margin: 0 !important;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    
 }
 
 a {
@@ -24,4 +27,24 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+}
+
+.logo {
+  width: auto;
+  height: auto;
+  padding-left:none;
+  left: 1%;
+  float:left;
+}
+
+.callus {
+  position: relative;
 }
