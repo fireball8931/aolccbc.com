@@ -1,0 +1,27 @@
+:root {
+  --aol-orange: rgb(234,112,36);
+  --aol-blue: rgb(90,200,218);
+  --aol-accent-green: rgb(169,202,63);
+  --aol-leaf-green: rgb(72,165,72);
+  --aol-gray: rgb(83,83,83);
+}
+
+
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

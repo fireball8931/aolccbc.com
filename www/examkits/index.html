@@ -25,7 +25,7 @@ coursesArray.forEach(element => {
         concatlevel = `${concat}/${element}`
         link = `${dlRoot}${concatlevel}/${suffix}`
         
-        aRef = `<a href="${concatlevel}">${coursename1}${element}</a><br>`
+        aRef = `<a href="${link}">${coursename1}${element}</a><br>`
         document.write(aRef)
         console.log(concatlevel);
     })
