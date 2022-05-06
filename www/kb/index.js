@@ -37,7 +37,13 @@ if (value == undefined) {
 getHandbookContent(decodeURI(value))
 
 document.addEventListener('click', (e) => { 
-    let criterion = e.target.id
+
+    let criterion = e.target.innerHTML;
+    document.Criterion = e.target.innerHTML
+
+ //  criterion = Criterion.innerHTML
+
+    
     
     if (document.SectionNames.indexOf(criterion) !== -1 ) {
         getHandbookContent(criterion)

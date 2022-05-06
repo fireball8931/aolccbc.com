@@ -1,90 +1,764 @@
 {
-    "handbook": {
-        "section": [
-            {
-                "id": 1,
-                "name": "Introduction",
-                "dateAdopted": "2022-05-05",
-                "dateLastModified": "2022-05-05",
-                "content": [
-                    "Congratulations and Welcome to the Academy of Learning® Career College",
-                    "Thank you for choosing Academy of Learning® Career College for your training needs. We will strive to ensure that all your training needs are met.",
-                    "This handbook is designed to help make your time with us rewarding and productive. It is important that you read and understand this handbook. It contains important information about your college policies and student rules and regulations.",
-                    "If you have any questions about the information contained in this handbook, please see one of our staff.",
-                    "Remember, we are committed to your success in your new career. We look forward to working with you and wish you success in your academic and career endeavors.",
-                    "Campus Director: Alda Messiah",
-                    "*These policies and procedures are subject to change without notice. Such changes will be brought to the attention of students as they may arise. You may check with the Admissions Office for the most current copy."
-                ]
-            },
-            {
-                "id": 2,
-                "name": "Our Mission",
-                "dateAdopted": "2022-05-05",
-                "dateLastModified": "2022-05-05",
-                "content": [
-                    "To improve the lives of underserved students and the communities in which they live. Globally, our flexible, supportive environment empowers dedicated students to achieve their goals."
-                ]
-            },
-            {
-                "id": 3,
-                "name": "Our Promises",
-                "dateAdopted": "2022-05-05",
-                "dateLastModified": "2022-05-05",
-                "content": [
-                    "We will:",
-                    " - Meet your individual training needs.",
-                    " - Demonstrate a genuine concern for your career success.",
-                    " - Improve your productivity and marketability.",
-                    " - Provide a high-quality learning experience.",
-                    " - Excel in the delivery of superior career, business, and computer skills training.",
-                    " - Provide a warm and friendly learning environment.",
-                    " - Employ caring, professional, and knowledgeable staff."
-                ]
-            },
-            {
-                "id": 4,
-                "name": "Our Training Philosophy",
-                "dateAdopted": "2022-05-05",
-                "dateLastModified": "2022-05-05",
-                "content": [
-                    "You will find when you begin your classes that the people who make up the student body come from a wide range of backgrounds. Each person brings a life experience that can and should be shared.",
-                    "Your time at AOLCC will help you make the transition from your high school days, your homemaking days or your past job experiences to a new career. By the time you graduate, you will have acquired the technical skills and work habits that are required for employment success.",
-                    "Our programs are designed not only to develop technical skills but also to develop the qualities that employers want, initiative, discipline, the ability to solve problems and to be able to work independently. For this reason, we intentionally create and foster an office-like environment in our classroom. Consequently, our codes of conduct, policies and regulations have been developed with the 'employer-employee' relationship in mind.",
-                    "In addition to the qualities listed above, employers want employees with great attitudes. Attitudes cannot be taught; they can only be refined. It is for this reason that we place much of the responsibility for your progress squarely on you."
-                ]
-            },
-            {
-                "id": 5,
-                "name": "Government Registration, Licencing, and Trademarks",
-                "dateAdopted": "2022-05-05",
-                "dateLastModified": "2022-05-05",
-                "content": [
-                    "Each Academy of Learning® Career College is registered and approved by the appropriate government body in the province in which it operates. In British Columbia, the <a href='https://www.privatetraininginstitutions.gov.bc.ca/'>Private Training Institutions Branch (PTIB)</a> of the Ministry of Advanced Education maintains the regulations. Programs are not offered until appropriate approvals have been granted by PTIB and any governing body if required.",
-                    "Each college is independently owned and operated and is an authorized user of our trademarks. In order to offer programs and use our trademarks, each college must meet and maintain the Academy of Learning® Career College – Franchisor Office Standards of Operation."
-                ]
-            },
-            {
-                "id": 6,
-                "name": "Student Statement of Rights",
-                "dateAdopted": "2022-05-05",
-                "dateLastModified": "2022-05-05",
-                "content": [
-                    "Academy of Learning® Career College is certified with the Private Training Institutions Branch (PTIB) of the British Columbia Ministry of Advanced Education and Skills Training.",
-                    "Before you enrol at a certified private training institution, you should be aware of your rights and responsibilities.",
-                    "You have the right to be treated fairly and respectfully by the institution.",
-                    "You have the right to a student enrolment contract that includes the following information:",
-                    " - amount of tuition and any additional fee for your program",
-                    " - refund policy",
-                    " - if your program includes a work experience, the requirements to participate in the work experience and the geographic area where it will be provided.",
-                    " - whether the program was approved by PTIB or does not require approval.",
-                    "Make sure you read the contract before signing. The institution must provide you with a signed copy.",
-                    "You have the right to access the institution’s dispute resolution process and to be protected against retaliation for making a complaint.",
-                    "You have the right to make a claim to PTIB for a tuition refund if:",
-                    " - your institution ceased to hold a certificate before you completed an approved program",
-                    " - you were misled about a significant aspect of your approved program. You must file the claim within one year of completing, being dismissed or withdrawing from your program.",
-                    "For more information about PTIB and how to be an informed student, go to: <a href='http://www.privatetraininginstitutions.gov.bc.ca/students/be-an-informed-student'>http://www.privatetraininginstitutions.gov.bc.ca/students/be-an-informed-student."
-                ]
-            }
+  "handbook": {
+    "section": [
+      {
+        "id": 1,
+        "name": "Introduction",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "Congratulations and Welcome to the Academy of Learning® Career College",
+          "Thank you for choosing Academy of Learning® Career College for your training needs. We will strive to ensure that all your training needs are met.",
+          "This handbook is designed to help make your time with us rewarding and productive. It is important that you read and understand this handbook. It contains important information about your college policies and student rules and regulations.",
+          "If you have any questions about the information contained in this handbook, please see one of our staff.",
+          "Remember, we are committed to your success in your new career. We look forward to working with you and wish you success in your academic and career endeavors.",
+          "Campus Director: Alda Messiah",
+          "*These policies and procedures are subject to change without notice. Such changes will be brought to the attention of students as they may arise. You may check with the Admissions Office for the most current copy."
         ]
-    }
+      },
+      {
+        "id": 25,
+        "name": "General Information",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "<h3>Hours of Operation</h3>",
+          "<table>",
+          "<thead>",
+          "<tr>",
+          "<th></th>",
+          "<th></th>",
+          "</tr>",
+          "</thead>",
+          "<tbody>",
+          "<tr>",
+          "<td>Monday to Friday</td>",
+          "<td>8 a.m. to 5 p.m.</td>",
+          "</tr>",
+          "<tr>",
+          "<td>Saturday &amp; Sunday</td>",
+          "<td>Closed</td>",
+          "</tr>",
+          "<tr>",
+          "<td>Statutory Holidays</td>",
+          "<td>Closed (see Holidays)</td>",
+          "</tr>",
+          "<tr>",
+          "<td>Winter Break</td>",
+          "<td>Closed</td>",
+          "</tr>",
+          "</tbody>",
+          "</table>",
+          "<h3>Holidays</h3>",
+          "We observe all government statutory holidays. Holiday notice will be posted on our social media and at various locations in the campus in advance.",
+          "Below is a list of regular holiday closures:",
+          "<ul>",
+          "<li>New Year's Day</li>",
+          "<li>Family Day</li>",
+          "<li>Good Friday - Friday before Easter Sunday</li>",
+          "<li>Easter Monday</li>",
+          "<li>Victoria Day - Monday before May 25</li>",
+          "<li>Canada Day</li>",
+          "<li>British Columbia Day - First Monday in August</li>",
+          "<li>Labour Day - First Monday in September</li>",
+          "<li>Thanksgiving - Second Monday in October</li>",
+          "<li>Remembrance Day</li>",
+          "<li>Christmas Break - Usually starts the week before Christmas. Ends the first Monday of January</li>",
+          "</ul>",
+          "<h3>Break Area or Lunchroom</h3>",
+          "As a result of the worldwide COVID-19 pandemic, Academy of Learning® Career College no longer provides a lunch area for students. All breaks must be taken outside of the campus.",
+          "<h3>Cancellation of Classes</h3>",
+          "Classes are cancelled only in cases of public emergencies, extremely poor weather conditions or pandemic related lockdowns, as these conditions are deemed to impact on the safety of staff and students. In the event of early closure, the campus will make every effort to contact all students. Please ensure you keep us up to date with your current contact information.",
+          "<h3>Consideration for Others</h3>",
+          "Academy of Learning® Career College aims to provide the best possible learning environment for our students. We ask for cooperation in this endeavor. Please be considerate of fellow students to maintain a quiet learning environment and do not disturb other students. Please be especially considerate of students writing exams. Keep conversations to the social areas designated by the college.",
+          "<h3>Consumption of Food and Beverages</h3>",
+          "Students may be permitted to have beverages at their workstation; however, we expect care to be taken to avoid spills. All drinks must be kept in a <i>SPILL-PROOF</i> container and are the responsibility of the student. If equipment is damaged due to a spill, the student to whom the beverage belongs, will be held responsible for replacement and/or repair. NO food of any kind is allowed at workstations.",
+          "<h3>Cell Phones and Personal Data Devices</h3>",
+          "Cell Phones, Smartphones, and all other electronic devices must be turned off or set to silent mode (vibrate mode is not acceptable, as it still disturbs others), while at the campus. If there is an anticipated emergency, please advise the office before the start of the class. All cellphones must be kept on the silent function and should not be used for texting, or as a calculator, etc.",
+          "Vibrating/noise making cell phones and in-class texting is a distraction to other students and staff if the phone is on the workstation or you are texting and/or receiving texts continuously. Please respect fellow classmates and keep the cell phone from disturbing others. All conversations must be taken out of the classroom. Any student who disrupts or interferes with a class, lab or activity will be asked to turn off the device, and possibly also to leave the class, lab or activity. Repeated offenses will result in disciplinary action up to and including expulsion.",
+          "The definition of electronic devices includes, but not limited to cellular phones, smartphones, computer tablets, personal laptops, portable music player, portable speakers, portable radios, walkie-talkies, etc.",
+          "<h3>Digital Cameras and Cell Phone Cameras</h3>",
+          "Use of digital cameras and cell phone cameras in the lab area/classroom is not permitted. Please respect the rights of others when it comes to their privacy. Also, screen shots of exams are not allowed as all material is protected by copyright. If you are having trouble with an examination, please ask a Learning Coach, and they will direct you on how to properly create a screen shot should a Help Desk inquiry need to be made."
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Our Mission",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "To improve the lives of underserved students and the communities in which they live. Globally, our flexible, supportive environment empowers dedicated students to achieve their goals."
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Our Promises",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "We will:",
+          " - Meet your individual training needs.",
+          " - Demonstrate a genuine concern for your career success.",
+          " - Improve your productivity and marketability.",
+          " - Provide a high-quality learning experience.",
+          " - Excel in the delivery of superior career, business, and computer skills training.",
+          " - Provide a warm and friendly learning environment.",
+          " - Employ caring, professional, and knowledgeable staff."
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Our Training Philosophy",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "You will find when you begin your classes that the people who make up the student body come from a wide range of backgrounds. Each person brings a life experience that can and should be shared.",
+          "Your time at AOLCC will help you make the transition from your high school days, your homemaking days or your past job experiences to a new career. By the time you graduate, you will have acquired the technical skills and work habits that are required for employment success.",
+          "Our programs are designed not only to develop technical skills but also to develop the qualities that employers want, initiative, discipline, the ability to solve problems and to be able to work independently. For this reason, we intentionally create and foster an office-like environment in our classroom. Consequently, our codes of conduct, policies and regulations have been developed with the 'employer-employee' relationship in mind.",
+          "In addition to the qualities listed above, employers want employees with great attitudes. Attitudes cannot be taught; they can only be refined. It is for this reason that we place much of the responsibility for your progress squarely on you."
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Government Registration, Licencing, and Trademarks",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "Each Academy of Learning® Career College is registered and approved by the appropriate government body in the province in which it operates. In British Columbia, the <a href='https://www.privatetraininginstitutions.gov.bc.ca/'>Private Training Institutions Branch (PTIB)</a> of the Ministry of Advanced Education maintains the regulations. Programs are not offered until appropriate approvals have been granted by PTIB and any governing body if required.",
+          "Each college is independently owned and operated and is an authorized user of our trademarks. In order to offer programs and use our trademarks, each college must meet and maintain the Academy of Learning® Career College – Franchisor Office Standards of Operation."
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Student Statement of Rights",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "Academy of Learning® Career College is certified with the Private Training Institutions Branch (PTIB) of the British Columbia Ministry of Advanced Education and Skills Training.",
+          "Before you enrol at a certified private training institution, you should be aware of your rights and responsibilities.",
+          "You have the right to be treated fairly and respectfully by the institution.",
+          "You have the right to a student enrolment contract that includes the following information:",
+          "<ul>",
+          "<li>amount of tuition and any additional fee for your program</li>",
+          "<li>refund policy</li>",
+          "<li>if your program includes a work experience, the requirements to participate in the work experience and the geographic area where it will be provided.</li>",
+          "<li>whether the program was approved by PTIB or does not require approval.</li>",
+          "</ul>",
+          "Make sure you read the contract before signing. The institution must provide you with a signed copy.",
+          "You have the right to access the institution’s dispute resolution process and to be protected against retaliation for making a complaint.",
+          "You have the right to make a claim to PTIB for a tuition refund if:",
+          "<ul>",
+          "<li>your institution ceased to hold a certificate before you completed an approved program.</li>",
+          "<li>you were misled about a significant aspect of your approved program. You must file the claim within one year of completing, being dismissed or withdrawing from your program.</li>",
+          "</ul>",
+          "For more information about PTIB and how to be an informed student, go to: <a href='http://www.privatetraininginstitutions.gov.bc.ca/students/be-an-informed-student'>http://www.privatetraininginstitutions.gov.bc.ca/students/be-an-informed-student."
+        ]
+      },
+      {
+        "name": "Campus Policies",
+        "sectionHeader": true,
+        "dateAdopted": "",
+        "dateLastModified": "",
+        "content": []
+      },
+      {
+        "name": "Internet and Email",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "Your college has provided you with internet and email access to assist you in completing your course assignments. Please refrain from using these tools for your own personal use. Downloading and streaming anything through the Internet that is not per the instructions in the courseware is prohibited. This constitutes non-compliance of school regulations in terms of our Dismissal policy and as such is grounds for immediate termination of your program."
+        ]
+      },
+      {
+        "name": "Lost Property/Personal Damage",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "Academy of Learning® Career College and their staff are not responsible for loss or stolen of personal property or for personal injury from any cause whatsoever in the school. Please always keep an eye on personal belongings and do not leave them unattended. Try to mark all your loose property, your textbooks and/or workbooks. Lost items which are handed in will be held for a limited period. Books which are misplaced will have to be re-purchased."
+        ]
+      },
+      {
+        "name": "Recycling",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "Please place garbage and recycling in the proper bins that are provided. Do not place liquids in the bins",
+          "We are committed to reducing the amount of waste being sent to landfill. Your cooperation in this will be greatly appreciated."
+        ]
+      },
+      {
+        "name": "Special Needs",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "The college is committed to a philosophy that everyone should have the right and opportunity of improving their lives through better, more potentially rewarding employment. We will do what we can to accommodate physically challenged students. Written transcripts of all courses can be requested when audio material is insufficient for student needs. Please speak to any of the college staff for assistance."
+        ]
+      },
+      {
+        "name": "Scent-free Environment",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "The college is a scent-free environment. We have several students and staff members who are sensitive to certain scents causing them physical discomfort. We ask that all students and staff refrain from using perfume, cologne, scented hair products, scented deodorant, and heavily scented laundry detergent or fabric softener. Students may be asked to leave the campus, to change or to wash off the scent. Repeated offenses will result in disciplinary action. Students asked to leave the campus will be required to log out of the attendance recorder and log back in upon return to the campus."
+        ]
+      },
+      {
+        "name": "Storage Mediums",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "The use of any storage mediums, other than those which form part of our curriculum, is totally prohibited. Any unapproved copy of the course material, whether physical or digital, will be viewed as reproduction of Academy of Learning® Career College courseware, and may face dismissal. Outside storage mediums may introduce viruses/malware to the college's networked systems. Please show consideration as computer downtime adds unnecessary delay to your and others' study periods.",
+          "If you believe the use of a storage medium is necessary, please speak to the Learning Coaches and we are happy to discuss the usage or offer alternative to suit your need."
+        ]
+      },
+      {
+        "name": "Telephone Calls",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "Students may ask college staff to use the campus telephone. Students may only make urgent calls or calls relating to their job search. Please remember that it is a business line, so kindly limit the duration of your calls.",
+          "Due to the Freedom of Information and Privacy Act we are unable to confirm to callers whether a student is at school.",
+          "The college will only relay a message in cases of extreme emergency. Please inform the office at the college about any situation where we may be required to relay a message (e.g. serious illness in the family, daycare, etc.)"
+        ]
+      },
+      {
+        "name": "Visitors",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "A friend or family member(s) may wait in the waiting area, near the entrance, near the end of your study period. However, you will be solely responsible for the safety and conduct of the visitor(s) while they are on college premises. Permission must be obtained from a college staff to bring a friend or family member to any other areas of the school. Visitors are not permitted to attend, observe, spend time (waiting) in classes, or to use any computer facility."
+        ]
+      },
+      {
+        "name": "Washroom Facilities",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "The college will have on-site washroom facilities or have access to a common washroom area in a general place of business (ex. office tower or mall).Please keep the washroom area tidy. When leaving the washroom area, kindly wipe any of your water spills from the counter and properly discard your used paper towels. Don't forget any personal belongings when leaving the washroom are1. Please notify a college staff when the facility supplies are low.",
+          "Please return any washroom keys where required."
+        ]
+      },
+      {
+        "name": "Workstation Guidelines",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "We cannot guarantee specific computers or workstations to any students. Your Learning Coach will show you how to operate the equipment in the campus. If you are experiencing problems with the facilities or equipment, please call on campus staff for assistance. Please do not attempt repairs on your own.",
+          "Regarding your workstation, please follow these guidelines:",
+          "<ul>",
+          "<li>All media presentation material is copyrighted material and as such cannot be removed from the campus.</li>",
+          "<li>Leave workstations clean and tidy. Allow enough time to tidy up and vacate the workstation for the next student.</li>",
+          "<li>Please logout of your account before leaving for the day. You don't need to shut down the computer.</li>",
+          "<li>Please obtain permission to remain at the workstation beyond your scheduled time. Requests for extra time are usually accommodated; however, relocation to another workstation may be necessary.</li>",
+          "<li>Workstations are booked in 4-hour blocks, the average time for 2 lessons. Should you wish to book additional time, please submit your request a minimum of 1 day prior to the day and time you wish to use the workstation and we will do our best to accommodate the request.</li>",
+          "<li>Please do not leave personal belongings at the workstation.</li>",
+          "<li>For the health and safety of our staff and students, please put all outerwear in the designated location and not on the back of a chair as this poses a trip and fall hazard for everyone. As well, please put all purses, backpacks, etc. under the desk to keep the aisles clear.</li>",
+          "</ul>",
+          "Due to the licensing of software, there may be instances when a Learning Coach must relocate a student to another computer. We do our best to minimize this situation because we understand the inconvenience that results, but we ask for your co-operation in these instances.",
+          "We reserve the right to inspect, at any time, the computer displays, hard drive, etc., students are using. Such inspections take place only if there is reason to suspect an infraction of the rules. The appropriate officials will investigate the matter and, if circumstances warrant, proceed to investigate all work and files belonging to the student."
+        ]
+      },
+      {
+        "name": "Academic Policies",
+        "dateAdopted": "",
+        "dateLastModified": "",
+        "content": [
+          "Admissions Requirements",
+          "Financial Aid",
+          "International Students",
+          "English Proficiency",
+          "Attendance Policy",
+          "Attendance Records",
+          "Breaks",
+          "Hours of Attendance",
+          "Student Commitment",
+          "Student Aid BC Loan Requirements",
+          "Other Funding Sources",
+          "Learning from Home / Hybrid Learning",
+          "Programs or Course Changes",
+          "Interruption and Resumption of Studies",
+          "Transfer Policy",
+          "Program End Date & Extensions",
+          "Dismissal/Expulsion Policy",
+          "Tuition Fees and Financial Obligations"
+        ],
+        "sectionHeader": true
+      },
+      {
+        "id": 7,
+        "name": "Admissions Requirements",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "To qualify for admission into any diploma or certificate course or program, all applicants must attend an initial interview and receive a positive recommendation from the Campus Admissions Department. The minimum admission requirements are:",
+          "<ul>",
+          "<li>An understanding of the English language. See the English Proficiency Section.</li>",
+          "<li>Grade 12 diploma or equivalent. Applicants must provide proof prior to enrolling. OR</li>",
+          "<li>Passing grade on the entrance exam if a mature student, 19 years of age or older and having been out of high school for a minimum of one year. Proof of age is required. This entrance exam also applies to residents who are unable to obtain a copy of their high school diploma or transcript, or do not qualify under the international admission of requirements list of countries and certificates. The minimum passing grade for this examination is 75 %.</li>",
+          "<li>Can work with an individualized learning system and be able to follow instruction.</li>",
+          "<li>Applicants for more specialized programs such as the HealthCare, Community Support Worker, Addictions Worker, and IT programs will be further evaluated on specific criteria and testing related to individual program requirements, and pre-requisites.</li>",
+          "</ul>",
+          "Some programs may also have additional entrance requirements or prerequisite courses. In addition to the above Academy of Learning® Career College admissions requirements, the following is a list of specific requirements needed for individual Academy of Learning® Career College programs:",
+          "<i>Medical Office Assistant Diploma | Medical Office Assistant Diploma with Unit Clerk</i>",
+          "<ul>",
+          "<li>Mature students must successfully complete a Scholastic Level Exam and a Canadian Achievement Survey Test.</li>",
+          "<li>Clear Criminal Record Check with vulnerable sector.</li>",
+          "<li>Hepatitis B, COVID-19, etc vaccination (prior to clinical placement).</li>",
+          "</ul>",
+          "<i>Community Service Worker and Addition Worker Diploma</i>",
+          "<ul>",
+          "<li>Mature students must successfully complete a Scholastic Level Exam and a Canadian Achievement Survey Test.</li>",
+          "<li>Clear Criminal Record Check with vulnerable sector.</li>",
+          "<li>TB Test, COVID-19, etc vaccination (prior to clinical placement).</li>",
+          "</ul>",
+          "<i>Computer Service Technician Diploma | Network Administrator Diploma | PC Support Specialist Diploma | Web Design Diploma | Graphic Design Diploma | Software and Web Developer Diploma</i>",
+          "<ul>",
+          "<li>Good command of the English language</li>",
+          "<li>Ability to work with integrated learning system or online learning.</li>",
+          "</ul>",
+          "<i>Help Desk Support Analyst Diploma</i>",
+          "<ul>",
+          "<li>Good command of the English language</li>",
+          "<li>Ability to work with integrated learning system or online learning.</li>",
+          "<li>Computerized Office Skills Certificate or equivalent proficiency in Keyboarding, Windows, Word, Excel, Access, Outlook, PCs, and the Internet</li>",
+          "</ul>",
+          "Where a program has a work component or is delivered in whole or in part at another location, the student will be advised of this information in the admissions process.",
+          "Applicants, who are not suitable, do not meet the entrance requirements, or who decide to pursue other training options may be referred to other resources or to an alternate training institution. If an applicant fails to meet Academy of Learning® Career College's admissions requirements, they may not be enrolled at Academy of Learning® Career College based on the Admissions Policy being waived.",
+          "In order to enroll in an individual course that is part of an approved career program, an applicant must still have a grade 12 high school Diploma, or equivalent, or Mature Student status, and must attend a personal interview.",
+          "If a student taking one or more individual courses wishes to enroll in a Diploma-level or Certificate-level program, the student must meet the program's Admissions Requirements."
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Financial Aid",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "Some students may be eligible for funding from Student Aid BC, WorkBC, or organizations for people with disabilities. As well, many banks offer students lines of credit. The admissions department can provide you with more information."
+        ]
+      },
+      {
+        "id": 9,
+        "name": "International Students",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "An international student who is not a Canadian citizen or permanent resident must obtain an appropriate Study Permit, also referred to as a Student Visa, from their nearest Canadian Consulate, or Immigration Refugee and Citizenship Canada (IRCC) directly as appropriate. In the application to a Canadian Consulate or the IRCC for a Study Permit, the international student applicant will need to include the Designated Learning Institution number (DLI #) on the application form. The applicant will also need a letter of acceptance from the designated learning institution.",
+          "The following are the required test scores at Academy of Learning® Career College campuses regarding all registered diploma level programs:",
+          "<ul>",
+          "<li>TOEFL Paper based test – Minimum score of 525 required</li>",
+          "<li>TOEFL Internet based test – Overall minimum score of 80 required, with minimum scores of 20 in Writing, Reading, Listening and Speaking.</li>",
+          "<li>IELTS – Minimum overall band of 6.0, with no single test score below 5.5</li>",
+          "<li>CAEL – Minimum overall score of 60</li>",
+          "</ul>",
+          "Applicants may be required to undertake an English language entry examination prior to entering a Diploma program."
+        ]
+      },
+      {
+        "id": 10,
+        "name": "English Proficiency",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "All courses provided by Academy of Learning® Career College require an understanding of the English language. We are interested in your success at AOLCC, so English upgrading opportunities may be recommended before beginning your program."
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Attendance Policy",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "The Academy of Learning® Career College's flexibility allows you to work at your own pace. You may select the hours of attendance that suit your circumstances, but this is subject to workstation availability and within the college's hours of operation. The minimum weekly hours you wish to attend is considered and agreed to at the time of enrollment. However, this is subject to the program's registration as set out by the ministry and your funding source. You may put in additional hours before your end dates providing arrangements have been made to reserve a workstation for this purpose.",
+          "No refund of tuition will be given for occasional absences from classes. The student is obligated to complete the program of study within the time frame determined as the end date and the college's guidelines for completing individual courses. During the term of the contract, a student's progress is evaluated, and changes may be considered and recommended to adjust for the pace of the student, and his or her attendance and progress requirements.",
+          "Regular attendance is not only a good habit, it is also important in terms of your professional growth. In addition, there is often a direct relationship between regular attendance and academic success. A permanent record of your attendance will be kept.",
+          "Please give as much advance notice as you can, if you are unable to attend class. You may be placed on probation or dismissed if there is a record of excessive absenteeism. If you are receiving financial aid, please see the Student Aid BC Loan Requirements section, and Other Funding Sources section for specific details regarding their attendance requirements. We encourage you to clarify any questions with the Admissions Representative at your campus."
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Attendance Records",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "Each day you attend the college, when you come in and when you leave for the day, you must record your attendance on the school's attendance webpage linked on aolccbc.com under student resources. You will be shown how to log in and log out on your first day of class. As these records are confidential, you must not share your user identity and password with anyone. For accuracy, please ensure you are assigning your time in class to the course(s) you are working on.",
+          "Students found to be logging in for or by another student in the attendance computer will be subject to the following for BOTH students;",
+          "<ul>",
+          "<li>Receive a verbal warning</li>",
+          "<li>Receive a written warning which will outline future consequences for repeat offenses and be put on Academic Probation</li>",
+          "<li>Be dismissed for subsequent offenses</li>",
+          "</ul>",
+          "The attendance records are required for reporting purposes. Please note these records are part of your permanent file and are subject to audit by the government, sponsoring agencies or their designated agents."
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Breaks",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "Students must treat their training as they would an employment situation. As in any job, you are required to 'watch the clock' when you take lunch or coffee breaks. A 15-minute, mid-morning or midafternoon coffee break is usually given at work, so get used to this now and ensure you return to class promptly. If a student requires an extended break, he/she must obtain permission from the Learning Coach or Instructor and <i>must log out</i> when leaving and log in upon returning to class. If a student fails to notify the college staff, the Learning Coaches or Instructors have the authority to log you out from the attendance computer, or deduct time from your daily attendance, to ensure the accuracy of your attendance records.",
+          "This applies for Study/Work from Home Students as well."
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Hours of Attendance",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "Class hours for Learning Coach or Instructor-led classes will be at the sole discretion of the college. You will be required to attend the classes according to the timetable set by the college. Students are responsible for making up the time they miss, and for arranging to collect any handouts or notes. If you have questions about the hours of operation at your campus, simply ask a Learning Coach.",
+          "A student may be placed on probation if the college believes the student has abused any part of the attendance policy. If the problem(s) persists after being placed on probation, a student may be dismissed. A student will be given every chance to remedy his/her situation. A verbal warning and a written warning will be issued before a student is dismissed for a violation of the attendance policy. Please refer to the complete <span id='Dismissal/Expulsion Policy'>Dismissal/Expulsion Policy</span> in this handbook"
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Student Commitment",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "All students are required to demonstrate a commitment to their studies and to progress at a satisfactory rate. There are minimum standards which all students must meet:",
+          "<ul>",
+          "<li>Meet your minimum weekly hours.</li>",
+          "<li>Complete all assignments, projects, and homework.</li>",
+          "<li>Submit all quizzes, tests, mid-terms and final exams on time.</li>",
+          "<li>Obtain a minimum of 60% in each course; Note: The minimum mark may vary by program.</li>",
+          "<li>Maintain a minimum overall average of 75% in a registered diploma program or registered certificate program; Note: Marks may vary by registered diploma program or registered certificate program.</li>",
+          "<li>Obtain a minimum mark of 75% on each individual certificate course.</li>",
+          "</ul>",
+          "You can demonstrate commitment in your studies by:",
+          "<ul>",
+          "<li>Attending all scheduled classes.</li>",
+          "<li>Coming to class on time</li>",
+          "<li>Being prepared <i>(homework or reading may be required depending on the program)</i></li>",
+          "<li>Being an active student, by listening, doing and completing each task assigned</li>",
+          "<li>Working on assigned work during class time</li>",
+          "<li>Participating actively (with a good attitude) in labs, classes and clinical placements</li>",
+          "<li>Remaining in class for the full, scheduled time each day.</li>",
+          "<li>Seeking help when you need it (e.g. academic, financial and budgeting advice and career guidance)</li>",
+          "<li>Remaining in good academic standing.</li>",
+          "</ul>"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Student Aid BC Loan Requirements",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "To stay eligible for Student Aid BC loans or grants, you must attend school full-time* for the entire study period for which you have received funding.",
+          "<i>*Full-time is at least 60% of the full course load (40% for students with permanent disabilities) for at least 12 consecutive weeks. At AOLCC, it translates to minimum weekly hours of 20, or more, varies by programs.</i>",
+          "<li>Maintain a minimum overall average of 75% in a registered diploma program or registered certificate program; Note: Marks may vary by registered diploma program or registered certificate program.</li>",
+          "<li>Obtain a minimum mark of 75% on each individual certificate course.</li>",
+          "</ul>",
+          "You can demonstrate commitment in your studies by:",
+          "<ul>",
+          "<li>Attending all scheduled classes.</li>",
+          "<li>Coming to class on time</li>",
+          "<li>Being prepared <i>(homework or reading may be required depending on the program)</i></li>",
+          "<li>Being an active student, by listening, doing and completing each task assigned</li>",
+          "<li>Working on assigned work during class time</li>",
+          "<li>Participating actively (with a good attitude) in labs, classes and clinical placements</li>",
+          "<li>Remaining in class for the full, scheduled time each day.</li>",
+          "<li>Seeking help when you need it (e.g. academic, financial and budgeting advice and career guidance)</li>",
+          "<li>Remaining in good academic standing.</li>",
+          "</ul>"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Other Funding Sources",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "Please be advised that every funding agency has their own set of requirements regarding minimum attendance. These requirements will be reviewed with you by your funder and again at the time you enroll. If you do not maintain your attendance, the college is required to advise your funding agency. You may then be assumed to have withdrawn, your program cancelled and may be expected to return all or a portion of your payments. Should you require further clarification, please speak to the Admissions Department or the Campus Director.",
+          "The college provides attendance record and progress reports on a periodic basis to sponsoring agencies, if required, on behalf of students. This lets the college, the student, and the agency know if the student is behind or ahead of schedule.",
+          "Please note that attendance and progress records may be subject to scrutiny by sponsoring agencies and are maintained by the college as prescribed."
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Learning from Home / Hybrid Learning",
+        "dateAdopted": "2020-04-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "In response to the COVID-19 pandemic, Academy of Learning® Career College has updated its Integrated Learning System® (ILS®) to allow for Learning from Home and Hybrid Learning. Hybrid Learning is a combination of Learning from Home and Learning on Campus.",
+          "The advantage of Learning from Home is that you can access your courses and even the final exams from home using the same myAOLCC Learning Hub that you use at the campus.",
+          "Regular attendance is still required. However, Learning from Home allows you to spread your hours across all 7 days instead of just Monday to Friday. And you can work on your courses in the evening, after the kids have gone to bed.",
+          "While working from home, you still have the same support that you get at the campus during regular campus hours. If you have any questions outside of the campus hours, you can send an email to your Learning Coach or leave a voicemail, and a qualified learning coach will return your message during the next school day.",
+          "<h3>Software and Hardware Requirements</h3>",
+          "In order to complete your courses from home, there are certain technical requirements that must be met.",
+          "These requirements may change at any point. If you are unsure, please ask your learning coach.",
+          "<i>Note: These requirements are only for Learning from Home. All Academy of Learning® Career College campuses are equipped with the hardware and software required to complete your courses.</i>",
+          "<h3>Minimum Requirements</h3>",
+          "Operating System: Microsoft Windows 10/11",
+          "Screen Size: 14 inches",
+          "Keyboard: 104+ key keyboard",
+          "Internet: Wifi - 1.5 Mbps or faster",
+          "Optional: Office 365 Personal",
+          "<i>Note: Depending on the courses you are enrolled in, you might be able to use other types of computers. Please speak with Admissions or a Learning Coach before purchasing a computer specifically for school.</i>",
+          "<h3>Exams</h3>",
+          "If you wish to take your exam at home, you will need to reach out to the campus to get an exam code in order to unlock the exam. There may also be certain technical requirements, so please speak with your learning coach before your exam date to ensure you have what you need.",
+          "Please ensure you request the code <i>before</i> your target exam date if you wish to take the exam outside of normal campus hours.",
+          "Exams done outside of campus hours should not be started between 6:30 PM PST and 9:30 PM PST. This is due to regularly scheduled maintenance at 9 PM PST/12 AM EST that will affect in progress exam attempts",
+          "<h3>Keyboard Skill Building Exams</h3>",
+          "If you are unable to come into the campus to take the Keyboard Skill Building exam, you are able to submit your progress report in order to receive credit for the course. Please speak with your learning coach for more details."
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Programs or Course Changes",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "Every request for a diploma program or course change will be considered, provided you have discussed the feasibility of the change with the Campus Director. You will be asked to provide a written request outlining your reasons and how this change will help you achieve your career goals. If your request is approved, you will be required to complete a new registration contract.",
+          "Students that are sponsored must obtain written permission from their sponsoring agency and submit it with their written request for a course change.",
+          "Any or all of the courses which you have completed, may be applied to the new diploma program (CPL; see the Academic Exemption (<span id='Credit for Prior Learning – CPL'>Credit for Prior Learning – CPL</span>) ), provided they are listed on the new diploma selection list.",
+          "You should be aware that any changes to your program after you commence classes may affect your sponsorship or student loan funding. Check with our admissions department, the Financial Aid Office, or your sponsor before you reach your final decision."
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Interruption and Resumption of Studies",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "Any prolonged period of non-attendance from scheduled classes for more than 5 days constitutes an interruption. The college will notify the sponsoring agencies and/or student loan providers after 5 days of absenteeism (or sooner, depending on the agency's policy).",
+          "If, for any reason, you must interrupt your studies, but wish to return to them later, please ensure that you follow the appropriate procedure to obtain a leave of absence. Contact the Campus Director at your college for this purpose. Also, please note that an interruption may affect your eligibility for further funding. Check with the Campus Director or your sponsor for more information regarding your interruption of studies.",
+          "If you did obtain a leave of absence, and are ready to resume your studies later, you must decide through the Campus Director as soon as you are sure of your return date. Your new start date will depend upon seating and equipment availability.",
+          "If a leave of absence was not granted, or you were not in good financial or academic standing at the time you interrupted your studies, you may apply to resume studies by submitting a written request. This written request must explain any reasons and/or mitigating circumstances which prevented you from obtaining a leave of absence. You will be advised of the final decision, and should you be re-admitted, you may be advised of any conditions that you must meet."
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Transfer Policy",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "Students are expected to complete their program of study at the Academy of Learning® Career College identified on their contract. Under no circumstances can course or program registrations be transferred to another individual.",
+          "If you wish to transfer to another Academy of Learning® Career College, you must request this in writing from our campus in advance, but we cannot guarantee that a transfer will be made. Transfers will only be considered if the student is in good standing and are at the sole discretion of the campus director. This policy may be subject to approval from your funding agency and is subject to space availability and acceptance by the campus to which you want to transfer."
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Program End Date & Extensions",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "Your program end date is specified on your Enrolment Contract. Students are expected to complete all the courses in their registered diploma or registered certificate program outline by this date. You may need to schedule extra time to adhere to your timetable and complete your diploma or certificate on the scheduled end date of your program.",
+          "For those students funded through a third party – Workers' Compensation, First Nations, Insurance, or Corporate, if completion by the scheduled end date is not possible, and with the permission of the third-party funder and the Campus Director, this end date may be extended. An additional charge may occur. A valid reason must exist, such as sickness, converting to part-time due to work obligations etc. Any application for an extension must be made well in advance of the end date and must be provided to the Director of the college in writing. The length of the extension will be at the sole discretion of the Director of the college.",
+          "Courses not completed within this period will not qualify for any refunds or transfers. Textbooks for courses not started will not be issued after this period has elapsed.",
+          "A per day or per week fee may apply for any extension."
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Dismissal/Expulsion Policy",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "Academy of Learning® Career College reserves the right to expel/dismiss a student whose conduct is deemed to be unsatisfactory. Such conduct includes: academic fraud, non-payment of outstanding fees, not abiding by the code of conduct, significant omissions or errors in Admissions documentation, academic failure, non-attendance, harassment, bullying or discrimination, misuse of college property, endangerment of staff or students, and/or failure to abide by school rules and regulations as per the Student Handbook.",
+          "Academy of Learning® Career College reserves the right to dismiss/expel any student prior to completing a program or course if it is determined that the student is not attending sessions when scheduled, has an unsatisfactory attitude or has not adapted to the area of study. Similarly, students not maintaining satisfactory progress must not be permitted to continue with their program. Students must be aware that continued lack of effort on their part may result in dismissal.",
+          "<h3>Conditions for Expulsion</h3>",
+          "The following outlines the conditions under which an Academy of Learning® Career College student may be expelled with cause.",
+          "Conduct may include, but is not limited to:",
+          "<ol>",
+          "<li>Academic fraud</li>",
+          "<li>Poor Financial Standing</li>",
+          "<li>Harassment or Discrimination, including Sexual Harassment</li>",
+          "<li>Act of Misconduct/Unacceptable Behavior</li>",
+          "<li>Academic Failure – where a student fails to meet the academic requirements of their program. It is the sole decision of the college to offer any options to the student regarding alternatives for another program.</li>",
+          "<li>Attendance – where a student is not meeting the required attendance for the program. Students who are not meeting the College's Attendance Policy without enough cause will result in automatic expulsion.</li>",
+          "<li>The details of above listed items are in the section Student Code of Conduct. We strongly recommend you review this information, and, if necessary, talk with us for any questions or concerns.</li>",
+          "</ol>",
+          "<h3>Expulsion Procedure</h3>",
+          "At the discretion of the college and based upon the severity of the incident, the following steps may be taken prior to the expulsion/dismissal of the student:",
+          "<ol>",
+          "<li>Verbal warning</li>",
+          "<li>Written warning</li>",
+          "<li>Suspension, and</li>",
+          "<li>Expulsion</li>",
+          "</ol>",
+          "<h3>Notification of Expulsion/Dismissal</h3>",
+          "Where a student is subject to expulsion/dismissal for any of the above reasons, the student will receive notification in writing, either by hand delivery or by registered mail, with a return receipt to ensure receipt of notification. If the registered mail is returned to the college due to an invalid address provided by the student, the college is not responsible for non-delivery.",
+          "The notification of expulsion/dismissal will contain the reason as well as the effective date of the expulsion. If the expelled/dismissed student wishes to dispute the expulsion/dismissal; they must file an appeal within three days in writing to the Franchise Support Centre.",
+          "If the appeal is unsuccessful, the student will be considered expelled from the college. The student will have the opportunity for further appeals through the Complaints process of the appropriate provincial Ministry.",
+          "<h3>Re-admission</h3>",
+          "A student who has been dismissed for unsatisfactory conduct may be considered for re-admittance upon satisfying the college that the causes for dismissal have been corrected.",
+          "Admission is at the discretion of the college Director.",
+          "<h3>Fees</h3>",
+          "Where a student has been expelled by the college, the student will be considered withdrawn from their program as of the effective date of the expulsion. The college will be required to calculate the student's account as of the official withdrawal date of the expulsion based on the College's Fee Refund Policy, as prescribed by the <i>Private Training Act</i>.",
+          "<h3>Treatment of Books and Equipment</h3>",
+          "A student who is expelled is responsible for the return of any college equipment or books (which are unopened and in the same state they were supplied) within 10 days of expulsion from the program. If not, the student will be held financially responsible."
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Tuition Fees and Financial Obligations",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "Tuition fees include all necessary materials. A payment plan can be arranged to suit students' individual needs. Payments may be made by cheque, credit card, or cash. Fees are charged on a per course basis according to established prices. Total fees are due and payable by the start date unless specific arrangements have been made and recorded on your contract. If you are funded by another organization, we require a letter of authorization. All financial obligations to the school must be met before credit for any courses in the program of study will be given.",
+          "<h3>General</h3>",
+          "The college expects students to pay their tuition according to the arrangements with the Admissions Office and as outlined on the Enrolment Contract.",
+          "<ol>",
+          "<li>Students are financially responsible for all charges incurred after the Enrolment Contract has been signed. The financial obligations are outlined in the Private Training Act.</li>",
+          "<li>All fees are payable as specified in the payment schedule as shown in the Enrolment Contract.</li>",
+          "<li>A fee of $30.00 will be levied for any returned cheques, regardless of the reason it is returned.</li>",
+          "<li>Academic credits and release of official documents will be withheld until all financial obligations to the college have been met.</li>",
+          "<li>Some textbooks may not be included in tuition fees, depending on the course. Textbooks will be provided at the start of each course. See also, '<span id='Textbooks, Lab Fees and Supplies'>Textbooks, Lab Fees and Supplies</span>.</li>",
+          "</ol>",
+          "<h3>Tuition Payment, Inquiries and Deferments</h3>",
+          "Tuition is due according to the terms and conditions of the Student Payment Schedule as outlined on the Enrolment Contract. Students are expected to make payments on time; however, if financial difficulties arise, speak to the Director of the college. Receipts will be provided each time monies are received. (Excludes students funded through a sponsoring agency).",
+          "The Campus Director can provide up-to-date and accurate information on tuition accounts. An account statement can be requested at any time. Tuition fees qualify for a federal tax credit. You are also entitled to an educational status credit for each month that you attend. Tuition receipts (T2202) for income tax purposes will be sent to students who have made payments in the previous calendar year. These are generally available in mid to late February. Students funded by a third party will not receive tuition receipts for income tax purposes. (Workers' Compensation, Band, Insurance or Corporate)",
+          "Deferment of tuition is generally given to students who have applied for financial assistance through the student loans program but have not received loan documents by the first day of class. Tuition is also deferred for students who have been sponsored by an agency. There is no charge for this deferment.",
+          "Students who do not pay fees as agreed or do not make satisfactory arrangements to pay tuition and other charges (lab fees, textbooks, etc.) will be suspended or dismissed.",
+          "<h3>Financial Clearance</h3>",
+          "Graduating students must be in good financial standing before a diploma or certificate is issued. Graduating students should check with the Campus Director/Finance Office when they finish their programs to ensure their account is cleared and/or up to date. If a student's account is not cleared, arrangements must be made with the Campus Director."
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Health and Safety",
+        "dateAdopted": "2020-07-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "<span id='Communicable Disease Prevention Measures'>Communicable Disease Prevention Measures</span>"
+        ],
+        "sectionHeader": true
+      },
+      {
+        "id": 27,
+        "name": "Communicable Disease Prevention Measures",
+        "dateAdopted": "2020-07-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "Due to the COVID-19 Pandemic, the Provincial Health Officer and the BC Ministry of Advanced Education has issued orders for the safe resumption of in class instruction.",
+          "*All students will be notified of any changes.*",
+          "<table>",
+          "<thead>",
+          "<tr>",
+          "<th></th>",
+          "<th></th>",
+          "<th></th>",
+          "</tr>",
+          "</thead>",
+          "<tbody>",
+          "<tr>",
+          "<td><strong>Face Masks</strong></td>",
+          "<td>Face Masks are <em>Optional</em>. When worn, they must be worn properly, with your nose, mouth and chin covered.</td>",
+          "<td><img src='/images/facemask.webp' width='250px'></td>",
+          "</tr>",
+          "<tr>",
+          "<td><strong>Handwashing</strong></td>",
+          "<td>Regular handwashing with either soap and water or hand sanitizer is required.</td>",
+          "<td><img src='/images/handwash.webp' width='250px'></td>",
+          "</tr>",
+          "<tr>",
+          "<td><strong>Sanitize Surfaces</strong></td>",
+          "<td>Wipe your computer station and headphones with alcohol wipes at the start and end of your session.</td>",
+          "<td><img src='/images/sanitize.webp' width='250px'></td>",
+          "</tr>",
+          "<tr>",
+          "<td><strong>Illness</strong></td>",
+          "<td>If you are experiencing any cold/flu symptoms or any other symptoms advised by the BC Centres for Disease Control (BC CDC), do not attend the campus. Please visit the COVID-19 self assessment tool located at: bc.thrive.health<br>Until further notice, the requirement to obtain a Doctor's note is suspended. You are still required to inform the campus if you cannot attend due to illness.</td>",
+          "<td><img src='/images/illness.webp' width='250px'></td>",
+          "</tr>",
+          "<tr>",
+          "<td><strong>Vaccinations</strong></td>",
+          "<td>While not <em>mandatory</em> for <em>most</em> programs, the COVID-19 vaccine is highly recommended for students. All Staff are already vaccinated.</td>",
+          "<td><img src='/images/vaccine.webp' width='250px'></td>",
+          "</tr>",
+          "</tbody>",
+          "</table>"
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Emergencies",
+        "dateAdopted": "2020-07-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "<ul>",
+          "<li>Stay calm, do not panic. Please obey all college and other officials during emergencies.</li>",
+          "<li>In case of an earthquake, get under a workstation. After the earthquake is over or after receiving instructions from staff, leave class and exit the building using the front exit in an orderly fashion.</li>",
+          "<li>In case of fire or at the first sign of smoke, exit building using the exit at the front or rear of the building in an orderly fashion. Keep low.</li>",
+          "<li>After exiting building, please meet outside on the parking lot near the entrance.</li>",
+          "<li>At the meeting site, we must take roll to see who is there and who may be missing.</li>",
+          "</ul>",
+          "You are advised to check the Evacuation Procedures posted in your campus for specific details",
+          "Report any hazards, accidents or injuries immediately to a college official. Help us to keep the college healthy and safe for all users by reporting concerns immediately. We will make every reasonable effort to address the concern in a timely fashion."
+        ]
+      },
+      {
+        "id": 27,
+        "name": "Preventing and Responding to Sexual Violence and Misconduct Policy",
+        "dateAdopted": "2021-08-18",
+        "dateLastModified": "2021-08-18",
+        "content": [
+          "Position(s) Responsible: Executive Director, SEA",
+          "<h3>Purpose Statement</h3>",
+          "Academy of Learning® Career College wishes to confirm its responsibility to provide a safe and secure learning environment. At Academy of Learning® Career College, we firmly believe that there should be a safe environment for all the students, which is free from any kind of sexual misconduct as the college has zero tolerance towards this kind of misconduct.",
+          "Through this policy the institutions strive to prevent sexual misconduct and create a procedure to respond effectively and in a timely manner when incidents occur.",
+          "In 2016 the Government of BC introduced the Sexual Violence and Misconduct Policy Act S.B.C. c.23 (the Act). The Act requires BC post secondary institutions to establish, implement, and make publicly available a policy, with associated procedures, that addresses sexual misconduct, its prevention, and responses to sexual misconduct. This Policy has been designed in compliance with the Act.",
+          "<h3>Scope and Application</h3>",
+          "The policy applies to students, faculty and staff members working at Academy of Learning® Career College as well as extends to the visitors, volunteers and contractors at the campus, who may be found involved in any act of violating the respectful environment of the college by indulging in any sexual violence or misconduct.",
+          "Sexual misconduct is defined as any form of undesired activity of a sexual nature which intends to violate the sexual integrity of the individual to whom it is directed. Sexual assault is characterized by a broad range of behaviors that involve the use of coercion, threats or control towards a person which makes the person feel uncomfortable, distressed, frightened.",
+          "Sexual misconduct may involve:",
+          "<ul>",
+          "<li>Sexual Assault</li>",
+          "<li>Sexual Exploitation</li>",
+          "<li>Sexual Harassment</li>",
+          "<li>Stalking</li>",
+          "<li>Incident Exposure</li>",
+          "<li>Voyeurism</li>",
+          "<li>Distribution of a sexually explicit photograph or video of a person, without the consent of the person in the photo or video.</li>",
+          "<li>Attempt to commit an act of sexual misconduct</li>",
+          "<li>Threat to commit an act of sexual misconduct.</li>",
+          "</ul>",
+          "<h3>Reporting/Disclosure Procedure</h3>",
+          "The person who wishes to disclose sexual misconduct or make a formal report against it may do so as per the following process:",
+          "<ol>",
+          "<li>Victim/Survivor safety comes first. Campus staff will discreetly ensure that the victim/survivor will receive any required medical attention and any security measures required to keep them safe.</li>",
+          "<li>The person (victim) may choose to disclose the sexual misconduct to the Executive Director/SEA of Academy of Learning® Career College, without making a formal report. In this case a formal process may not be initiated, but the management will deal with the disclosure seriously and may take steps to avoid the repetition of the incident.</li>",
+          "<li>To initiate a formal process, the victim or a member of the college community, on behalf of the victim, needs to submit a report in writing to the Executive Director/ Senior Educational Administrator of Academy of Learning® Career College, stating as clearly as possible the details of the incident, including the details of the people involved in the misconduct, along with a request for an action. The report must clearly state the allegations against the alleged person involved in the sexual misconduct. The Executive Director/SEA will, within 24 hours of receiving the complaint, initiate an investigation to the complaint and may ask for more information from the complainant.</li>",
+          "<li>Depending on the severity of complain, the SEA may seek legal advice or may ask the complainant to follow a legal process besides the complaint filed at the Academy of Learning® Career College.</li>",
+          "<li>The person against whom allegations are made will be informed about the same, keeping the name and details of the complainant private. The person will be given 24 hours’ time to submit written explanation about the incident. The SEA of Academy of Learning® Career College will then verify all the available evidence and if found guilty, the alleged perpetrator will be asked to offer a written apology to the complainant and will also be expelled from work/study (as the case may be).</li>",
+          "<li>If the perpetrator is a visitor, whom the Academy of Learning® Career College authorities cannot access, the information of the visitor will be given to the local police along with the copy of the complaint, if the complainant agrees to this.</li>",
+          "<li>The information of the complainant will be kept confidential according to the Freedom of Information and Protection of Privacy Act, unless, it becomes mandatory by law to disclose the information to get full justice to the complainant. If required, the complainant will be given to counseling or emergency medical care to overcome the mental or physical problems faced by the complainant due to the incident.</li>",
+          "<li>Available Services</li>",
+          "<ul>",
+          "<li>Emergency Services: 911</li>",
+          "<li>Local Hospitals:</li>",
+          "<ul>",
+          "<li>Abbotsford Regional Hospital and Cancer Centre - 32900 Marshall Road - 604-851-4700</li>",
+          "<li>Langley Memorial Hospital - 22051 Fraser Hwy - 604-514-6000</li>",
+          "</ul>",
+          "<li>Mental Health Service: here2talk.ca - 1-877-857-3397</li>",
+          "<li>Fraser Health Sexual Assault Services: <a href='https://fraserhealth.ca/health-topics-a-to-z/sexual-assault-and-violence/sexual-assault-and-violence-resources'>fraserhealth.ca/health-topics-a-to-z/sexual-assault-and-violence/sexual-assault-and-violence-resources</a></li>",
+          "</ul>",
+          "</ol>"
+        ]
+      },
+      {
+        "name": "Privacy Policy",
+        "sectionHeader": true,
+        "dateAdopted": "",
+        "dateLastModified": "",
+        "content": [
+          ""
+        ]
+      },
+      {
+        "name": "Privacy Statement",
+        "dateAdopted": "2000-01-01",
+        "dateLastModified": "2022-05-05",
+        "content": [
+          "Academy of Learning® Career College is committed to, and accountable for, the protection and proper use of personal information. Our commitment extends to meeting or exceeding all legislated requirements related to personal information.",
+          "'Personal information' is personally identifiable information, such as your name, address, e-mail address, Social Insurance identification, birth date and gender. Personal information is collected when you choose to provide it to us when enrolling for training, requesting information from an Academy of Learning® Career College school on training, or attending an Academy of Learning® Career College school to obtain information. Business contact information such as the name, title, business address, e-mail address or telephone number of a business or professional persona or an employee of an organization is not considered personal information.",
+          "'Non-personal information' is information of anonymous nature, such as aggregate information, including demographic statistics."
+        ]
+      }
+    ]
+  }
 }

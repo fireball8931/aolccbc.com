@@ -19,16 +19,22 @@ export function getHandbookContent(sectionRequested) {
             let SectionLinks = '';
             data.handbook.section.forEach(section => {
                 if (section.name == sectionRequested) {
-
+                    
                     let paragraphContent = ''
+                    let ptag = `<p>`
+                    console.log(section.sectionHeader);
+                    if (section.sectionHeader == true) {
+                        ptag = `<p class='ToC'>`
+                    }
                     section.content.forEach(paragraph => {
-                        paragraphContent = paragraphContent + `<p>${paragraph}</p>`;
+                        
+                        paragraphContent = paragraphContent + `${ptag}${paragraph}</p>`;
 
                     })
                     let URIEncodedSectionQuery = encodeURI(section.name)
-                    let linktosection = `${window.location.pathname}?${URIEncodedSectionQuery}`
+                    let linktosection = `${window.location.pathname}?section=${URIEncodedSectionQuery}`
                     updateID('sectionHeader', `
-                            <div class="section-name">${section.id} - ${section.name}</div>
+                            <div class="section-name">${section.name}</div>
                             <div class="dates">
                             Policy Adopted: ${section.dateAdopted} | Last Modified: ${section.dateLastModified}
                             <div class="link-to-section"><a href="${linktosection}">Link to Page</a></div>
@@ -73,9 +79,12 @@ export function buildLeftSide(){
             //LinkID = `${section.name}Link`
             SectionNames[i] = section.name
             i++
-            let sectionlink = `<p><a id="${section.name}" )">${section.name}</a></p>`;
+            let sectionlink = `<p class="sectionnames"><a id="${section.name}" )">${section.name}</a></p>`;
             // console.log(sectionlink);
-            SectionLinks = SectionLinks + sectionlink;
+            if (section.sectionHeader == true) {
+             sectionlink = `<h3>${sectionlink}</h3>`   
+            }
+            SectionLinks = SectionLinks + sectionlink + '<hr>';
             // console.log(SectionLinks);
             updateID('leftSide', SectionLinks)
             //addLink(section.name, sectionlink)  

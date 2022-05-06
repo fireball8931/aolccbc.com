@@ -1,16 +1,16 @@
 .section-name {
     text-transform: capitalize;
-font-weight: bold;text-transform: uppercase;font-size: xxx-large;text-decoration-line: underline;}
+font-weight: bold;text-transform: uppercase;font-size: xx-large;text-decoration-line: underline;}
 
 .sectionContainer {
     /* display: inline-grid; */
-/* width: 80vw; */}
+/* width: 80vw; */margin-left: 1em;}
 .sectionHeader {
     /* width: 80vw; *//* display: inline-block; */
 }
 
 .leftSide {
-    width: fit-content;
+    /* width: fit-content; */
 /* display: inline-grid; */border-right-style: groove;padding-left: 1em;padding-right: 1em;vertical-align: text-top;/* float: left; */}
 
 .pcontent {
@@ -22,4 +22,18 @@ font-weight: bold;text-transform: uppercase;font-size: xxx-large;text-decoration
 
 .content {
     display: inline-flex;
+}
+.sectionnames {
+    /* display:block; */
+/* line-break: strict; *//* white-space: normal; */cursor: pointer;/* line-height: 0px; */}
+
+.leftSide hr {
+    width: 20vw;
+}
+
+.rowicon {
+    width: 89px;
+}
+.ToC {
+    cursor: pointer;
 }
