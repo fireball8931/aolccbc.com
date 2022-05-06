@@ -1,0 +1,90 @@
+{
+    "handbook": {
+        "section": [
+            {
+                "id": 1,
+                "name": "Introduction",
+                "dateAdopted": "2022-05-05",
+                "dateLastModified": "2022-05-05",
+                "content": [
+                    "Congratulations and Welcome to the Academy of Learning® Career College",
+                    "Thank you for choosing Academy of Learning® Career College for your training needs. We will strive to ensure that all your training needs are met.",
+                    "This handbook is designed to help make your time with us rewarding and productive. It is important that you read and understand this handbook. It contains important information about your college policies and student rules and regulations.",
+                    "If you have any questions about the information contained in this handbook, please see one of our staff.",
+                    "Remember, we are committed to your success in your new career. We look forward to working with you and wish you success in your academic and career endeavors.",
+                    "Campus Director: Alda Messiah",
+                    "*These policies and procedures are subject to change without notice. Such changes will be brought to the attention of students as they may arise. You may check with the Admissions Office for the most current copy."
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Our Mission",
+                "dateAdopted": "2022-05-05",
+                "dateLastModified": "2022-05-05",
+                "content": [
+                    "To improve the lives of underserved students and the communities in which they live. Globally, our flexible, supportive environment empowers dedicated students to achieve their goals."
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Our Promises",
+                "dateAdopted": "2022-05-05",
+                "dateLastModified": "2022-05-05",
+                "content": [
+                    "We will:",
+                    " - Meet your individual training needs.",
+                    " - Demonstrate a genuine concern for your career success.",
+                    " - Improve your productivity and marketability.",
+                    " - Provide a high-quality learning experience.",
+                    " - Excel in the delivery of superior career, business, and computer skills training.",
+                    " - Provide a warm and friendly learning environment.",
+                    " - Employ caring, professional, and knowledgeable staff."
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Our Training Philosophy",
+                "dateAdopted": "2022-05-05",
+                "dateLastModified": "2022-05-05",
+                "content": [
+                    "You will find when you begin your classes that the people who make up the student body come from a wide range of backgrounds. Each person brings a life experience that can and should be shared.",
+                    "Your time at AOLCC will help you make the transition from your high school days, your homemaking days or your past job experiences to a new career. By the time you graduate, you will have acquired the technical skills and work habits that are required for employment success.",
+                    "Our programs are designed not only to develop technical skills but also to develop the qualities that employers want, initiative, discipline, the ability to solve problems and to be able to work independently. For this reason, we intentionally create and foster an office-like environment in our classroom. Consequently, our codes of conduct, policies and regulations have been developed with the 'employer-employee' relationship in mind.",
+                    "In addition to the qualities listed above, employers want employees with great attitudes. Attitudes cannot be taught; they can only be refined. It is for this reason that we place much of the responsibility for your progress squarely on you."
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Government Registration, Licencing, and Trademarks",
+                "dateAdopted": "2022-05-05",
+                "dateLastModified": "2022-05-05",
+                "content": [
+                    "Each Academy of Learning® Career College is registered and approved by the appropriate government body in the province in which it operates. In British Columbia, the <a href='https://www.privatetraininginstitutions.gov.bc.ca/'>Private Training Institutions Branch (PTIB)</a> of the Ministry of Advanced Education maintains the regulations. Programs are not offered until appropriate approvals have been granted by PTIB and any governing body if required.",
+                    "Each college is independently owned and operated and is an authorized user of our trademarks. In order to offer programs and use our trademarks, each college must meet and maintain the Academy of Learning® Career College – Franchisor Office Standards of Operation."
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Student Statement of Rights",
+                "dateAdopted": "2022-05-05",
+                "dateLastModified": "2022-05-05",
+                "content": [
+                    "Academy of Learning® Career College is certified with the Private Training Institutions Branch (PTIB) of the British Columbia Ministry of Advanced Education and Skills Training.",
+                    "Before you enrol at a certified private training institution, you should be aware of your rights and responsibilities.",
+                    "You have the right to be treated fairly and respectfully by the institution.",
+                    "You have the right to a student enrolment contract that includes the following information:",
+                    " - amount of tuition and any additional fee for your program",
+                    " - refund policy",
+                    " - if your program includes a work experience, the requirements to participate in the work experience and the geographic area where it will be provided.",
+                    " - whether the program was approved by PTIB or does not require approval.",
+                    "Make sure you read the contract before signing. The institution must provide you with a signed copy.",
+                    "You have the right to access the institution’s dispute resolution process and to be protected against retaliation for making a complaint.",
+                    "You have the right to make a claim to PTIB for a tuition refund if:",
+                    " - your institution ceased to hold a certificate before you completed an approved program",
+                    " - you were misled about a significant aspect of your approved program. You must file the claim within one year of completing, being dismissed or withdrawing from your program.",
+                    "For more information about PTIB and how to be an informed student, go to: <a href='http://www.privatetraininginstitutions.gov.bc.ca/students/be-an-informed-student'>http://www.privatetraininginstitutions.gov.bc.ca/students/be-an-informed-student."
+                ]
+            }
+        ]
+    }
+}

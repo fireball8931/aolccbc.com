@@ -1,0 +1,25 @@
+.section-name {
+    text-transform: capitalize;
+font-weight: bold;text-transform: uppercase;font-size: xxx-large;text-decoration-line: underline;}
+
+.sectionContainer {
+    /* display: inline-grid; */
+/* width: 80vw; */}
+.sectionHeader {
+    /* width: 80vw; *//* display: inline-block; */
+}
+
+.leftSide {
+    width: fit-content;
+/* display: inline-grid; */border-right-style: groove;padding-left: 1em;padding-right: 1em;vertical-align: text-top;/* float: left; */}
+
+.pcontent {
+    /* display:block; */
+}
+.sectionContent {
+    display:block;
+/* width: 80vw; *//* float: left; *//* text-align: left; */}
+
+.content {
+    display: inline-flex;
+}
