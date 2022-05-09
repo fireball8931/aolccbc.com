@@ -1,0 +1,55 @@
+//- TODO: Make Responsive
+
+nav#navbar.navbar.navbar-expand-md.navbar-dark.bg-dark
+  .container-fluid
+    a.navbar-brand(href='/')
+      img(src='/images/logo-dark.webp')
+
+    li.nav-item.dropdown
+      a#callUsMenu.btn.btn-primary.dropdown-toggle(role='button', data-mdb-toggle='dropdown', aria-expanded='false') Call Us Today
+
+      ul.dropdown-menu(aria-labelledby='callUsMenu' )
+        li.nav-item
+          a.nav-link(href='tel:16048553315' style='color:unset;') 604-855-3315 - Abbotsford Campus
+        li.nav-item
+          a.nav-link(href='tel:16045324040' style='color:unset;') 604-532-4040 - Langley Campus
+
+    #navbarToggler.collapse.navbar-collapse
+      ul.navbar-nav.me-auto.mb-2.mb-lg-0
+        li.nav-item
+          a.nav-link.active(aria-current='page', href='/') Home
+        li.nav-item
+          a.nav-link(href='/programs') Programs
+        li.nav-item
+          a.nav-link(href='/locations') Locations
+
+        li.nav-item
+          a.nav-link(href='/aboutus') About Us
+
+        li.nav-item
+          a.nav-link(href='/disease-prevention') Health &amp; Safety
+
+        li.nav-item
+          a.nav-link(href='https://my.aolcc.ca/', target='_blank') myAOLCC
+
+        li.nav-item.dropdown
+          a#studentrescddl.nav-link.dropdown-toggle(href='#', role='button', data-mdb-toggle='dropdown', aria-expanded='false') Student Resources
+
+          ul.dropdown-menu(aria-labelledby='studentrescddl')
+            a.dropdown-item(href='//meshcentral.aolccbc.com/agentinvite?c=vR38kiMr6bXihrgE7t5gWvkwTH2Y3ZZoUOL6rXpq6C@MTIcGFedEc1DRze1244MkFk797BYMczpuWilpNRXfyLf2udAetG4Sn@gfwH0Cs0coi32TP2oQCmqXzO0ldJpCiRh0b3lgDYlFgTZZ8XJJhjnGRTl7Igg0cTZAhr733ucRbsvkIBhkYWvIJUam3UCViBn@m6M=', target='_blank')
+              | Get Help from Learning Coach
+
+
+            a.dropdown-item(href='//aolccbc.tawk.help/', target='_blank') KnowledgeBase
+            a.dropdown-item(href='/handbook', target='_blank') Student handbook
+            a.dropdown-item(href='//outlook.office.com/mail/inbox', target='_blank') Outlook Web Access
+            a.dropdown-item(href='//here2talk.ca/', target='_blank') Here2Talk - Free Mental Health Resources
+            a.dropdown-item(href='//acmeweb.academyoflearning.net/Forms/AttendanceLogin.aspx', target='_blank') Attendance Tracker
+            a.dropdown-item(href='//mynew.aolcc.ca', target='_blank') myAOLCC
+            a.dropdown-item(href='//www.youtube.com/watch?v=MowAXB-hPVs', target='_blank') Orientation
+            .dropdown-divider
+            a.dropdown-item(href='//download.respondus.com/lockdown/download.php?id=281950612') Lockdown Browser Installer
+            a.dropdown-item(href='//meshcentral.aolccbc.com/TypingTrainer.exe') TypingTrainer Installer
+            a.dropdown-item(href='//anydesk.com/en/download') AnyDesk
+            a.dropdown-item(href='//app.businessconnect.telus.com/download/TELUS%20Business%20Connect.exe') RingCentral        
+button.navbar-toggler(type='button', data-mdb-toggle='collapse', data-mdb-target='#navbarToggler', aria-controls='navbarToggler', aria-expanded='false', aria-label='Toggle navigation')
