@@ -5,13 +5,19 @@
   "type": "module",
   "main": "app.js",
   "scripts": {
-    "dev": "pug3 app --out www2 -w -P -b ./"
+    "compile": "pug3 app --out www -w -P -b ./",
+    "serve": "http-server ./www",
+    "dev": "npm run compile && npm run serve"
+
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@anduh/pug-cli": "^1.0.0-alpha8",
     "express": "^4.18.1",
+    "http-server": "^14.1.0",
     "pug": "^3.0.2"
-  }
+  },
+  "livePugCompiler.savePath":"./www2"
+
 }
