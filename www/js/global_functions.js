@@ -1,4 +1,19 @@
 // Toggle element visibility
+
+
+String.prototype.toURL = function() {
+    const regex = /\+|\s|certificate|diploma|\_\_|\/|\.|_\z|\:|\-|\(|\)|&plus;/gi;
+    const regex2 = /_$|__/gi
+    const regex3 = /_$/gi
+    const regex4 = /^\s+|\s+$|\s+(?=\s)/g
+    const regex5 = /__/gi
+    thistoo = this.replaceAll(regex, '_')
+    thistoo = thistoo.replaceAll(regex2, '_');
+    thistoo = thistoo.replace(regex3, ' ')
+    thistoo = thistoo.replace(regex4, '')
+    return thistoo.replace(regex5, '_').toLowerCase()
+}
+
 function hideshowElementById(elementID,action,x,y) {
     const element = document.getElementById(elementID);
     const classes = element.classList;

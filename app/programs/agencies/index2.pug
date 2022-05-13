@@ -1,7 +1,20 @@
-doctype html
-html(lang="en-US")
-    
-    
+doctype html 
+html(lang="enUS")
+
+head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title Academy of Learning | Program Info for Agencies
+    script(src="/js/includes.js") 
+    script(src="/js/global_functions.js") 
+    //- include /css.html
+    //- link(rel="stylesheet", href="custom.css")
+    link(rel="stylesheet", href="/css/style.min.css")
+    link(rel="stylesheet", href="/assets/fa/all.css")
+    link(rel="stylesheet", href="custom.css")
+    link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css' integrity='sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS' crossorigin='anonymous')
+    link(rel='stylesheet' href='https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css')
 
     body
         div(class="center")
@@ -15,7 +28,7 @@ html(lang="en-US")
              a(href="mailto:admin.abbotsford@aolccbc.com") admin.abbotsford@aolccbc.com
             button(id="btn") Download PDF
             h3 Programs:
-            #table-container
+            table(id='table-container')
 
     script(src="https://code.jquery.com/jquery-3.3.1.min.js")
     script(src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.bundle.min.js")
@@ -23,7 +36,7 @@ html(lang="en-US")
     script(src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js")
     script(src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js")
     script(src="js/csv_to_html_table.js")
-    script(src="generate.js")
+    script(src="gen3.js")
     script(src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js") 
     script(src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js") 
     script(src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/polyfills.umd.js") 

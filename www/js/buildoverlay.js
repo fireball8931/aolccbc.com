@@ -136,7 +136,7 @@ function buildProgramPage(programnameasurl, programname, programtype, hide_data_
                 };
     
                 function createDivfromJSON(part,alt_heading) {
-                    //console.log(partname);
+                    console.log(part);
                     partcontent = '';
                     part_alt_heading = '';
                     part.paragraphs.forEach(paragraph => {

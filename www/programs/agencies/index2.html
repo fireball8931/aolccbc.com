@@ -1,7 +1,19 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<!DOCTYPE html >
+<html lang="enUS"></html>
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Academy of Learning | Program Info for Agencies</title>
+  <script src="/js/includes.js"> </script>
+  <script src="/js/global_functions.js"> </script>
+  <link rel="stylesheet" href="/css/style.min.css"/>
+  <link rel="stylesheet" href="/assets/fa/all.css"/>
+  <link rel="stylesheet" href="custom.css"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css"/>
   <body>
-    <div class="center"><img src="aolcclogo.png" style="max-height: 150px;">
+    <div class="center"><img src="aolcclogo.png" style="max-height: 150px;"/>
       <h1>Full Program Listing</h1>
       <p>Dear sir/madam,</p>
       <p>Please find following a copy of the programs currently offered at Academy of Learning Career College at our Langley and Abbotsford Campuses.</p>
@@ -9,7 +21,7 @@
       <p>or Mary Ellen Olynuk at our Abbotsford Campus at 604-855-3315 or <a href="mailto:admin.abbotsford@aolccbc.com">admin.abbotsford@aolccbc.com</a></p>
       <button id="btn">Download PDF</button>
       <h3>Programs:</h3>
-      <div id="table-container"></div>
+      <table id="table-container"></table>
     </div>
   </body>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -18,7 +30,7 @@
   <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
   <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
   <script src="js/csv_to_html_table.js"></script>
-  <script src="generate.js"></script>
+  <script src="gen3.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"> </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"> </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/polyfills.umd.js"> </script>
@@ -28,4 +40,4 @@
     <p>Abbotsford ☎ <a href="tel:16048553315">604-855-3315</a></p>
     <p>Langley ☎ <a href="tel:16045324040">604-532-4040</a></p>
   </div>
-</html>
+</head>
