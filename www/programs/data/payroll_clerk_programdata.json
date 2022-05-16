@@ -44,7 +44,7 @@
             },
             {
                 "style": "li",
-                "li_title ": "Spreadsheets",
+                "li_title": "Spreadsheets",
                 "content": "Basic level of proficiency in Microsoft Excel"
             },
             {
@@ -54,7 +54,7 @@
             },
             {
                 "style": "li",
-                "li_title ": "Accounting",
+                "li_title": "Accounting",
                 "content": "Sage 50 Premium Accounting, Payroll Compliance Legislation, and PayrollFundamentals 1 and 2"
             },
             {
@@ -63,7 +63,7 @@
                 "content": "Job Search and Résumé Writing "
             },
             {
-                "ul_end ": "true"
+                "ul_end": "true"
             }
         ]
     },

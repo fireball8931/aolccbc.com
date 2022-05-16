@@ -39,7 +39,7 @@
     },
     "corecourses": {
         "paragraphs": [{ "style": "h3", "content": "Part A: Computer and Business Office Skills" },
-            { "ul_start ": "true "},
+            { "ul_start": "true "},
             { "style": "li", "content": "Introduction to Keyboarding "},
             { "style": "li", "content": "Keyboard Skill Building Level 1 "},
             { "style": "li", "content": "Microsoft Windows Level 1 "},
@@ -49,7 +49,7 @@
             { "style": "li", "content": "MicrosoftOutlook– Level 1 "},
             { "style": "li", "content": "Thought Patterns For A Successful Career "},
             { "style": "li", "content": "Job Search and Résumé Writing "},
-            { "ul_end ": "true "},
+            { "ul_end": "true "},
             { "style": "p", "content": "Part B: CSW Administrative/Clinical" },
             { "ul_start": "true" },
             { "style": "li", "content": "Psychology Fundamentals" },
@@ -64,9 +64,9 @@
             { "style": "li", "content": "Basic Rescuer (Level C) CPR Certification" },
             { "ul_end": "true" },
             { "style": "p", "content": "Part C: Work Experience "},
-            { "ul_start ": "true "},
+            { "ul_start": "true "},
             { "style": "li", "content": "Preceptorship "},
-            { "ul_end ": "true "}
+            { "ul_end": "true "}
         ]
     },
     

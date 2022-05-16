@@ -65,7 +65,7 @@
             },
             {
                 "style": "li",
-                "li_title ": "Operating Systems",
+                "li_title": "Operating Systems",
                 "content": "Basic level of proficiency in a Windows operating system"
             },
             {
@@ -75,7 +75,7 @@
             },
             {
                 "style": "li",
-                "li_title ": "Spreadsheets ",
+                "li_title": "Spreadsheets ",
                 "content": "Basic level of proficiency in Microsoft Excel"
             },
             {
@@ -85,7 +85,7 @@
             },
             {
                 "style": "li",
-                "li_title ": "Accounting ",
+                "li_title": "Accounting ",
                 "content": "Payroll Compliance Legislation, Payroll Fundamentals Levels 1 and 2, and QuickBooks Premier"
             },
             {
@@ -95,7 +95,7 @@
             },
             {
                 "style": "li",
-                "li_title ": "Business Skills ",
+                "li_title": "Business Skills ",
                 "content": "Business Math, Business Correspondence Level 1, and Customer Service"
             },
             {
@@ -104,7 +104,7 @@
                 "content": "Job Search and Résumé Writingand Thought Patterns for a Successful Career "
             },
             {
-                "ul_end ": "true "
+                "ul_end": "true "
             }
         ]
     },
