@@ -139,6 +139,7 @@ function buildProgramPage(programnameasurl, programname, programtype, hide_data_
                     console.log(part);
                     partcontent = '';
                     part_alt_heading = '';
+                    try {
                     part.paragraphs.forEach(paragraph => {
                         if (paragraph.li_title) {
                             partcontent = partcontent + "<b>" + paragraph.li_title + "</b><br />"
@@ -152,7 +153,10 @@ function buildProgramPage(programnameasurl, programname, programtype, hide_data_
                         }
                         alt_heading_temp = part.alt_heading
                         console.log(alt_heading_temp)
-                    });
+                    });}
+                    catch {
+                        console.log("SOMETHING WENT WRONG!!");
+                    }
                     //console.log(`Here's your content: ${partcontent}`);
                     if (alt_heading_temp == undefined) {
                         part_alt_heading = alt_heading

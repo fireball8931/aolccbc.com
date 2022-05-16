@@ -16,7 +16,7 @@
         ]
     },
     "programhighlights": {
-        "paragraphs ": [
+        "paragraphs": [
             {
                 "style": "p",
                 "content": "In the Software and Web Developer diploma program, students learn the coding languages that every web developer needs to know: HTML, CSS, and JavaScript.Students then broaden their skillset with a strong foundation in SQL, C#, and the.NET Framework that will lead to additional opportunities in the world of software development. "
@@ -30,7 +30,7 @@
                 "content": "Graduates of the program will be able to: "
             },
             {
-                "ul_start ": "true "
+                "ul_start": "true "
             },
             {
                 "style": "li",
@@ -57,20 +57,20 @@
                 "content": "Use the.NET Framework to create robust web applications "
             },
             {
-                "ul_end ": "true "
+                "ul_end": "true "
             }
         ]
     },
-    "careeropp ": {
-        "paragraphs ": [
+    "careeropp": {
+        "paragraphs": [
             {
                 "style": "p",
                 "content": "Graduates of the program may pursue a variety of positions in software development, including web developer, UI / UX developer, front end web developer, software developer, HTML / CSS developer, and Javascript / jQuery developer."
             }
         ]
     },
-    "corecourses ": {
-        "paragraphs ": [
+    "corecourses": {
+        "paragraphs": [
             {
                 "style": "p",
                 "content": "Core Courses"
@@ -113,7 +113,7 @@
                 "content": "Customer Service, Project Management "
             },
             {
-                "ul_end ": "true "
+                "ul_end": "true "
             }
         ]
     },

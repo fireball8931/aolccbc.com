@@ -1,0 +1,34 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 8C5F-711B
+
+ Directory of C:\xampp\_htdocs\aolccbc.com\www\programs\smorgs
+
+04/27/2022  10:10 AM           332,898 accounting_administrator_with_sage_diploma.pdf
+04/27/2022  10:10 AM           336,758 accounting_and_payroll_administrator_diploma.pdf
+04/27/2022  10:10 AM           329,904 administrative_assistant_diploma.pdf
+04/27/2022  10:10 AM           358,929 a_network_and_microsoft_certification_preparation_diploma.pdf
+04/27/2022  10:10 AM           253,995 business_administration_coop_diploma.pdf
+04/27/2022  10:10 AM           349,923 business_administration_diploma.pdf
+04/27/2022  10:10 AM           330,344 business_office_skills_diploma.pdf
+04/27/2022  10:10 AM           245,900 business_service_essentials_coop_diploma.pdf
+04/27/2022  10:10 AM           235,433 call_centre_customer_representative_diploma.pdf
+04/27/2022  10:10 AM           337,164 community_service_worker_and_addictions_worker_diploma.pdf
+04/27/2022  10:10 AM           374,788 community_service_worker_diploma.pdf
+04/27/2022  10:10 AM           332,666 computer_service_technician_d_diploma.pdf
+04/27/2022  10:10 AM           344,826 computer_software_support_diploma.pdf
+04/27/2022  10:10 AM           350,156 conference_and_event_planner_diploma.pdf
+04/27/2022  10:10 AM           253,752 entrepreneurial_business_applications_diploma.pdf
+04/27/2022  10:10 AM           344,049 executive_assistant_diploma.pdf
+04/27/2022  10:10 AM           248,565 graphic_designer_diploma.pdf
+04/27/2022  10:10 AM           347,772 marketing_coordinator_diploma.pdf
+04/27/2022  10:10 AM           374,718 medical_office_assistant_diploma.pdf
+04/27/2022  10:10 AM           361,048 medical_office_assistant_with_unit_clerk_diploma.pdf
+04/27/2022  10:10 AM           214,762 office_administration_diploma.pdf
+04/27/2022  10:10 AM           335,195 pc_support_specialist_diploma.pdf
+04/27/2022  10:10 AM           337,354 project_administration_diploma.pdf
+04/27/2022  10:10 AM           336,418 sales_professional_diploma.pdf
+04/27/2022  10:10 AM           507,126 software_and_web_developer_diploma.pdf
+04/27/2022  10:10 AM           348,997 web_designer_diploma.pdf
+04/27/2022  10:10 AM           507,126 web_developer_diploma.pdf
+              27 File(s)      9,030,566 bytes
+               0 Dir(s)  23,671,447,552 bytes free

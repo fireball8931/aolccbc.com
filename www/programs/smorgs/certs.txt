@@ -1,0 +1,24 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 8C5F-711B
+
+ Directory of C:\xampp\_htdocs\aolccbc.com\www\programs\smorgs
+
+04/27/2022  10:10 AM           336,441 accounting_bookkeeper_certificate.pdf
+04/27/2022  10:10 AM           251,662 accounting_clerk_certificate.pdf
+04/27/2022  10:10 AM           350,686 addictions_worker_certificate.pdf
+04/27/2022  10:10 AM           345,374 business_management_certificate.pdf
+04/27/2022  10:10 AM           342,776 business_receptionist_certificate.pdf
+04/27/2022  10:10 AM           333,786 computer_service_technician_c_certificate.pdf
+04/27/2022  10:10 AM           342,567 customer_service_representative_certificate.pdf
+04/27/2022  10:10 AM           344,674 human_resources_administration_certificate.pdf
+04/27/2022  10:10 AM           342,369 marketing_administrative_assistant_certificate.pdf
+04/27/2022  10:10 AM           345,698 medical_administrative_assistant_certificate.pdf
+04/27/2022  10:10 AM           343,500 medical_office_front_desk_assistant_certificate.pdf
+04/27/2022  10:10 AM           214,192 microsoft_certified_solutions_associate_server_certification_certificate.pdf
+04/27/2022  10:10 AM           341,986 office_administration_assistant_certificate.pdf
+04/27/2022  10:10 AM           329,338 office_clerk_certificate.pdf
+04/27/2022  10:10 AM           336,758 payroll_administrator_certificate.pdf
+04/27/2022  10:10 AM           330,177 payroll_clerk_certificate.pdf
+04/27/2022  10:10 AM           330,343 sales_associate_certificate.pdf
+              17 File(s)      5,562,327 bytes
+               0 Dir(s)  23,672,926,208 bytes free
