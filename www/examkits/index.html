@@ -69,7 +69,8 @@
                     concatlevel = `${concat}/${element}`
                     link = `${dlRoot}${concatlevel}/${suffix}`
                     download = download + element
-                    aRef = `<a href="${link}" download="${download}_Practical_Exam_Kit.zip">${coursename1}${element}</a><br>`
+                    // aRef = `<a href="${link}" download="${download}_Practical_Exam_Kit.zip">${coursename1}${element}</a><br>`
+                    aRef = `<a href="${link}">${coursename1}${element}</a><br>`
                     document.write(aRef)
                     console.log(concatlevel);
                 })
