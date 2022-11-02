@@ -1,3 +1,6 @@
 [submodule "www/examkits/exam-prep-files"]
 	path = www/examkits/exam-prep-files
 	url = https://github.com/Academy-of-Learning-Career-College/exam-prep-files
+[submodule "www/examkits/kits"]
+	path = www/examkits/kits
+	url = https://github.com/Academy-of-Learning-Career-College/exam-prep-files
