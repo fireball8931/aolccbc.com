@@ -3,7 +3,7 @@
         <title>
             myAOLCC
         </title>
-        <script src="/js/includes.js"></script><div w3-include-html="/css.html"></div>
+        <script src="/www/js/includes.js"></script><div w3-include-html="/css.html"></div>
         <style>
             a {
                 color:black;

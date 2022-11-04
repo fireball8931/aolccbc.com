@@ -17,7 +17,17 @@
   },
   "homepage": "https://github.com/fireball8931/aolccbc.com#readme",
   "devDependencies": {
+    "@parcel/transformer-jsonld": "^2.7.0",
+    "parcel": "^2.7.0",
+    "posthtml-img-autosize": "^0.1.6",
+    "posthtml-modules": "^0.9.0",
     "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "@parcel/plugin": "^2.7.0",
+    "posthtml": "^0.16.6",
+    "posthtml-doctype": "^1.1.1",
+    "posthtml-include": "^1.7.4"
   }
 }

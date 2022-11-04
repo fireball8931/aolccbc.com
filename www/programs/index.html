@@ -6,9 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Academy of Learning Career College - Abbotsford - Langley</title>
-    <script src="/js/includes.js"></script>
-    <script src="/js/global_functions.js"></script>
-    <div w3-include-html="/css.html"></div>
+    <script src="/www/js/includes.js"></script>
+    <script src="/www/js/global_functions.js"></script>
+    <!-- <div w3-include-html="/css.html"></div> -->
+    <!-- <script src="/www/js/includes.js"></script>
+    <script src="/www/js/jquery-3.5.1.min.js"></script>
+    <script src="/www/js/popper.min.js"></script>
+    <script src="/www/js/bootstrap.bundle.min.js"></script> 
+    <link href="/css/style.min.css" rel="stylesheet" type="text/css"> -->
+    <link rel="stylesheet" href="/www/css/css.css">
+    <script src="/www/js/jsmaster.js"></script>
+    
     <link rel="stylesheet" href="custom.css">
 
 
@@ -16,7 +24,7 @@
 </head>
 
 <body>
-    <div w3-include-html="/navbar.html"></div>
+    <include src="./www/navbar.html"></include>
     <div class="container" id="maincontent">
         <h2>Programs</h2>
         <div id="myslidesbtnContainer">
@@ -35,8 +43,8 @@
 
     </div>
     <div id="programoverlay" class="overlay closed"></div>
-    <div w3-include-html="/promisebar.html"></div>
-    <div w3-include-html="/footer.html"></div>
+    <include src="./www/promisebar.html"></include>
+    <include src="./www/footer.html"></include>
     </div>
     </div>
 
@@ -44,10 +52,10 @@
     
 
 </body>
-<!-- <script src="/js/buildprogcontent.js"></script> -->
-<script src="/js/buildoverlay.js"></script>
-<script src="/js/papaparse.min.js"></script>
-<script src="/js/parsecsv.js"></script>
+<!-- <script src="/www/js/buildprogcontent.js"></script> -->
+<script src="/www/js/buildoverlay.js"></script>
+<script src="/www/js/papaparse.min.js"></script>
+<script src="/www/js/parsecsv.js"></script>
 
 <script>
     getData('programlisting.csv');
