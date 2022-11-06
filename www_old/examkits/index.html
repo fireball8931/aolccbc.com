@@ -1,0 +1,113 @@
+<!DOCTYPE html >
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Academy of Learning Career College - Abbotsford - Langley</title>
+    <script src="/www/js/includes.js"></script>
+    <script src="/www/js/global_functions.js"></script>
+    <div w3-include-html="/css.html"></div>
+    <link rel="stylesheet" href="custom.css">
+
+
+
+</head>
+
+<body>
+    <include src="./www/navbar.html"></include>
+    <div class="container" id="maincontent">
+        <script>
+            let dlRoot = "kits/"
+            let suffix = "Practical_Exam_Kit.zip"
+            let coursesArray = [
+                {"course" : "WRD", "courseName" : "Word", "ver" : 19, "level" : [
+                    1,2,3
+                ]},
+                {"course" : "EXC", "courseName" : "Excel","ver" : 19, "level" : [
+                    1,2,3
+                ]},
+                {"course" : "PPT","courseName" : "PowerPoint", "ver" : 19, "level" : [
+                    1,2
+                ]},
+                {"course" : "ACS", "courseName" : "Access", "ver" : 19, "level" : [
+                    1,2
+                ]},
+            ]
+            
+            let examPolicies = [
+                "You must get 75% to pass the exam.",
+                "All Software exams (such as this one) are 'Open Program', You are expected to open the program you just learned and refer to it during the exam.",
+                "Microsoft Access Level 1 and 2 are Open Book exams",
+                "If you have not done the hands-on exercises due to not having Office 2019 installed on your computer, please log into Office.com with your school email to get a complimentary copy for use during your studies. If you need help with this, call the campus.",
+                "The time limit is 3 hours per part - this is for a reason.",
+                "Please try to take at least 1 hour to complete the exam to give yourself sufficient time to read and understand the questions.",
+            "If there is a question that you do not understand, you can call the campus and ask for clarification. We cannot give you the answer, but we can reword the question for you.",
+            "Your 1st attempt is free, and you can get up to 100%",
+            "Your 2nd attempt is free, but the maximum grade is 89%",
+            "There is a $30 fee for the 3rd attempt. The maximum grade is 89%",
+            "If you fail the 3rd attempt, you will have to pay for and retake the entire course again."
+            
+            ]
+            
+            let instructions = `
+            
+            <p>As requested, here is the practical exam kit</p>
+            <p ><b><u><mark>
+            IMPORTANT: PLEASE COMPLETE THE PRACTICAL EXAM KIT LINKED BELOW BEFORE STARTING THE ONLINE EXAM - YOU NEED IT FOR PART 1 OF THE EXAM</mark></b></u></p>
+            <p> Please click the name of the course you need the exam code for</p>
+                `
+            document.write(instructions)
+            coursesArray.forEach(element => {
+                concat = `${element.course}/${element.ver}`;
+                // console.log(element.course);
+                // console.log(element.ver);
+                download = `${element.course}${element.ver}19`
+                coursename1 = `Microsoft ${element.courseName} 2019 Level `
+                element.level.forEach(element => {
+                    concatlevel = `${concat}/${element}`
+                    link = `${dlRoot}${concatlevel}/${suffix}`
+                    download = download + element
+                    // aRef = `<a href="${link}" download="${download}_Practical_Exam_Kit.zip">${coursename1}${element}</a><br>`
+                    aRef = `<a href="${link}">${coursename1}${element}</a><br>`
+                    document.write(aRef)
+                    console.log(concatlevel);
+                })
+            });
+            
+            let instructionsp2 = `
+            <p>When you are ready, the code to start the exam is in the EXAM_CODE.txt file in the kit linked above. Please copy and paste the code from the EXAM_CODE.txt file.</p>
+            
+            <h2>A reminder on the testing policy</h2>
+            <ul>
+            `;
+            document.write(instructionsp2);
+            
+            examPolicies.forEach(element => {
+                document.write(`<li>${element}</li>`)
+            })
+            
+            document.write(`If you have any issues completing the practical exam or accessing the online portions, please call us right away.
+            
+            For best results, we recommend completing both portions at the campus. That way you can get immediate assistance by putting your question mark up.`)
+            
+            
+            
+            
+            </script>
+            </div>
+    <div w3-include-html="/promisebar.html"></div>
+    <div w3-include-html="/footer.html"></div>
+    </div>
+    </div>
+    
+
+    
+    
+
+</body>
+
+<script>
+    includeHTML();
+</script>

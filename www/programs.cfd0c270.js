@@ -1,0 +1,2 @@
+function hideshowElementById(e,t,o,n){const l=document.getElementById(e),s=l.classList;console.log(`I have been asked to ${t} the elementID ${e}`),"hide"===t?s.add("closed"):s.remove("closed"),o&&(console.log(`x postition requested ${o}`),l.style.left=o),n&&(console.log(`y postition requested ${n}`),l.style.top=n)}function emptyElementByID(e){try{document.getElementById(e).innerHTML=""}catch(e){console.log(e)}}
+//# sourceMappingURL=programs.cfd0c270.js.map

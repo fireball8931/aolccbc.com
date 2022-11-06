@@ -2,9 +2,14 @@
   "name": "aolccbc.com",
   "description": "This is the source code for aolccbc.com",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "parcel build"
+  },
+  "source": "src/index.html",
+  "targets": {
+    "default": {
+      "distDir": "./www"
+    }
   },
   "repository": {
     "type": "git",
@@ -19,6 +24,7 @@
   "devDependencies": {
     "@parcel/transformer-jsonld": "^2.7.0",
     "parcel": "^2.7.0",
+    "parcel-reporter-static-files-copy": "^1.4.0",
     "posthtml-img-autosize": "^0.1.6",
     "posthtml-modules": "^0.9.0",
     "webpack": "^4.46.0",
