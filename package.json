@@ -3,7 +3,8 @@
   "description": "This is the source code for aolccbc.com",
   "version": "1.0.0",
   "scripts": {
-    "build": "parcel build"
+    "build": "parcel build",
+    "dev": "parcel"
   },
   "source": "src/index.html",
   "targets": {

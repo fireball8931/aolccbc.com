@@ -12,6 +12,11 @@ img {
     max-width: 100%;
 }
 
+main {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
 a {
     color: #fff;
     text-decoration: none
