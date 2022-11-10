@@ -1,0 +1,54 @@
+<!DOCTYPE html lang="en">
+<html lang="en">
+
+<head>
+    <include src="./src/components/head.htm">{
+        "title" : "Installing Typing Trainer Manually"
+
+        }
+    </include>
+</head>
+
+<body>
+    <include src="./src/components/navbar.htm"></include>
+
+<main>
+    <ol>
+        <li>Download ACME <a
+                href="https://pub-ba40a2c327284ac787fcf7379eaa7030.r2.dev/acmepro.2011.setup.v215.4.exe">from
+                CloudFlare</a></li>
+        <li>Download Typing Trainer <a
+                href="https://pub-ba40a2c327284ac787fcf7379eaa7030.r2.dev/typingtrainersetup_v1.68.exe">from
+                CloudFlare</a></li>
+        <li>Download VisualC++ 2013 Redistributable
+            <ul>
+                <li>Method 1.
+                    <ol>
+                        <li>Press WIN+X, A to start Powershell as admin</li>
+                        <li>Type <code> winget install vcredist2013x86</code></li>
+                    </ol>
+                </li>
+                <li>Method 2. Download from <a href="https://download.microsoft.com/download/c/c/2/cc2df5f8-4454-44b4-802d-5ea68d086676/vcredist_x86.exe">Microsoft</a>
+                </li>
+            </ul>
+        </li>
+        <li>Enable .NET 3.5: 
+            <ol>
+            <li>Type <code>turn windows features on or off</code> in the Cortana Search box and click the first option</li>
+            <li>Find .NET 3.5 in the list as pictured <br>
+                
+                <figure class="figure">
+                <img src="~/images/windows-features-dotnet.webp" class="figure-img img-fluid rounded" alt="..."/>
+            </figure>
+                </li>
+        </ol></li>
+        <li>Set up accounts</li>
+    </ol>
+
+</main>
+
+
+    <include src="./src/components/footer.htm"></include>
+</body>
+
+</html>

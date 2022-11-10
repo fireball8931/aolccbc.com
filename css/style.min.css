@@ -83,10 +83,6 @@ img {
 
 
 
-main {
-    padding-left: 25px;
-    padding-right: 25px;
-}
 
 a {
     color: #fff;
@@ -97,7 +93,14 @@ a:hover {
     color: grey;
     text-decoration: none
 }
+main {
+    padding-left: 25px;
+    padding-right: 25px;
+}
 
+main a {
+    text-decoration: underline !important;
+}
 .orange {
     background-color: var(--aol-orange) !important;
 }
