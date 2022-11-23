@@ -1,4 +1,7 @@
 # aolccbc.com
+![Website](https://img.shields.io/website?down_color=red&down_message=offline&label=aolccbc.com&up_color=green&up_message=online&url=https%3A%2F%2Faolccbc.com)
+
+![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/fireball8931/aolccbc.com)
 
 This is the source code for aolccbc.com
 
