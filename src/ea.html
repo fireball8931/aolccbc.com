@@ -7,20 +7,30 @@
 
         }
     </include>
+    <script src="~/js/genEAlink.js"></script>
 </head>
 
 <body>
     <include src="./src/components/navbar.htm"></include>
 
 <main>
+    <center>
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/j-u2BlMjDu4?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <br />
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/saf7ubl0AEo?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+
+    <p id="linky"></p>
+</center>
 </main>
 
 
     <include src="./src/components/footer.htm"></include>
+
+    <script>
+        let linkymclinky =  generateLink();
+        document.getElementById("linky").innerHTML = `Once you have watched the above videos, please <a href="${linkymclinky}" target="_blank">Click Here</a>`;
+    </script>
 </body>
 
 </html>
