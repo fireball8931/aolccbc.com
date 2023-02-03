@@ -28,7 +28,7 @@
     <include src="./src/components/footer.htm"></include>
 
     <script>
-        let linkymclinky =  generateLink();
+        let linkymclinky =  generateLink(window.location.search.substring(1));
         document.getElementById("linky").innerHTML = `Once you have watched the above videos, please <a href="${linkymclinky}" target="_blank">Click Here</a>`;
     </script>
 </body>
