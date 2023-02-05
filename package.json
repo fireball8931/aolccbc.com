@@ -14,7 +14,10 @@
   },
   "engines": {
     "node": ">=18.7.0",
-    "npm": ">=8.18.0"
+    "npm": ">=8.18.0",
+    "posthtml": "^0.16.6",
+    "@parcel/transformer-jsonld": "^2.7.0",
+    "parcel": "^2.7.0"
 },
   "repository": {
     "type": "git",
@@ -27,7 +30,6 @@
   },
   "homepage": "https://github.com/fireball8931/aolccbc.com#readme",
   "devDependencies": {
-    "@parcel/transformer-jsonld": "^2.7.0",
     "parcel": "^2.7.0",
     "parcel-reporter-static-files-copy": "^1.4.0",
     "posthtml-img-autosize": "^0.1.6",
