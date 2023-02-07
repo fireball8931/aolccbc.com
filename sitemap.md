@@ -1,3 +1,4 @@
+```mermaid
 graph LR
     i[Home]
     i --- Programs
