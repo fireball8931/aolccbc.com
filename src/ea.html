@@ -13,20 +13,24 @@
 <body>
     <include src="./src/components/navbar.htm"></include>
 
-<main class="center">
-
-    <form action="">
-        <input type="text" name="fname" id="fname">
-        <input type="text" name="lname" id="lname">
-        <input type="text" name="email" id="email">
-    </form>
+<main>
+    <center>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/j-u2BlMjDu4?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br />
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/saf7ubl0AEo?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
+    <p id="linky"></p>
+</center>
 </main>
 
 
     <include src="./src/components/footer.htm"></include>
 
+    <script>
+        let linkymclinky =  generateLink(window.location.search.substring(1));
+        document.getElementById("linky").innerHTML = `Once you have watched the above videos, please <a href="${linkymclinky}" target="_blank">Click Here</a>`;
+    </script>
 </body>
 
 </html>
