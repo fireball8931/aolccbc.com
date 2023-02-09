@@ -1,5 +1,5 @@
 function generateLink(query) {
- let link="https://www.enrichedacademy.com/users/autologin?";
+ let link="https://www.enrichedacademy.com/users/autologin?token=";
  let token = "Vsv98l7AxT3o";
  let suffix = "&indicator=0&host=aolccbc.com";
 //  "https://www.enrichedacademy.com/users/autologin?token=Vsv98l7AxT3o&fname=first_name_value&lname=last_name_value&email=email_address&indicator=0&host=aolccbc.com"
