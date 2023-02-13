@@ -51,7 +51,11 @@ function generateEmailfunc(){
   }
 
   let genLINK = `${window.location.protocol}//${window.location.hostname}/${page}?fname=${fname}&lname=${lname}&email=${email}&campus=${campus}`
-  let emailBody = `Hello ${fname},<br />As part of your Thought Patterns for a Successful career, you have been invited to the Enriched Academy course.<br/>--&gt; <a href="${genLINK}">Please click this link here </a>  &lt;--, watch the and then click the link on the page to start your course. <br />This course must be completed as well as the Thought Patterns course in myAOLCC in 20 hours of study.<br />Please let us know if you have issues accessing the course.`
+  let emailBody = `Hello ${fname},<br />
+As part of your Thought Patterns for a Successful career, you have been invited to the Enriched Academy course.<br/>--&gt; <a href="${genLINK}">Please click this link here </a>  &lt;--, 
+Please watch the orientation videos and then click the link on the page to start your course. <br />
+This course must be completed as well as the Thought Patterns course in myAOLCC in 20 hours of study.<br />
+Please let us know if you have issues accessing the course.`
   return emailBody
 }
 
