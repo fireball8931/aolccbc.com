@@ -14,12 +14,16 @@
 <body>
     <include src="./src/components/navbar.htm"></include>
 
-<main>
-    <ol>
-        <li>Fastest Method:
-            <ol>
-                <li><button onclick="copyTheCode()">Click this button</button> to copy the following code<br /> 
-                    <code id="installttcode">Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1')) ; choco install -y acme typingtrainer -s https://choco.aolccbc.com/api/v2 ; choco install -y vcredist2010</code><br />
+    <main>
+        <ol>
+            <li>Fastest Method:
+                <ol>
+                    <li><code id="command">Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/fireball8931/aolccbc.com/main/static/Install-TT.ps1'))</code>
+                        <button id="copy-button" class="btn" data-clipboard-target="#command">
+                            Copy
+                            <i class="clipboard-icon fas fa-clipboard"></i>
+                          </button>
+                        <script src="~/js/copyCode.js"></script>
                     </li>
 
                 </ol>
