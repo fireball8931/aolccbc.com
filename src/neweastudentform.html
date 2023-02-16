@@ -19,6 +19,19 @@
         <p>Please enter the student's first name, last name and email. The email will generate as you update the fields. Click the email text to copy the HTML code to your clipboard. Then, compose an email to the student in Campus Login, click on the Source button, then paste the code into the top of the email. Click Source again to see the result and then you can send the email to the student. This will be tracked in Campus Login, including whether they clicked the link to view their customized Orientation page. Once they click the link on the Orientation page, they will be enrolled.</p>
 <form onchange="generateEmail();">
 <table>
+    
+    <tr>
+        <td>Campus</td>
+        <td><select id="campus">
+            <option value="langley">Langley</option>
+            <option value="abbotsford" selected>Abbotsford</option>
+
+        </select>
+
+        </td>
+
+    </tr>
+
     <tr>
         <td>First Name</td>
         <td><input type="text" name="fname" id="fname"> </td>
