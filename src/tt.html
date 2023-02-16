@@ -1,76 +1,86 @@
-<!DOCTYPE html lang="en">
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <title>Installing Typing Trainer Manually</title>
     <include src="./src/components/head.htm">{
         "title" : "Installing Typing Trainer Manually"
 
         }
     </include>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
 </head>
 
 <body>
     <include src="./src/components/navbar.htm"></include>
 
-<main>
-    <ol>
-        <li>Fastest Method:
-            <ol>
-                <li><button onclick="copyTheCode()">Click this button</button> to copy the following code<br /> 
-                    <code id="installttcode">Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1')) ; choco install -y acme typingtrainer -s https://choco.aolccbc.com/api/v2 ; choco install -y vcredist2010</code><br />
+    <main>
+        <ol>
+            <li>Fastest Method:
+                <ol>
+                    <li><code id="command">Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/fireball8931/aolccbc.com/main/static/Install-TT.ps1'))</code>
+                        <button id="copy-button" class="btn" data-clipboard-target="#command">
+                            Copy
+                            <i class="clipboard-icon fas fa-clipboard"></i>
+                          </button>
+                        <script src="~/js/copyCode.js"></script>
                     </li>
-                <li>Type <code>WIN+X, A</code> to open Powershell as admin.</li>
-                <li>If on a remote session, open this page on the remote computer: aolccbc.com/tt</li>
-                <li>Right click on the powershell window and hit ENTER to install Typing Trainer</li>
-                
-            </ol>
-            
-            
-        </li>
-        <li>Download ACME <a
-                href="https://pub-ba40a2c327284ac787fcf7379eaa7030.r2.dev/acmepro.2011.setup.v216.1.exe">from
-                CloudFlare</a></li>
-        <li>Download Typing Trainer <a
-                href="https://pub-ba40a2c327284ac787fcf7379eaa7030.r2.dev/typingtrainersetup_v1.68.exe">from
-                CloudFlare</a></li>
-        <li>Download VisualC++ 2013 Redistributable
-            <ul>
-                <li>Method 1.
-                    <ol>
-                        <li>Press WIN+X, A to start Powershell as admin</li>
-                        <li>Type <code> winget install vcredist2010x86</code></li>
-                    </ol>
-                </li>
-                <li>Method 2. Download from <a href="https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x86.exe">Microsoft</a>
-                </li>
-            </ul>
-        </li>
-        <li>Enable .NET 3.5: 
-            <ol>
-                <li>Method 1
-                    <ol>
-                        <li><code>WIN+X, A</code> to open Powershell as Admin (On Remote Sessions, tell student to select <code>Yes</code> on the prompt.</li>
-                        <li>Type <code>Get-WindowsOptionalFeature -Online *netfx* | Enable-WindowsOptionalFeature -Online</code></li>
-                    </ol>
 
-                </li>
-                <li>Method 2
-                    <ol>
-                        <li>Type <code>turn windows features on or off</code> in the Cortana Search box and click the first option</li>
-                        <li>Find .NET 3.5 in the list as pictured <br>
-                            
-                            <figure class="figure">
-                            <img src="~/images/windows-features-dotnet.webp" class="figure-img img-fluid rounded" alt="..."/>
-                        </figure>
+                </ol>
+
+
+            </li>
+            <li>Download ACME <a
+                    href="https://pub-ba40a2c327284ac787fcf7379eaa7030.r2.dev/acmepro.2011.setup.v216.1.exe">from
+                    CloudFlare</a></li>
+            <li>Download Typing Trainer <a
+                    href="https://pub-ba40a2c327284ac787fcf7379eaa7030.r2.dev/typingtrainersetup_v1.68.exe">from
+                    CloudFlare</a></li>
+            <li>Download VisualC++ 2013 Redistributable
+                <ul>
+                    <li>Method 1.
+                        <ol>
+                            <li>Press WIN+X, A to start Powershell as admin</li>
+                            <li>Type <code> winget install vcredist2010x86</code></li>
+                        </ol>
+                    </li>
+                    <li>Method 2. Download from <a
+                            href="https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x86.exe">Microsoft</a>
+                    </li>
+                </ul>
+            </li>
+            <li>Enable .NET 3.5:
+                <ol>
+                    <li>Method 1
+                        <ol>
+                            <li><code>WIN+X, A</code> to open Powershell as Admin (On Remote Sessions, tell student to
+                                select <code>Yes</code> on the prompt.</li>
+                            <li>Type
+                                <code>Get-WindowsOptionalFeature -Online *netfx* | Enable-WindowsOptionalFeature -Online</code>
                             </li>
-                    </ol>
-                </li>
-                </li>
-            </ol>
-        <li>Set up accounts</li>
-    </ol>
+                        </ol>
 
-</main>
+                    </li>
+                    <li>Method 2
+                        <ol>
+                            <li>Type <code>turn windows features on or off</code> in the Cortana Search box and click
+                                the first option</li>
+                            <li>Find .NET 3.5 in the list as pictured <br>
+
+                                <figure class="figure">
+                                    <img src="~/images/windows-features-dotnet.webp"
+                                        class="figure-img img-fluid rounded" alt="...">
+                                </figure>
+                            </li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+            <li>Set up accounts</li>
+        </ol>
+
+
+    </main>
 
     <script>
         function copyTheCode() {
