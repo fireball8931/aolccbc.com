@@ -18,7 +18,7 @@
     "posthtml": "^0.16.6",
     "@parcel/transformer-jsonld": "^2.7.0",
     "parcel": "^2.7.0"
-},
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fireball8931/aolccbc.com.git"
@@ -30,13 +30,19 @@
   },
   "homepage": "https://github.com/fireball8931/aolccbc.com#readme",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
     "parcel": "^2.7.0",
     "parcel-reporter-static-files-copy": "^1.4.0",
     "posthtml-img-autosize": "^0.1.6",
     "posthtml-modules": "^0.9.0"
   },
   "dependencies": {
+    "@fontsource/questrial": "^4.5.11",
+    "@fontsource/raleway": "^4.5.12",
+    "@fontsource/roboto": "^4.5.8",
+    "@fortawesome/fontawesome-free": "^6.3.0",
     "@parcel/plugin": "^2.7.0",
+    "mdbootstrap": "^4.20.0",
     "posthtml": "^0.16.6",
     "posthtml-doctype": "^1.1.1",
     "posthtml-include": "^1.7.4"
