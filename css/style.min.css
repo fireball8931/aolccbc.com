@@ -4,6 +4,7 @@
 @import url("mdb.min.css");
 @import url("bootstrap.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
 :root {
     --aol-black: rgba(83, 83, 83, 0.8);
@@ -11,9 +12,12 @@
     --aol-green: rgb(169, 205, 64);
     --aol-blue: rgb(89, 203, 221);
     --dark-grey: rgba(85, 85, 85, 1.);
-
+    
 }
 
+body {
+    font-family: 'Questrial', sans-serif;
+}
 .light-text {
     color: #909090;
 }
@@ -47,7 +51,6 @@ img {
     background-color: var(--aol-blue);
 }
 
-
 #rows div.col img {
     vertical-align: middle;
     text-align: center;
@@ -71,18 +74,12 @@ img {
     border-top-style: solid;
 }
 
-
-
 #features i {
     font-size: 1in;
     text-align: center;
     padding-top: 5px;
 
 }
-
-
-
-
 
 a {
     color: #fff;
@@ -863,7 +860,8 @@ title {
 
 footer {
     background: rgb(52, 58, 64);
-    font-family: lato, sans-serif;
+    /* font-family: lato, sans-serif; */
+    font-family: 'Questrial', sans-serif;
     color: white;
     text-align: center;
     margin-left: 0px;
