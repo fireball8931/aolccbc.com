@@ -1,5 +1,5 @@
-const langleyKey = "ENPycLbv18g8";
-const abbotsfordKey = "Vsv98l7AxT3o";
+const langleyKey = "ENPycLbv18g8_block";
+const abbotsfordKey = "Vsv98l7AxT3o_block";
 
 function generateLink(query) {
   const link = "https://www.enrichedacademy.com/users/autologin?token=";

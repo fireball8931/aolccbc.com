@@ -1,0 +1,22 @@
+id	title	Type	price	availability	description	Category	link	image_link
+AOLCC001	A+ Network+ And Microsoft Certification Preparation	Diploma	8510 CAD	in_stock	"This entry-level program will prepare the candidate for three industry-recognized certifications. The popular A+ Certification (by CompTIA) is highly recognized for excellence in hardware repair and maintenance, and operating system installation and support. The CompTIA Network+ certification assures the ability to install and maintain a network. In addition, the candidate will prepare for Microsoft Certified Solutions Associate (MCSA) Windows certification exams. The MCSA Windows certification demonstrates knowledge and skills in working with Windows client operating system and validates ability to support end users and maintain systems and mobile devices that run Windows. * Not all programs are offered at each location.
+
+Career Opportunities
+With further studies the graduate may pursue a career as:
+
+Internet Web site technician
+LAN (local area network) administrator
+LAN (local area network) technician, Web technician
+Computer network technician
+Computer network technician supervisor
+Data centre operator
+Network/System administrator
+Network support technician"	IT	https://aolccbc.com/programs/smorgs/a_network_and_microsoft_certification_preparation_diploma.pdf	https://aolccbc.com/programs/images/a_network_and_microsoft_certification_preparation.webp
+AOLCC002	Accounting Administrator With Sage	Diploma	11559 CAD	in_stock	"The objective of this program is to provide the student with opportunities to acquire and apply the knowledge of bookkeeping, office skills, and accounting to meet the demands of today's business.
+
+Career Opportunities
+Computerized accounting is a growing area. Excellent opportunities exist for skilled people. Graduates can become employed in the accounting department of a large company as an assistant or be in charge of the accounts in a smaller enterprise."	Accounting	https://aolccbc.com/programs/smorgs/accounting_administrator_with_sage_diploma.pdf	https://aolccbc.com/programs/images/accounting_administrator_with_sage.webp
+AOLCC003	Accounting And Business Technology Diploma	Diploma	12729 CAD	in_stock	"The objective of this program is to provide the student with opportunities to acquire and apply the knowledge of business concepts and office skills to meet the demands of today’s business environment. * Not all programs are offered at each location.
+
+Career Opportunities
+The computerized accounting sector is one of the fastest growing areas. Excellent opportunities exist for skilled persons."	Accounting	https://aolccbc.com/programs/smorgs/accounting_and_business_technology_diploma.pdf	https://aolccbc.com/programs/images/accounting_and_business_technology.webp
