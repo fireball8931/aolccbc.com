@@ -35,6 +35,10 @@ jobs:
     # You may pin to the exact commit or the version.
     # uses: zentered/cloudflare-preview-url@cad0619f62b5cf1d7a8486347207716657f4c822
       uses: zentered/cloudflare-preview-url@v1.4.0
+      env:
+        CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        CLOUDFLARE_ACCOUNT_EMAIL: ${{ secrets.CLOUDFLARE_ACCOUNT_EMAIL }}
+        CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
       with:
         # Cloudflare project id / name
         cloudflare_project_id: aolccbc-com
