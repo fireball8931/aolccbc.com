@@ -1,15 +1,11 @@
 # This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
 
-name: Node.js CI
+name: Verify Site
 
 on:
-  push:
-    branches: 
-      - "*"
-  pull_request:
-    branches: [ "*" ]
-  workflow_dispatch:
+    push:
+    workflow_dispatch:
 
 jobs:
   build:
@@ -22,59 +18,10 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-#     - name: Cloudflare Preview URL
-#     # You may pin to the exact commit or the version.
-#     # uses: zentered/cloudflare-preview-url@cad0619f62b5cf1d7a8486347207716657f4c822
-#       uses: zentered/cloudflare-preview-url@v1.4.0
-#       env:
-#         CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-#         CLOUDFLARE_ACCOUNT_EMAIL: ${{ secrets.CLOUDFLARE_ACCOUNT_EMAIL }}
-#         CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-#       with:
-#         # Cloudflare project id / name
-#         cloudflare_project_id: aolccbc-com
-#         # Wait for deployment to be ready
-#         wait_until_ready: true
-#         # Which Cloudflare deployment environments to allow. If set to null, doesn't filter deploys by environment. Defaults to 'preview'
-#         #environment: # optional, default is preview
-#         # Optional commit hash to filter deployments on. Useful when the same branch can have multiple deploys.
-#         commit_hash: $GITHUB_REF
-#         # Optional branch name to filter deployments on. Useful when the branch name is not available in the action context.
-#         #branch: # optional
-    - name: Broken-Links-Crawler
-  # You may pin to the exact commit or the version.
-  # uses: ScholliYT/Broken-Links-Crawler-Action@75905c3e45dd045d8517f78f9d9b39d064f0c937
-      uses: ScholliYT/Broken-Links-Crawler-Action@v3.2.1
-      with:
-    # Which websites to check
-        website_url: "https://$GITHUB_REF.aolccbc-com.pages.dev"
-    # Comma separated list of URL prefixes to include
-#         include_url_prefix:"https://$GITHUB_REF.aolccbc-com.pages.dev"
-    # Comma separated list of URL prefixes to ignore
-    #    exclude_url_prefix: # optional, default is mailto:,tel:
-    # Comma separated list of URL suffixes to include
-#     include_url_suffix: # optional, default is 
-    # Comma separated list of URL suffixes to ignore
-#     exclude_url_suffix: # optional, default is 
-    # Comma separated list of URL substrings to include
-#     include_url_contained: # optional, default is 
-    # Comma separated list of URL substrings to ignore
-#     exclude_url_contained: # optional, default is 
-    # Set logging verbosity level: true/false/yes/no/on/off/debug/info/warning/error/critical
-#     verbose: # optional, default is false
-    # Maximum time for request retries
-#     max_retry_time: # optional, default is 30
-    # Maximum request retry count
-#     max_retries: # optional, default is 4
-    # Maximum site depth level
-#     max_depth: # optional, default is -1
-    # Always use GET requests for onsite urls
-#     always_get_onsite: # optional, default is false
-    # Limit number of tcp connections per host
-#     connect_limit_per_host: # optional, default is 10
-    # Number of seconds to wait for a request to complete
-#     timeout: # optional, default is 60
-    # Names of element attributes to extract links from
-#     search_attrs: # optional, default is href,src
-    # Enables absolute link resolution before applying filtering patterns
-#     resolve_before_filtering: # optional, default is false
+        # First, wait for the page to be deployed to cf
+        - name: Await CF Pages
+          uses: WalshyDev/cf-pages-await@v1
+          with:
+            apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+            accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+            project: 'aolccbc-com.pages.dev'
