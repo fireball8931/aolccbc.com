@@ -22,15 +22,6 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm ci
-    - run: npm run build --if-present
-#     - run: npm test
     - name: Cloudflare Preview URL
     # You may pin to the exact commit or the version.
     # uses: zentered/cloudflare-preview-url@cad0619f62b5cf1d7a8486347207716657f4c822
@@ -47,7 +38,7 @@ jobs:
         # Which Cloudflare deployment environments to allow. If set to null, doesn't filter deploys by environment. Defaults to 'preview'
         #environment: # optional, default is preview
         # Optional commit hash to filter deployments on. Useful when the same branch can have multiple deploys.
-        #commit_hash: # optional
+        commit_hash: $GITHUB_REF
         # Optional branch name to filter deployments on. Useful when the branch name is not available in the action context.
         #branch: # optional
     - name: Broken-Links-Crawler
