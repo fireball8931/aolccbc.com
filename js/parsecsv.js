@@ -72,7 +72,7 @@ function getData(file) {
                                     ///console.log(domestic_tuition)                                //console.log(programweeks)                                //console.log(programhours)
                                 // console.log(programnameasurl)
 
-                                mycontent = `${mycontent}<div class="column ${programcat_short} slide show"><div class="content"><button onClick=\"overlayprogram\('${programnameasurl}\',\'${programname}'\,\'${program_type}\')\"> <img src="images/${programnameasurl}.webp" alt="${programname}" style="width:100%" /><h4>${programname}</h4></div></button></div></div>`;
+                                mycontent = `${mycontent}<div class="column ${programcat_short} slide show"><div class="content"><button onClick=\"overlayprogram\('${programnameasurl}\',\'${programname}'\,\'${program_type}\')\"> <img src="https://images.aolccbc.com/${programnameasurl}.webp" alt="${programname}" style="width:100%" /><h4>${programname}</h4></div></button></div></div>`;
 
                             }
                         }

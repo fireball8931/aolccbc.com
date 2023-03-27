@@ -42,7 +42,7 @@ function toCAD(amount,element) {
     }
         
     }
-    
+    // yolo
 function buildProgramPage(programnameasurl, programname, programtype, hide_data_table) {
     
 
@@ -66,10 +66,10 @@ function buildProgramPage(programnameasurl, programname, programtype, hide_data_
         othercontent = ''
         JSONFile = "data/" + programnameasurl + "_programdata.json";
         proglistingJSONFile = "data/3500.json";
-        fullImage = "images/full/" + programnameasurl + "_full_size.webp";
+        fullImage = "https://images.aolccbc.com/full/" + programnameasurl + "_full_size.webp";
         
         //console.log(JSONFile);
-        smorg = "smorgs/" + programnameasurl + "_" + programtype.toLowerCase() + ".pdf"
+        smorg = "https://smorgs.aolccbc.com/" + programnameasurl + "_" + programtype.toLowerCase() + ".pdf"
         console.log(`I am grabbing ${JSONFile}, ${proglistingJSONFile}, ${smorg} and ${fullImage}`)
         fetch(JSONFile)
             .then(function(response) {
@@ -130,9 +130,9 @@ function buildProgramPage(programnameasurl, programname, programtype, hide_data_
                 //console.log(salarystart);
                 salaryend = toCAD(data.salaryend,'salaryend');
                 if (!(data.prog_video)) {
-                    syllabuslink = "<a href=smorgs/" + data.syllabuslink + " target=\"_blank\">Click Here<\/a>"
+                    syllabuslink = "<a href=https://smorgs.aolccbc.com/" + data.syllabuslink + " target=\"_blank\">Click Here<\/a>"
                 } else {
-                    syllabuslink = "<a href=smorgs/" + data.syllabuslink + " target=\"_blank\">Click Here<\/a> <iframe width=\"345\" height=\"194\" src=" + data.prog_video + " frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>"
+                    syllabuslink = "<a href=https://smorgs.aolccbc.com/" + data.syllabuslink + " target=\"_blank\">Click Here<\/a> <iframe width=\"345\" height=\"194\" src=" + data.prog_video + " frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>"
                 };
     
                 function createDivfromJSON(part,alt_heading) {

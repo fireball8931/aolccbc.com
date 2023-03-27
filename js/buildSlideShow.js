@@ -13,7 +13,7 @@ function buildSlideShow() {
                 programpath = programpath.replace(/__/g, "_");
                 programdata = "data\\" + programpath + "_programdata.json";
                 //console.log(programdata);
-                programthumb = "images\\thumbs\\" + programpath + ".webp";
+                programthumb = "https://images.aolccbc.com/" + programpath + ".webp";
                 //console.log(programthumb);
                 mycontent = mycontent + "<div class='container flex-wrap text-wrap slide '><a href='programinfo.html?" + programpath + "' target='_blank'> <img src='" + programthumb + "' /><br /><strong>" + program.name + "</strong></a></div>"
 
@@ -27,3 +27,4 @@ function buildSlideShow() {
 
 
 }
+// What
