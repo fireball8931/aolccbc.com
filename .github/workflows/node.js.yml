@@ -18,7 +18,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x, 16.x, 18.x]
+        node-version: [18.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -56,9 +56,9 @@ jobs:
       uses: ScholliYT/Broken-Links-Crawler-Action@v3.2.1
       with:
     # Which websites to check
-        website_url: https://${{ steps.cloudflare_preview_url.outputs.preview_url }}
+        website_url: "https://$GITHUB_REF.aolccbc-com.pages.dev"
     # Comma separated list of URL prefixes to include
-        include_url_prefix: https://${{ steps.cloudflare_preview_url.outputs.preview_url }}
+#         include_url_prefix:"https://$GITHUB_REF.aolccbc-com.pages.dev"
     # Comma separated list of URL prefixes to ignore
     #    exclude_url_prefix: # optional, default is mailto:,tel:
     # Comma separated list of URL suffixes to include
