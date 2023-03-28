@@ -5,6 +5,8 @@ name: Verify Site
 
 on:
     push:
+        branches-ignore:
+            - main
     workflow_dispatch:
 
 jobs:
@@ -30,4 +32,4 @@ jobs:
             cloudflare_project_id: 'aolccbc-com'
             # wait_until_ready: true
         - name: Get URL
-          run: echo "https://${{ steps.cloudflare_preview_url.outputs.preview_url }}"
+          run: echo "${{ steps.cloudflare_preview_url.outputs.preview_url }}"
