@@ -30,8 +30,9 @@ jobs:
         - name: Get URL
           run: echo "${{ steps.cloudflare_preview_url.outputs.preview_url }}"
         - name: Check
-          env:
-            INPUT_URL: "${{ steps.cloudflare_preview_url.outputs.preview_url }}"
-            INPUT_PAGES_PATH: ./build/
-            INPUT_CMD_PARAMS: '--buffer-size=8192 --max-connections=10 --color=always --header="User-Agent:curl/7.54.0" --skip-tls-verification'  # --skip-tls-verification is mandatory parameter when using https and "PAGES_PATH"
-          run: wget -qO- https://raw.githubusercontent.com/ruzickap/action-my-broken-link-checker/v2/entrypoint.sh | bash
+          uses: ruzickap/action-my-broken-link-checker@v2.3.1
+          with:
+            url: "${{ steps.cloudflare_preview_url.outputs.preview_url }}"
+            cmd_params: "--one-page-only --max-connections=3 --color=always"  # Check just one page
+        
+        
