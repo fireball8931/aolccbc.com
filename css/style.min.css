@@ -911,3 +911,7 @@ footer td {
     text-align: right;
     white-space: nowrap;
 }
+
+.share {
+    cursor:pointer;
+}

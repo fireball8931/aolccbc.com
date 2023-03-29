@@ -1,31 +1,26 @@
 var headings = [{
-    "a1" : "Admission Requirements",
-    "a2" : "Program Highlights",
-    "a3" : "Career Opportunities",
-    "a4" : "CORE COURSES",
-    "a5" : "Upon completion of the program the participant must demonstrate the following core competencies:"
-}]    
+    "a1": "Admission Requirements",
+    "a2": "Program Highlights",
+    "a3": "Career Opportunities",
+    "a4": "CORE COURSES",
+    "a5": "Upon completion of the program the participant must demonstrate the following core competencies:"
+}]
 var programs_with_no_data_table = {
-    "program" : "english_as_a_second_language"
+    "program": "english_as_a_second_language"
 }
 
 
 
 function overlayprogram(programnameasurl, programname, programtype) {
 
-    // Get Navbar bottom pos
     navbar = document.getElementById('navbar')
     window.scrollTo(0, 0)
     overlaytop = navbar.offsetHeight;
-    // Show Overlay
-    hideshowElementById('programoverlay','show',null,overlaytop);
- 
-    // Hide Slideshow
-    hideshowElementById('maincontent','hide')
+    hideshowElementById('programoverlay', 'show', null, overlaytop);
+
+    hideshowElementById('maincontent', 'hide')
     hide_data_table = programs_with_no_data_table.program.includes(programnameasurl)
-    // alert(`I will be sending ${hide_data_table} for hide_data_table because ${programnameasurl} is not in ${programs_with_no_data_table}`)
     othercontent = '';
-    // console.log(`I sent ${programnameasurl} ${programname} ${programtype} ${hide_data_table}`);
     buildProgramPage(programnameasurl, programname, programtype, hide_data_table);
 
 
@@ -33,68 +28,61 @@ function overlayprogram(programnameasurl, programname, programtype) {
 
 
 
-function toCAD(amount,element) {
+function toCAD(amount, element) {
 
     try {
         return `\$${amount.toLocaleString('en-US', { style: 'decimal', maximumFractionDigits: 0 })}`
     } catch (error) {
         return ' ';
     }
-        
-    }
-    // yolo
-function buildProgramPage(programnameasurl, programname, programtype, hide_data_table) {
-    
 
-   
+}
+function buildProgramPage(programnameasurl, programname, programtype, hide_data_table) {
+
+
+
     try {
 
-        
 
 
-        //console.log("I received " + programnameasurl + ' ' + programname + ' ' + programtype);
+
         
+
+        // console.log(sharelink)
         const credential = programtype;
         const overlay = document.getElementById('programoverlay')
-        const closebutton = `<button class="closebutton" onClick="closeOverlay();">X<br />Close</button>`
-        document.addEventListener('keydown', function(event) {
+        const closebutton = `<svg class="share" onClick="shareProgram('${programnameasurl}','${programtype}','${programname}')" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="M220 1016q-24 0-42-18t-18-42V447q0-24 18-42t42-18h169v60H220v509h520V447H569v-60h171q24 0 42 18t18 42v509q0 24-18 42t-42 18H220Zm229-307V252l-88 88-43-43 161-161 161 161-43 43-88-88v457h-60Z"/></svg><button class="closebutton" onClick="closeOverlay();">X<br />Close</button>`
+        document.addEventListener('keydown', function (event) {
             if (event.keyCode == 27) {
                 closeOverlay();
             }
-    
-        });
+
+        }); //wtf
         othercontent = ''
         JSONFile = "data/" + programnameasurl + "_programdata.json";
         proglistingJSONFile = "data/3500.json";
         fullImage = "https://images.aolccbc.com/full/" + programnameasurl + "_full_size.webp";
-        
-        //console.log(JSONFile);
+
         smorg = "https://smorgs.aolccbc.com/" + programnameasurl + "_" + programtype.toLowerCase() + ".pdf"
-        console.log(`I am grabbing ${JSONFile}, ${proglistingJSONFile}, ${smorg} and ${fullImage}`)
+        // console.log(`I am grabbing ${JSONFile}, ${proglistingJSONFile}, ${smorg} and ${fullImage}`)
         fetch(JSONFile)
-            .then(function(response) {
-                ///console.log(response);
+            .then(function (response) {
                 if (response.status == 404) {
                     alert("Error, the " + JSONFile + " cannot be found")
                 }
                 return response.json()
             })
-            .then(function(data) {
-                console.log(data)
-    
-                //programnameasurl = data.programnameasurl;
-                // Set Admit Requirements Paragraphs
-                //call function called create div loop
-    
-                //fullimage = `<img src=${fullImage} alt='Program Image'>`;
-                
+            .then(function (data) {
+                // console.log(data)
+
+
+
                 textbooks1 = "";
                 optional_cooperative_placement_hours = "";
                 admitreq_array = createDivfromJSON(data.admitreq, headings[0].a1)
                 admitreq = admitreq_array[0].partcontent;
                 a1 = admitreq_array[0].part_heading
-                
-                //console.log(createDivfromJSON(data.admitreq));
+
                 programhighlights_array = createDivfromJSON(data.programhighlights, headings[0].a2);
                 programhighlights = programhighlights_array[0].partcontent;
                 a2 = programhighlights_array[0].part_heading
@@ -107,36 +95,27 @@ function buildProgramPage(programnameasurl, programname, programtype, hide_data_
                 a4 = corecourses_array[0].part_heading
                 a5 = headings[0].a5
 
-                // console.log(a1)
-                // console.log(a2)
-                // console.log(a3)
-                // console.log(a4)
-                // console.log(a5)
                 newMinWageDate = new Date(2022, 07, 01)
                 if (newMinWageDate < new Date()) {
                     bcminwage = 15.65;
                 } else {
                     bcminwage = 15.20;
-                } //console.log(newMinWageDate) 
-                //console.log('BC Minimum Wage is: ' + bcminwage)
-    
+                }
+
                 const bcminannualsalary = bcminwage * 40 * 52;
                 let salarystart = data.salarystart;
                 if (salarystart < bcminannualsalary) {
                     salarystart = bcminannualsalary
-                //console.log('Salary Start too low, overriding to ' + toCAD(salarystart))
                 };
-                salarystart = toCAD(salarystart,'salararystart');
-                //console.log(salarystart);
-                salaryend = toCAD(data.salaryend,'salaryend');
+                salarystart = toCAD(salarystart, 'salararystart');
+                salaryend = toCAD(data.salaryend, 'salaryend');
                 if (!(data.prog_video)) {
                     syllabuslink = "<a href=https://smorgs.aolccbc.com/" + data.syllabuslink + " target=\"_blank\">Click Here<\/a>"
                 } else {
                     syllabuslink = "<a href=https://smorgs.aolccbc.com/" + data.syllabuslink + " target=\"_blank\">Click Here<\/a> <iframe width=\"345\" height=\"194\" src=" + data.prog_video + " frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>"
                 };
-    
-                function createDivfromJSON(part,alt_heading) {
-                    //console.log(partname);
+
+                function createDivfromJSON(part, alt_heading) {
                     partcontent = '';
                     part_alt_heading = '';
                     part.paragraphs.forEach(paragraph => {
@@ -151,130 +130,104 @@ function buildProgramPage(programnameasurl, programname, programtype, hide_data_
                             partcontent = partcontent + "<" + paragraph.style + ">" + paragraph.content + "</" + paragraph.style + ">";
                         }
                         alt_heading_temp = part.alt_heading
-                        console.log(alt_heading_temp)
+                        // console.log(alt_heading_temp)
                     });
-                    //console.log(`Here's your content: ${partcontent}`);
                     if (alt_heading_temp == undefined) {
                         part_alt_heading = alt_heading
-                        
-                        console.log(`alt_heading_temp = ${alt_heading_temp}\npart_alt_heading = ${part_alt_heading}\nalt_heading = ${alt_heading}`);
+
+                        // console.log(`alt_heading_temp = ${alt_heading_temp}\npart_alt_heading = ${part_alt_heading}\nalt_heading = ${alt_heading}`);
                     } else {
                         part_alt_heading = alt_heading_temp
-                        console.log(alt_heading_temp);
-                        console.log(`alt_heading_temp = ${alt_heading_temp}\npart_alt_heading = ${part_alt_heading}\nalt_heading = ${alt_heading}`);
+                        // console.log(alt_heading_temp);
+                        // console.log(`alt_heading_temp = ${alt_heading_temp}\npart_alt_heading = ${part_alt_heading}\nalt_heading = ${alt_heading}`);
                     }
                     partcontent_array = [{
                         "partcontent": partcontent,
-                        "part_heading" : part_alt_heading
+                        "part_heading": part_alt_heading
                     }]
                     return partcontent_array;
-    
+
                 }
-                console.log(`Fetching proglistingJSONFile`);
+                // console.log(`Fetching proglistingJSONFile`);
                 fetch(proglistingJSONFile)
-                    .then(function(response) {
-                        console.log(`Got a response \n${response}`);
+                    .then(function (response) {
+                        // console.log(`Got a response \n${response}`);
                         return response.json()
                     })
                     .then((data) => {
-                        // searchtext = "Searching for " + programnameasurl
-                        console.log(`Now, I need to serach for ${programname} in the proglistingJSONFile`)
+                        // console.log(`Now, I need to serach for ${programname} in the proglistingJSONFile`)
                         mainname = programname.replace(/\sCertificate|\sDiploma/g, "")
                         mainname = mainname.toLowerCase();
-                        //console.log(searchtext);
-    
-                        data.programs.forEach(program => {
-                                //console.log(program.name);
-                                //console.log(mainname);
-                                // programnameasurl2 = "";
-                                // programnameasurl2 = program.name.replace(/\+| |-/g, "_").toLowerCase();
-                                // programnameasurl2 = programnameasurl2.replace(/__/g, "_");
-                                //console.log(programnameasurl2);
-    
+                        // console.log(mainname);
+                        try {
+                            data.programs.forEach(program => {
+                                // console.log("got to line 164");
                                 if (program.name.toLowerCase() === mainname.toLowerCase()) {
-                                    ///console.log("I found it " + mainname + " is the same as " + programnameasurl2);                                //console.log(program.credential);
                                     progtitle = program.name;
                                     programtype = program.Credential;
                                     programhours = program.Duration[0].hours;
                                     programduration = program.Duration[0].weeks;
-                                    ///console.log(program.Duration[0].weeks);
                                     workexphours = program.Duration[0].workexperience;
-    
+                                    // console.log("Got to line 171");
                                     if (workexphours === undefined) {
-                                        //console.log("Whelp");
                                         workexphours = '';
                                     } else {
-                                        //console.log(workexphours);
                                     }
-                                    ///console.log(workexphours);
-                                    // alert(workexphours)
-                                    dtuition = toCAD(program.domestic[0].tuition,'domestic tuition');
-                                    ituition = toCAD((program.domestic[0].tuition * 1.3),'international tuition');
+                                    dtuition = toCAD(program.domestic[0].tuition, 'domestic tuition');
+                                    ituition = toCAD((program.domestic[0].tuition * 1.3), 'international tuition');
                                     appfee = 250;
-                                    //iappfee = appfee * 2;
-                                    dapp = toCAD(appfee,'domestic app fee');
-                                    iapp = toCAD(appfee * 2,'domestic app fee');
-                                    //dapp = toCAD(program.domestic[0].application_fee);
-                                    //iapp = toCAD((program.domestic[0].application_fee * 2));
-                                    ///console.log(program.domestic[0]);
-                                    assessfee = toCAD(100,'assess (Domestic and INTL) fee');
+                                    dapp = toCAD(appfee, 'domestic app fee');
+                                    iapp = toCAD(appfee * 2, 'domestic app fee');
+                                    assessfee = toCAD(100, 'assess (Domestic and INTL) fee');
                                     dassess = assessfee
                                     iassess = assessfee;
-    
-                                    //dassess = toCAD(program.domestic[0].assessment_fee);
-                                    // iassess = toCAD(program.domestic[0].assessment_fee);
-    
+
+
                                     otherfees = program.domestic[0].other;
                                     if (otherfees === undefined) {
                                         otherfees = 4;
                                     }
-    
-                                    dother = toCAD(otherfees,'other fees');
-                                    //console.log(dother);
+
+                                    dother = toCAD(otherfees, 'other fees');
                                     iother = dother;
                                     textbooks = program.domestic[0].textbooks;
                                     if (textbooks === undefined) {
                                         textbooks1 = "";
-    
+
                                     } else {
-                                        textbookscost = toCAD(textbooks,'textbooks');
-    
+                                        textbookscost = toCAD(textbooks, 'textbooks');
+
                                         textbooks1 = `<tr id="textbooks">
                                                         <td class="title">Text Books:</td>
                                                         <td>${textbookscost}</td>
                                                         <td>${textbookscost}</td>
                                                     </tr>`;
-    
-                                        // textbooks2 = textbookscost;
+
                                     }
                                     coursemat = program.domestic[0].coursematerials
                                     if (coursemat === undefined) {
                                         coursemat_html = "";
                                     } else {
-                                        coursemat_cost = toCAD(coursemat,'course materials');
+                                        coursemat_cost = toCAD(coursemat, 'course materials');
                                         coursemat_html = `<tr id="coursemats">
                                         <td class="title">Course Materials:</td>
                                         <td>${coursemat_cost}</td>
                                         <td>${coursemat_cost}</td>
                                     </tr>`;
                                     }
-    
+
                                     if (program.cooperative_placement_hours === undefined) {
                                         optional_cooperative_placement_hours = "";
                                     } else {
                                         cooperative_placement_hours = program.duration[0].cooperative_placement_hours;
-    
+
                                     }
-                                    // build cell titles
-                                   
+
+                                    // console.log(`Building content now`);
 
 
-
-                                    console.log(`Building content now`);
-    
-    
                                     prog_info_array = [{
-                                     "top" : `
+                                        "top": `
                                     <div class="container-flex center">
                                     <h1>
                                         <div id="progtitle" class="progtitle1">${progtitle}</div>
@@ -283,7 +236,7 @@ function buildProgramPage(programnameasurl, programname, programtype, hide_data_
                                 <div class="container-flex center">
                                     <div id="fullimage"><img src=${fullImage} alt='Program Image'></div>
                                 </div>`,
-                                "left" :`
+                                        "left": `
                                 <div class="container-flex program-info" id="program-info">
                                     <div class="header lefthr">
                                         <h1>Program Info:</h1>
@@ -306,7 +259,7 @@ function buildProgramPage(programnameasurl, programname, programtype, hide_data_
                                                 <div class="container">
                                                     <h2>${a3}</h2>
                                                 </div>`,
-                                                "middle" : `
+                                        "middle": `
                                                 <div class="container">
                                                     <div id="careeropp">${careeropp}</div>
                                                 </div>
@@ -321,7 +274,7 @@ function buildProgramPage(programnameasurl, programname, programtype, hide_data_
                                                 </div>
                                             </div>
                                         </div>`,
-                                    "right" : `
+                                        "right": `
                                         <div class="p-2 programdatacol" id="progdatatable">
                                             <table class="progdata">
                                                 <tbody>
@@ -366,7 +319,7 @@ function buildProgramPage(programnameasurl, programname, programtype, hide_data_
                                                     </tr>
                                                     ${textbooks1}
                                                     ${coursemat_html}
-    
+
                                                     <tr>
                                                         <td class="title">Other Fees:</td>
                                                         <td>${dother}</td>
@@ -375,7 +328,7 @@ function buildProgramPage(programnameasurl, programname, programtype, hide_data_
                                                     <tr>
                                                         <td class="title">Program Syllabus:</td>
                                                         <td colspan="2"><a href="${smorg}" target="_blank">Click here to Download</a></td>
-                                                                                                         
+
                                                     </tr>
                                                     <tr>
                                                     <td class="title">Program Notes</td>
@@ -400,54 +353,59 @@ function buildProgramPage(programnameasurl, programname, programtype, hide_data_
                                             </table>
                                         </div>`
                                     }]
-                                
-                                    
-                                    // console.log(`I reached the innerHTML part`);
-                                    
-                                    // console.log(`Checking the value of hide_data_table`)
-                                    if(hide_data_table == true) {
-                                        // alert(hide_data_table)
+
+
+
+                                    if (hide_data_table == true) {
                                         prog_info_array[0].right = ''
 
                                     }
-                                    // console.log(`Here is the DIV's content: \n${othercontent}`);
                                     overlay.innerHTML = `${closebutton} ${prog_info_array[0].top} ${prog_info_array[0].left} ${prog_info_array[0].middle} ${prog_info_array[0].right}</div> `
-                                    
+
                                     if (workexphours === undefined) {
                                         document.getElementById('workexphours').innerHTML = '';
                                     }
                                 } else {
-                                    //console.log('there was an issue')
                                 };
-  
-    
-    
+
+
+
                             }
-    
-    
-                        );
-                        ///console.log(othercontent);
+
+
+                            );
+                        } catch (error) {
+                            // console.log("Something happened: ".error);
+                        }
                         return othercontent;
                     })
-    
-                //console.log(othercontent);
-    
+
+
                 return othercontent;
-                ///console.log(othercontent);
-            }) //console.log(othercontent);
-            // return othercontent;
+            })
     } catch (error) {
-        // alert(error)
     }
-        
+
+}
+
+function closeOverlay() {
+    hideshowElementById('programoverlay', 'hide');
+    emptyElementByID('programoverlay')
+    hideshowElementById('maincontent', 'show');
+    emptyElementByID('programoverlay');
+}
+;
+
+function shareProgram(programurl, cred, name) {
+    if (navigator.share) {
+        navigator.share({
+            title: `${name} ${cred} at Academy of Learning Career College`,
+            url: `${window.location.origin}${window.location.pathname}?program=${programurl}`
+        })
+            .then(() => console.log('Succefful share'))
+            .catch((error) => console.log('Error sharing:', error));
+
+    } else {
+        console.log('Web Share API not supported');
     }
-    
-    function closeOverlay() {
-        hideshowElementById('programoverlay','hide');
-        emptyElementByID('programoverlay')
-        hideshowElementById('maincontent','show');
-        emptyElementByID('programoverlay');
-        //window.scrollTo(0, 0)
-    }
-    ;
-    
+}
