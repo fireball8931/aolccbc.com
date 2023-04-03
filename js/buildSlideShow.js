@@ -15,7 +15,7 @@ function buildSlideShow() {
                 //console.log(programdata);
                 programthumb = "images\\thumbs\\" + programpath + ".webp";
                 //console.log(programthumb);
-                mycontent = mycontent + "<div class='container flex-wrap text-wrap slide '><a href='programinfo.html?" + programpath + "' target='_blank'> <img src='" + programthumb + "' /><br /><strong>" + program.name + "</strong></a></div>"
+                mycontent = mycontent + "<div class='container flex-wrap text-wrap slide '><a href='programinfo.html?" + programpath + "' target='_blank' rel='noopener noreferrer'> <img src='" + programthumb + "' /><br /><strong>" + program.name + "</strong></a></div>"
 
 
             });

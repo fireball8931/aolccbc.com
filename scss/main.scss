@@ -119,6 +119,7 @@ main a {
     background: var(--aol-orange);
     color: #fff;
     box-sizing: unset;
+    max-width: -moz-fit-content;
     max-width: fit-content;
     padding-left: 10px;
     padding-right: 10px;
@@ -331,6 +332,7 @@ hr {
     display: block;
     float: none;
     box-sizing: content-box;
+    max-width: -moz-fit-content;
     max-width: fit-content;
     margin: 0 auto;
     padding: 5px 10px;
@@ -835,6 +837,7 @@ hr {
     border-style: groove;
     margin-right: 5%;
 
+    max-height: -moz-fit-content;
     max-height: fit-content;
 }
 
@@ -905,4 +908,72 @@ footer td {
 .title_with_emoji {
     text-align: right;
     white-space: nowrap;
+}
+.full {
+    width: 100%;
+}
+
+.transpform {
+    min-height: 500px;
+}
+.nb {
+    list-style: none;
+    font-weight: bold;
+  }
+
+  .embed {
+    border: 0;
+  }
+
+.hidden {
+    display: none;
+}
+
+.feature-row {
+    max-width:250px; 
+    text-align: right;
+}
+
+.promisebar {
+    position: relative; box-sizing: border-box;
+}
+
+.promisebar h3 {
+    font-size: 24px;
+    // color: #eeeeee;
+    line-height: 1.5;
+    text-align: left;
+    font-family:Raleway;
+    font-weight:600;
+    font-style:normal;
+    // background-color: var(--aol-green);
+}
+
+.pb1 {
+    background-color: var(--aol-blue);
+}
+
+.pb1 h3 {
+    color: blueviolet;
+}
+
+.promisebar .vc_li-bulb {
+    text-align: center;
+                                        -webkit-font-smoothing: antialiased;
+                                        box-sizing: border-box;
+                                        top: -3px!important;
+                                        left: 0!important;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: 1!important;
+                                        font-stretch: normal;
+                                        font-feature-settings: normal;
+                                        font-kerning: auto;
+                                        font-variant: normal;
+                                        text-rendering: auto;
+                                        display: inline-block;
+                                        position: absolute;
+                                        transform: translate(-50%, -50%);
+                                        font-size: 2.15em!important;
+                                        color: rgba(0,0,0,0.1) !important;
 }
