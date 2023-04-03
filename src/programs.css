@@ -4,17 +4,13 @@
 
 body {
     background-color: #f1f1f1;
-    /* padding: 20px; */
     font-family: Arial;
 }
 
 .overlay {
-    /* position: absolute; */
     top: 0;
     left: 0;
-    /* height: 100%; */
     width: 100%;
-    /* z-index: 10; */
     background-color: white;
 }
 
@@ -34,7 +30,6 @@ body {
 }
 
 
-/* Center website */
 
 .main {
     max-width: 1000px;
@@ -51,7 +46,6 @@ h1 {
 }
 
 
-/* Add padding BETWEEN each column (if you want) */
 
 .row,
 .row>.column {
@@ -59,17 +53,14 @@ h1 {
 }
 
 
-/* Create three equal columns that floats next to each other */
 
 .column {
     float: left;
     width: 33.33%;
     display: none;
-    /* Hide columns by default */
 }
 
 
-/* Clear floats after rows */
 
 .row:after {
     content: "";
@@ -78,22 +69,18 @@ h1 {
 }
 
 
-/* Content */
 
 .content {
-    /* background-color: white; */
     padding: 10px;
 }
 
 
-/* The "show" class is added to the filtered elements */
 
 .show {
     display: block;
 }
 
 
-/* Style the buttons */
 
 .slidesbtn {
     border: none;
@@ -104,14 +91,12 @@ h1 {
 }
 
 
-/* Add a grey background color on mouse-over */
 
 .slidesbtn:hover {
     background-color: #ddd;
 }
 
 
-/* Add a dark background color to the active button */
 
 .slidesbtn.active {
     background-color: #666;
@@ -120,7 +105,6 @@ h1 {
 
 .slide {
     max-width: 273px;
-    /* background-color: white; */
     border-style: none;
 }
 
@@ -153,7 +137,13 @@ h1 {
 .progdata .title {
     font-weight: bold;
     font-style: oblique;
-vertical-align: top;text-align: left;border-right-color: var(--aol-black);border-right-style: groove;border-right-width: thin;padding-right: 0.5em;}
+    vertical-align: top;
+    text-align: left;
+    border-right-color: var(--aol-black);
+    border-right-style: groove;
+    border-right-width: thin;
+    padding-right: 0.5em;
+}
 
 .program-info {
     margin-left: 5px;

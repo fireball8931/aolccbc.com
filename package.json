@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "parcel build",
+    "check": "node validate.js",
     "dev": "parcel"
   },
   "source": "src/index.html",
@@ -31,10 +32,18 @@
   "homepage": "https://github.com/fireball8931/aolccbc.com#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.3",
+    "child_process": "^1.0.2",
+    "eslint": "^8.37.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "node-input-validator": "^4.5.1",
     "parcel": "^2.7.0",
     "parcel-reporter-static-files-copy": "^1.4.0",
     "posthtml-img-autosize": "^0.1.6",
-    "posthtml-modules": "^0.9.0"
+    "posthtml-modules": "^0.9.0",
+    "w3c-xml-validator": "^1.1.0"
   },
   "dependencies": {
     "@fontsource/questrial": "^4.5.11",

@@ -3,27 +3,33 @@
 }
 
 table {
-    max-width: 500px !important;
+    max-width: 500px;
 }
+
 .avatar {
-    width:67px !important;
+    width: 67px;
 }
-.orangehr{
+
+.orangehr {
     background-color: rgb(232, 100, 4);
-   font-size: 2pt;
+    font-size: 2px;
 }
-table { 
-    border-collapse: collapse; 
+
+table {
+    border-collapse: collapse;
 }
-.disclaimer{
-    
-color: gray;word-break: break-word;max-width: 200px;}
+
+.disclaimer {
+    color: gray;
+    word-break: break-word;
+    max-width: 200px;
+}
 
 .title {
-    
-color: rgb(232, 100, 4);}
+    color: rgb(232, 100, 4);
+}
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 9pt;
 }
