@@ -1,8 +1,8 @@
 # Domain name
 $d = "pub-ba40a2c327284ac787fcf7379eaa7030.r2.dev"
-
+#https://pub-ba40a2c327284ac787fcf7379eaa7030.r2.dev/acmepro.2011.setup.v216.1.exe
 # Application URLs and version numbers
-$a = "acmepro.v216.1.setup.exe"
+$a = "acmepro.2011.setup.v216.1.exe"
 $t = "typingtrainersetup_v1.68.exe"
 $v = "vcredist_x86.exe"
 $appUrls = @(
@@ -28,27 +28,27 @@ foreach ($appUrl in $appUrls[1..$appUrls.Length]) {
     Invoke-WebRequest -Uri $appUrl -OutFile $appPath -UseBasicParsing
     $appProcess = Start-Process -FilePath $appPath -ArgumentList $args -PassThru
     $appProcess.WaitForExit()
-    Remove-Item $appPath
+    #Remove-Item $appPath
 }
 
 # Create Internet shortcuts on the desktop
-$u1 = "https://my.aolcc.ca"
-$u2 = "https://s.aolccbc.com/att"
-$dPath = [Environment]::GetFolderPath("Desktop")
-$ePath = (Get-AppxPackage -Name Microsoft.MicrosoftEdge).InstallLocation
-function Create-Shortcut {
-    param (
-        [string]$N,
-        [string]$T,
-        [string]$A
-    )
+#$u1 = "https://my.aolcc.ca"
+#$u2 = "https://s.aolccbc.com/att"
+#$dPath = [Environment]::GetFolderPath("Desktop")
+#$ePath = (Get-AppxPackage -Name Microsoft.MicrosoftEdge).InstallLocation
+#function Create-Shortcut {
+#    param (
+#        [string]$N,
+#        [string]$T,
+#        [string]$A
+#    )
 
-    $p = Join-Path $dPath "$N.lnk"
-    $s = (New-Object -ComObject WScript.Shell).CreateShortcut($p)
-    $s.TargetPath = Join-Path $ePath "msedge.exe"
-    $s.Arguments = $A
-    $s.Save()
-}
+#    $p = Join-Path $dPath "$N.lnk"
+#    $s = (New-Object -ComObject WScript.Shell).CreateShortcut($p)
+#    $s.TargetPath = Join-Path $ePath "msedge.exe"
+#    $s.Arguments = $A
+#    $s.Save()
+#}
 
-Create-Shortcut -N "My AOLCC" -T $u1 -A ""
-Create-Shortcut -N "AOLCCBC ATT" -T $u2 -A ""
+#Create-Shortcut -N "My AOLCC" -T $u1 -A ""
+#Create-Shortcut -N "AOLCCBC ATT" -T $u2 -A ""
