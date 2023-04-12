@@ -2,16 +2,14 @@
 <html lang="en">
 
 <head>
-      <meta charset="utf-8">
-    </head><include src="./src/components/head.htm">{
+    <meta charset="utf-8">
+    <include src="./src/components/head.htm">{
         "title" : "Programs"
         
         }
         </include>
     
-    <link rel="stylesheet" href="programs.css">
-
-
+    <link rel="stylesheet" href="~/css/programs.css">
 
 </head>
 
@@ -28,9 +26,6 @@
         <div class="row">
             <div id="slides" class="row"></div>
 
-
-
-
         </div>
 
 
@@ -46,15 +41,23 @@
     
 
 </body>
-<!-- <script src="/www/js/buildprogcontent.js"></script> -->
+
 <script src="~/js/global_functions.js"></script>
 <script src="~/js/buildoverlay.js"></script>
 <script src="~/js/papaparse.min.js"></script>
 <script src="~/js/parsecsv.js"></script>
+<script src="~/js/getData.js"></script>
+<script src="~/js/toCAD.js"></script>
+<script src="~/js/overlayprogram.js"></script>
+<script src="~/js/hideshowElementById.js"></script>
+<script src="~/js/buildProgramPage.js"></script>
+<script src="~/js/closeOverlay.js"></script>
+<script src="~/js/hideshowElementById.js"></script>
+<script src="~/js/emptyElementById.js"></script>
+
 
 <script>
     getData('programlisting.csv');
-    //document.getElementById('slides').innerHTML = slidecontent;
 </script>
 
 <script>

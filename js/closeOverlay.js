@@ -1,7 +1,10 @@
-import { hideshowElementById } from 'hideshowElementById.js'
-import { emptyElementByID } from 'empyElementById.js'
+import('./hideshowElementById.js')
+import('./emptyElementByID.js')
 
-export function closeOverlay () {
+// import { hideshowElementById } from 'hideshowElementById.js'
+// import { emptyElementByID } from 'empyElementById.js'
+
+function closeOverlay () {
   hideshowElementById('programoverlay', 'hide')
   emptyElementByID('programoverlay')
   hideshowElementById('maincontent', 'show')

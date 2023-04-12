@@ -7,7 +7,7 @@ fetch("https://github.com/fireball8931/aolccbc.com/raw/main/www/staff/" + staff 
         })
         .then(function(data) {
 //            console.log(data)
-            document.getElementById('avatar').innerHTML = "<img src='https://github.com/fireball8931/aolccbc.com/raw/main/www/staff/avatars/" + staff + ".png' alt='Profile Picture' class='avatar'>";
+            document.getElementById('avatar').innerHTML = "<img src='https://github.com/fireball8931/aolccbc.com/raw/main/www/staff/avatars/" + staff + ".png?as=webp' alt='Profile Picture' class='avatar'>";
             document.getElementById('name').innerHTML = data.name;
             document.getElementById('title').innerHTML = data.title;
             document.getElementById('campus').innerHTML = `Academy of Learning Career College | ${data.campus}`;

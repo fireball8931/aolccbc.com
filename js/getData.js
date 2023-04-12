@@ -1,8 +1,6 @@
-import { Papa } from './papaparse.min'
-
-export function getData (file) {
+function getData (file) {
   try {
-    let mycontent
+    let mycontent = ''
     let categories
     categories = '<button class="slidesbtn active" onclick="filterSelection(\'all\')">All</button>'
     let usedcats = '_'
@@ -27,7 +25,7 @@ export function getData (file) {
                 usedcats = usedcats + programcatShort
                 categories = categories + `<button class='slidesbtn active' onclick="filterSelection('${programcatShort}')">${programcat}</button>` // console.log('added cat')                                        //console.log(usedcats)
               }
-
+              
               mycontent = `${mycontent}<div class="column ${programcatShort} slide show"><div class="content"><button onClick="overlayprogram('${programnameasurl}','${programname}','${programType}')"> <img src="images/${programnameasurl}.webp" alt="${programname}" style="width:100%" /><h4>${programname}</h4></div></button></div></div>`
             }
           }

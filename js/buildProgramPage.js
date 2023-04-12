@@ -1,7 +1,13 @@
-import { toCAD } from 'toCAD.js'
-import { closeOverlay } from 'closeOverlay.js'
+// import { toCAD } from './toCAD.js'
+/* eslint-disable no-undef */
+/* eslint-disable no-unused-vars */
+// import './toCAD'
+// import('./toCAD.js')
+// import('./closeOverlay.js')
+// import { toCAD } from 'toCAD.js'
+// import { closeOverlay } from 'closeOverlay.js'
 
-export function buildProgramPage (programnameasurl, programname, programtype, hideDataTable) {
+function buildProgramPage (programnameasurl, programname, programtype, hideDataTable) {
   try {
     const overlay = document.getElementById('programoverlay')
     const closebutton = '<button class="closebutton" onClick="closeOverlay();">X<br />Close</button>'
@@ -28,7 +34,7 @@ export function buildProgramPage (programnameasurl, programname, programtype, hi
         console.log(data)
 
         const textbooks1 = ''
-        let optionalCooperativePlacementHours = ''
+        const optionalCooperativePlacementHours = ''
         const admitreqArray = createDivfromJSON(data.admitreq, headings[0].a1)
         const admitreq = admitreqArray[0].partcontent
         const a1 = admitreqArray[0].part_heading
@@ -94,6 +100,7 @@ export function buildProgramPage (programnameasurl, programname, programtype, hi
             return response.json()
           })
           .then((data) => {
+            console.log(data);
             console.log(`Now, I need to serach for ${programname} in the proglistingJSONFile`)
             let mainname = programname.replace(/\sCertificate|\sDiploma/g, '')
             mainname = mainname.toLowerCase()
@@ -125,13 +132,12 @@ export function buildProgramPage (programnameasurl, programname, programtype, hi
 
                 const dother = toCAD(otherfees, 'other fees')
                 const textbooks = program.domestic[0].textbooks
-                
+
                 if (textbooks !== undefined) {
-                let textbookscost = toCAD(textbooks, 'textbooks')
+                  const textbookscost = toCAD(textbooks, 'textbooks')
                 }
                 let coursemat = program.domestic[0].coursematerials
-                if (coursemat === undefined) {
-                } else {
+                if (coursemat !== undefined) {
                   coursemat = toCAD(coursemat, 'course materials')
                   coursemat = `<tr id="coursemats">
                                         <td class="title">Course Materials:</td>
@@ -141,14 +147,14 @@ export function buildProgramPage (programnameasurl, programname, programtype, hi
                 }
 
                 if (program.cooperativePlacementHours === undefined) {
-                  optionalCooperativePlacementHours = ''
+                  const optionalCooperativePlacementHours = ''
                 } else {
-                  optionalCooperativePlacementHours = program.duration[0].cooperativePlacementHours
+                  const optionalCooperativePlacementHours = program.duration[0].cooperativePlacementHours
                 }
 
                 console.log('Building content now')
 
-                progInfoArray = [{
+                const progInfoArray = [{
                   top: `
                                     <div class="container-flex center">
                                     <h1>
@@ -284,7 +290,7 @@ export function buildProgramPage (programnameasurl, programname, programtype, hi
                 if (workexphours === undefined) {
                   document.getElementById('workexphours').innerHTML = ''
                 }
-              } else { };
+              };
             }
 
             )
