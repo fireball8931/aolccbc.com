@@ -5,7 +5,8 @@
   "scripts": {
     "build": "parcel build",
     "check": "node validate.js",
-    "dev": "parcel"
+    "dev": "parcel",
+    "debug": "parcel build --log-level verbose"
   },
   "source": "src/index.html",
   "targets": {
@@ -31,19 +32,24 @@
   },
   "homepage": "https://github.com/fireball8931/aolccbc.com#readme",
   "devDependencies": {
+    "@babel/core": "^7.21.4",
     "@parcel/transformer-sass": "^2.8.3",
+    "babel-plugin-module-resolver": "^5.0.0",
     "child_process": "^1.0.2",
     "eslint": "^8.37.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^15.7.0",
     "eslint-plugin-promise": "^6.1.1",
+    "events": "^3.3.0",
     "node-input-validator": "^4.5.1",
     "parcel": "^2.7.0",
     "parcel-reporter-static-files-copy": "^1.4.0",
     "posthtml-img-autosize": "^0.1.6",
     "posthtml-modules": "^0.9.0",
+    "process": "^0.11.10",
     "sharp": "^0.31.3",
+    "stream-browserify": "^3.0.0",
     "w3c-xml-validator": "^1.1.0"
   },
   "dependencies": {
@@ -52,6 +58,7 @@
     "@fontsource/roboto": "^4.5.8",
     "@fortawesome/fontawesome-free": "^6.3.0",
     "@parcel/plugin": "^2.7.0",
+    "@popperjs/core": "^2.11.7",
     "katex": "^0.16.4",
     "katex-copytex": "^1.0.2",
     "mdbootstrap": "^4.20.0",
