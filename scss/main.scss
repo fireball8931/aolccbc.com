@@ -1,11 +1,12 @@
 /* Imports*/
-@import url("../node_modules/@fontsource/roboto/index.css");
-@import url("../node_modules/@fontsource/questrial/index.css");
-@import url("../node_modules/@fontsource/raleway/index.css");
+// @import url("../node_modules/@fontsource/roboto/index.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+// @import url("../node_modules/@fontsource/raleway/index.css");
 // @import url("~/css/mdb.min.css");
-@import url("../node_modules/mdbootstrap/scss/mdb-free.scss");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css");
 // @import url("../node_modules/mdbootstrap/scss/core/bootst");
-@import url("../node_modules/@fortawesome/fontawesome-free/css/all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
 
 // @import url("~/css/bootstrap.min.css");
 // @import url("~/fontawesome/css/all.min.css");
@@ -131,6 +132,7 @@ main a {
     max-width: fit-content;
     padding-left: 10px;
     padding-right: 10px;
+
 }
 
 .fas {
@@ -796,7 +798,7 @@ hr {
     margin-top: 0 !important;
 }
 
-.navleaf {
+.navleaf::before {
     color: var(--aol-white) !important;
     content: "\f06c" !important;
     font-family: FontAwesome !important;
@@ -977,4 +979,12 @@ footer td {
     right: 10px;
     top: 10px;
     width: 100px;
+}
+
+.banner10 {
+    height: 10px;
+}
+
+#requestmoreinfo {
+    height: 600px;
 }
