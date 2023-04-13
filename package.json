@@ -17,9 +17,9 @@
   "engines": {
     "node": ">=19.9.0",
     "npm": ">=9.6.4",
-    "posthtml": "^0.16.6",
-    "@parcel/transformer-jsonld": "^2.7.0",
-    "parcel": "^2.7.0"
+    "posthtml": ">=0.16.6",
+    "@parcel/transformer-jsonld": ">=2.7.0",
+    "parcel": ">=2.7.0"
   },
   "repository": {
     "type": "git",
