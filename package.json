@@ -3,10 +3,11 @@
   "description": "This is the source code for aolccbc.com",
   "version": "1.0.0",
   "scripts": {
-    "build": "parcel build",
+    "build": "npm run sitemap && parcel build",
     "check": "node validate.js",
     "dev": "parcel",
-    "debug": "parcel build --log-level verbose"
+    "debug": "parcel build --log-level verbose",
+    "sitemap": "npx sitemap-generator-cli -f static/sitemap.xml -d 5 -v -l aolccbc.com"
   },
   "source": "src/index.html",
   "targets": {
@@ -15,8 +16,8 @@
     }
   },
   "engines": {
-    "node": ">=19.9.0",
-    "npm": ">=9.6.3",
+    "node": ">=19.8.0",
+    "npm": ">=9.6.0",
     "posthtml": ">=0.16.6",
     "@parcel/transformer-jsonld": ">=2.7.0",
     "parcel": ">=2.7.0"
