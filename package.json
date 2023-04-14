@@ -3,11 +3,12 @@
   "description": "This is the source code for aolccbc.com",
   "version": "1.0.0",
   "scripts": {
-    "build": "npm run sitemap && parcel build",
+    "build": "npm run sitemap && npm run make_programs_js && parcel build",
     "check": "node validate.js",
-    "dev": "parcel",
+    "dev": "npm run make_programs_js && parcel",
     "debug": "parcel build --log-level verbose",
-    "sitemap": "npx sitemap-generator-cli -f static/sitemap.xml -d 5 -v -l aolccbc.com"
+    "sitemap": "npx sitemap-generator-cli -f static/sitemap.xml -d 5 -v -l aolccbc.com",
+    "make_programs_js": "node ./scripts/compile_programs"
   },
   "source": "src/index.html",
   "targets": {

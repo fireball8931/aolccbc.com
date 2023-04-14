@@ -1,12 +1,3 @@
-// import { toCAD } from './toCAD.js'
-/* eslint-disable no-undef */
-/* eslint-disable no-unused-vars */
-// import './toCAD'
-// import('./toCAD.js')
-// import('./closeOverlay.js')
-// import { toCAD } from 'toCAD.js'
-// import { closeOverlay } from 'closeOverlay.js'
-
 function buildProgramPage (programnameasurl, programname, programtype, hideDataTable) {
   try {
     const overlay = document.getElementById('programoverlay')

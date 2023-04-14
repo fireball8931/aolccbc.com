@@ -8,6 +8,3 @@ const headings = [{
 const programsWithNoDataTable = {
   program: 'english_as_a_second_language'
 }
-
-
-
