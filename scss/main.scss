@@ -988,3 +988,20 @@ footer td {
 #requestmoreinfo {
     height: 600px;
 }
+
+.title {
+    vertical-align: text-top;
+    text-align: left;
+}
+
+#corecourses li {
+    display: inline;
+  }
+
+.slide {
+    text-align: center;
+    text-decoration: none;
+}
+.slide a {
+    text-decoration: none !important;
+}

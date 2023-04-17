@@ -1,29 +1,29 @@
-const headings = [{
+var headings = [{
   a1: 'Admission Requirements',
   a2: 'Program Highlights',
   a3: 'Career Opportunities',
   a4: 'CORE COURSES',
   a5: 'Upon completion of the program the participant must demonstrate the following core competencies:'
 }]
-const programsWithNoDataTable = {
+var programsWithNoDataTable = {
   program: 'english_as_a_second_language'
 }
 function buildProgramPage (programnameasurl, programname, programtype, hideDataTable) {
   try {
-    const overlay = document.getElementById('programoverlay')
-    const closebutton = '<button class="closebutton" onClick="closeOverlay();">X<br />Close</button>'
+    var overlay = document.getElementById('programoverlay')
+    var closebutton = '<button class="closebutton" onClick="closeOverlay();">X<br />Close</button>'
     document.addEventListener('keydown', function (event) {
       if (event.key === 'Escape') {
         closeOverlay()
       }
     })
-    const othercontent = ''
-    const JSONFile = `data/${programnameasurl}_programdata.json`
-    const proglistingJSONFile = 'data/3500.json'
-    const fullImage = 'images/full/' + programnameasurl + '_full_size.webp'
+    var othercontent = ''
+    var JSONFile = 'data/' + programnameasurl + '_programdata.json'
+    var proglistingJSONFile = 'data/3500.json'
+    var fullImage = 'images/full/' + programnameasurl + '_full_size.webp'
 
-    const smorg = `smorgs/${programnameasurl}_${programtype.toLowerCase()}.pdf`
-    console.log(`I am grabbing ${JSONFile}, ${proglistingJSONFile}, ${smorg} and ${fullImage}`)
+    var smorg = 'smorgs/' + programnameasurl + '_' + programtype.toLowerCase() + '.pdf'
+    console.log('I am grabbing ' + JSONFile + ', ' + proglistingJSONFile + ', ' + smorg + ' and ' + fullImage)
     fetch(JSONFile)
       .then(function (response) {
         if (response.status === 404) {
@@ -34,37 +34,37 @@ function buildProgramPage (programnameasurl, programname, programtype, hideDataT
       .then(function (data) {
         console.log(data)
 
-        const textbooks1 = ''
-        const optionalCooperativePlacementHours = ''
-        const admitreqArray = createDivfromJSON(data.admitreq, headings[0].a1)
-        const admitreq = admitreqArray[0].partcontent
-        const a1 = admitreqArray[0].part_heading
+        var textbooks1 = ''
+        var optionalCooperativePlacementHours = ''
+        var admitreqArray = createDivfromJSON(data.admitreq, headings[0].a1)
+        var admitreq = admitreqArray[0].partcontent
+        var a1 = admitreqArray[0].part_heading
 
-        const programhighlightsArray = createDivfromJSON(data.programhighlights, headings[0].a2)
-        const programhighlights = programhighlightsArray[0].partcontent
-        const a2 = programhighlightsArray[0].part_heading
+        var programhighlightsArray = createDivfromJSON(data.programhighlights, headings[0].a2)
+        var programhighlights = programhighlightsArray[0].partcontent
+        var a2 = programhighlightsArray[0].part_heading
 
-        const careeroppArray = createDivfromJSON(data.careeropp, headings[0].a3)
-        const careeropp = careeroppArray[0].partcontent
-        const a3 = careeroppArray[0].part_heading
-        const corecoursesArray = createDivfromJSON(data.corecourses, headings[0].a4)
-        const corecourses = corecoursesArray[0].partcontent
-        const a4 = corecoursesArray[0].part_heading
-        const a5 = headings[0].a5
+        var careeroppArray = createDivfromJSON(data.careeropp, headings[0].a3)
+        var careeropp = careeroppArray[0].partcontent
+        var a3 = careeroppArray[0].part_heading
+        var corecoursesArray = createDivfromJSON(data.corecourses, headings[0].a4)
+        var corecourses = corecoursesArray[0].partcontent
+        var a4 = corecoursesArray[0].part_heading
+        var a5 = headings[0].a5
 
-        const bcminwage = 15.65
+        var bcminwage = 15.65
 
-        const bcminannualsalary = bcminwage * 40 * 52
-        let salarystart = data.salarystart
+        var bcminannualsalary = bcminwage * 40 * 52
+        var salarystart = data.salarystart
         if (salarystart < bcminannualsalary) {
           salarystart = bcminannualsalary
         };
         salarystart = toCAD(salarystart, 'salararystart')
-        const salaryend = toCAD(data.salaryend, 'salaryend')
+        var salaryend = toCAD(data.salaryend, 'salaryend')
 
         function createDivfromJSON (part, altHeading) {
-          let partcontent = ''
-          let partAltHeading = ''
+          var partcontent = ''
+          var partAltHeading = ''
           part.paragraphs.forEach(paragraph => {
             if (paragraph.li_title) {
               partcontent = partcontent + '<b>' + paragraph.li_title + '</b><br />'
@@ -76,7 +76,7 @@ function buildProgramPage (programnameasurl, programname, programtype, hideDataT
             } else {
               partcontent = partcontent + '<' + paragraph.style + '>' + paragraph.content + '</' + paragraph.style + '>'
             }
-            const altHeadingTemp = part.altHeading
+            var altHeadingTemp = part.altHeading
             console.log(altHeadingTemp)
           })
           if (altHeading === undefined) {
@@ -88,7 +88,7 @@ function buildProgramPage (programnameasurl, programname, programtype, hideDataT
             console.log(altHeading)
             console.log(`altHeadingTemp = ${altHeading}\npartAltHeading = ${partAltHeading}\naltHeading = ${altHeading}`)
           }
-          const partcontentArray = [{
+          var partcontentArray = [{
             partcontent,
             part_heading: partAltHeading
           }]
@@ -108,34 +108,34 @@ function buildProgramPage (programnameasurl, programname, programtype, hideDataT
 
             data.programs.forEach(program => {
               if (program.name.toLowerCase() === mainname.toLowerCase()) {
-                const progtitle = program.name
-                const programtype = program.Credential
-                const programhours = program.Duration[0].hours
-                const programduration = program.Duration[0].weeks
+                var progtitle = program.name
+                var programtype = program.Credential
+                var programhours = program.Duration[0].hours
+                var programduration = program.Duration[0].weeks
                 let workexphours = program.Duration[0].workexperience
 
                 if (workexphours === undefined) {
                   workexphours = ''
                 }
-                const dtuition = toCAD(program.domestic[0].tuition, 'domestic tuition')
-                const ituition = toCAD((program.domestic[0].tuition * 1.3), 'international tuition')
-                const appfee = 250
-                const dapp = toCAD(appfee, 'domestic app fee')
-                const iapp = toCAD(appfee * 2, 'domestic app fee')
-                const assessfee = toCAD(100, 'assess (Domestic and INTL) fee')
-                const dassess = assessfee
-                const iassess = assessfee
+                var dtuition = toCAD(program.domestic[0].tuition, 'domestic tuition')
+                var ituition = toCAD((program.domestic[0].tuition * 1.3), 'international tuition')
+                var appfee = 250
+                var dapp = toCAD(appfee, 'domestic app fee')
+                var iapp = toCAD(appfee * 2, 'domestic app fee')
+                var assessfee = toCAD(100, 'assess (Domestic and INTL) fee')
+                var dassess = assessfee
+                var iassess = assessfee
 
                 let otherfees = program.domestic[0].other
                 if (otherfees === undefined) {
                   otherfees = 4
                 }
 
-                const dother = toCAD(otherfees, 'other fees')
-                const textbooks = program.domestic[0].textbooks
+                var dother = toCAD(otherfees, 'other fees')
+                var textbooks = program.domestic[0].textbooks
 
                 if (textbooks !== undefined) {
-                  const textbookscost = toCAD(textbooks, 'textbooks')
+                  var textbookscost = toCAD(textbooks, 'textbooks')
                 }
                 let coursemat = program.domestic[0].coursematerials
                 if (coursemat !== undefined) {
@@ -148,14 +148,14 @@ function buildProgramPage (programnameasurl, programname, programtype, hideDataT
                 }
 
                 if (program.cooperativePlacementHours === undefined) {
-                  const optionalCooperativePlacementHours = ''
+                  var optionalCooperativePlacementHours = ''
                 } else {
-                  const optionalCooperativePlacementHours = program.duration[0].cooperativePlacementHours
+                  var optionalCooperativePlacementHours = program.duration[0].cooperativePlacementHours
                 }
 
                 console.log('Building content now')
 
-                const progInfoArray = [{
+                var progInfoArray = [{
                   top: `
                                     <div class="container-flex center">
                                     <h1>
@@ -342,12 +342,18 @@ function emptyElementByID (elementID) {
 function filterSelection(c) {
     var x, i;
     x = document.getElementsByClassName("column");
+    let activebtn = document.getElementById(c)
+    activebtn.classList.add('active')
     if (c == "all") c = "";
     // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
     for (i = 0; i < x.length; i++) {
         w3RemoveClass(x[i], "show");
         if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
     }
+    let buttons = document.querySelectorAll('.slidesbtn.active');
+    buttons.forEach(function(button) {
+        button.classList.remove('active');
+    });
 }
 function getData (file) {
   try {
@@ -361,9 +367,9 @@ function getData (file) {
       header: true,
       complete: function (results) {
         results.data.forEach(program => {
-          if (program['Name of Program']) {
+          if (program.NameofProgram) {
             if (program.Active === 'Yes') {
-              const programname = program['Name of Program'].toTitle()
+              const programname = program.NameofProgram.toTitle()
               const programcat = program.Category
               const programnameasurl = program.URL
               let programcatShort = programcat.toURL()
