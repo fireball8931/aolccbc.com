@@ -31,11 +31,7 @@ fs.createReadStream('./static/programlisting.csv')
  .on('data', async (row) => {
    
   const jsonFileName = row.JSON; //set the data  for this current row
-  if (row.workexphours) {
-    console.log(row.workexphours);
-    
-  }
-  //start category
+//start category
     let programcat = row.Category; //set programcat
    let programcatShort = toURL(programcat); //convert to a usable url string
    programcatShort = toURL(programcatShort); //run it through the function again to be safe
