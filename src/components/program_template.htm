@@ -1,8 +1,34 @@
+<div class="breadcrumbs" id="breadcrumbs">
+    <a href="~/src/programs.html">Programs </a>
+    >
+    <a href="~/src/programs.html" id="catbread">{{ Category }} </a>
+    >
+    {{ NameofProgram }}
+</div>
 <div class="container-flex center">
     <h1>
         <div id="progtitle" class="progtitle1"> {{ NameofProgram }} </div>
     </h1>
 </div>
+<script>
+function toURL(that) {
+  const regex = /\+|\s|certificate|diploma|__|\/|\.|_z|:|\-|\(|\)|&plus;/gi
+  const regex2 = /_$|__/gi
+  const regex3 = /_$/gi
+  const regex4 = /^\s+|\s+$|\s+(?=\s)/g
+  const regex5 = /__/gi
+  let thistoo
+  thistoo = that.replaceAll(regex, '_')
+  thistoo = thistoo.replaceAll(regex2, '_')
+  thistoo = thistoo.replace(regex3, ' ')
+  thistoo = thistoo.replace(regex4, '')
+  return thistoo.replace(regex5, '_').toLowerCase()
+}
+    let cat = '{{ Category }}'
+    let egory = toURL(cat)
+    const catbreadLink = document.getElementById('catbread');
+    catbreadLink.href += `?category=${egory}` ;
+</script>
 <div class="container-flex center">
     <div id="fullimage"><img src='~/images/full/{{ URL }}_full_size.webp' alt='Program Image'></div>
 </div>
@@ -11,7 +37,7 @@
 
 
 
-<div class="row">
+<div class="row" id="programinfo">
     <div class="header lefthr">
         <h1>Program Info:</h1>
     </div>
@@ -28,7 +54,9 @@
                 </if>
                 <if condition="paragraph.style == 'li'">
                     <li>
-                        <h4> {{ paragraph.li_title || '' }} </h4>
+                        <if condition="paragraph.li_title">
+                            <h4> {{ paragraph.li_title || '' }} </h4>
+                        </if>
                         <p> {{ paragraph.content || '' }} </p>
                     </li>
                 </if>
@@ -50,7 +78,9 @@
                 </if>
                 <if condition="paragraph.style == 'li'">
                     <li>
-                        <h4> {{ paragraph.li_title || '' }} </h4>
+                        <if condition="paragraph.li_title">
+                            <h4> {{ paragraph.li_title || '' }} </h4>
+                        </if>
                         <p> {{ paragraph.content || '' }} </p>
                     </li>
                 </if>
@@ -74,7 +104,9 @@
                 </if>
                 <if condition="paragraph.style == 'li'">
                     <li>
-                        <h4> {{ paragraph.li_title || '' }} </h4>
+                        <if condition="paragraph.li_title">
+                            <h4> {{ paragraph.li_title || '' }} </h4>
+                        </if>
                         <p> {{ paragraph.content || '' }} </p>
                     </li>
                 </if>
@@ -97,7 +129,9 @@
                 </if>
                 <if condition="paragraph.style == 'li'">
                     <li>
-                        <h4> {{ paragraph.li_title || '' }} </h4>
+                        <if condition="paragraph.li_title">
+                            <h4> {{ paragraph.li_title || '' }} </h4>
+                        </if>
                         <p> {{ paragraph.content || '' }} </p>
                     </li>
                 </if>
@@ -141,15 +175,6 @@
     <td id="duration" colspan="2">
         Weeks: {{ 'Weeks Duration' }}<br>
         Hours: {{ Hours }} <br>
-        <if condition="!workexphours">
-            {{ workexphours=0}}
-        </if>
-        <if condition="workexphours!==0">
-            <p id="workexphours">Work Experience: {{ workexphours }}</p>
-        </if>
-        <else>
-        &nbsp;
-    </else>
 
                     </td>
                 </tr>
@@ -247,6 +272,8 @@
 </div>
 
 </div>
+<h2>Get more info</h2>
+<include src="./src/components/Learnmoreframe.htm"></include>
 </div>
 
 

@@ -47,6 +47,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "events": "^3.3.0",
     "node-input-validator": "^4.5.1",
+    "nodemon": "^2.0.22",
     "parcel": "^2.7.0",
     "parcel-reporter-static-files-copy": "^1.4.0",
     "posthtml-img-autosize": "^0.1.6",

@@ -52,14 +52,13 @@
 <script src='~/js/filterSelection.js'></script>
 <script src='~/js/w3RemoveClass.js'></script>-->
 <script src='~/js/programs_js.js'></script>
-<!-- <script>
-import('~/js/programs.js')    
-</script> -->
 <script>
-    // getData('programlisting.csv');
-    filterSelection('all') // Execute the function and show all columns
 
-var slidesbtnContainer = document.getElementById('myslidesbtnContainer');
+let filter = new URLSearchParams(window.location.search).get("category") || 'all';
+
+filterSelection(filter) // Execute the function and show all columns
+
+var slidesbtnContainer = document.getElementById('myslidesbtnContainer') || '';
 
 var slidesbtns = slidesbtnContainer.querySelectorAll('.slidesbtn.active');
 slidesbtns.forEach(function(btn) {
@@ -71,4 +70,3 @@ slidesbtns.forEach(function(btn) {
 });
 </script>
 
-<a href='./programs/sales_associate.html'>Sales Associate</a>

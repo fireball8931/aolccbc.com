@@ -31,7 +31,10 @@ fs.createReadStream('./static/programlisting.csv')
  .on('data', async (row) => {
    
   const jsonFileName = row.JSON; //set the data  for this current row
-  
+  if (row.workexphours) {
+    console.log(row.workexphours);
+    
+  }
   //start category
     let programcat = row.Category; //set programcat
    let programcatShort = toURL(programcat); //convert to a usable url string
@@ -48,7 +51,7 @@ fs.createReadStream('./static/programlisting.csv')
   
   // Slide
     stream.write(`
-    <div class="column slide ${programcatShort} show"><a href="~/src/programs/${row.URL}.html" target="_blank">
+    <div class="column slide ${programcatShort} show"><a href="~/src/programs/${row.URL}.html">
     <img alt="Learn more about ${row.NameofProgram}" src="~/images/${row.URL}.webp">
     ${row.NameofProgram}</a></div>
     `);
@@ -56,9 +59,11 @@ fs.createReadStream('./static/programlisting.csv')
   // 
 
   //start json, make programname.html file
+  
    const jsonFilePath = `./static/data/${jsonFileName}`;
    const jsonData = await fs.promises.readFile(jsonFilePath, 'utf-8');
    row.json_data = JSON.parse(jsonData);
+   
    const newHtmlFile = `./src/programs/${row.URL}.html`
     const fileContents = `
     <!DOCTYPE html lang="en">
