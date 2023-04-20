@@ -3,7 +3,7 @@
   "description": "This is the source code for aolccbc.com",
   "version": "1.0.0",
   "scripts": {
-    "build": "npm run make_programs_js && node ./generate_program_pages.js && parcel build",
+    "build": "npm run make_programs_js && node ./generate_program_pages.js && npm run sitemap && parcel build",
     "check": "node validate.js",
     "dev": "parcel",
     "debug": "parcel build --log-level verbose",
