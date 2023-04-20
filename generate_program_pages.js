@@ -4,9 +4,9 @@ const csv = require('csv-parser');
 
 
 // Initialize variables
-let usedCategories = '_';
-let categories = '<button class="slidesbtn active" id="all" onclick="filterSelection(\'all\')">All</button>';
-let slides = '';
+let usedCategoryShortNames = '_';
+let categoryButtons = '<button class="slidesbtn active" id="all" onclick="filterSelection(\'all\')">All</button>';
+let slidesHTML = '';
 let programsCount = 0;
 
 // Create the src/programs directory if it does not exist
@@ -15,14 +15,14 @@ if (!fs.existsSync('./src/programs')) {
 }
 
 // Clear the slides file
-const slidesfile = './src/components/slides.htm';
-fs.writeFileSync(slidesfile, '', 'utf8', { flag: 'w' });
+const slidesFilePath = './src/components/slides.htm';
+fs.writeFileSync(slidesFilePath, '', 'utf8', { flag: 'w' });
 
 // Create a write stream for the slides file
-const stream = fs.createWriteStream(slidesfile, { flags: 'a' });
+const slidesStream = fs.createWriteStream(slidesFilePath, { flags: 'a' });
 
 // Function to convert a string to a usable URL string
-function toURL(str) {
+function convertToURLString(str) {
  const regex = /\+|\s|certificate|diploma|__|\/|\.|_z|:|-|\(|\)|&plus;/gi;
  const regex2 = /_$|__/gi;
  const regex3 = /_$/gi;
@@ -43,17 +43,17 @@ fs.createReadStream('./static/programlisting.csv')
      const jsonFileName = row.JSON;
 
      // Start category
-     const programcat = row.Category;
-     const programcatShort = toURL(programcat);
-     if (!usedCategories.includes(programcatShort)) {
-         usedCategories += programcatShort;
-         categories += `<button class='slidesbtn active' id="${programcatShort}" onclick="filterSelection('${programcatShort}')">${programcat}</button>`;
+     const categoryFullName = row.Category;
+     const categoryShortName = convertToURLString(categoryFullName);
+     if (!usedCategoryShortNames.includes(categoryShortName)) {
+         usedCategoryShortNames += categoryShortName;
+         categoryButtons += `<button class='slidesbtn active' id="${categoryShortName}" onclick="filterSelection('${categoryShortName}')">${categoryFullName}</button>`;
      }
      // End category
 
      // Slide
-     stream.write(`
-         <div class="column slide ${programcatShort} show"><a href="~/src/programs/${row.URL}.html">
+     slidesStream.write(`
+         <div class="column slide ${categoryShortName} show"><a href="~/src/programs/${row.URL}.html">
          <img alt="Learn more about ${row.NameofProgram}" src="~/images/${row.URL}.webp">
          ${row.NameofProgram}</a></div>
      `);
@@ -94,5 +94,5 @@ fs.createReadStream('./static/programlisting.csv')
  .on('finish', () => {
      console.log(`${programsCount} program pages written`);
      // Write categories to file after all other operations are completed
-     fs.writeFileSync('./src/components/program_cats.htm', categories, 'utf8', { flag: 'w' });
+     fs.writeFileSync('./src/components/program_cats.htm', categoryButtons, 'utf8', { flag: 'w' });
  })
