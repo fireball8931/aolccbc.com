@@ -2,11 +2,17 @@
 const fs = require('fs');
 const csv = require('csv-parser');
 
+
 // Initialize variables
 let usedCategories = '_';
 let categories = '<button class="slidesbtn active" id="all" onclick="filterSelection(\'all\')">All</button>';
 let slides = '';
 let programsCount = 0;
+
+// Create the src/programs directory if it does not exist
+if (!fs.existsSync('./src/programs')) {
+  fs.mkdirSync('./src/programs');
+}
 
 // Clear the slides file
 const slidesfile = './src/components/slides.htm';
@@ -17,7 +23,7 @@ const stream = fs.createWriteStream(slidesfile, { flags: 'a' });
 
 // Function to convert a string to a usable URL string
 function toURL(str) {
- const regex = /\+|\s|certificate|diploma|__|\/|\.|_z|:|\-|\(|\)|&plus;/gi;
+ const regex = /\+|\s|certificate|diploma|__|\/|\.|_z|:|-|\(|\)|&plus;/gi;
  const regex2 = /_$|__/gi;
  const regex3 = /_$/gi;
  const regex4 = /^\s+|\s+$|\s+(?=\s)/g;
@@ -79,7 +85,8 @@ fs.createReadStream('./static/programlisting.csv')
          </html>
      `;
 
-     fs.writeFileSync(newHtmlFile, fileContents, 'utf8', { flag: 'w' });
+        fs.writeFileSync(newHtmlFile, fileContents, 'utf8');
+      
      programsCount++;
      // End JSON
 

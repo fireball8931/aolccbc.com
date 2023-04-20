@@ -71,6 +71,7 @@
     "posthtml": "^0.16.6",
     "posthtml-doctype": "^1.1.1",
     "posthtml-expressions": "^1.11.0",
-    "posthtml-include": "^1.7.4"
+    "posthtml-include": "^1.7.4",
+    "touch": "^3.1.0"
   }
 }
