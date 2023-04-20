@@ -2,7 +2,6 @@
 const fs = require('fs');
 const csv = require('csv-parser');
 
-
 // Initialize variables
 let usedCategoryShortNames = '_';
 let categoryButtons = '<button class="slidesbtn active" id="all" onclick="filterSelection(\'all\')">All</button>';
@@ -16,10 +15,18 @@ if (!fs.existsSync('./src/programs')) {
 
 // Clear the slides file
 const slidesFilePath = './src/components/slides.htm';
+try {
 fs.writeFileSync(slidesFilePath, '', 'utf8', { flag: 'w' });
+console.log("Slides file created successfully.");
+} catch (err) {
+console.error("Error creating slides file:", err);
+}
 
 // Create a write stream for the slides file
 const slidesStream = fs.createWriteStream(slidesFilePath, { flags: 'a' });
+slidesStream.on('error', (err) => {
+console.error(`Error writing to slides file: ${err}`);
+});
 
 // Function to convert a string to a usable URL string
 function convertToURLString(str) {
