@@ -10,9 +10,9 @@ function getData (file) {
       header: true,
       complete: function (results) {
         results.data.forEach(program => {
-          if (program['Name of Program']) {
+          if (program.NameofProgram) {
             if (program.Active === 'Yes') {
-              const programname = program['Name of Program'].toTitle()
+              const programname = program.NameofProgram.toTitle()
               const programcat = program.Category
               const programnameasurl = program.URL
               let programcatShort = programcat.toURL()
