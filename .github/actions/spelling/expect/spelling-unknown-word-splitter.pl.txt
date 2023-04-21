@@ -1,0 +1,14 @@
+aeiou
+binmode
+cmp
+fileformat
+ies
+misspellled
+rsqm
+rtn
+substr
+tempdir
+tempfile
+unicode
+usr
+woord
