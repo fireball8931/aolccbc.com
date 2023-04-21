@@ -1,7 +1,8 @@
-<!DOCTYPE html>
+<!DOCTYPE html lang="en">
 <html lang="en">
 
 <head>
+      <meta charset="utf-8">
     <include src="./src/components/head.htm">{
         "title" : "Welcome to Enriched Academy"
 
@@ -22,7 +23,7 @@
     
     <tr>
         <td>Campus</td>
-        <td><select id="campus">
+        <td><select title="Campus" id="campus">
             <option value="langley">Langley</option>
             <option value="abbotsford" selected>Abbotsford</option>
 
@@ -34,15 +35,17 @@
 
     <tr>
         <td>First Name</td>
-        <td><input type="text" name="fname" id="fname"> </td>
+<tr>
+        <td><label for="fname">First Name:</label></td>
+        <td><input type="text" name="fname" id="fname" placeholder="Enter your first name"> </td>
     </tr>
     <tr>
-        <td>Last Name</td>
-        <td><input type="text" name="lname" id="lname"> </td>
+        <td><label for="lname">Last Name:</label></td>
+        <td><input type="text" name="lname" id="lname" placeholder="Enter your last name"> </td>
     </tr>
     <tr>
-        <td>Email</td>
-        <td><input type="email" name="email" id="email"> </td>
+        <td><label for="email">Email:</label></td>
+        <td><input type="email" name="email" id="email" placeholder="Enter student's email address"> </td>
     </tr>
     <!-- <tr>
         
