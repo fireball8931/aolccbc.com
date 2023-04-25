@@ -1,11 +1,11 @@
 {
   "name": "aolccbc.com",
   "description": "This is the source code for aolccbc.com",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "scripts": {
     "build": "npm run make_programs_js && node ./generate_program_pages.js && npm run sitemap && parcel build",
     "check": "node validate.js",
-    "dev": "parcel",
+    "dev": "npm run make_programs_js && node ./generate_program_pages.js && npm run sitemap && parcel",
     "debug": "parcel build --log-level verbose",
     "live_debug": "npm run build_program_pages && parcel --log-level verbose --open",
     "sitemap": "npx sitemap-generator-cli -f static/sitemap.xml -d 5 -v -l aolccbc.com",
