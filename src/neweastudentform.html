@@ -8,15 +8,17 @@
 
         }
     </include>
-    <script src="/js/genEAlink.js"></script>
-
+    
 </head>
 
 <body>
     <include src="./src/components/navbar.htm"></include>
-
-<main class="center">
-    <center>
+    
+    <main class="center">
+        
+        <script src="../js/genealink.js"></script>
+        
+        <center>
         <p>Please enter the student's first name, last name and email. The email will generate as you update the fields. Click the email text to copy the HTML code to your clipboard. Then, compose an email to the student in Campus Login, click on the Source button, then paste the code into the top of the email. Click Source again to see the result and then you can send the email to the student. This will be tracked in Campus Login, including whether they clicked the link to view their customized Orientation page. Once they click the link on the Orientation page, they will be enrolled.</p>
 <form onchange="generateEmail();">
 <table>
@@ -52,7 +54,7 @@
         <td colspan="2"><button style="width:100%;text-align:center;" type="submit" onclick="generateEmail()">Go</button></td>
     </tr> -->
     <tr>
-        <td colspan="2" onclick="copyEmailHTML()"><div id="emailcontent"></div></td>
+        <td colspan="2" onclick="copyEmailContentToClipboard()"><div id="emailcontent"></div></td>
     </tr>
     
 </table>

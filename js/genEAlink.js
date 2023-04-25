@@ -6,8 +6,19 @@ function generateLink(query) {
   var suffix = "&indicator=0&host=aolccbc.com";
 
   var params = query.split('&').reduce((result, param) => {
+    if (param.indexOf('=') === -1) {
+      return result;
+    }
     var [key, value] = param.split('=');
-    result[key] = value;
+    if (result.hasOwnProperty(key)) {
+      if (Array.isArray(result[key])) {
+        result[key].push(value);
+      } else {
+        result[key] = [result[key], value];
+      }
+    } else {
+      result[key] = value;
+    }
     return result;
   }, {});
 
@@ -26,7 +37,8 @@ function generateEmail() {
   var page = window.location.hostname === 'aolccbc.com' ? 'ea' : 'ea.html';
   var genLink = window.location.protocol + '//' + window.location.hostname + '/' + page + '?fname=' + fname + '&lname=' + lname + '&email=' + email + '&campus=' + campus;
   var emailBody = `Hello ${fname},\n\nAs part of your Thought Patterns for a Successful career, you have been invited to the Enriched Academy course. Click this link to access the course: ${genLink}\n\nPlease watch the orientation videos and then click the link on the page to start your course.\n\nThis course must be completed as well as the Thought Patterns course in myAOLCC in 20 hours of study.\n\nPlease let us know if you have issues accessing the course.`;
-  document.getElementById('emailcontent').textContent = emailBody;
+  return document.getElementById('emailcontent').textContent = emailBody;
+  
 }
 
 function copyEmailContentToClipboard() {
