@@ -63,7 +63,7 @@ body {
     margin: 0px;
     overflow-x:auto;
     padding: 0;
-    max-width: 100%;
+    // max-width:99vw;
 }
 
 
@@ -202,7 +202,7 @@ iframe {
 .mainpageheaderform {
     background-color: var(--dark-blue);
     margin-left: 60%;
-    min-width: 400px;
+    // max-width: 400px;
     padding-left: 2%;
     padding-right: 2%;
 }
@@ -253,7 +253,7 @@ iframe {
     .mainpageheaderform {
         background-color: var(--dark-blue);
         margin-left: 0 !important;
-        width: 100% !important;
+        // width: 100% !important;
     }
 
     .mainpageheader {
@@ -405,9 +405,9 @@ hr {
 }
 
 .navbar {
-    min-width: 100% !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+    // min-width: 100% !important;
+    // padding-left: 0 !important;
+    // padding-right: 0 !important;
 }
 
 .navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link,
@@ -648,4 +648,8 @@ footer td {
 }
 .slide a {
     text-decoration: none !important;
+}
+
+#callUsMenuDiv > ul > li {
+    display: block;
 }
