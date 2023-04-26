@@ -1,17 +1,10 @@
 /* Imports*/
-// @import url("../node_modules/@fontsource/roboto/index.css");
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-// @import url("../node_modules/@fontsource/raleway/index.css");
-// @import url("~/css/mdb.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css");
-// @import url("../node_modules/mdbootstrap/scss/core/bootst");
+
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
 
-// @import url("~/css/bootstrap.min.css");
-// @import url("~/fontawesome/css/all.min.css");
-// @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
-// @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 :root {
     --aol-black: rgba(83, 83, 83, 0.8);
     --aol-blue: rgb(90, 203, 218);
@@ -28,7 +21,6 @@
 body {
     font-family: "Questrial", sans-serif;
     margin: 0;
-    min-width: 420px;
     overflow-x: hidden;
     padding: 0;
     width: 100%;
