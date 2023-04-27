@@ -7,7 +7,7 @@ package-lock.json
 .parcel-cache/
 
 # IDE files
-.vscode/
+# .vscode/
 
 # Build files
 dist/
