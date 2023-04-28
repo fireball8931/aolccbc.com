@@ -1,11 +1,15 @@
 <main>
-<div class="breadcrumbs" id="breadcrumbs">
-    <a href="~/src/programs.html">Programs </a>
-    >
-    <a href="~/src/programs.html" id="catbread">{{ Category }} </a>
-    >
-    {{ NameofProgram }}
+<div id="bc2">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+        <li class="breadcrumb-item"> <a href="~/src/programs.html">Programs</a></li>
+        <li class="breadcrumb-item"> <a href="~/src/programs.html" id="catbread">{{ Category }} </a></li>
+          <li class="breadcrumb-item active" aria-current="page">{{ NameofProgram }}</li>
+        </ol>
+      </nav>
 </div>
+
+
 <div class="container-flex center">
     <h1>
         <div id="progtitle" class="progtitle1"> {{ NameofProgram }} </div>
@@ -45,7 +49,7 @@ function toURL(that) {
     <div class="col">
     <div class="row" id="admissions_requirements">
         <h2>Admissions Requirements</h2>
-        
+
             <each loop="paragraph in json_data.admitreq.paragraphs">
                 <if condition="paragraph.style == 'p'">
                     <p> {{ paragraph.content || '' }} </p>
@@ -69,7 +73,7 @@ function toURL(that) {
 
     <div class="row" id="programhighlights">
         <h2>Program Highlights</h2>
-        
+
             <each loop="paragraph in json_data.programhighlights.paragraphs">
                 <if condition="paragraph.style == 'p'">
                     <p> {{ paragraph.content || '' }} </p>
@@ -94,7 +98,7 @@ function toURL(that) {
     <div class="col">
     <div class="row" id="careeropp">
         <h2>Career Opportunities</h2>
-        
+
 
             <each loop="paragraph in json_data.careeropp.paragraphs">
                 <if condition="paragraph.style == 'p'">
@@ -119,8 +123,8 @@ function toURL(that) {
         </div>
         <div class="row" id="corecourses">
             <h2>Core Courses</h2>
-            
-            
+
+
             <each loop="paragraph in json_data.corecourses.paragraphs">
                 <if condition="paragraph.style == 'p'">
                     <p> {{ paragraph.content || '' }} </p>
@@ -142,7 +146,7 @@ function toURL(that) {
             </each>
     </div>
 </div>
-    
+
 
 <div class="col">
 <div class="row" id="programdata">
@@ -193,7 +197,7 @@ function toURL(that) {
                     <td class="title">Tuition:</td>
                     <td>{{(Tuition*1).toLocaleString('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 })}}</td>
                     <td>{{(Tuition * 1.3).toLocaleString('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 })}}</td>
-                    
+
                 </tr>
                 <tr>
                     <td class="title">Application:</td>
@@ -215,18 +219,18 @@ function toURL(that) {
                       <td>{{ textbooks1 }}</td>
                 </tr>
             </if>
-            
+
             <if condition="!coursemat">
                 <!-- {{ coursemat=0 }} -->
                 </if>
-                
+
             <if condition="coursemat!==0">
                 <tr>
                     <td class="title">Course Materials:</td>
-                        
+
                         <td>{{ (coursemat*1).toLocaleString('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }) }}</td>
                         <td>{{ (coursemat*1).toLocaleString('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }) }}</td>
-                        
+
                     </tr>
                 </if>
                 <if condition="!other">
