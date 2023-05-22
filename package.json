@@ -55,7 +55,7 @@
     "w3c-xml-validator": "^1.1.0"
   },
   "dependencies": {
-    "@fontsource/questrial": "^4.5.11",
+    "@fontsource/questrial": "^5.0.0",
     "@fontsource/raleway": "^4.5.12",
     "@fontsource/roboto": "^4.5.8",
     "@fortawesome/fontawesome-free": "^6.3.0",
