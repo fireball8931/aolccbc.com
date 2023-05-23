@@ -49,7 +49,7 @@
         <script>
             query = window.location.search
             try {
-                kit = query.substring(1).split('&').find(param => param.split('=')[0] === 'kit').split('=')[1].toUpperCase().split("")
+                kit = query.substring(1).split('&').find(param => param.split('=')[0].toLowerCase() === 'kit').split('=')[1].toUpperCase().split("")
             course = kit.splice(0,3).join("")
             edition = kit.splice(0,2).join("")
             style = kit.splice(0,1)
