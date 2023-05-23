@@ -4,10 +4,10 @@
 <head>
     <include src="./src/components/head.htm">{
     "title" : "Home"
-    
+
     }
     </include>
-    
+
 </head>
 <body>
 <include src="./src/components/navbar.htm"></include>
@@ -15,7 +15,20 @@
 <main>
     <div class="container" id="maincontent">
         <script>
-            let dlRoot = "https://pub-82254d3adbc146bfa41cbd28d6e3c932.r2.dev/"
+            query = window.location.search
+            try {
+                kit = query.substring(1).split('&').find(param => param.split('=')[0] === 'kit').split('=')[1].toUpperCase().split("")
+            course = kit.splice(0,3).join("")
+            edition = kit.splice(0,2).join("")
+            style = kit.splice(0,1)
+            } catch (error) {
+                //silently continue
+            }
+
+
+
+
+            let dlRoot = "https://examkits.aolccbc.com/"
             let suffix = "Practical_Exam_Kit.zip"
             let coursesArray = [
                 {"course" : "WRD", "courseName" : "Word", "ver" : 19, "level" : [
@@ -31,7 +44,15 @@
                     1,2
                 ]},
             ]
-            
+
+            if (typeof kit !== 'undefined') {
+                lol = [coursesArray.find(function(obj) { return obj["course"] === course;})]
+                coursesArray = lol
+                coursesArray[0].level = kit
+            }
+
+
+
             let examPolicies = [
                 "You must get 75% to pass the exam.",
                 "All Software exams (such as this one) are 'Open Program', You are expected to open the program you just learned and refer to it during the exam.",
@@ -44,11 +65,11 @@
             "Your 2nd attempt is free, but the maximum grade is 89%",
             "There is a $30 fee for the 3rd attempt. The maximum grade is 89%",
             "If you fail the 3rd attempt, you will have to pay for and retake the entire course again."
-            
+
             ]
-            
+
             let instructions = `
-            
+
             <p>As requested, here is the practical exam kit</p>
             <p ><b><u><mark>
             IMPORTANT: PLEASE COMPLETE THE PRACTICAL EXAM KIT LINKED BELOW BEFORE STARTING THE ONLINE EXAM - YOU NEED IT FOR PART 1 OF THE EXAM</mark></b></u></p>
@@ -71,26 +92,26 @@
                     console.log(concatlevel);
                 })
             });
-            
+
             let instructionsp2 = `
             <p>When you are ready, the code to start the exam is in the EXAM_CODE.txt file in the kit linked above. Please copy and paste the code from the EXAM_CODE.txt file.</p>
-            
+
             <h2>A reminder on the testing policy</h2>
             <ul>
             `;
             document.write(instructionsp2);
-            
+
             examPolicies.forEach(element => {
                 document.write(`<li>${element}</li>`)
             })
-            
+
             document.write(`If you have any issues completing the practical exam or accessing the online portions, please call us right away.
-            
+
             For best results, we recommend completing both portions at the campus. That way you can get immediate assistance by putting your question mark up.`)
-            
-            
-            
-            
+
+
+
+
             </script>
             </div>
 </main>

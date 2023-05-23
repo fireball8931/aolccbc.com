@@ -5,7 +5,7 @@
   "scripts": {
     "build": "npm run make_programs_js && node ./generate_program_pages.js && npm run sitemap && parcel build",
     "check": "node validate.js",
-    "dev": "npm run make_programs_js && node ./generate_program_pages.js && npm run sitemap && parcel",
+    "dev": "npm run make_programs_js && node ./generate_program_pages.js && parcel",
     "debug": "npm run make_programs_js && node ./generate_program_pages.js && npm run sitemap && parcel build --log-level verbose",
     "live_debug": "npm run build_program_pages && parcel --log-level verbose --open",
     "sitemap": "npx sitemap-generator-cli -f static/sitemap.xml -d 5 -v -l aolccbc.com",
@@ -49,6 +49,7 @@
     "posthtml-img-autosize": "^0.1.6",
     "posthtml-modules": "^0.9.0",
     "process": "^0.11.10",
+    "sharp": "^0.31.3",
     "stream-browserify": "^3.0.0",
     "textlint": "^13.3.2",
     "textlint-rule-no-dead-link": "^5.1.2",
