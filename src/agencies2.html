@@ -3,11 +3,13 @@
 
 <head>
       <meta charset="utf-8">
+      <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.22.1/dist/bootstrap-table.min.css">
     <include src="./src/components/head.htm">{
     "title" : "Tuition Table"
 
     }
     </include>
+
     <style>
         .col {
             margin-left: 1%;
@@ -39,7 +41,7 @@
 </head>
 
 <body>
-    <div class="container-flex center">
+    <div class="container center">
         <img src="~/images/aolcclogo.png?as=webp" style="max-height: 150px;" alt="logo">
         <h1>Full Program Listing</h1>
         <p>Dear sir/madam,<br>
@@ -48,14 +50,13 @@
         <p>Kindly contact Christina Clayton at our Langley Campus at 604-532-4040 or <a
                 href="mailto:admin.langley@aolccbc.com">admin.langley@aolccbc.com</a><br>
             or Mary Ellen Olynuk at our Abbotsford Campus at 604-855-3315 or <a
-                href="mailto:admin.abbotsford@aolccbc.com">admin.abbotsford@aolccbc.com</a></p>Click <a
-            href="">here</a> for a printable version.
+                href="mailto:admin.abbotsford@aolccbc.com">admin.abbotsford@aolccbc.com</a></p>
 
-            <div class="container center">
+
             <include src="./src/components/programtable.htm" locals='{}'>
 
             </include>
-        </div>
+
 
 
         <div class="blacktext">
@@ -66,7 +67,8 @@
         </div>
     </div>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.22.1/dist/bootstrap-table.min.js"></script>
 </body>
 
 </html>
