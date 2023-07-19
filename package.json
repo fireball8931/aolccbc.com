@@ -13,6 +13,9 @@
     "build_program_pages": "node ./generate_program_pages.js",
     "convertdata": "node ./convert_data.js"
   },
+  "overrides": {
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.0/xlsx-0.20.0.tgz"
+  },
   "source": "src/index.html",
   "targets": {
     "default": {
@@ -77,6 +80,6 @@
     "posthtml-include": "^1.7.4",
     "textlint-rule-period-in-list-item": "^1.0.1",
     "textlint-rule-spelling": "^0.3.0",
-    "xlsx": "^0.18.5"
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.0/xlsx-0.20.0.tgz"
   }
 }
