@@ -3,14 +3,15 @@
   "description": "This is the source code for aolccbc.com",
   "version": "2.0.0",
   "scripts": {
-    "build": "npm run make_programs_js && node ./generate_program_pages.js && npm run sitemap && parcel build",
+    "build": "npm run convertdata && npm run make_programs_js && node ./generate_program_pages.js && node ./build_agency_page.js && npm run sitemap && parcel build",
     "check": "node validate.js",
-    "dev": "npm run make_programs_js && node ./generate_program_pages.js && parcel",
+    "dev": "npm run convertdata && npm run make_programs_js && node ./generate_program_pages.js && parcel",
     "debug": "npm run make_programs_js && node ./generate_program_pages.js && npm run sitemap && parcel build --log-level verbose",
     "live_debug": "npm run build_program_pages && parcel --log-level verbose --open",
     "sitemap": "npx sitemap-generator-cli -f static/sitemap.xml -d 5 -v -l aolccbc.com",
     "make_programs_js": "node ./scripts/compile_programs",
-    "build_program_pages": "node ./generate_program_pages.js"
+    "build_program_pages": "node ./generate_program_pages.js",
+    "convertdata": "node ./convert_data.js"
   },
   "source": "src/index.html",
   "targets": {
@@ -62,7 +63,11 @@
     "@fortawesome/fontawesome-free": "^6.3.0",
     "@parcel/plugin": "^2.7.0",
     "@popperjs/core": "^2.11.7",
+    "axios": "^1.4.0",
     "csv-parser": "^3.0.0",
+    "csv-to-markdown-table": "^1.3.1",
+    "csv-writer": "^1.6.0",
+    "csvtojson": "^2.0.10",
     "dictionary-en": "^3.2.0",
     "katex": "^0.16.4",
     "katex-copytex": "^1.0.2",
@@ -71,6 +76,7 @@
     "posthtml-expressions": "^1.11.0",
     "posthtml-include": "^1.7.4",
     "textlint-rule-period-in-list-item": "^1.0.1",
-    "textlint-rule-spelling": "^0.3.0"
+    "textlint-rule-spelling": "^0.3.0",
+    "xlsx": "^0.18.5"
   }
 }
