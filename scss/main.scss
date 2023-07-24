@@ -1,8 +1,13 @@
 /* Imports*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url("https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+
+// @import url("https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css");
+// @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+
+@import "../node_modules/mdb-ui-kit/css/mdb.min.css";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 :root {
     --aol-black: rgba(83, 83, 83, 0.8);
@@ -192,8 +197,48 @@ iframe {
     border: 0;
 }
 
+// `xs` returns only a ruleset and no media query
+// ... { ... }
+
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@include media-breakpoint-up(md) {
+    .mainpageheader {
+        background-image: url('~/images/AOLCC_is56373070-scaled.webp?width=575.98');
+    }
+ }
+
+// `md` applies to small devices (landscape phones, less than 768px)
+@include media-breakpoint-up(lg) {
+    .mainpageheader {
+        background-image: url('~/images/AOLCC_is56373070-scaled.webp?width=767.98');
+    }
+ }
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@include media-breakpoint-up(xl) {
+    .mainpageheader {
+        background-image: url('~/images/AOLCC_is56373070-scaled.webp?width=991.98');
+    }
+ }
+
+
+
+// `xl` applies to large devices (desktops, less than 1200px)
+@include media-breakpoint-up(xxl) {
+    .mainpageheader {
+        background-image: url('~/images/AOLCC_is56373070-scaled.webp?width=1199.98');
+    }
+ }
+
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+    .mainpageheader {
+        background-image: url('~/images/AOLCC_is56373070-scaled.webp?width=1399.98');
+    }
+ }
+
 .mainpageheader {
-  background-image: url('~/images/AOLCC_is56373070-scaled.webp'); 
+//   background-image: url('~/images/AOLCC_is56373070-scaled.webp');
   background-repeat: no-repeat;
   background-size:  100%;
   display: block;
@@ -404,11 +449,7 @@ hr {
     width: 100%;
 }
 
-.navbar {
-    // min-width: 100% !important;
-    // padding-left: 0 !important;
-    // padding-right: 0 !important;
-}
+
 
 .navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link,
 .navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link {
@@ -590,7 +631,7 @@ footer td {
     flex: 1 0 33%;
     // height: 200px;
     position: relative;
-    
+
 }
 
 #promisebar h1 {
